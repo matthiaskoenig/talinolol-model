@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7760665.svg)](https://doi.org/10.5281/zenodo.7760665)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8150138.svg)](https://doi.org/10.5281/zenodo.8150138)
 
 # talinolol model
 This repository provides the talinolol physiologically based pharmacokinetics (PBPK) model.
@@ -20,11 +20,11 @@ The whole-body submodel is available from [`talinolol_body.xml`](./models/talino
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body.xml)
 
 ## How to cite
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7760665.svg)](https://doi.org/10.5281/zenodo.7760665)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8150138.svg)](https://doi.org/10.5281/zenodo.8150138)
 
 > Stemmer Mallol, Beatrice Amelie, & König, Matthias. (2023). 
 > *Physiologically based pharmacokinetic (PBPK) model of talinolol.*   
-> Zenodo. [https://doi.org/10.5281/zenodo.7760665](https://doi.org/10.5281/zenodo.7760665)
+> Zenodo. [https://doi.org/10.5281/zenodo.8150138](https://doi.org/10.5281/zenodo.8150138)
 
 ## License
 
