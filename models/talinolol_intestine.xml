@@ -226,6 +226,11 @@ FOR A PARTICULAR PURPOSE.</p></body>
         </annotation>
       </compartment>
       <compartment metaid="meta_Vduodenum" sboTerm="SBO:0000290" id="Vduodenum" name="small intestine duodenum D" spatialDimensions="3" size="0.322563025707332" units="litre" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Modelled as a tube with area 2<em>pi</em>r^2 and volume area*length.</p>
+          </body>
+        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vduodenum">
@@ -254,6 +259,11 @@ FOR A PARTICULAR PURPOSE.</p></body>
         </annotation>
       </compartment>
       <compartment metaid="meta_Vjejunum_1" sboTerm="SBO:0000290" id="Vjejunum_1" name="small intestine jejunum J1" spatialDimensions="3" size="0.601183024172577" units="litre" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Modelled as a tube with area 2<em>pi</em>r^2 and volume area*length.</p>
+          </body>
+        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vjejunum_1">
@@ -282,6 +292,11 @@ FOR A PARTICULAR PURPOSE.</p></body>
         </annotation>
       </compartment>
       <compartment metaid="meta_Vjejunum_2" sboTerm="SBO:0000290" id="Vjejunum_2" name="small intestine jejunum J2" spatialDimensions="3" size="0.601183024172577" units="litre" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Modelled as a tube with area 2<em>pi</em>r^2 and volume area*length.</p>
+          </body>
+        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vjejunum_2">
@@ -310,6 +325,11 @@ FOR A PARTICULAR PURPOSE.</p></body>
         </annotation>
       </compartment>
       <compartment metaid="meta_Vileum_1" sboTerm="SBO:0000290" id="Vileum_1" name="small intestine ileum I1" spatialDimensions="3" size="0.944716180842621" units="litre" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Modelled as a tube with area 2<em>pi</em>r^2 and volume area*length.</p>
+          </body>
+        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vileum_1">
@@ -338,6 +358,11 @@ FOR A PARTICULAR PURPOSE.</p></body>
         </annotation>
       </compartment>
       <compartment metaid="meta_Vileum_2" sboTerm="SBO:0000290" id="Vileum_2" name="small intestine ileum I2" spatialDimensions="3" size="0.944716180842621" units="litre" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Modelled as a tube with area 2<em>pi</em>r^2 and volume area*length.</p>
+          </body>
+        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vileum_2">
@@ -366,6 +391,11 @@ FOR A PARTICULAR PURPOSE.</p></body>
         </annotation>
       </compartment>
       <compartment metaid="meta_Vcolon" sboTerm="SBO:0000290" id="Vcolon" name="large intestine colon" spatialDimensions="3" size="3.8170350741116" units="litre" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Modelled as a tube with area 2<em>pi</em>r^2 and volume area*length.</p>
+          </body>
+        </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vcolon">
@@ -1138,11 +1168,17 @@ absorbed talinol back in the intestinal lumen!.</p>
         </annotation>
       </parameter>
       <parameter id="absorption_duodenum" name="absorption talinolol duodenum" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="TALUPTAKE_duodenum" name="net uptake talinolol duodenum" value="NaN" units="mmole_per_min" constant="false"/>
       <parameter id="absorption_jejunum_1" name="absorption talinolol jejunum_1" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="TALUPTAKE_jejunum_1" name="net uptake talinolol jejunum_1" value="NaN" units="mmole_per_min" constant="false"/>
       <parameter id="absorption_jejunum_2" name="absorption talinolol jejunum_2" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="TALUPTAKE_jejunum_2" name="net uptake talinolol jejunum_2" value="NaN" units="mmole_per_min" constant="false"/>
       <parameter id="absorption_ileum_1" name="absorption talinolol ileum_1" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="TALUPTAKE_ileum_1" name="net uptake talinolol ileum_1" value="NaN" units="mmole_per_min" constant="false"/>
       <parameter id="absorption_ileum_2" name="absorption talinolol ileum_2" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="TALUPTAKE_ileum_2" name="net uptake talinolol ileum_2" value="NaN" units="mmole_per_min" constant="false"/>
       <parameter id="absorption_colon" name="absorption talinolol colon" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="TALUPTAKE_colon" name="net uptake talinolol colon" value="NaN" units="mmole_per_min" constant="false"/>
     </listOfParameters>
     <listOfRules>
       <assignmentRule variable="Ventero_duodenum">
@@ -1218,6 +1254,15 @@ absorbed talinol back in the intestinal lumen!.</p>
           </apply>
         </math>
       </assignmentRule>
+      <assignmentRule name="net uptake talinolol duodenum" variable="TALUPTAKE_duodenum">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> TALABS_DUODENUM </ci>
+            <ci> TALEFL_DUODENUM </ci>
+          </apply>
+        </math>
+      </assignmentRule>
       <assignmentRule name="absorption talinolol jejunum_1" variable="absorption_jejunum_1">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -1234,6 +1279,15 @@ absorbed talinol back in the intestinal lumen!.</p>
               <ci> tal_jejunum_1 </ci>
               <ci> TALABS_Km </ci>
             </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="net uptake talinolol jejunum_1" variable="TALUPTAKE_jejunum_1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> TALABS_JEJUNUM_1 </ci>
+            <ci> TALEFL_JEJUNUM_1 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1256,6 +1310,15 @@ absorbed talinol back in the intestinal lumen!.</p>
           </apply>
         </math>
       </assignmentRule>
+      <assignmentRule name="net uptake talinolol jejunum_2" variable="TALUPTAKE_jejunum_2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> TALABS_JEJUNUM_2 </ci>
+            <ci> TALEFL_JEJUNUM_2 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
       <assignmentRule name="absorption talinolol ileum_1" variable="absorption_ileum_1">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -1272,6 +1335,15 @@ absorbed talinol back in the intestinal lumen!.</p>
               <ci> tal_ileum_1 </ci>
               <ci> TALABS_Km </ci>
             </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="net uptake talinolol ileum_1" variable="TALUPTAKE_ileum_1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> TALABS_ILEUM_1 </ci>
+            <ci> TALEFL_ILEUM_1 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1294,6 +1366,15 @@ absorbed talinol back in the intestinal lumen!.</p>
           </apply>
         </math>
       </assignmentRule>
+      <assignmentRule name="net uptake talinolol ileum_2" variable="TALUPTAKE_ileum_2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> TALABS_ILEUM_2 </ci>
+            <ci> TALEFL_ILEUM_2 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
       <assignmentRule name="absorption talinolol colon" variable="absorption_colon">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -1310,6 +1391,15 @@ absorbed talinol back in the intestinal lumen!.</p>
               <ci> tal_colon </ci>
               <ci> TALABS_Km </ci>
             </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="net uptake talinolol colon" variable="TALUPTAKE_colon">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> TALABS_COLON </ci>
+            <ci> TALEFL_COLON </ci>
           </apply>
         </math>
       </assignmentRule>
