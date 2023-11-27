@@ -4,20 +4,20 @@
 This repository provides the talinolol physiologically based pharmacokinetics (PBPK) model.
 
 The model is distributed as [SBML](http://sbml.org) available from [`talinolol_body_flat.xml`](./models/talinolol_body_flat.xml) with 
-corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body_flat.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body_flat.xml)
+corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body_flat.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body_flat.xml) and equations from [`talinolol_body_flat.md`](./models/talinolol_body_flat.md).
 
 ### Comp submodels
 The liver submodel is available from [`talinolol_liver.xml`](./models/talinolol_liver.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_liver.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_liver.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_liver.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_liver.xml) and equations from [`talinolol_liver.md`](./models/talinolol_liver.md).
 
 The kidney submodel is available from [`talinolol_kidney.xml`](./models/talinolol_kidney.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_kidney.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_kidney.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_kidney.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_kidney.xml) and equations from [`talinolol_kidney.md`](./models/talinolol_kidney.md).
 
 The intestine submodel is available from [`talinolol_intestine.xml`](./models/talinolol_intestine.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_intestine.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_intestine.xml) and equations from [`talinolol_intestine.md`](./models/talinolol_intestine.md).
 
 The whole-body submodel is available from [`talinolol_body.xml`](./models/talinolol_body.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/talinolol-model/main/models/talinolol_body.xml) and equations from [`talinolol_body.md`](./models/talinolol_body.md).
 
 ## How to cite
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8150138.svg)](https://doi.org/10.5281/zenodo.8150138)
