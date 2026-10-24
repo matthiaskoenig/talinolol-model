@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PGFunctionScan | sbmlsim experiment</title>
+<style>
+:root {
+  --bg: #ffffff; --bg-soft: #f6f7f9; --bg-card: #ffffff;
+  --fg: #1b1f24; --fg-soft: #5b6472; --line: #e3e6ea;
+  --accent: #3b5bdb; --training: #2f9e44; --validation: #1c7ed6; --outlier: #e8590c;
+  --excluded: #868e96;
+  --radius: 10px; --shadow: 0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c; --bg-soft: #1a1e24; --bg-card: #1a1e24;
+    --fg: #e6e9ee; --fg-soft: #9aa4b2; --line: #2a3038;
+    --accent: #748ffc; --training: #51cf66; --validation: #4dabf7; --outlier: #ff922b;
+    --excluded: #adb5bd;
+    --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header.top {
+  position: sticky; top: 0; z-index: 20; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding: 14px 24px 0;
+}
+.top .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; }
+.top h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
+.top .sub { color: var(--fg-soft); font-size: 13px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.badge {
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px;
+  padding: 2px 10px; font-size: 12px; color: var(--fg-soft); white-space: nowrap;
+}
+.badge b { color: var(--fg); font-weight: 600; }
+.badge.failed, .badge.failed b { color: var(--outlier); border-color: var(--outlier); }
+nav.sections { display: flex; gap: 4px; margin-top: 12px; }
+nav.sections a {
+  padding: 8px 14px; border-bottom: 2px solid transparent; color: var(--fg-soft);
+  font-size: 14px; font-weight: 550;
+}
+nav.sections a.active { color: var(--fg); border-bottom-color: var(--accent); }
+.search { display: flex; gap: 8px; align-items: center; padding: 10px 0 12px; }
+.search input {
+  flex: 1; max-width: 460px; padding: 8px 12px; font-size: 14px; color: var(--fg);
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+}
+.search input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.chip {
+  border: 1px solid var(--line); background: var(--bg-soft); color: var(--fg-soft);
+  border-radius: 999px; padding: 5px 12px; font-size: 12.5px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { color: #fff; border-color: transparent; }
+.chip[data-kind="training"][aria-pressed="true"] { background: var(--training); }
+.chip[data-kind="validation"][aria-pressed="true"] { background: var(--validation); }
+.chip[data-kind="outlier"][aria-pressed="true"] { background: var(--outlier); }
+.chip[data-kind="excluded"][aria-pressed="true"] { background: var(--excluded); }
+#hits { color: var(--fg-soft); font-size: 12.5px; margin-left: auto; }
+
+main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+section { margin-bottom: 44px; scroll-margin-top: 150px; }
+section > h2 {
+  font-size: 17px; font-weight: 650; margin: 0 0 4px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+h3 { font-size: 14px; font-weight: 600; color: var(--fg-soft); margin: 26px 0 10px;
+     text-transform: uppercase; letter-spacing: .04em; }
+.card {
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px; margin-bottom: 16px;
+}
+/* a heading which opens a card sits at the padding of the card */
+.card > h3:first-child { margin-top: 0; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        margin-bottom: 16px; }
+/* the gap of the grid is the space between its cards */
+.grid > .card { margin-bottom: 0; }
+.card.wide { grid-column: 1 / -1; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+/* two tables in one card, e.g. the networks and their arrays */
+table + table { margin-top: 24px; }
+th, td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--fg-soft); font-weight: 600; white-space: nowrap; }
+th[data-sort] { cursor: pointer; user-select: none; }
+th[data-sort]:hover { color: var(--fg); }
+th[data-sort]::after { content: " ⇅"; opacity: .35; }
+th[data-sort].asc::after { content: " ↑"; opacity: 1; }
+th[data-sort].desc::after { content: " ↓"; opacity: 1; }
+td.num, th.num { text-align: right; padding-right: 18px; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--bg-soft); }
+tr.total td { font-weight: 650; border-top: 2px solid var(--line); }
+
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 20px; font-size: 13.5px;
+      margin: 0; }
+.kv dt { color: var(--fg-soft); }
+.kv dd { margin: 0; word-break: break-word; white-space: pre-line; }
+
+.tag { border-radius: 999px; padding: 1px 9px; font-size: 11.5px; font-weight: 600; color: #fff; }
+.tag.training { background: var(--training); }
+.tag.validation { background: var(--validation); }
+.tag.outlier { background: var(--outlier); }
+.tag.excluded { background: var(--excluded); }
+.warn { color: var(--outlier); }
+
+/* what a value means, on the header of a column or next to a figure */
+.hint {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 14px; height: 14px; margin-left: 4px; border-radius: 50%;
+  border: 1px solid var(--line); color: var(--fg-soft);
+  font-size: 10px; font-weight: 700; line-height: 1; cursor: help;
+  position: relative; vertical-align: middle; user-select: none;
+}
+.hint:hover, .hint:focus { border-color: var(--accent); color: var(--accent); }
+.hint::after {
+  content: attr(data-tip);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  width: max-content; max-width: 320px; padding: 8px 10px;
+  border-radius: 6px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--fg); box-shadow: 0 4px 16px rgb(0 0 0 / 18%);
+  font-size: 12px; font-weight: 400; line-height: 1.45; text-align: left;
+  white-space: normal; opacity: 0; visibility: hidden; transition: opacity .12s;
+  z-index: 20; pointer-events: none;
+}
+.hint:hover::after, .hint:focus::after { opacity: 1; visibility: visible; }
+/* a tooltip of the last columns would leave the page */
+td:last-child .hint::after, th:last-child .hint::after { left: auto; right: 0; transform: none; }
+/* on a phone a wide table scrolls inside its card and not the page; the
+   tooltips of its header open downwards, into the table, not above the card */
+@media (max-width: 700px) {
+  .card { overflow-x: auto; }
+  th .hint::after { bottom: auto; top: calc(100% + 8px); }
+  /* the header of a phone is not sticky, it would cover half of the screen,
+     and its rows wrap; the gutter is 16px */
+  header.top { position: static; padding: 12px 16px 0; }
+  main { padding: 16px; }
+  footer { padding: 8px 16px 24px; }
+  section { scroll-margin-top: 16px; }
+  nav.sections { overflow-x: auto; }
+  nav.sections a { padding: 8px 10px; white-space: nowrap; }
+  .search { flex-wrap: wrap; }
+  .search input { flex-basis: 100%; max-width: none; }
+}
+
+figure { margin: 0; }
+figure img {
+  width: 100%; height: auto; background: #fff; border: 1px solid var(--line);
+  border-radius: 8px; cursor: zoom-in;
+}
+figcaption { color: var(--fg-soft); font-size: 12.5px; margin-top: 6px; }
+
+.mapping { }
+.mapping header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
+.mapping header .name { font-weight: 650; }
+.mapping header .exp { color: var(--fg-soft); font-size: 13px; }
+.mapping .metrics { margin-left: auto; display: flex; gap: 14px; font-size: 12.5px; color: var(--fg-soft); }
+.mapping .metrics b { color: var(--fg); font-weight: 600; }
+.hidden { display: none !important; }
+.failed { color: var(--outlier); }
+.empty { color: var(--fg-soft); font-style: italic; padding: 16px 0; }
+
+pre.code {
+  margin: 0; padding: 14px 16px; overflow-x: auto; max-height: 70vh;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12.5px; line-height: 1.5; tab-size: 4;
+}
+#lightbox {
+  position: fixed; inset: 0; background: rgba(8,10,14,.86); z-index: 50;
+  display: none; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out;
+}
+#lightbox.open { display: flex; }
+#lightbox img { max-width: 100%; max-height: 100%; background: #fff; border-radius: 8px; }
+footer { color: var(--fg-soft); font-size: 12.5px; padding: 8px 24px 32px; max-width: 1400px; margin: 0 auto; }
+</style>
+<style>
+  /* an interactive figure is a page of its own, shown in place of the image */
+  figure iframe { width: 100%; height: 520px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-card); }
+  /* a figure of one panel is not stretched to the width of the page, a figure
+     of many panels still uses it */
+  #figures figure img { width: auto; max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; }
+  .mapping header .exp a + a::before { content: "·"; color: var(--fg-soft); margin: 0 6px; }
+</style>
+</head>
+<body data-items="figures">
+
+<header class="top">
+  <div class="row">
+    <h1>PGFunctionScan</h1>
+    <span class="sub">simulation experiment</span>
+    <div class="badges">
+<span class="badge">models <b>1</b></span>
+<span class="badge">datasets <b>0</b></span>
+<span class="badge">figures <b>6</b></span>
+    </div>
+  </div>
+  <nav class="sections">
+<a href="#overview">Overview</a>
+<a href="#figures">Figures</a>
+<a href="#code">Code</a>
+  </nav>
+  <div class="search">
+    <input id="search" type="search" placeholder="Search figures, models, datasets …" autocomplete="off">
+    <span id="hits"></span>
+  </div>
+</header>
+
+<main>
+
+<section id="overview">
+  <h2>Overview</h2>
+
+  <h3>Models</h3>
+  <div class="card">
+    <table data-filter="row">
+      <thead><tr><th data-sort="text">model</th><th data-sort="text">source</th></tr></thead>
+      <tbody>
+      <tr><td class="mono">model</td><td><a href="../../../../src/pkdb_models/models/talinolol/models/output/models/talinolol_body_flat.xml" title="../../../../src/pkdb_models/models/talinolol/models/output/models/talinolol_body_flat.xml">talinolol_body_flat.xml</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Datasets</h3>
+  <div class="card">
+    <p class="empty">The experiment has no datasets.</p>
+  </div>
+</section>
+
+<section id="figures">
+  <h2>Figures (6)</h2>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_timecourse_po_pg_gut_all</span>
+      <span class="exp">
+<a href="PGFunctionScan_fig_timecourse_po_pg_gut_all.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="PGFunctionScan_fig_timecourse_po_pg_gut_all.svg" alt="fig_timecourse_po_pg_gut_all">
+    </figure>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_timecourse_po_pg_gut_intestine</span>
+      <span class="exp">
+<a href="PGFunctionScan_fig_timecourse_po_pg_gut_intestine.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="PGFunctionScan_fig_timecourse_po_pg_gut_intestine.svg" alt="fig_timecourse_po_pg_gut_intestine">
+    </figure>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_timecourse_iv_pg_gut_all</span>
+      <span class="exp">
+<a href="PGFunctionScan_fig_timecourse_iv_pg_gut_all.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="PGFunctionScan_fig_timecourse_iv_pg_gut_all.svg" alt="fig_timecourse_iv_pg_gut_all">
+    </figure>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_timecourse_iv_pg_gut_intestine</span>
+      <span class="exp">
+<a href="PGFunctionScan_fig_timecourse_iv_pg_gut_intestine.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="PGFunctionScan_fig_timecourse_iv_pg_gut_intestine.svg" alt="fig_timecourse_iv_pg_gut_intestine">
+    </figure>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_po_pg_gut</span>
+      <span class="exp">
+<a href="PGFunctionScan_fig_po_pg_gut.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="PGFunctionScan_fig_po_pg_gut.svg" alt="fig_po_pg_gut">
+    </figure>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_iv_pg_gut</span>
+      <span class="exp">
+<a href="PGFunctionScan_fig_iv_pg_gut.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="PGFunctionScan_fig_iv_pg_gut.svg" alt="fig_iv_pg_gut">
+    </figure>
+  </div>
+  <p class="empty hidden" data-empty>No figure matches the search.</p>
+</section>
+
+<section id="code">
+  <h2>Code</h2>
+  <div class="card">
+    <p><a href="../../../../src/pkdb_models/models/talinolol/experiments/scan/scan_functions.py" title="../../../../src/pkdb_models/models/talinolol/experiments/scan/scan_functions.py">scan_functions.py</a></p>
+    <pre class="code"><code>&#34;&#34;&#34;Scans of the activity of the transporters and of the renal function in liver cirrhosis.
+
+Every scan varies one factor of the model logarithmically from 0.1 to 10 (1 is
+the reference) after a single oral dose of 100 mg and a single intravenous
+dose of 30 mg talinolol, for every degree of cirrhosis of `cirrhosis_map`:
+the intestinal P-glycoprotein (`PGFunctionScan`), the hepatic OATP1B1
+(`OATP1B1FunctionScan`), the intestinal OATP2B1 (`OATP2B1FunctionScan`) and
+the renal function (`RenalFunctionScan`). The figures show the timecourses
+and the pharmacokinetic parameters (`talinolol_pk`) over the scanned factor.
+&#34;&#34;&#34;
+
+from typing import ClassVar, TypedDict, override
+
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from matplotlib.axes import Axes
+from matplotlib.cm import ScalarMappable
+from matplotlib.colors import LogNorm
+from sbmlsim import Q
+from sbmlsim.plot.serialization_matplotlib import FigureMPL
+from sbmlsim.simulation import Dimension, Scan, Simulation
+
+from pkdb_models.models.talinolol import MODEL
+from pkdb_models.models.talinolol.experiments.base_experiment import (
+    TalinololSimulationExperiment,
+)
+
+
+class ScanSpec(TypedDict):
+    &#34;&#34;&#34;Definition of a single parameter scan.&#34;&#34;&#34;
+
+    parameter: str
+    range: np.ndarray
+    units: str
+    label: str
+
+
+def _activity_range(num: int = 19) -&gt; np.ndarray:
+    &#34;&#34;&#34;Get the values of a scan from 0.1 to 10 (logarithmic) with the reference 1.&#34;&#34;&#34;
+    return np.unique(np.append(np.logspace(-1, 1, num=num), [1.0]))
+
+
+class FunctionScan(TalinololSimulationExperiment):
+    &#34;&#34;&#34;Scan the effect of a factor of the model on the pharmacokinetics of talinolol.
+
+    The base of the scans of this module, a scan defines `scan_map` with the
+    one scanned factor. A factor below 1 is red, above 1 blue and the
+    reference (1) black; the frame of a panel has the color of the degree of
+    cirrhosis.
+    &#34;&#34;&#34;
+
+    #: the scanned factor, one entry
+    scan_map: ClassVar[dict[str, ScanSpec]] = {}
+
+    #: the doses of the routes [mg]
+    doses: ClassVar[dict[str, tuple[str, float]]] = {
+        &#34;po&#34;: (&#34;PODOSE_tal&#34;, 100.0),
+        &#34;iv&#34;: (&#34;IVDOSE_tal&#34;, 30.0),
+    }
+    #: the end of the simulations [hr], five half-lives (13.7 hr) after the
+    #: dose, for the terminal phase of the pharmacokinetic parameters
+    tend = 72
+
+    #: the variables of the timecourses: plasma, liver, excretion and the
+    #: lumen of the intestine
+    sids_all: ClassVar[tuple[str, ...]] = (
+        &#34;[Cve_tal]&#34;,
+        &#34;[LI__tal]&#34;,
+        &#34;Aurine_tal&#34;,
+        &#34;Afeces_tal&#34;,
+        &#34;[Cduodenum_tal]&#34;,
+        &#34;LI__Cbile_tal&#34;,
+    )
+    sids_intestine: ClassVar[tuple[str, ...]] = (
+        &#34;[Cduodenum_tal]&#34;,
+        &#34;[GU__tal_jejunum_1]&#34;,
+        &#34;[GU__tal_jejunum_2]&#34;,
+        &#34;[GU__tal_ileum_1]&#34;,
+        &#34;[GU__tal_ileum_2]&#34;,
+        &#34;[GU__tal_colon]&#34;,
+    )
+    #: the pharmacokinetic parameters of the figures, the apparent clearance
+    #: after an oral dose (`pk_id`)
+    pk_parameters: ClassVar[tuple[str, ...]] = (
+        &#34;auc_inf_obs&#34;,
+        &#34;cmax&#34;,
+        &#34;thalf&#34;,
+        &#34;cl&#34;,
+        &#34;cl_renal&#34;,
+        &#34;cl_fecal&#34;,
+    )
+
+    def _key(self, route: str, cirrhosis_key: str) -&gt; str:
+        &#34;&#34;&#34;Get the key of the simulation of a route and a degree of cirrhosis.&#34;&#34;&#34;
+        (scan_key,) = self.scan_map
+        return self.to_sid(f&#34;scan_{route}_{scan_key}_{cirrhosis_key}&#34;)
+
+    @override
+    def simulations(self) -&gt; dict[str, Scan]:
+        (scan_data,) = self.scan_map.values()
+        scans = {}
+        for route, (dose_id, dose) in self.doses.items():
+            for cirrhosis_key, cirrhosis in self.cirrhosis_map.items():
+                scans[self._key(route, cirrhosis_key)] = Scan(
+                    simulation=Simulation(
+                        time_unit=&#34;hr&#34;,
+                        end=self.tend,
+                        preinit_changes={
+                            **self.default_changes(),
+                            dose_id: Q(dose, &#34;mg&#34;),
+                            &#34;f_cirrhosis&#34;: Q(cirrhosis, &#34;dimensionless&#34;),
+                        },
+                    ),
+                    dimensions=[
+                        Dimension(
+                            &#34;dim_scan&#34;,
+                            values={
+                                scan_data[&#34;parameter&#34;]: Q(
+                                    scan_data[&#34;range&#34;], scan_data[&#34;units&#34;]
+                                )
+                            },
+                        ),
+                    ],
+                )
+        return scans
+
+    @override
+    def figures_mpl(self) -&gt; dict[str, FigureMPL]:
+        return {
+            **self.figures_mpl_timecourses(),
+            **self.figures_mpl_pharmacokinetics(),
+        }
+
+    @staticmethod
+    def _color(value: float) -&gt; str | tuple[float, float, float, float]:
+        &#34;&#34;&#34;Get the color of a value of the factor: &lt; 1 red, 1 black, &gt; 1 blue.&#34;&#34;&#34;
+        if np.isclose(value, 1.0):
+            return &#34;black&#34;
+        return matplotlib.colormaps[&#34;seismic&#34;](0.5 - np.log10(value) / 2)
+
+    def figures_mpl_timecourses(self) -&gt; dict[str, FigureMPL]:
+        &#34;&#34;&#34;Timecourses of the scan, a column per degree of cirrhosis.&#34;&#34;&#34;
+        (scan_key,) = self.scan_map
+        (scan_data,) = self.scan_map.values()
+        ncols = len(self.cirrhosis_map)
+        figures: dict[str, FigureMPL] = {}
+        for route in self.doses:
+            for name, sids in [
+                (&#34;all&#34;, self.sids_all),
+                (&#34;intestine&#34;, self.sids_intestine),
+            ]:
+                f: FigureMPL
+                f, axes = plt.subplots(
+                    nrows=len(sids),
+                    ncols=ncols,
+                    figsize=(6 * ncols, 6 * len(sids)),
+                    sharey=&#34;row&#34;,
+                    sharex=&#34;col&#34;,
+                )
+                # the title and the colorbar about an inch above and below the
+                # panels
+                height = 6 * len(sids)
+                f.subplots_adjust(
+                    wspace=0.1,
+                    hspace=0.1,
+                    top=1 - 1.4 / height,
+                    bottom=1.6 / height,
+                )
+                f.suptitle(
+                    f&#34;Scan {route} {scan_data[&#39;label&#39;]}&#34;,
+                    fontsize=self.suptitle_font_size,
+                    y=1 - 0.4 / height,
+                )
+                for krow, sid in enumerate(sids):
+                    ymax = 0.0
+                    for kcol, cirrhosis_key in enumerate(self.cirrhosis_map):
+                        ax: Axes = axes[krow, kcol]
+                        res = self.results[f&#34;task_{self._key(route, cirrhosis_key)}&#34;]
+                        par_vec = self.scanned(res, scan_data[&#34;parameter&#34;]).magnitude
+
+                        # the frame shows the degree of cirrhosis
+                        framecolor = self.cirrhosis_colors[cirrhosis_key]
+                        if framecolor != &#34;black&#34;:
+                            for spine in ax.spines.values():
+                                spine.set_linewidth(4)
+                                spine.set_color(framecolor)
+
+                        # the reference (1) last, on top
+                        order = sorted(
+                            range(par_vec.size),
+                            key=lambda k: bool(np.isclose(par_vec[k], 1.0)),
+                        )
+                        for k_par in order:
+                            par = float(par_vec[k_par])
+                            _, _, top = self.plot_timecourse(
+                                ax, res, sid, self._color(par), dim_scan=k_par
+                            )
+                            ymax = max(ymax, top)
+
+                        if krow == 0:
+                            ax.set_title(
+                                cirrhosis_key,
+                                fontdict={&#34;fontsize&#34;: 20, &#34;fontweight&#34;: &#34;bold&#34;},
+                            )
+                        if krow == len(sids) - 1:
+                            ax.set_xlabel(
+                                f&#34;{self.label_time} [{self.units[&#39;time&#39;]}]&#34;,
+                                fontdict=self.font,
+                            )
+                        if kcol == 0:
+                            ax.set_ylabel(
+                                f&#34;{self.labels[sid]} [{self.units[sid]}]&#34;,
+                                fontdict=self.font,
+                            )
+                        ax.tick_params(axis=&#34;both&#34;, labelsize=self.tick_font_size)
+                    for kcol in range(ncols):
+                        axes[krow, kcol].set_ylim(bottom=0.0, top=1.05 * ymax)
+
+                cb_ax = f.add_axes((0.1, 0.6 / height, 0.8, 0.12 / height))
+                cbar = f.colorbar(
+                    ScalarMappable(
+                        norm=LogNorm(vmin=0.1, vmax=10, clip=False), cmap=&#34;seismic_r&#34;
+                    ),
+                    cax=cb_ax,
+                    orientation=&#34;horizontal&#34;,
+                )
+                # the gradient as vector cells: matplotlib rasterizes it into an
+                # embedded image, which some SVG viewers do not show; the edges of
+                # the cells in their color close the seams between them
+                if cbar.solids is not None:
+                    cbar.solids.set_rasterized(False)
+                    cbar.solids.set_edgecolor(&#34;face&#34;)
+                cbar.set_ticks([0.1, 1, 10])
+                # the weight normal: DejaVu Sans has no medium weight, matplotlib warns
+                cbar.set_ticklabels([&#34;0.1&#34;, &#34;1&#34;, &#34;10&#34;], size=15, weight=&#34;normal&#34;)
+                cbar.ax.set_xlabel(scan_data[&#34;label&#34;], size=15, weight=&#34;bold&#34;)
+                cbar.ax.axvline(x=1, color=&#34;black&#34;, linewidth=2)
+
+                figures[f&#34;fig_timecourse_{route}_{scan_key}_{name}&#34;] = f
+        return figures
+
+    def mark_classes(self, ax: Axes) -&gt; None:
+        &#34;&#34;&#34;Mark the classes of the scanned factor on the axis of the factor.&#34;&#34;&#34;
+        ax.axvline(x=1.0, color=&#34;grey&#34;, linestyle=&#34;--&#34;)
+
+    def figures_mpl_pharmacokinetics(self) -&gt; dict[str, FigureMPL]:
+        &#34;&#34;&#34;Pharmacokinetic parameters over the scanned factor, a line per degree of cirrhosis.&#34;&#34;&#34;
+        (scan_key,) = self.scan_map
+        (scan_data,) = self.scan_map.values()
+        pk_dfs: dict[str, pd.DataFrame] = self.calculate_talinolol_pk()
+        figures: dict[str, FigureMPL] = {}
+        for route in self.doses:
+            f: FigureMPL
+            f, axes = plt.subplots(
+                nrows=1,
+                ncols=len(self.pk_parameters),
+                figsize=(4 * len(self.pk_parameters), 5),
+                layout=&#34;constrained&#34;,
+            )
+            f.suptitle(
+                f&#34;Scan {route} {scan_data[&#39;label&#39;]}&#34;,
+                fontsize=self.suptitle_font_size,
+            )
+            for k, pk_key in enumerate(self.pk_parameters):
+                ax: Axes = axes[k]
+                self.mark_classes(ax)
+                pk_id = self.pk_id(pk_key, route)
+                ymax = 0.0
+                for cirrhosis_key in self.cirrhosis_map:
+                    key = self._key(route, cirrhosis_key)
+                    x = self.scanned(
+                        self.results[f&#34;task_{key}&#34;], scan_data[&#34;parameter&#34;]
+                    )
+                    y, y_lower, y_upper = self.pk_summary(
+                        pk_dfs[key], pk_id, self.pk_units[pk_key]
+                    )
+                    color = self.cirrhosis_colors[cirrhosis_key]
+                    if y_lower is not None and y_upper is not None:
+                        ax.fill_between(
+                            x.magnitude,
+                            y_lower.magnitude,
+                            y_upper.magnitude,
+                            color=color,
+                            alpha=self.band_alpha,
+                            linewidth=0,
+                        )
+                        ymax = max(ymax, float(np.nanmax(y_upper.magnitude)))
+                    ymax = max(ymax, float(np.nanmax(y.magnitude)))
+                    ax.plot(
+                        x.magnitude,
+                        y.magnitude,
+                        marker=&#34;o&#34;,
+                        linestyle=&#34;-&#34;,
+                        color=color,
+                        markeredgecolor=&#34;black&#34;,
+                        label=cirrhosis_key,
+                    )
+
+                ax.tick_params(axis=&#34;both&#34;, labelsize=self.tick_font_size)
+                ax.set_xlabel(scan_data[&#34;label&#34;], fontdict=self.scan_font)
+                ax.set_ylabel(
+                    f&#34;{self.pk_labels[pk_key]} [{self.pk_units[pk_key]}]&#34;,
+                    fontdict=self.scan_font,
+                )
+                ax.set_ylim(bottom=0.0, top=1.2 * ymax)
+                ax.set_xscale(&#34;log&#34;)
+            axes[0].legend(fontsize=self.legend_font_size - 3, loc=&#34;best&#34;)
+
+            figures[f&#34;fig_{route}_{scan_key}&#34;] = f
+        return figures
+
+
+class PGFunctionScan(FunctionScan):
+    &#34;&#34;&#34;Scan the effect of the intestinal P-glycoprotein on the pharmacokinetics.&#34;&#34;&#34;
+
+    scan_map: ClassVar[dict[str, ScanSpec]] = {
+        &#34;pg_gut&#34;: {
+            &#34;parameter&#34;: &#34;GU__f_pgp&#34;,
+            &#34;range&#34;: _activity_range(),
+            &#34;units&#34;: &#34;dimensionless&#34;,
+            &#34;label&#34;: &#34;P-gp activity in intestine [-]&#34;,
+        },
+    }
+
+
+class OATP1B1FunctionScan(FunctionScan):
+    &#34;&#34;&#34;Scan the effect of the hepatic OATP1B1 on the pharmacokinetics.&#34;&#34;&#34;
+
+    scan_map: ClassVar[dict[str, ScanSpec]] = {
+        &#34;oatp1b1&#34;: {
+            &#34;parameter&#34;: &#34;LI__f_oatp1b1&#34;,
+            &#34;range&#34;: _activity_range(),
+            &#34;units&#34;: &#34;dimensionless&#34;,
+            &#34;label&#34;: &#34;OATP1B1 activity in liver [-]&#34;,
+        },
+    }
+
+
+class OATP2B1FunctionScan(FunctionScan):
+    &#34;&#34;&#34;Scan the effect of the intestinal OATP2B1 on the pharmacokinetics.&#34;&#34;&#34;
+
+    scan_map: ClassVar[dict[str, ScanSpec]] = {
+        &#34;oatp2b1_gut&#34;: {
+            &#34;parameter&#34;: &#34;GU__f_oatp2b1&#34;,
+            &#34;range&#34;: _activity_range(),
+            &#34;units&#34;: &#34;dimensionless&#34;,
+            &#34;label&#34;: &#34;OATP2B1 activity in intestine [-]&#34;,
+        },
+    }
+
+
+class RenalFunctionScan(FunctionScan):
+    &#34;&#34;&#34;Scan the effect of the renal function on the pharmacokinetics.
+
+    The renal function is the GFR relative to 101 ml/min; the classes of
+    impaired renal function (`renal_map`) are marked in the figures of the
+    pharmacokinetic parameters.
+    &#34;&#34;&#34;
+
+    scan_map: ClassVar[dict[str, ScanSpec]] = {
+        &#34;renal&#34;: {
+            &#34;parameter&#34;: &#34;KI__f_renal_function&#34;,
+            &#34;range&#34;: _activity_range(),
+            &#34;units&#34;: &#34;dimensionless&#34;,
+            &#34;label&#34;: &#34;Renal function [-]&#34;,
+        },
+    }
+
+    @override
+    def mark_classes(self, ax: Axes) -&gt; None:
+        for name, value in self.renal_map.items():
+            ax.axvline(
+                x=value,
+                color=self.renal_colors[name],
+                linestyle=&#34;--&#34;,
+                linewidth=1.5,
+            )
+
+
+if __name__ == &#34;__main__&#34;:
+    for experiment, output_dir in [
+        (PGFunctionScan, &#34;scan_pg&#34;),
+        (OATP1B1FunctionScan, &#34;scan_oatp1b1&#34;),
+        (OATP2B1FunctionScan, &#34;scan_oatp2b1&#34;),
+        (RenalFunctionScan, &#34;scan_renalfunction&#34;),
+    ]:
+        MODEL.run_experiments(experiment, output_dir=output_dir)
+</code></pre>
+  </div>
+</section>
+
+</main>
+
+<footer>
+<a href="../index.html">all experiments</a> · <a href="../../../../src/pkdb_models/models/talinolol/experiments/scan/scan_functions.py" title="../../../../src/pkdb_models/models/talinolol/experiments/scan/scan_functions.py">scan_functions.py</a>
+</footer>
+
+<div id="lightbox"><img alt=""></div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- search and the filter chips ------------------------------------
+  const search = document.getElementById("search");
+  const hits = document.getElementById("hits");
+  const chips = Array.from(document.querySelectorAll(".chip"));
+  const cards = Array.from(document.querySelectorAll('[data-filter="card"]'));
+  const rows = Array.from(document.querySelectorAll('table[data-filter="row"] tbody tr'));
+  const empty = document.querySelector("[data-empty]");
+  const itemLabel = document.body.dataset.items || "items";
+
+  const haystack = new Map();
+  for (const node of [...cards, ...rows]) {
+    haystack.set(node, node.textContent.toLowerCase());
+  }
+
+  function activeKinds() {
+    return new Set(chips.filter((c) => c.getAttribute("aria-pressed") === "true")
+                        .map((c) => c.dataset.kind));
+  }
+
+  function matches(node, query, kinds) {
+    const kind = node.dataset.kind;
+    if (kind && !kinds.has(kind)) return false;
+    return !query || haystack.get(node).includes(query);
+  }
+
+  function apply() {
+    const query = search.value.trim().toLowerCase();
+    const kinds = activeKinds();
+    let shownCards = 0;
+    for (const node of cards) {
+      const show = matches(node, query, kinds);
+      node.classList.toggle("hidden", !show);
+      if (show) shownCards += 1;
+    }
+    for (const node of rows) {
+      node.classList.toggle("hidden", !matches(node, query, kinds));
+    }
+    if (empty) empty.classList.toggle("hidden", shownCards > 0 || cards.length === 0);
+    const filtering = Boolean(query) || (chips.length > 0 && kinds.size < chips.length);
+    hits.textContent = filtering
+      ? shownCards + " / " + cards.length + " " + itemLabel
+      : "";
+  }
+
+  search.addEventListener("input", apply);
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      chip.setAttribute("aria-pressed", chip.getAttribute("aria-pressed") === "true" ? "false" : "true");
+      apply();
+    });
+  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && document.activeElement !== search) {
+      event.preventDefault();
+      search.focus();
+    } else if (event.key === "Escape") {
+      if (document.activeElement === search && search.value) { search.value = ""; apply(); }
+      closeLightbox();
+    }
+  });
+
+  // ---- sortable tables -------------------------------------------------
+  function cellValue(row, index, kind) {
+    const text = row.cells[index] ? row.cells[index].textContent.trim() : "";
+    if (kind !== "num") return text.toLowerCase();
+    // the AIC of a perfect fit is -inf, a cell without a value sorts last
+    if (text === "-inf") return Number.NEGATIVE_INFINITY;
+    const value = parseFloat(text);
+    return Number.isNaN(value) ? Number.POSITIVE_INFINITY : value;
+  }
+
+  for (const table of document.querySelectorAll("table")) {
+    const headers = Array.from(table.querySelectorAll("th[data-sort]"));
+    headers.forEach((th, index) => {
+      th.addEventListener("click", () => {
+        const body = table.tBodies[0];
+        if (!body) return;
+        const kind = th.dataset.sort;
+        const descending = th.classList.contains("asc");
+        for (const other of headers) other.classList.remove("asc", "desc");
+        th.classList.add(descending ? "desc" : "asc");
+        const sorted = Array.from(body.rows).sort((a, b) => {
+          const left = cellValue(a, index, kind);
+          const right = cellValue(b, index, kind);
+          if (left < right) return descending ? 1 : -1;
+          if (left > right) return descending ? -1 : 1;
+          return 0;
+        });
+        for (const row of sorted) body.appendChild(row);
+      });
+    });
+  }
+
+  // ---- the section the page is scrolled to -----------------------------
+  // a tab (data-tab) is not a section, its page marks the tab which is shown
+  const links = Array.from(document.querySelectorAll("nav.sections a:not([data-tab])"));
+  const sections = links.map((link) => document.querySelector(link.getAttribute("href")));
+  function scrollspy() {
+    let current = 0;
+    sections.forEach((section, index) => {
+      if (section && section.getBoundingClientRect().top < 200) current = index;
+    });
+    links.forEach((link, index) => link.classList.toggle("active", index === current));
+  }
+  window.addEventListener("scroll", scrollspy, { passive: true });
+  scrollspy();
+
+  // ---- click a figure to enlarge it ------------------------------------
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = lightbox.querySelector("img");
+  function closeLightbox() { lightbox.classList.remove("open"); lightboxImage.src = ""; }
+  for (const image of document.querySelectorAll("figure img")) {
+    image.addEventListener("click", () => {
+      lightboxImage.src = image.getAttribute("src");
+      lightbox.classList.add("open");
+    });
+  }
+  lightbox.addEventListener("click", closeLightbox);
+
+  apply();
+})();
+</script>
+</body>
+</html>

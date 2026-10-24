@@ -1,0 +1,83 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	se	sd	unit	method	label	comments
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_PO	Peripheral venous blood was sampled just before, at 20, 40, 60, 80, 100min,2,2.5,3,3.5,4,5,6,8,10,12,14,and24hafterdrug administration, urine between 0 and 48 h.
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	0.33	hr	17.5	25.28126	7.78126	23.34378	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	0.67	hr	36.28	45.350864	9.070864	27.212592	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	1.0	hr	44.77	55.962704	11.192704	33.578112	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	1.33	hr	51.97	67.54033	15.57033	46.71099	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	1.67	hr	53.51	73.13424	19.62424	58.87272	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	2.0	hr	60.97	83.1675	22.1975	66.5925	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	2.5	hr	59.61	79.30223	19.69223	59.07669	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	3.0	hr	76.4	94.159	17.759	53.277	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	3.5	hr	91.26	110.75243	19.49243	58.47729	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	4.0	hr	82.76	97.04313	14.28313	42.84939	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	4.5	hr	79.67	89.89588	10.22588	30.67764	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	5.0	hr	77.73	86.60966	8.87966	26.63898	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	6.0	hr	61.89	70.96452	9.07451999999999	27.22356	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	8.0	hr	48.76	56.091698	7.331698	21.995094	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	10.0	hr	43.34	50.48385	7.14384999999999	21.43155	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	12.0	hr	31.16	36.56452	5.40452	16.21356	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	14.0	hr	25.93	30.560247	4.630247	13.890741	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	24.0	hr	12.29	15.37675	3.08675	9.26025	ng/ml	HPLC	Fig1_TAL_PO	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	0.33	hr	10.03	6.9438357	3.0861643	9.2584929	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	0.67	hr	22.58	16.59107	5.98893	17.96679	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	1.0	hr	24.31	18.7107	5.5993	16.7979	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	1.33	hr	22.95	17.742313	5.207687	15.623061	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	1.67	hr	23.72	16.96647	6.75353	20.26059	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	2.0	hr	26.42	18.893555	7.526445	22.579335	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	2.5	hr	44.56	24.09907	20.46093	61.38279	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	3.0	hr	62.12	38.763054	23.356946	70.070838	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	3.5	hr	68.68	48.794434	19.885566	59.656698	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	4.0	hr	65.97	48.59598	17.37402	52.12206	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	4.5	hr	62.87	48.204517	14.665483	43.996449	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	5.0	hr	57.85	46.076385	11.773615	35.320845	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	6.0	hr	46.84	37.379818	9.460182	28.380546	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	8.0	hr	39.49	31.96475	7.52525	22.57575	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	10.0	hr	31.18	24.23326	6.94674	20.84022	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	12.0	hr	21.9	17.263199	4.636801	13.910403	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	14.0	hr	16.28	12.610272	3.669728	11.009184	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	24.0	hr	6.69	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_PO_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	Peripheral venous blood (7.5 ml) was sampled into plastic tubes (S-Monovetten, Sarstedt AG, Nu ̈mbrecht, Germany) just before and at 5, 10, 15, 20, 25, 30, 40, 60, 80, 100 min, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 10, 12, and 24 h after administration to measure talinolol serum concentrations. Urine was collected between 0 and 48 h to determine the parameters of renal drug elimination.
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.08	hr	275.13	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.17	hr	397.76	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.25	hr	485.05	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.33	hr	567.92	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.42	hr	590.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.5	hr	637.5	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.67	hr	249.63	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	1.0	hr	139.09	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	1.33	hr	102.59	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	1.67	hr	84.85	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	2.0	hr	72.65	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	2.5	hr	71.48	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	3.0	hr	57.05	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	3.5	hr	54.77	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	4.0	hr	52.49	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	5.0	hr	49.03	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	6.0	hr	37.85	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	8.0	hr	29.84	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	10.0	hr	25.13	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	12.0	hr	17.13	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	24.0	hr	4.42	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.08	hr	288.39	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.17	hr	437.54	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.25	hr	503.84	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.33	hr	528.13	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.42	hr	553.54	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.5	hr	609.88	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	0.67	hr	255.16	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	1.0	hr	140.2	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	1.33	hr	97.05	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	1.67	hr	82.64	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	2.0	hr	77.07	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	2.5	hr	62.64	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	3.0	hr	55.94	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	3.5	hr	53.66	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	4.0	hr	52.49	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	5.0	hr	46.82	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	6.0	hr	38.95	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	8.0	hr	30.94	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	10.0	hr	24.03	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	12.0	hr	19.34	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV, SJW	24.0	hr	2.21	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_IV_SJW	NA

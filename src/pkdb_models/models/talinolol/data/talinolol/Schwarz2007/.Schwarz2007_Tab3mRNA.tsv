@@ -1,0 +1,15 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	value	unit	time	time_unit	method	comments
+Schwarz2007	T1236C_CC	mRNA	NA	NA	TAL_IV	9.2	2.3	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	T1236C_CC	mRNA	NA	NA	TAL_IV, SJW	14.8	1.2	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	T1236C_CT	mRNA	NA	NA	TAL_IV	7.7	2.2	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	T1236C_CT	mRNA	NA	NA	TAL_IV, SJW	10.9	1.5	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	G2677TA_GG	mRNA	NA	NA	TAL_IV	9.2	2.3	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	G2677TA_GG	mRNA	NA	NA	TAL_IV, SJW	14.8	1.2	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	G2677TA_GT	mRNA	NA	NA	TAL_IV	7.6	2.5	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	G2677TA_GT	mRNA	NA	NA	TAL_IV, SJW	11.2	1.4	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	G2677TA_TA	mRNA	NA	NA	TAL_IV	7.9	NA	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	G2677TA_TA	mRNA	NA	NA	TAL_IV, SJW	9.5	NA	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	C3435T_CC	mRNA	NA	NA	TAL_IV	8.1	3.2	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	C3435T_CC	mRNA	NA	NA	TAL_IV, SJW	15.4	1.1	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	C3435T_CT	mRNA	NA	NA	TAL_IV	8.9	2.0	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded
+Schwarz2007	C3435T_CT	mRNA	NA	NA	TAL_IV, SJW	12.1	2.1	NA	1E-5 * ng	NA	NA	NA	in vitro data not uploaded

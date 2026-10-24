@@ -1,0 +1,6 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Haustein1981	arm_2_arm_3	5	cumulative amount	talinolol	urine	TAL_PO_100	0.0		0	hr	scintillation counting	urine_mean	zero point added	mole	dimensionless
+Haustein1981	arm_2_arm_3	5	cumulative amount	talinolol	urine	TAL_PO_100	1.71632037269804e-05	7.280420353502524e-06	8	hr	scintillation counting	urine_mean		mole	dimensionless
+Haustein1981	arm_2_arm_3	5	cumulative amount	talinolol	urine	TAL_PO_100	3.931426990891347e-05	7.214848465128324e-06	24	hr	scintillation counting	urine_mean	sum of the intervals	mole	dimensionless
+Haustein1981	arm_2_arm_3	5	cumulative amount	talinolol	urine	TAL_PO_100	5.728296695160071e-05	7.323107640464353e-06	48	hr	scintillation counting	urine_mean	sum of the intervals	mole	dimensionless
+Haustein1981	arm_2_arm_3	5	cumulative amount	talinolol	urine	TAL_PO_100	6.639123752151447e-05	9.04630954562866e-06	72	hr	scintillation counting	urine_mean		mole	dimensionless

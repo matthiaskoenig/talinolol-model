@@ -1,0 +1,17 @@
+study	group	measurement	substance	tissue	intervention	geometric_mean	mean	sd	unit	method	comments
+Siegmund2003	all	auc_inf	talinolol	serum	TAL_FLM_100	3268.0	NA	NA	ng*hr/ml	HPLC	Talinolol was assayed with an HPLC-method with fluorimetric detection as described elsewhere.
+Siegmund2003	all	cmax	talinolol	serum	TAL_FLM_100	325.5	NA	NA	ng/ml	HPLC	NA
+Siegmund2003	all	thalf	talinolol	serum	TAL_FLM_100	13.56	NA	NA	hr	HPLC	NA
+Siegmund2003	all	tmax	talinolol	serum	TAL_FLM_100	NA	3.3	1.21	hr	HPLC	NA
+Siegmund2003	all	auc_inf	talinolol	serum	TAL_SUG2_100	3328.0	NA	NA	ng*hr/ml	HPLC	two 50 mg tablets
+Siegmund2003	all	cmax	talinolol	serum	TAL_SUG2_100	326.5	NA	NA	ng/ml	HPLC	two 50 mg tablets
+Siegmund2003	all	thalf	talinolol	serum	TAL_SUG2_100	13.97	NA	NA	hr	HPLC	two 50 mg tablets
+Siegmund2003	all	tmax	talinolol	serum	TAL_SUG2_100	NA	3.55	1.18	hr	HPLC	two 50 mg tablets
+Siegmund2003	all	auc_inf	talinolol	serum	TAL_FLM_200	3494.0	NA	NA	ng*hr/ml	HPLC	NA
+Siegmund2003	all	cmax	talinolol	serum	TAL_FLM_200	325.0	NA	NA	ng/ml	HPLC	NA
+Siegmund2003	all	thalf	talinolol	serum	TAL_FLM_200	12.9	NA	NA	hr	HPLC	NA
+Siegmund2003	all	tmax	talinolol	serum	TAL_FLM_200	NA	3.06	1.16	hr	HPLC	NA
+Siegmund2003	all	auc_inf	talinolol	serum	TAL_SUG1_100	3031.0	NA	NA	ng*hr/ml	HPLC	NA
+Siegmund2003	all	cmax	talinolol	serum	TAL_SUG1_100	333.3	NA	NA	ng/ml	HPLC	NA
+Siegmund2003	all	thalf	talinolol	serum	TAL_SUG1_100	13.97	NA	NA	hr	HPLC	NA
+Siegmund2003	all	tmax	talinolol	serum	TAL_SUG1_100	NA	3.25	0.86	hr	HPLC	NA

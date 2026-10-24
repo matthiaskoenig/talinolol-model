@@ -1,0 +1,67 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	cv	unit	method	label	comments
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	0.17	hr	123.16103	NA	NA	NA	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	0.34413967	hr	96.32207	145.37773	49.05566000000002	0.5092878506452365	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	0.51	hr	75.74553	107.803185	32.057655	0.42322834099913215	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	0.6733167	hr	56.660038	72.76342	16.103381999999996	0.2842105753617743	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	0.83042395	hr	51.292248	66.05368	14.761432	0.2877907008482061	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	1.0024937	hr	44.73161	56.510933	11.779322999999998	0.26333331172296276	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	1.34	hr	41.749504	53.081512	11.332007999999995	0.2714285659537415	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	1.67	hr	32.80318	40.705765	7.902585000000002	0.2409091130798905	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	2.0049875	hr	29.821074	38.61829	8.797216000000002	0.2949999721673338	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	2.5	hr	28.330019	34.294235	5.964216	0.21052636780794254	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	3.0	hr	26.838966	35.636185	8.797218999999998	0.3277778659580253	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	3.5	hr	23.968279	29.665956	5.697677000000002	0.23771740140374711	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	4.0	hr	23.116922	27.865444	4.748522000000001	0.20541324662513466	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	4.5	hr	21.696072	29.483517	7.787444999999998	0.35893340508825733	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	5.0	hr	18.99287	24.833809	5.840938999999999	0.30753324800306636	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	6.0	hr	17.718113	23.416197	5.6980840000000015	0.32159654924878295	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	7.0	hr	17.155605	22.093958	4.938352999999999	0.2878565343513096	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	8.0	hr	14.883701	21.151787	6.2680859999999985	0.42113759205455675	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	10.0	hr	11.336738	15.657505	4.320767	0.38112965122771647	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	12.0	hr	10.923664	13.677588	2.7539239999999996	0.25210625299350103	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	24.0	hr	7.732369	9.584314	1.8519449999999988	0.23950551247618923	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	R-talinolol	plasma	TAL_IV	36.0	hr	6.1083226	NA	NA	NA	ng/ml	HPLC	R-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.17	hr	120.477135	56.510933	63.966202	0.5309405971514843	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.34413967	hr	90.65607	41.302185	49.353885	0.544407947531809	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.51	hr	74.85089	40.85487	33.99602000000001	0.4541832435125355	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.6733167	hr	52.48509	33.996025	18.489064999999997	0.3522727121169078	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.83042395	hr	46.819084	32.50497	14.314113999999996	0.30573246584661923	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.0024937	hr	41.15308	29.671968	11.481112000000003	0.27898548541202756	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.34	hr	39.66203	26.838966	12.823064000000002	0.323308312761601	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.67	hr	31.013916	22.962227	8.051689	0.25961536105276095	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	2.0049875	hr	27.733599	19.681908	8.051691000000002	0.290322615539368	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	2.5	hr	25.944334	19.98012	5.964214000000002	0.2298850300030828	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	3.0	hr	24.751492	16.252485	8.499006999999999	0.3433735226951167	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	3.5	hr	22.258781	17.035833	5.222947999999999	0.23464663226616045	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	4.0	hr	19.31847	13.359127	5.9593430000000005	0.30847903586567677	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	4.5	hr	18.942451	11.083578	7.858872999999999	0.41488152721102456	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	5.0	hr	17.901264	12.298044	5.60322	0.31300694744237056	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	6.0	hr	17.908148	12.732379	5.175769000000001	0.289017546649715	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	7.0	hr	14.591817	9.321031	5.270786000000001	0.3612151934197092	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	8.0	hr	12.889509	7.7612233	5.1282857	0.397865093232023	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	10.0	hr	9.484691	5.567227	3.917464	0.4130302189075005	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	12.0	hr	9.119202	5.937626	3.1815759999999997	0.348887545204065	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	24.0	hr	5.5953217	3.3164325	2.2788892000000005	0.407284750043952	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	36.0	hr	3.5917134	NA	NA	NA	ng/ml	HPLC	S-talinolol	NA
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	0.17	hr	243.63816500000001	NA	NA	NA	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	0.34413967	hr	186.97814	NA	137.5620467952869	0.7357119222347966	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	0.51	hr	150.59642000000002	NA	103.84627726791143	0.6895667059543077	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	0.6733167	hr	109.145128	NA	58.477558853137566	0.5357780042471302	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	0.83042395	hr	98.111332	NA	44.62928568607538	0.45488410743496355	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	1.0024937	hr	85.88469	NA	34.654953848623464	0.4035056055814309	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	1.34	hr	81.411534	NA	31.688478027574572	0.38923818862784937	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	1.67	hr	63.81709599999999	NA	25.730675287725504	0.40319407965109394	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	2.0049875	hr	57.554673	NA	22.617237760564674	0.39296961622151294	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	2.5	hr	54.274353000000005	NA	19.463888770569422	0.3586203739834433	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	3.0	hr	51.590458	NA	20.654583531688093	0.40035666153008553	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	3.5	hr	46.227059999999994	NA	19.305813826371647	0.417630146203796	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	4.0	hr	42.435392	NA	13.23369617303028	0.3118551649771559	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	4.5	hr	40.638523	NA	19.23333776058261	0.4732784643915974	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	5.0	hr	36.894134	NA	19.053360333111566	0.5164333260434183	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	6.0	hr	35.626261	NA	15.988123243379798	0.4487735393669237	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	7.0	hr	31.747422	NA	12.950167123874246	0.40791240069427515	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	8.0	hr	27.77321	NA	15.409333979665755	0.5548272590624475	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	10.0	hr	20.821429000000002	NA	11.471765487051357	0.550959566082201	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	12.0	hr	20.042866	NA	9.698583692153727	0.48389205875815006	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	24.0	hr	13.327690700000002	NA	5.640076670608198	0.4231848410623903	ng/ml	HPLC	talinolol	sum of R and S talinolol
+Wetterich1996	patient_iv	3.0	concentration	talinolol	plasma	TAL_IV	36.0	hr	9.700036	NA	NA	NA	ng/ml	HPLC	talinolol	sum of R and S talinolol

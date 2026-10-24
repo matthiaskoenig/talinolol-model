@@ -1,0 +1,109 @@
+study	individual	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	comments
+Schwarz1999	S1	cmax	talinolol	serum	TAL	167.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S2	cmax	talinolol	serum	TAL	122.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S3	cmax	talinolol	serum	TAL	178.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S4	cmax	talinolol	serum	TAL	125.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S5	cmax	talinolol	serum	TAL	189.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S6	cmax	talinolol	serum	TAL	127.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S7	cmax	talinolol	serum	TAL	125.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S8	cmax	talinolol	serum	TAL	147.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S9	cmax	talinolol	serum	TAL	161.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S1	tmax	talinolol	serum	TAL	3.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S2	tmax	talinolol	serum	TAL	3.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S3	tmax	talinolol	serum	TAL	2.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S4	tmax	talinolol	serum	TAL	3.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S5	tmax	talinolol	serum	TAL	3.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S6	tmax	talinolol	serum	TAL	5.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S7	tmax	talinolol	serum	TAL	3.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S8	tmax	talinolol	serum	TAL	1.7	hr	NA	NA	HPLC	NA
+Schwarz1999	S9	tmax	talinolol	serum	TAL	3.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S1	thalf	talinolol	serum	TAL	11.8	hr	NA	NA	HPLC	NA
+Schwarz1999	S2	thalf	talinolol	serum	TAL	13.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S3	thalf	talinolol	serum	TAL	13.9	hr	NA	NA	HPLC	NA
+Schwarz1999	S4	thalf	talinolol	serum	TAL	12.7	hr	NA	NA	HPLC	NA
+Schwarz1999	S5	thalf	talinolol	serum	TAL	10.3	hr	NA	NA	HPLC	NA
+Schwarz1999	S6	thalf	talinolol	serum	TAL	13.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S7	thalf	talinolol	serum	TAL	13.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S8	thalf	talinolol	serum	TAL	9.3	hr	NA	NA	HPLC	NA
+Schwarz1999	S9	thalf	talinolol	serum	TAL	9.4	hr	NA	NA	HPLC	NA
+Schwarz1999	S1	auc_end	talinolol	serum	TAL	828.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S2	auc_end	talinolol	serum	TAL	740.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S3	auc_end	talinolol	serum	TAL	1355.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S4	auc_end	talinolol	serum	TAL	752.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S5	auc_end	talinolol	serum	TAL	1081.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S6	auc_end	talinolol	serum	TAL	1021.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S7	auc_end	talinolol	serum	TAL	983.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S8	auc_end	talinolol	serum	TAL	774.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S9	auc_end	talinolol	serum	TAL	973.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S1	clearance	talinolol	urine	TAL	17.2	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S2	clearance	talinolol	urine	TAL	11.3	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S3	clearance	talinolol	urine	TAL	7.7	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S4	clearance	talinolol	urine	TAL	10.7	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S5	clearance	talinolol	urine	TAL	8.4	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S6	clearance	talinolol	urine	TAL	9.3	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S7	clearance	talinolol	urine	TAL	11.7	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S8	clearance	talinolol	urine	TAL	9.1	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S9	clearance	talinolol	urine	TAL	11.4	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S1	cumulative amount	talinolol	urine	TAL	18.4	mg	48.0	hr	HPLC	The renal elimination of talinolol was almost completed after 48 hours. Accordingly, Ae(0-48) of talinolol corresponds to the amount of unchanged talinolol eliminated by the kidneys up to infinity [Ae(0-infinity)].
+Schwarz1999	S2	cumulative amount	talinolol	urine	TAL	11.4	mg	48.0	hr	HPLC	NA
+Schwarz1999	S3	cumulative amount	talinolol	urine	TAL	14.4	mg	48.0	hr	HPLC	NA
+Schwarz1999	S4	cumulative amount	talinolol	urine	TAL	10.8	mg	48.0	hr	HPLC	NA
+Schwarz1999	S5	cumulative amount	talinolol	urine	TAL	11.1	mg	48.0	hr	HPLC	NA
+Schwarz1999	S6	cumulative amount	talinolol	urine	TAL	13.0	mg	48.0	hr	HPLC	NA
+Schwarz1999	S7	cumulative amount	talinolol	urine	TAL	15.9	mg	48.0	hr	HPLC	NA
+Schwarz1999	S8	cumulative amount	talinolol	urine	TAL	8.3	mg	48.0	hr	HPLC	NA
+Schwarz1999	S9	cumulative amount	talinolol	urine	TAL	13.2	mg	48.0	hr	HPLC	NA
+Schwarz1999	S1	cmax	talinolol	serum	RVER, TAL	93.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S2	cmax	talinolol	serum	RVER, TAL	87.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S3	cmax	talinolol	serum	RVER, TAL	112.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S4	cmax	talinolol	serum	RVER, TAL	61.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S5	cmax	talinolol	serum	RVER, TAL	103.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S6	cmax	talinolol	serum	RVER, TAL	57.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S7	cmax	talinolol	serum	RVER, TAL	97.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S8	cmax	talinolol	serum	RVER, TAL	160.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S9	cmax	talinolol	serum	RVER, TAL	82.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	S1	tmax	talinolol	serum	RVER, TAL	1.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S2	tmax	talinolol	serum	RVER, TAL	1.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S3	tmax	talinolol	serum	RVER, TAL	3.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S4	tmax	talinolol	serum	RVER, TAL	1.7	hr	NA	NA	HPLC	NA
+Schwarz1999	S5	tmax	talinolol	serum	RVER, TAL	3.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S6	tmax	talinolol	serum	RVER, TAL	0.7	hr	NA	NA	HPLC	NA
+Schwarz1999	S7	tmax	talinolol	serum	RVER, TAL	1.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S8	tmax	talinolol	serum	RVER, TAL	1.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S9	tmax	talinolol	serum	RVER, TAL	0.7	hr	NA	NA	HPLC	NA
+Schwarz1999	S1	thalf	talinolol	serum	RVER, TAL	11.7	hr	NA	NA	HPLC	NA
+Schwarz1999	S2	thalf	talinolol	serum	RVER, TAL	14.1	hr	NA	NA	HPLC	NA
+Schwarz1999	S3	thalf	talinolol	serum	RVER, TAL	13.5	hr	NA	NA	HPLC	NA
+Schwarz1999	S4	thalf	talinolol	serum	RVER, TAL	11.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S5	thalf	talinolol	serum	RVER, TAL	11.6	hr	NA	NA	HPLC	NA
+Schwarz1999	S6	thalf	talinolol	serum	RVER, TAL	9.6	hr	NA	NA	HPLC	NA
+Schwarz1999	S7	thalf	talinolol	serum	RVER, TAL	8.8	hr	NA	NA	HPLC	NA
+Schwarz1999	S8	thalf	talinolol	serum	RVER, TAL	11.0	hr	NA	NA	HPLC	NA
+Schwarz1999	S9	thalf	talinolol	serum	RVER, TAL	10.3	hr	NA	NA	HPLC	NA
+Schwarz1999	S1	auc_end	talinolol	serum	RVER, TAL	653.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S2	auc_end	talinolol	serum	RVER, TAL	480.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S3	auc_end	talinolol	serum	RVER, TAL	1217.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S4	auc_end	talinolol	serum	RVER, TAL	461.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S5	auc_end	talinolol	serum	RVER, TAL	936.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S6	auc_end	talinolol	serum	RVER, TAL	617.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S7	auc_end	talinolol	serum	RVER, TAL	591.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S8	auc_end	talinolol	serum	RVER, TAL	879.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S9	auc_end	talinolol	serum	RVER, TAL	652.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	S1	clearance	talinolol	urine	RVER, TAL	14.2	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S2	clearance	talinolol	urine	RVER, TAL	10.2	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S3	clearance	talinolol	urine	RVER, TAL	8.8	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S4	clearance	talinolol	urine	RVER, TAL	11.5	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S5	clearance	talinolol	urine	RVER, TAL	6.2	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S6	clearance	talinolol	urine	RVER, TAL	11.0	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S7	clearance	talinolol	urine	RVER, TAL	9.9	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S8	clearance	talinolol	urine	RVER, TAL	10.5	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S9	clearance	talinolol	urine	RVER, TAL	15.7	l/hr	NA	NA	HPLC	NA
+Schwarz1999	S1	cumulative amount	talinolol	urine	RVER, TAL	11.6	mg	48.0	hr	HPLC	The renal elimination of talinolol was almost completed after 48 hours. Accordingly, Ae(0-48) of talinolol corresponds to the amount of unchanged talinolol eliminated by the kidneys up to infinity [Ae(0-infinity)].
+Schwarz1999	S2	cumulative amount	talinolol	urine	RVER, TAL	6.8	mg	48.0	hr	HPLC	NA
+Schwarz1999	S3	cumulative amount	talinolol	urine	RVER, TAL	14.5	mg	48.0	hr	HPLC	NA
+Schwarz1999	S4	cumulative amount	talinolol	urine	RVER, TAL	6.5	mg	48.0	hr	HPLC	NA
+Schwarz1999	S5	cumulative amount	talinolol	urine	RVER, TAL	7.5	mg	48.0	hr	HPLC	NA
+Schwarz1999	S6	cumulative amount	talinolol	urine	RVER, TAL	8.3	mg	48.0	hr	HPLC	NA
+Schwarz1999	S7	cumulative amount	talinolol	urine	RVER, TAL	6.7	mg	48.0	hr	HPLC	NA
+Schwarz1999	S8	cumulative amount	talinolol	urine	RVER, TAL	11.2	mg	48.0	hr	HPLC	NA
+Schwarz1999	S9	cumulative amount	talinolol	urine	RVER, TAL	12.4	mg	48.0	hr	HPLC	NA

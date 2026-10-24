@@ -1,0 +1,21 @@
+study	individual	substance	intervention	time	time_unit	method	x_measurement	x_tissue	x	x_unit	x_label	y_measurement	y_tissue	y	y_unit	y_label	comments
+Nguyen2015	S1a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	1411.5198	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	20.026703	mg	Fig3_TAL	NA
+Nguyen2015	S2a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	1748.7855	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	14.979973	mg	Fig3_TAL	NA
+Nguyen2015	S3a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	1819.5697	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	12.496662	mg	Fig3_TAL	NA
+Nguyen2015	S4a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	3289.3823	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	27.396528	mg	Fig3_TAL	NA
+Nguyen2015	S5a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	3405.968	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	33.40454	mg	Fig3_TAL	NA
+Nguyen2015	S6a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	3497.571	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	35.246998	mg	Fig3_TAL	NA
+Nguyen2015	S7a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	3714.0874	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	35.567425	mg	Fig3_TAL	NA
+Nguyen2015	S8a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	4055.517	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	42.93725	mg	Fig3_TAL	NA
+Nguyen2015	S9a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	3959.7502	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	52.71028	mg	Fig3_TAL	NA
+Nguyen2015	S10a	talinolol	TAL	48	hr	HPLC	auc_end	plasma	4979.875	ng*hr/ml	Fig3a_TAL	cumulative amount	urine	38.771694	mg	Fig3_TAL	NA
+Nguyen2015	S1b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	1140.8744	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	10.493992	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S2b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	1565.5795	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	26.435247	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S3b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	1931.9917	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	23.791721	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S4b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	2106.87	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	18.264353	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S5b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	3560.0278	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	39.09212	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S6b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	3564.1917	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	41.014687	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S7b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	3776.544	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	43.017357	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S8b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	3993.0603	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	31.001335	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S9b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	4755.0312	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	25.233644	mg	Fig3_TAL_NAR	NA
+Nguyen2015	S10b	talinolol	TAL, NAR	48	hr	HPLC	auc_end	plasma	4317.835	ng*hr/ml	Fig3b_TAL_NAR	cumulative amount	urine	46.782375	mg	Fig3_TAL_NAR	NA

@@ -1,0 +1,31 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Yan2013	all	14	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	0.25	hr	11.28	21.21	9.93	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	0.5	hr	81.24	124.56	43.32	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	0.75	hr	111.03	150.63	39.6	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	1.0	hr	138.1	203.77	65.67	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	1.5	hr	180.08	281.29	101.21	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	2.0	hr	202.64	292.46	89.82	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	2.5	hr	179.17	216.97	37.8	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	3.0	hr	179.63	221.03	41.4	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	4.0	hr	144.87	183.46	38.59	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	6.0	hr	107.41	136.07	28.66	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	8.0	hr	89.81	120.16	30.35	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	12.0	hr	64.09	84.62	20.53	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	16.0	hr	46.03	62.96	16.93	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL	24.0	hr	30.24	42.31	12.07	ng/ml	HPLC/UV	Fig2_TAL	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.25	hr	15.34	1.0154738	14.3245262	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.5	hr	98.39	43.66538	54.72462	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.75	hr	109.67	58.897484	50.772516	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	1.0	hr	126.37	41.63443	84.73557	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	1.5	hr	153.9	72.09865	81.80135	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	2.0	hr	164.73	83.26886	81.46114	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	2.5	hr	174.21	114.74855	59.46145	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	3.0	hr	194.52	143.8588	50.6612	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	4.0	hr	163.83	115.08704	48.74296	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	6.0	hr	117.79	86.31528	31.47472	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	8.0	hr	95.23	74.46809	20.76191	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	12.0	hr	69.05	47.727272	21.322728	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	16.0	hr	50.1	33.84913	16.25087	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	24.0	hr	31.59	19.294004	12.295996	ng/ml	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean

@@ -1,0 +1,17 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	0.17	hr					HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	0.33	hr					HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	0.5	hr	8.288972337996395e-05	35.24815	1.4080386250154747e-05	4.224115875046424e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	0.75	hr	0.00010184459208517312	41.691055	1.285039684177224e-05	3.855119052531672e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	1.0	hr	0.0001390115407364613	59.186832	2.3815546293621645e-05	7.144663888086493e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	1.5	hr	0.0001906216041486128	82.80984	3.7194019174954264e-05	0.00011158205752486278	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	2.0	hr	0.00019898485536252216	84.07515	3.23117236825816e-05	9.693517104774481e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	3.0	hr	0.0002082009381146921	85.97385	2.831909654878334e-05	8.495728964635002e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	4.0	hr	0.00015260182395906408	62.293682	1.8772423279549925e-05	5.631726983864978e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	5.0	hr	0.0001354076397199411	54.59226	1.4779460515275313e-05	4.4338381545825934e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	6.0	hr	0.00011405934056864605	46.006847	1.250869200401656e-05	3.752607601204969e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	8.0	hr	9.67000921608275e-05	39.25687	1.1298284708180303e-05	3.3894854124540915e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	12.0	hr	7.65897742747493e-05	30.367441	6.953165793202108e-06	2.085949737960632e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	24.0	hr	4.266908760780754e-05	16.772177	3.47233662086136e-06	1.0417009862584079e-05	HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	36.0	hr	2.2998940838250866e-05				HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, TPGS	48.0	hr	1.4443114760863285e-05				HPLC-ESI-MS/MS	Fig1_TAL_TPGS		mole/meter^3	dimensionless

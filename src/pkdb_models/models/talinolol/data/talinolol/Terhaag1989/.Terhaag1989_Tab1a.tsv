@@ -1,0 +1,13 @@
+study	individual	count	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	label	comments
+Terhaag1989	S1	1.0	cumulative amount	talinolol	bile	TAL_30	0.0	mg	0.0	hr	HPLC	Tab1a_bile_S1	NA
+Terhaag1989	S2	1.0	cumulative amount	talinolol	bile	TAL_20	0.0	mg	0.0	hr	HPLC	Tab1a_bile_S2	NA
+Terhaag1989	S3	1.0	cumulative amount	talinolol	bile	TAL_30	0.0	mg	0.0	hr	HPLC	Tab1a_bile_S3	NA
+Terhaag1989	S4	1.0	cumulative amount	talinolol	bile	TAL_30	0.0	mg	0.0	hr	HPLC	Tab1a_bile_S4	NA
+Terhaag1989	S5	1.0	cumulative amount	talinolol	bile	TAL_30	0.0	mg	0.0	hr	HPLC	Tab1a_bile_S5	NA
+Terhaag1989	S6	1.0	cumulative amount	talinolol	bile	TAL_30	0.0	mg	0.0	hr	HPLC	Tab1a_bile_S6	NA
+Terhaag1989	S1	1.0	cumulative amount	talinolol	bile	TAL_30	1.1	mg	120.0	hr	HPLC	Tab1a_bile_S1	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S2	1.0	cumulative amount	talinolol	bile	TAL_20	2.8	mg	120.0	hr	HPLC	Tab1a_bile_S2	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S3	1.0	cumulative amount	talinolol	bile	TAL_30	7.4	mg	120.0	hr	HPLC	Tab1a_bile_S3	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S4	1.0	cumulative amount	talinolol	bile	TAL_30	3.1	mg	120.0	hr	HPLC	Tab1a_bile_S4	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S5	1.0	cumulative amount	talinolol	bile	TAL_30	2.7	mg	120.0	hr	HPLC	Tab1a_bile_S5	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S6	1.0	cumulative amount	talinolol	bile	TAL_30	1.2	mg	120.0	hr	HPLC	Tab1a_bile_S6	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr

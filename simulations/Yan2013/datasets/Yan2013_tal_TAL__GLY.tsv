@@ -1,0 +1,16 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.0	hr	0.0			HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.25	hr	4.220140579650339e-05	1.0154738	3.940776681935102e-05	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.5	hr	0.00027067772596596923	43.66538	0.00015055123179135888	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	0.75	hr	0.0003017097896807384	58.897484	0.00013967871910205092	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	1.0	hr	0.00034765264996767495	41.63443	0.000233113440349936	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	1.5	hr	0.0004233895927041637	72.09865	0.00022504119726543694	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	2.0	hr	0.00045318367515371594	83.26886	0.0002241052559182382	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	2.5	hr	0.0004792638138076177	114.74855	0.00016358258022806365	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	3.0	hr	0.0005351380349110718	143.8588	0.00013937248105200898	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	4.0	hr	0.00045070771262328233	115.08704	0.00013409526953603212	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	6.0	hr	0.00032404847384420694	86.31528	8.65891415287693e-05	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	8.0	hr	0.00026198434641466875	74.46809	5.711745691137429e-05	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	12.0	hr	0.00018996134747383044	47.727272	5.8660306194032935e-05	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	16.0	hr	0.00013782858086080962	33.84913	4.470727245216578e-05	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless
+Yan2013	all	14	concentration	talinolol	plasma	TAL, GLY	24.0	hr	8.690628481822308e-05	19.294004	3.382713930040303e-05	HPLC/UV	Fig2_TAL, GLY	geometric mean uploaded as mean	mole/meter^3	dimensionless

@@ -1,0 +1,18 @@
+study	individual	count	group	measurement	substance	tissue	intervention	time	time_unit	value	method	label	comments	value_unit	count_unit
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	0.0	min	2.6914593048047426e-07	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	20.0	min	5.128514835142161e-06	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	35.0	min	7.0260146632003196e-06	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	60.0	min	4.366566527737658e-06	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	75.0	min	6.53321228627629e-06	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	90.0	min	1.0043902942268806e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	105.0	min	7.642228091170443e-06	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	120.0	min	1.0345481230828483e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	135.0	min	1.090020000275107e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	150.0	min	1.306642457255258e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	165.0	min	1.2008794068694204e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	180.0	min	1.2024799515811771e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	195.0	min	1.2309951993837603e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	210.0	min	1.1789771523679832e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	240.0	min	1.585349454600476e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	270.0	min	1.346866944524684e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless
+Gramatte1996	S6	1	all	concentration	talinolol	serum	TAL_DISTAL	300.0	min	1.7533657959531767e-05	HPLC	Fig3_distal_TAL_S6		mole/meter^3	dimensionless

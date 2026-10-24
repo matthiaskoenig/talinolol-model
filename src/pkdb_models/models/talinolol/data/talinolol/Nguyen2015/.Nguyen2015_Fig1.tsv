@@ -1,0 +1,31 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig1_TAL	Peripheral venous blood was sampled just before and at 0.5, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 36, 48 hours after drug administration.
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	0.5	hr	74.35248	115.74941	41.39693	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	1.0	hr	130.30632	244.53119	114.22487	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	2.0	hr	218.44983	411.6348	193.18497	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	3.0	hr	248.33025	346.45633	98.12608	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	4.0	hr	198.48326	310.4083	111.92504	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	5.0	hr	162.43523	239.09622	76.66099	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	6.0	hr	126.38793	172.3838	45.99587	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	8.0	hr	101.822426	146.28725	44.464824	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	10.0	hr	93.355	137.81909	44.46409	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	12.0	hr	84.1217	114.78681	30.66511	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	16.0	hr	69.48812	95.55358	26.06546	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	24.0	hr	52.48674	67.81894	15.3322	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	36.0	hr	28.517164	36.18326	7.666096	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	48.0	hr	24.478722	31.378933	6.900211	ng/ml	HPLC	Fig1_TAL	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	0.5	hr	63.620667	19.923178	43.697489	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	1.0	hr	93.50905	16.84806	76.66099	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	2.0	hr	184.71826	39.063114	145.655146	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	3.0	hr	223.79874	92.70845	131.09029	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	4.0	hr	217.6485	102.65702	114.99148	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	5.0	hr	177.00082	87.307465	89.693355	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	6.0	hr	122.55416	63.5252	59.02896	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	8.0	hr	111.02102	54.292614	56.728406	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	10.0	hr	84.92302	44.29125	40.63177	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	12.0	hr	76.45704	45.02459	31.43245	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	16.0	hr	57.223087	33.458183	23.764904	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	24.0	hr	52.487465	24.888784	27.598681	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	36.0	hr	27.750555	13.950853	13.799702	ng/ml	HPLC	Fig1_TAL_NAR	NA
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL, NAR	48.0	hr	22.179615	7.614027	14.565588	ng/ml	HPLC	Fig1_TAL_NAR	NA

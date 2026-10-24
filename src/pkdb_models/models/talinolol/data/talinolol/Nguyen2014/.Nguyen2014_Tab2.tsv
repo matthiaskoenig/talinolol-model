@@ -1,0 +1,19 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	median	unit	time	time_unit	method	comments
+Nguyen2014	all	cmax	talinolol	plasma	QRC_LOW, TAL	309.7	158.5	328.1	ng/ml	NA	NA	HPLC	NA
+Nguyen2014	all	tmax	talinolol	plasma	QRC_LOW, TAL	2.6	0.7	2.5	hr	NA	NA	HPLC	NA
+Nguyen2014	all	auc_end	talinolol	plasma	QRC_LOW, TAL	3186.0	1157.4	3446.0	ng*hr/ml	48.0	hr	HPLC	NA
+Nguyen2014	all	auc_inf	talinolol	plasma	QRC_LOW, TAL	3756.2	1258.8	3997.3	ng*hr/ml	NA	NA	HPLC	NA
+Nguyen2014	all	thalf	talinolol	plasma	QRC_LOW, TAL	19.1	4.6	18.2	hr	NA	NA	HPLC	NA
+Nguyen2014	all	cumulative amount	talinolol	urine	QRC_LOW, TAL	31.4	12.7	34.4	mg	48.0	hr	HPLC	NA
+Nguyen2014	all	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	212.0	121.3	196.2	ng/ml	NA	NA	HPLC	NA
+Nguyen2014	all	tmax	talinolol	plasma	QRC_LOW, TAL, QRC	2.8	0.9	3.0	hr	NA	NA	HPLC	NA
+Nguyen2014	all	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	2468.3	986.5	2623.1	ng*hr/ml	48.0	hr	HPLC	NA
+Nguyen2014	all	auc_inf	talinolol	plasma	QRC_LOW, TAL, QRC	2878.2	1181.8	2982.3	ng*hr/ml	NA	NA	HPLC	NA
+Nguyen2014	all	thalf	talinolol	plasma	QRC_LOW, TAL, QRC	18.2	5.2	16.2	hr	NA	NA	HPLC	NA
+Nguyen2014	all	cumulative amount	talinolol	urine	QRC_LOW, TAL, QRC	22.9	10.1	23.0	mg	48.0	hr	HPLC	NA
+Nguyen2014	all	cmax	talinolol	plasma	QRC_CR, TAL, QRC	280.6	115.6	321.1	ng/ml	NA	NA	HPLC	NA
+Nguyen2014	all	tmax	talinolol	plasma	QRC_CR, TAL, QRC	3.0	1.2	2.5	hr	NA	NA	HPLC	NA
+Nguyen2014	all	auc_end	talinolol	plasma	QRC_CR, TAL, QRC	2527.7	578.7	2648.7	ng*hr/ml	48.0	hr	HPLC	NA
+Nguyen2014	all	auc_inf	talinolol	plasma	QRC_CR, TAL, QRC	2954.9	693.4	3070.0	ng*hr/ml	NA	NA	HPLC	NA
+Nguyen2014	all	thalf	talinolol	plasma	QRC_CR, TAL, QRC	20.3	5.6	19.1	hr	NA	NA	HPLC	NA
+Nguyen2014	all	cumulative amount	talinolol	urine	QRC_CR, TAL, QRC	36.9	20.1	28.6	mg	48.0	hr	HPLC	NA

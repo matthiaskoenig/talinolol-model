@@ -1,0 +1,13 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	0	hr	0.0				HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	1	hr	4.725119465192093e-05	12.571428	1.2666322782981886e-05	3.351194010944161e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	2	hr	7.875198833546541e-05	21.714285	1.9014481629733557e-05	5.0307589701081136e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	3	hr	9.292734425507916e-05	24.571428	2.5329638647024016e-05	6.701592465915614e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	4	hr	0.00010867775347666404	32.57143	1.907148654039257e-05	5.0458410518194346e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	5	hr	0.00011497789515674217	34.285713	2.065551658207127e-05	5.4649360077731464e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	7	hr	0.00011340286661439634	36.0	1.4364365397048107e-05	3.800453858185088e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	10	hr	0.00011812797975212863	38.857143	1.1229279632457115e-05	2.970988130988431e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	13	hr	0.00011182781881456416	34.857143	1.5933396607931336e-05	4.215580496514644e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	24	hr	9.607742609939615e-05	30.285715	1.275931993562498e-05	3.3757987447972363e-05	HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	32	hr	6.142655332260416e-05				HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless
+Tubic2006a	all	7	concentration	talinolol	plasma	TAL_CR_200	48	hr	2.8350717341366454e-05				HPLC/UV	Fig3_TAL_CR_200		mole/meter^3	dimensionless

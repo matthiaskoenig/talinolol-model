@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement	form	substance	value	unit	comments
+Nguyen2014	TAL	0	hr	oral	single dose	dosing	tablet	talinolol	100	mg	Talinolol film-coated tablets (CordanumÒ 100 mg) from AWD.pharma GmbH & Co. KG (Dresden, Germany)
+Nguyen2014	QRC	0	hr	oral	single dose	dosing	capsule	quercetin	1500	mg	NA
+Nguyen2014	QRC_LOW	S-6T2R6	day	oral	multiple dose	dosing	capsule	quercetin	20	mg	NA
+Nguyen2014	QRC_CR	S-6T3R6	day	oral	multiple dose	dosing	capsule	quercetin	500	mg	quercetin 500 mg hard-gelatine capsules from Mecoline B.V. (Winschoten, Netherlands)

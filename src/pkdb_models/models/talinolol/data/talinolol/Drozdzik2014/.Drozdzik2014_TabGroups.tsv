@@ -1,0 +1,8 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	unit	sd	min	max	comments
+Drozdzik2014	all	NA	species	6	homo sapiens	6.0	NA	NA	NA	NA	NA	NA	NA	NA
+Drozdzik2014	all	NA	healthy	6	Y	6.0	NA	NA	NA	NA	NA	NA	NA	NA
+Drozdzik2014	all	NA	sex	6	M	5.0	NA	NA	NA	NA	NA	NA	NA	NA
+Drozdzik2014	all	NA	sex	6	F	1.0	NA	NA	NA	NA	NA	NA	NA	NA
+Drozdzik2014	all	NA	age	6	NA	NA	NA	NA	NA	yr	NA	24.0	54.0	NA
+Drozdzik2014	all	NA	medication	6	Y	6.0	NA	NA	NA	NA	NA	NA	NA	All subjects received short-term emergency drugs before dissection, including dopamine, dobutamine, epinephrine, lidocaine, sodium nitroprusside, vasopressin, cephalosporines, gentamycin, vancomycin, clindamycin, insulin, mannitol, and dexamethasone. Of these drugs, only dexamethasone is known to be a potential inducer of intestinal genes of metabolism and transport. The drug was administered intravenously as a single dose in only two of our six donors approximately 24−28 h before tissue sampling, which is not expected to cause significant induction of intestinal transporters. 
+Drozdzik2014	all	NA	ethnicity	6	polish	NA	NA	NA	NA	NA	NA	NA	NA	NA

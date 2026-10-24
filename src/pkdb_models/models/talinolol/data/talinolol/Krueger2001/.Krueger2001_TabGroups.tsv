@@ -1,0 +1,28 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Krueger2001	all	NA	species	32.0	homo sapiens	32.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	all	NA	sex	32.0	NR	32.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	all	NA	healthy	32.0	Y	12.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	all	NA	healthy	32.0	N	20.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	all	NA	overnight fast	32.0	Y	32.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	all	NA	pregnant	32.0	N	32.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	control	all	sex	12.0	NR	12.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	control	all	age	12.0	NA	12.0	NA	25.3	NA	NA	NA	1.9	yr	NA
+Krueger2001	control	all	gfr	12.0	NA	12.0	NA	114.44	NA	85.02	136.39	14.37	ml/min	calculated from Fig3, estimated GFR via creatinine clearance
+Krueger2001	control	all	clearance	12.0	NA	12.0	creatinine	114.44	NA	85.02	136.39	14.37	ml/min	calculated from Fig3, estimated GFR via creatinine clearance
+Krueger2001	control	all	healthy	12.0	Y	12.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	control	all	height	12.0	NA	12.0	NA	178.3	NA	NA	NA	5.0	cm	NA
+Krueger2001	control	all	weight	12.0	NA	12.0	NA	70.2	NA	NA	NA	6.9	kg	NA
+Krueger2001	increased_renal_impairment	all	sex	12.0	NR	12.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	increased_renal_impairment	all	age	12.0	NA	12.0	NA	53.1	NA	NA	NA	10.0	yr	NA
+Krueger2001	increased_renal_impairment	all	gfr	12.0	NA	12.0	NA	26.9977621666667	NA	9.7	50.8	13.59	ml/min	calculated from Fig3, estimated GFR via creatinine clearance
+Krueger2001	increased_renal_impairment	all	clearance	12.0	NA	12.0	creatinine	26.9977621666667	NA	9.7	50.8	13.59	ml/min	calculated from Fig3, estimated GFR via creatinine clearance
+Krueger2001	increased_renal_impairment	all	disease	12.0	renal disease (moderate)	12.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	increased_renal_impairment	all	healthy	12.0	N	12.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	increased_renal_impairment	all	height	12.0	NA	12.0	NA	168.6	NA	NA	NA	10.0	cm	NA
+Krueger2001	increased_renal_impairment	all	weight	12.0	NA	12.0	NA	72.0	NA	NA	NA	8.1	kg	NA
+Krueger2001	severe_renal_impairment	all	sex	8.0	NR	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	severe_renal_impairment	all	age	8.0	NA	8.0	NA	38.6	NA	NA	NA	8.3	yr	NA
+Krueger2001	severe_renal_impairment	all	disease	8.0	renal disease (end-stage)	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	severe_renal_impairment	all	healthy	8.0	N	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Krueger2001	severe_renal_impairment	all	height	8.0	NA	8.0	NA	173.6	NA	NA	NA	10.3	cm	NA
+Krueger2001	severe_renal_impairment	all	weight	8.0	NA	8.0	NA	73.5	NA	NA	NA	17.0	kg	NA

@@ -1,0 +1,547 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\title{Talinolol PBPK model: fit PK}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Methods: Talinolol PBPK model: fit PK}
+
+\subsection{Parameters and data}
+
+8 parameters were optimized: tissue/plasma partition coefficient tal (\texttt{Kp\_tal}), tissue distribution tal (\texttt{ftissue\_tal}), renal clearance of unbound talinolol relative to the GFR (\texttt{KI\_\_TALEX\_f}), Vmax for talinolol import (\texttt{LI\_\_TALIM\_Vmax}), Ka\_dis [1/hr] dissolution tal (\texttt{Ka\_dis\_tal}), rate of the apical uptake of talinolol (\texttt{GU\_\_TALABS\_k}), Vmax of the efflux of talinolol by P-glycoprotein (\texttt{GU\_\_TALEFL\_Vmax}) and Km of the efflux of talinolol by P-glycoprotein (\texttt{GU\_\_TALEFL\_Km}).
+
+A fit mapping is a curve of a study, the data and the observable of the model it is compared with. The fit has 85 fit mappings of training data with 874 data points, whose residuals enter the objective; 64 fit mappings of validation data with 756 data points, which were simulated and evaluated with the fitted parameters but not fitted; and 12 fit mappings of outliers with 90 data points, data the fit dropped as not usable, which were evaluated like the validation data so that the decision to drop them can be checked. The fit was set up and run with sbmlsim \cite{Koenig2026_sbmlsim}.
+
+\subsection{Objective function}
+
+The parameters were estimated by minimizing the objective function
+
+\begin{equation}
+F(\vec{p}) = \frac{1}{2} \sum_{k} \sum_{i} \rho\left(w_{i,k}\, r_{i,k}(\vec{p})^2\right)
+\end{equation}
+
+where $k$ runs over the fit mappings of the training data and $i$ over their data points, $r_{i,k}$ is the residual, $w_{i,k} = w_k\, w^{p}_{i,k}$ the weight of the data point and $\rho$ the loss function, applied to the squared weighted residual $z = w_{i,k}\, r_{i,k}^2$. The loss function is linear, $\rho(z) = z$, i.e. a standard least squares problem.
+
+The residuals are normalized by the mean $\overline{y}_k$ of the data of their curve, which makes curves of different quantities and magnitudes comparable:
+
+\begin{equation}
+r_{i,k} = \frac{y_{i,k} - f_k(x_{i,k}, \vec{p})}{\overline{y}_k}
+\end{equation}
+
+The weight of curve $k$ is $w_k = n_k / N_k$, the weight $n_k$ of its fit mapping (the weight its fit mapping collection assigns, 1 by default, or, for a collection which uses the weights of its mappings, the weight of the mapping, by default the number of subjects of its data) divided by the number $N_k$ of its data points.
+
+A data point is weighted with the inverse of its coefficient of variation, $w^{p}_{i,k} = |y_{i,k}| / \sigma_{i,k}$, with $\sigma_{i,k}$ the standard deviation of the data point, or its standard error for data without a standard deviation. An error of zero is missing, a missing error of a curve with errors is replaced by the largest error of the curve, and the data points of a curve without errors have the weight $w^{p}_{i,k} = 2$, the weight of a coefficient of variation of 0.5.
+
+\subsection{Optimization}
+
+The optimizer searched the parameters in log10 space within their bounds; bounds, values and intervals are given in the units of the fit parameters, the units of the table of the parameters.
+
+The objective was minimized in 3 runs with differential evolution \cite{Storn1997} of SciPy \cite{Virtanen2020} within the bounds of the parameters, with the strategy \texttt{best1bin}, a population of 15 times the number of parameters, at most 1000 generations, the relative tolerance 0.01 of convergence, the recombination constant 0.7 and a mutation dithered between 0.5 and 1. The initial population of a run was drawn by latin hypercube sampling \cite{McKay1979}, with a seed of every run derived from the seed 1234 of the fit. The best member of the final population was polished with the L-BFGS-B method of SciPy.
+
+The convergence of the runs was assessed from the traces of their cost and the waterfall plot of their final costs, and the parameter set with the lowest cost was used.
+
+The models were simulated with libRoadRunner \cite{Welsh2023} and its integrator CVODE \cite{Hindmarsh2005} with the relative tolerance $10^{-6}$ and the absolute tolerances $10^{-12}$ of an amount, $10^{-12}$ of a concentration and $10^{-6}$ of the other states, which for a species in a concentration is multiplied by the initial volume of its compartment, and 1 state of its own. It ran with the variable step size of libRoadRunner, i.e. with an output at every step of the integrator. A data point at the time of a change after the start of a simulation, e.g. a dose or the reset of a collection, was compared with the state before the change, except the first data point of a curve with data at later times, which starts a collection and was compared with the state after the change.
+
+\subsection{Goodness of fit}
+
+The goodness of fit is given per kind of data (training data, validation data and outliers) by metrics over its $n$ data points with the residuals $e_i = y_i - f(x_i, \hat{\vec{p}})$ at the fitted parameters $\hat{\vec{p}}$, the mean squared error, its root and the root mean squared error normalized by the mean $\overline{y}_{k(i)}$ of the data of the curve of a point:
+
+\begin{equation}
+\mathrm{MSE} = \frac{1}{n} \sum_{i=1}^{n} e_i^2, \quad \mathrm{RMSE} = \sqrt{\mathrm{MSE}}, \quad \mathrm{NRMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left(\frac{e_i}{\overline{y}_{k(i)}}\right)^2}
+\end{equation}
+
+The root mean square of the residuals of the objective, i.e. what the fit minimizes, and the coefficient of determination:
+
+\begin{equation}
+\mathrm{RMSE}_w = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \rho\left(w_i\, r_i^2\right)}, \quad R^2 = 1 - \frac{\sum_{i} e_i^2}{\sum_{i} \left(y_i - \overline{y}\right)^2}
+\end{equation}
+
+The predictions of a non-linear model are no linear regression of the data, so $R^2$ can be negative: the prediction is worse than the mean of the data. The information criteria of Akaike \cite{Akaike1974} and Schwarz \cite{Schwarz1978} with the number $n_p$ of fitted parameters are those of a least squares fit with normally distributed residuals, up to an additive constant, so only differences between models fitted to the same data are meaningful:
+
+\begin{equation}
+\mathrm{AIC} = n \ln(\mathrm{MSE}) + 2 n_p, \quad \mathrm{BIC} = n \ln(\mathrm{MSE}) + n_p \ln(n)
+\end{equation}
+
+The percentage of the data points whose prediction $f_i = f(x_i, \hat{\vec{p}})$ lies within twofold of the data is taken over the $n_+$ data points with positive data $y_i > 0$ and a positive prediction $f_i > 0$; the others have no ratio and are not counted, and a kind of data without such a point has no percentage:
+
+\begin{equation}
+P_2 = \frac{100}{n_+} \left|\left\{ i : \frac{1}{2} \le \frac{f_i}{y_i} \le 2 \right\}\right|
+\end{equation}
+
+The goodness of fit plot shows the predictions against the data on logarithmic axes, with the lines of twofold $f = 2y$ and $f = y/2$. The Bland-Altman plot \cite{Bland1986} shows the ratio of prediction and data as $d_i = \log_{10}(f_i / y_i)$ against the geometric mean $\sqrt{f_i\, y_i}$ for the data points with positive values, with the bias $\overline{d}$ and the limits of agreement $\overline{d} \pm 1.96\, s_d$, with the sample standard deviation $s_d$ of $d_i$, of the training data; they are read as the fold factors $10^{\overline{d}}$ and $10^{\overline{d} \pm 1.96\, s_d}$.
+
+\subsection{Identifiability}
+
+The identifiability of the parameters was analysed with the profile likelihood \cite{Raue2009,Kreutz2013}. The profile of a parameter is the lowest objective with the parameter fixed:
+
+\begin{equation}
+\mathrm{PL}(p_j) = \min_{p_{l \neq j}} F(\vec{p})
+\end{equation}
+
+At every point of a scan the other parameters were re-optimized from the previous point with the least squares optimizer of SciPy with the relative step 0.05. A scan ran from the optimum in both directions in the space of the optimizer, with steps in decades of the parameter, starting at 0.1. A step which raised the objective by more than 0.2 of the distance between the objective at the optimum and the threshold was reduced by the factor 2 and repeated, down to 0.01, and the step after one which raised it by less than that divided by the factor was enlarged by the factor, up to 1. A scan stopped at the threshold, at the bound of the parameter, at a point which failed or after 50 points.
+
+The confidence intervals are the values at which the profile crosses the threshold of the likelihood ratio test
+
+\begin{equation}
+F_{\mathrm{thr}} = F_{\min} + \frac{\chi^2_{\alpha}(\mathrm{df})}{2}
+\end{equation}
+
+with $F_{\min}$ the lowest objective of the fit and of all profiles and $\chi^2_{\alpha}(\mathrm{df})$ the quantile of the $\chi^2$ distribution at the confidence level $\alpha = 0.95$ with df = 1 degrees of freedom, i.e. 1.92 above the lowest objective. The threshold has this confidence level if $F$ is the negative log-likelihood of the data up to a constant, i.e. if the weighted residuals are independent and normally distributed with unit variance; otherwise the level is approximate. A crossing is interpolated between two points of the profile, on the logarithm of a parameter on a logarithmic scale. A parameter is identifiable if its profile reaches the threshold within the scan on both sides of the optimum, i.e. its confidence interval is finite; practically non-identifiable towards the lower bound if its profile reaches the threshold above the optimum but not below it within the scan, which ends at the lower bound or after 50 points; practically non-identifiable towards the upper bound if its profile reaches the threshold below the optimum but not above it within the scan, which ends at the upper bound or after 50 points; practically non-identifiable if its profile reaches the threshold on neither side within the scans, which end at the bounds or after 50 points, and is not flat; and structurally non-identifiable if its profile is flat on both sides. A side of a profile is flat if it rises by less than 0.05 of the distance between the lowest objective and the threshold, and a profile with a point which failed or did not converge is not classified. The profile likelihood is preferred over the intervals of the Fisher information, its intervals are invariant under a transformation of the parameters and can be asymmetric \cite{Wieland2021}.
+
+The Fisher information is the local alternative to the profiles: it is the Gauss-Newton approximation of the curvature of the objective at the optimum, from the Jacobian $J$ of the weighted residuals of the training data with respect to the parameters $\vec{p}$ in the space of the optimizer, computed by central finite differences with the step $h_j = \epsilon \max(|p_j|, 1),\ \epsilon = 10^{-6}$ of the parameter $p_j$:
+
+\begin{equation}
+I = J^\top J, \quad \mathrm{cov} = \sigma^2 I^{-1}, \quad \sigma^2 = \frac{2 F}{n - n_p}
+\end{equation}
+
+with the number $n$ of data points of the training data and the number $n_p$ of parameters. The information has rank 8 of 8, the number of its eigenvalues above $10^{-8}$ of the largest one, and the condition number 1950; the covariance of an information of a lower rank is computed with the pseudo-inverse. The Wald intervals are $\hat{p}_j \pm t_{(1+\alpha)/2,\, n-n_p}\, \mathrm{SE}_j$ with the standard errors $\mathrm{SE}_j = \sqrt{\mathrm{cov}_{jj}}$ at the confidence level $\alpha = 0.95$, transformed back into the units of the fit parameters.
+
+\subsection{Provenance}
+
+The fit PK\_20261020\_042735\_\_49b48 was run on 2026-10-20 02:27:38 UTC with sbmlsim 0.10.0 \cite{Koenig2026_sbmlsim}, libRoadRunner 2.10.0 \cite{Welsh2023}, SciPy 1.18.1 \cite{Virtanen2020}, NumPy 2.5.3 \cite{Harris2020} and Python 3.14.4 (seed 1234). The models and data were those of commit \texttt{9597cdc55eeaa70a613cfdd136415a468c8583f8} of \texttt{/home/mkoenig/git/pkdb\_models-talinolol}; their SHA-256 checksums are listed in Table~\ref{tab:checksums:PK_20261020_042735__49b48}.
+
+\begin{longtable}{ll}
+\caption{SHA-256 checksums of the models and data of the fit PK\_20261020\_042735\_\_49b48, their first 12 characters; the full checksums are in the provenance of the result (optimization\_result.json).}\label{tab:checksums:PK_20261020_042735__49b48} \\
+\toprule
+File & SHA-256 \\
+\midrule
+\endfirsthead
+\multicolumn{2}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+File & SHA-256 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Fig2.tsv} & \texttt{bf75c1259ea0...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Fig4a.tsv} & \texttt{8193e464127d...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Fig4b.tsv} & \texttt{6402c1c03afd...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Fig5.tsv} & \texttt{5ad611b3d609...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Tab1.tsv} & \texttt{8952b50ad229...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Tab1a.tsv} & \texttt{f43b60f6d158...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_Tab2.tsv} & \texttt{473ea57df4aa...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_TabGroups.tsv} & \texttt{26bd6133a94a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_TabIndividuals.tsv} & \texttt{60d41879d828...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bernsdorf2006/.Bernsdorf2006\_TabInterventions.tsv} & \texttt{f50cd3d88ac5...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bogman2005/.Bogman2005\_Fig1.tsv} & \texttt{058a772a6901...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bogman2005/.Bogman2005\_Fig2.tsv} & \texttt{27c068f1d379...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bogman2005/.Bogman2005\_Tab2.tsv} & \texttt{a94801d8cb46...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bogman2005/.Bogman2005\_TabGroups.tsv} & \texttt{28ba0dd810e0...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bogman2005/.Bogman2005\_TabIndividuals.tsv} & \texttt{e724d81e5cbe...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Bogman2005/.Bogman2005\_TabInterventions.tsv} & \texttt{010cba44ee94...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/DeMey1995/.DeMey1995\_Fig4.tsv} & \texttt{0867b203550b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/DeMey1995/.DeMey1995\_Fig4a.tsv} & \texttt{8136c8905644...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/DeMey1995/.DeMey1995\_TabGroups.tsv} & \texttt{570d9dc1cb46...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/DeMey1995/.DeMey1995\_TabInterventions.tsv} & \texttt{74613b74bec4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_Fig2.tsv} & \texttt{a988af771670...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_Fig3.tsv} & \texttt{aad89a9ee9b6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_Fig4.tsv} & \texttt{e3800353846e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_Fig5.tsv} & \texttt{52ea8f2a16be...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_TabData.tsv} & \texttt{23c729c54e91...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_TabGroups.tsv} & \texttt{56c0fcde9e08...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_TabIndividuals.tsv} & \texttt{9adeedd54038...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Drozdzik2014/.Drozdzik2014\_TabInterventions.tsv} & \texttt{33937b898d35...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009a/.Fan2009a\_Fig1.tsv} & \texttt{44d348cddee1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009a/.Fan2009a\_Fig2.tsv} & \texttt{2f831b757354...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009a/.Fan2009a\_Tab1.tsv} & \texttt{b3e0c1a7453a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009a/.Fan2009a\_TabGroups.tsv} & \texttt{47a9f98e2258...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009a/.Fan2009a\_TabIndividuals.tsv} & \texttt{633e50fc924f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009a/.Fan2009a\_TabInterventions.tsv} & \texttt{556d6ddd2f3b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009b/.Fan2009b\_Fig1.tsv} & \texttt{6b5473c1e7a3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009b/.Fan2009b\_Fig2.tsv} & \texttt{56c873b7ec3f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009b/.Fan2009b\_Tab1.tsv} & \texttt{b68d93d07e11...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009b/.Fan2009b\_TabGroups.tsv} & \texttt{ff68c316bfda...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009b/.Fan2009b\_TabIndividuals.tsv} & \texttt{fffc1f777809...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Fan2009b/.Fan2009b\_TabInterventions.tsv} & \texttt{db00982b3f60...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Giessmann2004/.Giessmann2004\_Fig2.tsv} & \texttt{c31a48396d38...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Giessmann2004/.Giessmann2004\_Tab1.tsv} & \texttt{620a16cc4ede...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Giessmann2004/.Giessmann2004\_Tab3.tsv} & \texttt{0754a2941be2...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Giessmann2004/.Giessmann2004\_Tab3a.tsv} & \texttt{efbe2506c618...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Giessmann2004/.Giessmann2004\_TabGroups.tsv} & \texttt{b4ac874c8113...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Giessmann2004/.Giessmann2004\_TabInterventions.tsv} & \texttt{f946ca729626...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_Fig1.tsv} & \texttt{7148f529eef6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_Fig3.tsv} & \texttt{32a9f7b7b4a1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_Tab1.tsv} & \texttt{a7297c2719b0...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_TabData.tsv} & \texttt{1fc49627f782...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_TabGroups.tsv} & \texttt{1eff4dcef2a9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_TabIndividuals.tsv} & \texttt{e602f181a22c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Gramatte1996/.Gramatte1996\_TabInterventions.tsv} & \texttt{a31358dc7a41...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_Fig1.tsv} & \texttt{e73de06bb13e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_Fig2.tsv} & \texttt{f4d77f971bb4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_Tab1.tsv} & \texttt{832764c2140f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_Tab2.tsv} & \texttt{76f148fca9cb...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_TabGroups.tsv} & \texttt{5039be4b61df...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_TabIndividuals.tsv} & \texttt{52cdf8ea5a83...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Han2009/.Han2009\_TabInterventions.tsv} & \texttt{16ccba1e0cb4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Fig1.tsv} & \texttt{e4347de5b689...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Fig2.tsv} & \texttt{6ea054ea23ea...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab1.tsv} & \texttt{ba5f0fb98481...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab1\_mean.tsv} & \texttt{c30e381dd516...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab1a.tsv} & \texttt{16de55e1411e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab1a\_mean.tsv} & \texttt{5225f8dc2f2a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab2.tsv} & \texttt{dcc8c44b96e5...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab2a.tsv} & \texttt{5f31e6d1aa92...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab3.tsv} & \texttt{4ab226bb2876...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_Tab3a.tsv} & \texttt{964485aa3b1c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_TabGroups.tsv} & \texttt{1f65bdeb9aa3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_TabIndividuals.tsv} & \texttt{64417e0b2d8a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Haustein1981/.Haustein1981\_TabInterventions.tsv} & \texttt{e62b9fb2b508...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2007/.He2007\_Fig2.tsv} & \texttt{5e2563a92e37...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2007/.He2007\_Tab4.tsv} & \texttt{29574293d4b3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2007/.He2007\_TabGroups.tsv} & \texttt{8b8b16ee3826...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2007/.He2007\_TabInterventions.tsv} & \texttt{d6639ee5c55e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_Fig1.tsv} & \texttt{b3130c435ad0...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_Fig2.tsv} & \texttt{e4cc32b9f2db...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_Fig3.tsv} & \texttt{667067c794c4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_Tab1.tsv} & \texttt{2011d1fae876...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_Tab2.tsv} & \texttt{d74e9e03f596...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_TabGroups.tsv} & \texttt{85d9571301e6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/He2012/.He2012\_TabInterventions.tsv} & \texttt{3cbc944d2431...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Juan2007/.Juan2007\_Fig2.tsv} & \texttt{c0c5937dde28...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Juan2007/.Juan2007\_Tab1.tsv} & \texttt{c7b46f3ae6c3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Juan2007/.Juan2007\_TabGroups.tsv} & \texttt{3d9b1645a8fe...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Juan2007/.Juan2007\_TabInterventions.tsv} & \texttt{afba60d3dfdc...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Fig1.tsv} & \texttt{0910acf458b3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Fig2.tsv} & \texttt{dfc153f12433...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Fig3.tsv} & \texttt{6c42959da848...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Fig3a.tsv} & \texttt{9c5d33bcada4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Tab1.tsv} & \texttt{4a0ff4df8110...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Tab1a.tsv} & \texttt{b7e078531fe6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Tab2.tsv} & \texttt{b0073d72988e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Tab2a.tsv} & \texttt{080f8eb7f58c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_Tab2b.tsv} & \texttt{e2d3a7cbb645...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_TabData.tsv} & \texttt{0178925db668...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_TabGroups.tsv} & \texttt{2e1861fded6c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_TabIndividuals.tsv} & \texttt{1a1740a3d8dd...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Krueger2001/.Krueger2001\_TabInterventions.tsv} & \texttt{2f7b90ca79cd...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Fig1.tsv} & \texttt{18d61766cc8a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Fig2.tsv} & \texttt{3af12c8b12d5...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Fig3.tsv} & \texttt{c3b6336517b9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Fig4.tsv} & \texttt{542d12896b6d...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Tab2.tsv} & \texttt{1563445e2c7f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Tab2a.tsv} & \texttt{7a5562014b2a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_Tab3.tsv} & \texttt{f726e236a541...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_TabData.tsv} & \texttt{fd9a76143704...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_TabGroups.tsv} & \texttt{65d763f9d0ef...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_TabIndividuals.tsv} & \texttt{c45fe2ce2f8e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2014/.Nguyen2014\_TabInterventions.tsv} & \texttt{12be79f258dc...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_Fig1.tsv} & \texttt{f48e4d0435ce...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_Fig2.tsv} & \texttt{f7eb804c2dbf...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_Fig3.tsv} & \texttt{f7d40861321b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_Fig3c.tsv} & \texttt{429abc7b1613...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_Tab1.tsv} & \texttt{7bfcb40ec3c4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_Tab1a.tsv} & \texttt{a6a78135d123...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_TabData.tsv} & \texttt{f40aef646671...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_TabGroups.tsv} & \texttt{544881170216...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_TabIndividuals.tsv} & \texttt{0af397c0555c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Nguyen2015/.Nguyen2015\_TabInterventions.tsv} & \texttt{3dbe00ba800b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Ruike2010/.Ruike2010\_Fig3.tsv} & \texttt{08fa540693db...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Ruike2010/.Ruike2010\_Tab1.tsv} & \texttt{7bfcf16796fa...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Ruike2010/.Ruike2010\_TabGroups.tsv} & \texttt{383713c2f061...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Ruike2010/.Ruike2010\_TabInterventions.tsv} & \texttt{bb24ca25ff40...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Fig1.tsv} & \texttt{28f3d18f2a32...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Tab1.tsv} & \texttt{c2d1a4c1d837...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Tab1\_mean.tsv} & \texttt{0580d47252da...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Tab1a.tsv} & \texttt{fe1818527427...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Tab1a\_mean.tsv} & \texttt{10f9f3555c0b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Tab2.tsv} & \texttt{6c42ad4149c6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_Tab2\_mean.tsv} & \texttt{212f04abd844...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_TabGroups.tsv} & \texttt{41b8c67eee65...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_TabIndividuals.tsv} & \texttt{df934f7454de...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz1999/.Schwarz1999\_TabInterventions.tsv} & \texttt{4be73e73390f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_Fig1.tsv} & \texttt{cc6a57146e4a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_Tab1.tsv} & \texttt{5f8de57423a1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_Tab1\_mean.tsv} & \texttt{3a76380d3096...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_Tab1a.tsv} & \texttt{8fcd5a6324fa...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_Tab1a\_mean.tsv} & \texttt{47847d52ddda...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_TabGroups.tsv} & \texttt{2ff2978dac5b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_TabIndividuals.tsv} & \texttt{dc4e24fa3c14...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2000/.Schwarz2000\_TabInterventions.tsv} & \texttt{cc55eb1218a6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_Fig1.tsv} & \texttt{3b09195bfd29...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_Fig2.tsv} & \texttt{049d2c906f1a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_Tab1.tsv} & \texttt{dfa370bf8c7b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_Tab1a.tsv} & \texttt{3f4737e1697c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_Tab2.tsv} & \texttt{b141c4622aab...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_TabGroups.tsv} & \texttt{e1c2bf0bf031...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2005/.Schwarz2005\_TabInterventions.tsv} & \texttt{781bd42abc83...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Fig1AB.tsv} & \texttt{d3d0294fadec...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Fig1CD.tsv} & \texttt{d9edac0c435e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Fig2mRNA.tsv} & \texttt{111e2e1050f4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Fig3A.tsv} & \texttt{57b74edbec16...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Fig3mRNA.tsv} & \texttt{2029667358f1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Tab1.tsv} & \texttt{7d5cb895cdc9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Tab1a.tsv} & \texttt{927321752c33...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Tab3.tsv} & \texttt{b80c4fc4039e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_Tab3mRNA.tsv} & \texttt{e4b7cebd8ae2...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_TabGroups.tsv} & \texttt{a1cf56096456...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_TabIndividuals.tsv} & \texttt{f034552a54d3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Schwarz2007/.Schwarz2007\_TabInterventions.tsv} & \texttt{93a65f60e007...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Siegmund2003/.Siegmund2003\_Fig1.tsv} & \texttt{4c853c51abd6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Siegmund2003/.Siegmund2003\_Tab1.tsv} & \texttt{da62d45cddc4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Siegmund2003/.Siegmund2003\_TabGroups.tsv} & \texttt{f7ad181d0d33...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Siegmund2003/.Siegmund2003\_TabInterventions.tsv} & \texttt{f5498d15cc9c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1983/.Terhaag1983\_Fig1.tsv} & \texttt{fb19bfef5fc6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1983/.Terhaag1983\_Tab1.tsv} & \texttt{dfec22ddd2e6...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1983/.Terhaag1983\_TabGroups.tsv} & \texttt{6afa4992bc64...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1983/.Terhaag1983\_TabIndividuals.tsv} & \texttt{b97217e6defb...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1983/.Terhaag1983\_TabInterventions.tsv} & \texttt{6313c63adc9a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_Fig1.tsv} & \texttt{ead0b4b006ef...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_Tab1.tsv} & \texttt{2e0a9c629e6a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_Tab1\_median.tsv} & \texttt{76659dece9ef...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_Tab1a.tsv} & \texttt{3553c76c7ca0...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_Tab1a\_mean.tsv} & \texttt{18cc53494142...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_Tab1median.tsv} & \texttt{76659dece9ef...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_TabGroups.tsv} & \texttt{9addeea6eb2f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_TabIndividuals.tsv} & \texttt{482f0b6d74d9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Terhaag1989/.Terhaag1989\_TabInterventions.tsv} & \texttt{8d3759cfe2b1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_Fig1.tsv} & \texttt{c8412141f80f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_Fig2.tsv} & \texttt{ff3284dbec52...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_Fig3.tsv} & \texttt{1a89229dfc53...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_Tab1.tsv} & \texttt{dc21e44c829a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_Tab1a.tsv} & \texttt{d7b3f557723d...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_TabGroups.tsv} & \texttt{07e1cda45669...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_TabIndividuals.tsv} & \texttt{3c9ed8817987...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Trausch1995/.Trausch1995\_TabInterventions.tsv} & \texttt{fdce4ef9384e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_Fig3.tsv} & \texttt{73658e58dd1b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_Fig4.tsv} & \texttt{490bda06ff19...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_Fig5.tsv} & \texttt{9ed2cc370d3d...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_Tab1.tsv} & \texttt{b7fc074c48a3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_Tab1a.tsv} & \texttt{93689284faa2...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_TabGroups.tsv} & \texttt{07330b8904de...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_TabIndividuals.tsv} & \texttt{912af1032412...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Tubic2006a/.Tubic2006a\_TabInterventions.tsv} & \texttt{47da1acf4a4e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wang2013/.Wang2013\_Fig2.tsv} & \texttt{d43e8ddfeaea...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wang2013/.Wang2013\_Tab1.tsv} & \texttt{e9bf7081751f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wang2013/.Wang2013\_Tab3.tsv} & \texttt{045e14a073d7...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wang2013/.Wang2013\_TabGroups.tsv} & \texttt{78439f740daa...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wang2013/.Wang2013\_TabInterventions.tsv} & \texttt{9fd8c0cdf9a3...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_Fig1.tsv} & \texttt{44df550518ae...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_Fig2.tsv} & \texttt{0bdbab50decf...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_Tab1.tsv} & \texttt{ce3795a94ca9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_Tab2.tsv} & \texttt{47f59339f8b5...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_Tab2a.tsv} & \texttt{d37fa228933b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_TabGroups.tsv} & \texttt{bfa49dcba4d8...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000a/.Westphal2000a\_TabInterventions.tsv} & \texttt{5df7a83454bf...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_Fig2.tsv} & \texttt{5232910880be...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_Fig3.tsv} & \texttt{f4038ef20b24...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_Fig4.tsv} & \texttt{f4038ef20b24...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_Tab1.tsv} & \texttt{1f693ef9781c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_Tab1a.tsv} & \texttt{06eb3b178638...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_Tab2.tsv} & \texttt{d0ba9014959d...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_TabGroups.tsv} & \texttt{6879b435284c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Westphal2000b/.Westphal2000b\_TabInterventions.tsv} & \texttt{5ea3a558f339...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_Fig1.tsv} & \texttt{d063fc2dd720...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_Fig2.tsv} & \texttt{35fb55eea4aa...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_Fig3.tsv} & \texttt{af443c7a0c2b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_Tab1a.tsv} & \texttt{1899ce6af39b...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_Tab1b.tsv} & \texttt{4202b0c9e323...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_Tab1c.tsv} & \texttt{ab425da2fbdc...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_TabGroups.tsv} & \texttt{9cc0d990218c...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Wetterich1996/.Wetterich1996\_TabInterventions.tsv} & \texttt{546f3590bfb9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_Fig1.tsv} & \texttt{37332d57bf12...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_Fig2.tsv} & \texttt{88f8f136d12e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_Fig3.tsv} & \texttt{4dedd7dc8dd0...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_Tab1.tsv} & \texttt{649018cb5493...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_Tab2.tsv} & \texttt{7d4b21aca8f1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_TabGroups.tsv} & \texttt{76bf16af8ac1...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Xiao2012/.Xiao2012\_TabInterventions.tsv} & \texttt{637f193f7a08...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Yan2013/.Yan2013\_Fig2.tsv} & \texttt{e96a31fe99ae...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Yan2013/.Yan2013\_Fig3.tsv} & \texttt{1cc9bde3dd80...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Yan2013/.Yan2013\_Tab2.tsv} & \texttt{4df2e6a265c7...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Yan2013/.Yan2013\_TabGroups.tsv} & \texttt{d76550d2248e...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Yan2013/.Yan2013\_TabIndividuals.tsv} & \texttt{c48697897ecd...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Yan2013/.Yan2013\_TabInterventions.tsv} & \texttt{d73315649f7a...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zeng2009/.Zeng2009\_Fig1.tsv} & \texttt{4cb7f14b5112...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zeng2009/.Zeng2009\_Fig2.tsv} & \texttt{b417f559c4e9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zeng2009/.Zeng2009\_Tab1.tsv} & \texttt{0d426d593be4...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zeng2009/.Zeng2009\_TabGroups.tsv} & \texttt{15f4552c7e8f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zeng2009/.Zeng2009\_TabIndividuals.tsv} & \texttt{c3bb66305236...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zeng2009/.Zeng2009\_TabInterventions.tsv} & \texttt{3381d0b286c5...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zhang2005/.Zhang2005\_Fig1.tsv} & \texttt{4b73956cd7af...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zhang2005/.Zhang2005\_Tab4.tsv} & \texttt{d56646704503...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zhang2005/.Zhang2005\_TabGroups.tsv} & \texttt{e66309094703...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zhang2005/.Zhang2005\_TabInterventions.tsv} & \texttt{5c939063bb71...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_Fig4.tsv} & \texttt{ab3a354acddc...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_Fig5.tsv} & \texttt{dcdc1d061673...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_Tab1.tsv} & \texttt{05189b4c10b2...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_Tab2.tsv} & \texttt{d7459a27c2cf...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_Tab3.tsv} & \texttt{bc5d469c743f...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_Tab4.tsv} & \texttt{915f1b05a336...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_TabGroups.tsv} & \texttt{4e459bea8552...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_TabIndividuals.tsv} & \texttt{4ae946166ef9...} \\
+\texttt{pkdb\_models/models/talinolol/data/talinolol/Zschiesche2002/.Zschiesche2002\_TabInterventions.tsv} & \texttt{fb32cee9da41...} \\
+\texttt{pkdb\_models/models/talinolol/models/output/talinolol\_body\_flat.xml} & \texttt{eb9dd592c078...} \\
+\end{longtable}
+
+\section{Results: Talinolol PBPK model: fit PK}
+
+\subsection{Parameters}
+
+\begin{longtable}{llrlrl}
+\caption{Parameters of the fit PK\_20261020\_042735\_\_49b48, the parameter set PK\_20261020\_042735\_\_49b48\_0, cost 132, with their bounds in the optimization. The 95\% confidence intervals are those of the profile likelihood, LB and UB an interval which is open towards the lower or the upper bound, and the Wald intervals of the Fisher information for a parameter without a profile. Identifiable is the classification of the profile: yes, no (LB) or no (UB) if the profile does not reach the threshold towards the lower or the upper bound, no if it reaches it on neither side, structural if it is flat.}\label{tab:parameters:PK_20261020_042735__49b48} \\
+\toprule
+Parameter & Description & Value [95\% CI] & Unit & Bounds & Identifiable \\
+\midrule
+\endfirsthead
+\multicolumn{6}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Parameter & Description & Value [95\% CI] & Unit & Bounds & Identifiable \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\texttt{Kp\_tal} & tissue/plasma partition coefficient tal & 3.92 [3.11, 4.92] & dimensionless & [0.3, 30] & yes \\
+\texttt{ftissue\_tal} & tissue distribution tal & 2.76 [1.97, 5.46] & l/min & [0.01, 50] & yes \\
+\texttt{KI\_\_TALEX\_f} & renal clearance of unbound talinolol relative to the GFR & 7.66 [6.64, 9.71] & dimensionless & [1, 20] & yes \\
+\texttt{LI\_\_TALIM\_Vmax} & Vmax for talinolol import & 0.0369 [0.0226, 0.0847] & mmol/min/l & [0.0001, 1] & yes \\
+\texttt{Ka\_dis\_tal} & Ka\_dis [1/hr] dissolution tal & 1.41 [1.03, 2.25] & 1/hr & [0.1, 10] & yes \\
+\texttt{GU\_\_TALABS\_k} & rate of the apical uptake of talinolol & 0.00358 [0.00281, 0.00484] & 1/min & [0.0001, 1] & yes \\
+\texttt{GU\_\_TALEFL\_Vmax} & Vmax of the efflux of talinolol by P-glycoprotein & 0.000103 [3.46e-05, 0.000289] & mmol/min/l & [1e-05, 1] & yes \\
+\texttt{GU\_\_TALEFL\_Km} & Km of the efflux of talinolol by P-glycoprotein & 0.00024 [5.76e-05, 0.000634] & mmol/l & [1e-05, 1] & yes \\
+\end{longtable}
+
+\subsection{Data}
+
+\begin{longtable}{lrrrr}
+\caption{Data of the fit PK\_20261020\_042735\_\_49b48: the number of fit mappings and, in parentheses, of data points per study and kind. The training data enters the cost, the validation data and the outliers are evaluated only.}\label{tab:data:PK_20261020_042735__49b48} \\
+\toprule
+Study & Training & Validation & Outlier & Total \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Study & Training & Validation & Outlier & Total \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Bernsdorf2006 & 6 (47) & 4 (47) & - & 10 (94) \\
+Bogman2005 & - & 3 (42) & - & 3 (42) \\
+DeMey1995 & 4 (32) & - & - & 4 (32) \\
+Fan2009a & 1 (14) & 2 (28) & - & 3 (42) \\
+Fan2009b & 1 (14) & 2 (28) & - & 3 (42) \\
+Giessmann2004 & 1 (2) & 2 (17) & - & 3 (19) \\
+Gramatte1996 & - & 8 (151) & - & 8 (151) \\
+Han2009 & 1 (13) & - & - & 1 (13) \\
+Haustein1981 & - & 3 (15) & 6 (37) & 9 (52) \\
+He2007 & 1 (14) & - & - & 1 (14) \\
+He2012 & 1 (14) & 2 (28) & - & 3 (42) \\
+Krueger2001 & 2 (19) & 7 (89) & - & 9 (108) \\
+Nguyen2015 & 2 (26) & - & - & 2 (26) \\
+Ruike2010 & 1 (16) & - & - & 1 (16) \\
+Schwarz1999 & 2 (18) & - & - & 2 (18) \\
+Schwarz2000 & - & 2 (18) & - & 2 (18) \\
+Schwarz2005 & - & - & 2 (19) & 2 (19) \\
+Schwarz2007 & 4 (45) & 4 (45) & - & 8 (90) \\
+Siegmund2003 & 2 (36) & - & - & 2 (36) \\
+Terhaag1983 & 3 (43) & - & - & 3 (43) \\
+Terhaag1989 & 5 (51) & 5 (54) & 3 (21) & 13 (126) \\
+Trausch1995 & 32 (335) & - & - & 32 (335) \\
+Tubic2006a & 2 (14) & 6 (59) & - & 8 (73) \\
+Wang2013 & - & - & 1 (13) & 1 (13) \\
+Westphal2000a & 4 (32) & 4 (32) & - & 8 (64) \\
+Westphal2000b & 2 (19) & 6 (51) & - & 8 (70) \\
+Wetterich1996 & 5 (30) & - & - & 5 (30) \\
+Xiao2012 & - & 1 (13) & - & 1 (13) \\
+Yan2013 & 1 (15) & - & - & 1 (15) \\
+Zeng2009 & 1 (12) & - & - & 1 (12) \\
+Zhang2005 & 1 (13) & 3 (39) & - & 4 (52) \\
+Total & 85 (874) & 64 (756) & 12 (90) & 161 (1720) \\
+\end{longtable}
+
+\subsection{Goodness of fit}
+
+\begin{longtable}{lrrrrrrrrrr}
+\caption{Goodness of fit of the fit PK\_20261020\_042735\_\_49b48 per kind of data, the parameter set PK\_20261020\_042735\_\_49b48\_0. The cost is defined on the training data only, 2-fold is the percentage of the data points with a positive value and prediction whose prediction is within twofold of the data.}\label{tab:metrics:PK_20261020_042735__49b48} \\
+\toprule
+Kind & n & cost & MSE & RMSE & NRMSE & RMSE\_w & R\ensuremath{^{2}} & 2-fold [\%] & AIC & BIC \\
+\midrule
+\endfirsthead
+\multicolumn{11}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Kind & n & cost & MSE & RMSE & NRMSE & RMSE\_w & R\ensuremath{^{2}} & 2-fold [\%] & AIC & BIC \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+training & 874 & 132 & 1.52e-05 & 0.0039 & 0.579 & 0.55 & 0.863 & 84.1 & -9678.5 & -9640.3 \\
+validation & 756 & - & 0.000413 & 0.0203 & 4.74 & 2.92 & -2.23 & 64.4 & -5875.2 & -5838.2 \\
+outlier & 90 & - & 0.00032 & 0.0179 & 2.36 & 3.36 & -6.11 & 21.7 & -708.2 & -688.2 \\
+\end{longtable}
+
+\subsection{Figures}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/traces.png}
+\caption{Cost of the optimizers over their steps, fit PK\_20261020\_042735\_\_49b48. The cost of every optimization run over its steps. Runs which end at the same cost found the same optimum; a run which stops much higher is stuck in a local minimum.}
+\label{fig:traces:PK_20261020_042735__49b48}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/waterfall.png}
+\caption{Cost of the optimization runs, ordered, fit PK\_20261020\_042735\_\_49b48. The final cost of the runs, ordered. A flat plateau at the left is the global optimum found repeatedly, which is the evidence that the multistart converged; steps to the right are local minima.}
+\label{fig:waterfall:PK_20261020_042735__49b48}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/goodness_of_fit.png}
+\caption{Prediction against the measured data points, per kind of fit mapping, with the agreement of the training data, the lines of twofold and the metrics of the panel, fit PK\_20261020\_042735\_\_49b48. Within twofold of the data are 691 of the 822 training data points (84.1\%), 463 of the 719 validation data points (64.4\%) and 18 of the 83 outlier data points (21.7\%); only the data points with a positive value and prediction are counted. Prediction against measurement, one point per data point, with a panel per kind of fit mapping. The points scatter around the diagonal when the model describes the data; a systematic deviation from it is a systematic error of the model. The band is the agreement of the training data, i.e. the same band the Bland-Altman plot draws, here as lines parallel to the diagonal. The dark red dotted lines are twofold, prediction = 2 x measurement and prediction = measurement / 2; the caption states the points between them of every kind. A point which is zero or negative is not drawn on the logarithmic axes and not counted, the title of a panel then states the points drawn of all. The validation panel shows how the fit describes data it was not fitted on, the outlier panel the data the fit dropped. The box of a panel carries its R\ensuremath{^{2}}, its normalized RMSE, the RMSE of the residuals of the cost, its fold errors GMFE and AFE and the percentages of its points within twofold and within two standard deviations of the data.}
+\label{fig:goodness_of_fit:PK_20261020_042735__49b48}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/bland_altman.png}
+\caption{Agreement of prediction and measurement as a ratio, per kind of fit mapping, with the agreement of the training data and the agreement of the panel, fit PK\_20261020\_042735\_\_49b48. The ratio of prediction and measurement over the geometric mean of the two, i.e. the goodness of fit with the diagonal turned into the horizontal. The band is the same, the bias and the limits of agreement \texttt{bias \ensuremath{\pm} 1.96 SD} of the training data as fold factors. A bias away from 1 is a systematic over- or underprediction, wide limits are a large scatter, and a trend over the mean is a model which describes the large or the small values better. The box of a panel carries the bias and the SD of its own points as fold factors and the share of them inside the limits of agreement of the training data.}
+\label{fig:bland_altman:PK_20261020_042735__49b48}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/profiles.png}
+\caption{Profile likelihood of every parameter: the cost with the parameter fixed and the other parameters optimized, the threshold of the confidence level and the confidence interval, fit PK\_20261020\_042735\_\_49b48. One profile per parameter. A profile which crosses the dashed threshold on both sides gives a finite confidence interval; one which stays below it up to a bound is practically non-identifiable; a flat profile is structurally non-identifiable, the parameter is compensated by the others.}
+\label{fig:profiles:PK_20261020_042735__49b48}
+\end{figure}
+
+\subsection{Provenance}
+
+\begin{longtable}{ll}
+\caption{Provenance of the fit PK\_20261020\_042735\_\_49b48: the versions it ran with and the revision of its models and data; the SHA-256 checksums of the models and data are listed in Table~\ref{tab:checksums:PK_20261020_042735__49b48}.}\label{tab:provenance:PK_20261020_042735__49b48} \\
+\toprule
+Item & Value \\
+\midrule
+\endfirsthead
+\multicolumn{2}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Item & Value \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Fit & \texttt{PK\_20261020\_042735\_\_49b48} \\
+Created & 2026-10-20 02:27:38 UTC \\
+Seed & 1234 \\
+Python & 3.14.4 \\
+sbmlsim & 0.10.0 \\
+libRoadRunner & 2.10.0 \\
+SciPy & 1.18.1 \\
+NumPy & 2.5.3 \\
+Repository & \texttt{/home/mkoenig/git/pkdb\_models-talinolol} \\
+Commit & \texttt{9597cdc55eeaa70a613cfdd136415a468c8583f8} \\
+Uncommitted changes & no \\
+\end{longtable}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

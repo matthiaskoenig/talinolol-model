@@ -1,0 +1,31 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	0.0	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID	A heparin lock was inserted into a forearm vein to take blood samples, with 5 mL venous blood over sodium EDTA taken at the following time points after dosing: 0, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 24 and 36 h. Blood samples were centrifuged and the separation of plasma was carried out within 30 min after which the samples were stored at −80°C until analysis.
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	0.25	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	0.5	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	0.75	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	1.0	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	1.5	hr	53.17	71.533775	18.363775	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	2.0	hr	69.6	80.6011	11.0011	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	2.5	hr	70.28	91.935814	21.655814	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	3.0	hr	49.76	61.886787	12.126787	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	4.0	hr	38.87	61.20088	22.33088	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	6.0	hr	29.67	57.44867	27.77867	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	8.0	hr	19.34	48.14032	28.80032	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	12.0	hr	14.1	34.73981	20.63981	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	24.0	hr	11.88	27.868736	15.988736	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID	36.0	hr	7.39	15.216077	7.826077	ng/ml	LC MS/MS	Fig1_TAL_MID	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	0.0	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	0.25	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	0.5	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	0.75	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	1.0	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	1.5	hr	46.93	40.46771	6.46229	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	2.0	hr	55.77	35.590153	20.179847	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	2.5	hr	55.77	36.153107	19.616893	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	3.0	hr	60.41	50.209675	10.200325	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	4.0	hr	40.91	28.094744	12.815256	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	6.0	hr	34.66	21.621433	13.038567	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	8.0	hr	21.5	8.798331	12.701669	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	12.0	hr	12.63	2.0862508	10.5437492	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	24.0	hr	9.27	4.511888	4.758112	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	midazolam	plasma	TAL, MID, GST	36.0	hr	9.21	2.40405	6.80595	ng/ml	LC MS/MS	Fig1_TAL_MID_GST 	NA

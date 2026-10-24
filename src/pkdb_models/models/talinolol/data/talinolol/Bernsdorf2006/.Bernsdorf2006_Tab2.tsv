@@ -1,0 +1,21 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Bernsdorf2006	all	cumulative amount	2-cis hydroxytalinolol	feces_urine	TAL_IV	0.033	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-cis hydroxytalinolol	feces_urine	TAL_IV	0.175	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-trans hydroxytalinolol	feces_urine	TAL_IV	0.057	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-cis hydroxytalinolol	feces_urine	TAL_IV	0.04	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-trans hydroxytalinolol	feces_urine	TAL_IV	0.289	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	2-cis hydroxytalinolol	feces_urine	TAL_IV, SIM	0.037	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-cis hydroxytalinolol	feces_urine	TAL_IV, SIM	0.176	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-trans hydroxytalinolol	feces_urine	TAL_IV, SIM	0.07	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-cis hydroxytalinolol	feces_urine	TAL_IV, SIM	0.051	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-trans hydroxytalinolol	feces_urine	TAL_IV, SIM	0.312	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	2-cis hydroxytalinolol	feces_urine	TAL_PO	0.107	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-cis hydroxytalinolol	feces_urine	TAL_PO	0.494	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-trans hydroxytalinolol	feces_urine	TAL_PO	0.168	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-cis hydroxytalinolol	feces_urine	TAL_PO	0.204	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-trans hydroxytalinolol	feces_urine	TAL_PO	0.981	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	2-cis hydroxytalinolol	feces_urine	TAL_CR, SIM	0.078	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-cis hydroxytalinolol	feces_urine	TAL_CR, SIM	0.44	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	3-trans hydroxytalinolol	feces_urine	TAL_CR, SIM	0.169	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-cis hydroxytalinolol	feces_urine	TAL_CR, SIM	0.133	NA	mg	7.0	day	LC MS/MS	NA
+Bernsdorf2006	all	cumulative amount	4-trans hydroxytalinolol	feces_urine	TAL_CR, SIM	0.945	NA	mg	7.0	day	LC MS/MS	NA

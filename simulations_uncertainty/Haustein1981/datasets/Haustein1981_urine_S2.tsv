@@ -1,0 +1,6 @@
+study	individual	count	measurement	substance	tissue	intervention	value	time	time_unit	method	label	comments	value_unit	count_unit
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	0	hr	scintillation counting	urine_S2	S2=JE, zero point added	mole	dimensionless
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	1.777190882955749e-05	8	hr	scintillation counting	urine_S2	S2=JE	mole	dimensionless
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	4.002682168819268e-05	24	hr	scintillation counting	urine_S2	S2=JE, sum of the intervals	mole	dimensionless
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	5.7592772073026314e-05	48	hr	scintillation counting	urine_S2	S2=JE, sum of the intervals	mole	dimensionless
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	6.905556156577504e-05	72	hr	scintillation counting	urine_S2	S2=JE	mole	dimensionless

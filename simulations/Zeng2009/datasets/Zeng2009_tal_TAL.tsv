@@ -1,0 +1,14 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	method	label	comments	mean_sd	mean_unit	count_unit
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	0.25	hr	0.00012413362494669803	52.50031		HPLC-ESI-MS/MS	Fig1_TAL		2.0298375493473088e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	0.5	hr	0.0001923512015295946	80.27443		HPLC-ESI-MS/MS	Fig1_TAL		2.848933272809805e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	0.75	hr	0.0002605687836146302	108.9649		HPLC-ESI-MS/MS	Fig1_TAL		3.92012269769873e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	1.0	hr	0.000353389427639995	140.4024		HPLC-ESI-MS/MS	Fig1_TAL		3.286732967441092e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	1.5	hr	0.0004395001306758002	169.08951		HPLC-ESI-MS/MS	Fig1_TAL		2.567685937908359e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	2.0	hr	0.0005043627285107085	196.86124		HPLC-ESI-MS/MS	Fig1_TAL		3.7216220305643815e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	2.5	hr				HPLC-ESI-MS/MS	Fig1_TAL	No values on the graph		mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	3.0	hr	0.000572580310595744	230.12035		HPLC-ESI-MS/MS	Fig1_TAL		6.049676061568935e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	4.0	hr	0.00048758794481354624	197.44577		HPLC-ESI-MS/MS	Fig1_TAL		5.559908664493322e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	6.0	hr	0.000412660421738951	163.84297		HPLC-ESI-MS/MS	Fig1_TAL		3.808297225546431e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	8.0	hr	0.00034667948665043536	137.2613		HPLC-ESI-MS/MS	Fig1_TAL		3.0935886325809154e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	12.0	hr	0.00020241607174789196	85.92789		HPLC-ESI-MS/MS	Fig1_TAL		3.397752376236261e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	TAL	24.0	hr	0.00014426340389826544	61.355316		HPLC-ESI-MS/MS	Fig1_TAL		2.4529333278311942e-05	mole/meter^3	dimensionless

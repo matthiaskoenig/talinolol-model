@@ -1,0 +1,81 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_25	22.0	11.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	S-talinolol	plasma	TAL_25	3.6	1.5	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_25	12.9	1.5	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	S-talinolol	plasma	TAL_25	0.054	0.006	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_25	14.0	3.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	S-talinolol	plasma	TAL_25	226.0	81.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	S-talinolol	plasma	TAL_25	18.4	2.6	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_25	1062.0	438.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	S-talinolol	plasma	TAL_25	3.56	1.2	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	S-talinolol	plasma	TAL_25	53.9	33.0	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_25	24.0	10.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	R-talinolol	plasma	TAL_25	3.5	1.6	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_25	14.0	4.4	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	R-talinolol	plasma	TAL_25	0.053	0.012	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_25	15.0	5.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	R-talinolol	plasma	TAL_25	274.0	77.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	R-talinolol	plasma	TAL_25	20.0	5.4	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_25	830.0	285.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	R-talinolol	plasma	TAL_25	3.81	1.64	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	R-talinolol	plasma	TAL_25	49.5	29.8	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_50	72.0	32.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	S-talinolol	plasma	TAL_50	3.0	1.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_50	12.9	1.5	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	S-talinolol	plasma	TAL_50	0.054	0.006	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_50	12.0	5.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	S-talinolol	plasma	TAL_50	582.0	222.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	S-talinolol	plasma	TAL_50	17.7	1.9	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_50	861.0	480.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	S-talinolol	plasma	TAL_50	2.89	1.04	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	S-talinolol	plasma	TAL_50	45.0	31.3	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_50	72.0	33.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	R-talinolol	plasma	TAL_50	3.0	1.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_50	14.0	4.4	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	R-talinolol	plasma	TAL_50	0.053	0.012	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_50	12.0	2.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	R-talinolol	plasma	TAL_50	656.0	218.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	R-talinolol	plasma	TAL_50	19.4	4.8	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_50	711.0	270.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	R-talinolol	plasma	TAL_50	3.27	1.4	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	R-talinolol	plasma	TAL_50	42.7	30.3	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_100	159.0	64.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	S-talinolol	plasma	TAL_100	2.8	1.2	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_100	12.9	1.5	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	S-talinolol	plasma	TAL_100	0.054	0.006	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_100	12.0	2.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	S-talinolol	plasma	TAL_100	1536.0	344.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	S-talinolol	plasma	TAL_100	17.8	1.9	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_100	578.0	177.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	S-talinolol	plasma	TAL_100	2.93	0.91	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	S-talinolol	plasma	TAL_100	45.2	25.3	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_100	164.0	61.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	R-talinolol	plasma	TAL_100	2.8	1.2	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_100	14.0	4.4	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	R-talinolol	plasma	TAL_100	0.053	0.012	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_100	18.0	4.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	R-talinolol	plasma	TAL_100	1764.0	443.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	R-talinolol	plasma	TAL_100	19.5	5.3	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_100	508.0	139.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	R-talinolol	plasma	TAL_100	3.37	1.72	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	R-talinolol	plasma	TAL_100	46.5	24.7	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_400	791.0	271.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	S-talinolol	plasma	TAL_400	2.0	1.1	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_400	12.9	1.5	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	S-talinolol	plasma	TAL_400	0.054	0.006	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	S-talinolol	plasma	TAL_400	11.0	1.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	S-talinolol	plasma	TAL_400	6985.0	1408.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	S-talinolol	plasma	TAL_400	16.6	1.8	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_400	498.0	112.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	S-talinolol	plasma	TAL_400	1.82	1.03	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	S-talinolol	plasma	TAL_400	64.0	31.3	percent	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	cmax	S-talinolol	plasma	TAL_400	824.0	269.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	tmax	R-talinolol	plasma	TAL_400	2.0	1.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_400	14.0	4.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	kel	R-talinolol	plasma	TAL_400	0.053	0.012	1/hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	thalf	R-talinolol	plasma	TAL_400	11.0	1.0	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	auc_inf	R-talinolol	plasma	TAL_400	7701.0	1688.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mrt	R-talinolol	plasma	TAL_400	18.1	4.8	hr	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_400	452.0	99.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	healthy	12	mit	R-talinolol	plasma	TAL_400	1.94	1.32	hr	NA	NA	HPLC	mean input time
+Wetterich1996	healthy	12	bioavailability	R-talinolol	plasma	TAL_400	63.5	31.8	percent	NA	NA	HPLC	NA

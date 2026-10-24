@@ -1,0 +1,61 @@
+study	individual	measurement	substance	tissue	intervention	time	time_unit	value	unit	method	label	comments
+Fan2009b	Figa_S1	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	139.23799	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S2	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	173.66838	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S3	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	189.88095	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S4	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	212.15608	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S5	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	208.1021	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S6	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	307.34262	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S7	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	333.67172	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S8	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	408.6118	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S9	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	412.6624	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S10	cmax	talinolol	plasma	GBEAC, TAL	NA	NA	485.57047	ng/ml	HPLC	Fig2a_GBEAC, TAL	NA
+Fan2009b	Figa_S1	cmax	talinolol	plasma	TAL	NA	NA	201.52066	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S2	cmax	talinolol	plasma	TAL	NA	NA	102.27681	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S3	cmax	talinolol	plasma	TAL	NA	NA	308.8591	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S4	cmax	talinolol	plasma	TAL	NA	NA	296.70383	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S5	cmax	talinolol	plasma	TAL	NA	NA	290.6279	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S6	cmax	talinolol	plasma	TAL	NA	NA	397.96967	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S7	cmax	talinolol	plasma	TAL	NA	NA	404.05566	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S8	cmax	talinolol	plasma	TAL	NA	NA	393.92572	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S9	cmax	talinolol	plasma	TAL	NA	NA	418.22952	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S10	cmax	talinolol	plasma	TAL	NA	NA	436.454	ng/ml	HPLC	Fig2a_TAL	NA
+Fan2009b	Figa_S1	cmax	talinolol	plasma	GBECR, TAL	NA	NA	267.84726	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S2	cmax	talinolol	plasma	GBECR, TAL	NA	NA	352.9072	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S3	cmax	talinolol	plasma	GBECR, TAL	NA	NA	439.99918	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S4	cmax	talinolol	plasma	GBECR, TAL	NA	NA	306.32492	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S5	cmax	talinolol	plasma	GBECR, TAL	NA	NA	391.39493	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S6	cmax	talinolol	plasma	GBECR, TAL	NA	NA	480.50885	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S7	cmax	talinolol	plasma	GBECR, TAL	NA	NA	456.2084	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S8	cmax	talinolol	plasma	GBECR, TAL	NA	NA	502.79068	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S9	cmax	talinolol	plasma	GBECR, TAL	NA	NA	365.06247	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figa_S10	cmax	talinolol	plasma	GBECR, TAL	NA	NA	717.4709	ng/ml	HPLC	Fig2a_GBECR, TAL	NA
+Fan2009b	Figb_S1	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	1311.7085	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S2	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	1441.9348	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S3	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	1609.5594	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S4	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	1944.2365	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S5	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2093.0664	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S6	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2781.4058	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S7	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2911.823	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S8	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	3376.917	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S9	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	5962.6494	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S10	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	5720.8003	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S1	auc_end	talinolol	plasma	TAL	24.0	hr	2139.5283	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S2	auc_end	talinolol	plasma	TAL	24.0	hr	3032.1272	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S3	auc_end	talinolol	plasma	TAL	24.0	hr	2139.5283	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S4	auc_end	talinolol	plasma	TAL	24.0	hr	3032.6997	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S5	auc_end	talinolol	plasma	TAL	24.0	hr	1711.4508	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S6	auc_end	talinolol	plasma	TAL	24.0	hr	3627.6384	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S7	auc_end	talinolol	plasma	TAL	24.0	hr	2641.6392	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S8	auc_end	talinolol	plasma	TAL	24.0	hr	2827.4858	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S9	auc_end	talinolol	plasma	TAL	24.0	hr	3366.995	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S10	auc_end	talinolol	plasma	TAL	24.0	hr	4706.6567	ng*hr/ml	HPLC	Fig2b_TAL	NA
+Fan2009b	Figb_S1	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2167.1953	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S2	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	3451.2366	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S3	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2428.0298	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S4	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	3116.1782	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S5	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2911.7275	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S6	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	4418.4414	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S7	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	2465.2373	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S8	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	4548.668	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S9	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	3748.706	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA
+Fan2009b	Figb_S10	auc_end	talinolol	plasma	GBECR, TAL	24.0	hr	6929.568	ng*hr/ml	HPLC	Fig2b_GBECR, TAL	NA

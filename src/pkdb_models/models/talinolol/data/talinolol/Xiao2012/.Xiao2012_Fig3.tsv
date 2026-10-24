@@ -1,0 +1,31 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	0.0	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	0.25	hr	29.87	20.525293	9.344707	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	0.5	hr	46.13	31.895275	14.234725	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	0.75	hr	65.63	51.40517	14.22483	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	1.0	hr	76.61	58.108204	18.501796	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	1.5	hr	72.33	58.097633	14.232367	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	2.0	hr	69.47	56.87105	12.59895	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	2.5	hr	65.6	55.23356	10.36644	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	3.0	hr	60.71	43.63918	17.07082	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	4.0	hr	51.75	40.16005	11.58995	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	6.0	hr	45.2	33.617992	11.582008	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	8.0	hr	41.1	20.973866	20.126134	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	12.0	hr	26.99	9.305495	17.684505	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	24.0	hr	18.82	4.391026	14.428974	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID	36.0	hr	7.8	2.7215993	5.0784007	ng/ml	LC MS/MS	Fig3_TAL_MID	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	0.0	hr	NA	NA	NA	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	0.25	hr	10.77	20.526175	9.756175	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	0.5	hr	12.18	31.490526	19.310526	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	0.75	hr	57.51	69.69906	12.18906	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	1.0	hr	73.76	89.410446	15.650446	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	1.5	hr	72.94	84.32025	11.38025	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	2.0	hr	71.1	82.2736	11.1736	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	2.5	hr	64.18	74.74698	10.56698	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	3.0	hr	58.68	76.767204	18.087204	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	4.0	hr	53.37	68.210205	14.840205	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	6.0	hr	49.06	63.291553	14.231553	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	8.0	hr	41.5	59.79569	18.29569	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	12.0	hr	25.97	43.250065	17.280065	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	24.0	hr	19.84	30.000353	10.160353	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA
+Xiao2012	all	18	concentration	1-hydroxymidazolam	plasma	TAL, MID, GST	36.0	hr	7.8	15.323447	7.523447	ng/ml	LC MS/MS	Fig3_TAL_MID_GST 	NA

@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Giessmann2004	TAL_IV	0	30.0	min	iv	single dose	dosing	solution	talinolol	30.0	mg	Talinolol (Cordanum) and carbamazepine (Finlepsin retard) were purchased from Arzneimittelwerk Dresden GmbH (Dresden, Germany).
+Giessmann2004	TAL_PO	S0T1R15	NA	days	oral	multiple dose	dosing	tablet	talinolol	100.0	mg	oral talinolol, fast-releasing tablets containing 100 mg talinolol were swallowed after overnight fasting at 8 AM for 19 days. An individual breakfast was allowed 1 hour later. This long-term treatment started on the 11th study day. 
+Giessmann2004	CBZ	S16T1R18	NA	hr	oral	multiple dose	dosing	tablet	carbamazepine	600.0	mg	After 12 hours, 600 mg carbamazepine was given orally with 200 mL tap water.

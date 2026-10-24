@@ -1,0 +1,5 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Schwarz1999	all	9	cumulative amount	talinolol	urine	TAL	0.0	0.0	mg	0	hr	HPLC	TAL_urine	zero time point added
+Schwarz1999	all	9	cumulative amount	talinolol	urine	TAL	12.9	2.8	mg	48	hr	HPLC	TAL_urine	NA
+Schwarz1999	all	9	cumulative amount	talinolol	urine	RVER, TAL	0.0	0.0	mg	0	hr	HPLC	RVER_TAL_urine	zero time point added
+Schwarz1999	all	9	cumulative amount	talinolol	urine	RVER, TAL	9.5	3.0	mg	48	hr	HPLC	RVER_TAL_urine	NA

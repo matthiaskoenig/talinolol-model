@@ -1,0 +1,15 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Giessmann2004	all	NA	species	8	homo sapiens	8	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	sex	8	M	4	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	sex	8	F	4	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	healthy	8	Y	8	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	age	8	NA	8	NA	NA	NA	23.0	35.0	NA	yr	NA
+Giessmann2004	all	NA	weight	8	NA	8	NA	NA	NA	64.0	93.0	NA	kg	NA
+Giessmann2004	all	NA	smoking	8	N	5	NA	NA	NA	NA	NA	NA	NA	 Five subjects were nonsmokers, and 3 were smokers of less than 10 cigarettes per day.
+Giessmann2004	all	NA	smoking	8	Y	3	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	smoking amount (cigarettes)	8	NA	3	NA	NA	NA	NA	9.0	NA	1/day	NA
+Giessmann2004	all	NA	medication	8	N	8	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	oral contraceptives	8	NR	4	NA	NA	NA	NA	NA	NA	NA	NA
+Giessmann2004	all	NA	overnight fast	8	Y	8	NA	NA	NA	NA	NA	NA	NA	To achieve steady-state treatment conditions with oral talinolol, fast-releasing tablets containing 100 mg talinolol were swallowed after overnight fasting at 8 AM for 19 days.
+Giessmann2004	all	NA	abstinence alcohol	8	NA	8	NA	NA	NA	1.0	NA	NA	day	NA
+Giessmann2004	arm_2_arm_3	all	species	7	homo sapiens	7	NA	NA	NA	NA	NA	NA	NA	The biometric evaluation included data from 7 healthy volunteers because 1 subject did not complete the study (because of gastrointestinal adverse effects and technical problems during the second gastroduodenoscopy).

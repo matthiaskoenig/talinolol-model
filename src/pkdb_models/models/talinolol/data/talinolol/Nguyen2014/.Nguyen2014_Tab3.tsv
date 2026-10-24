@@ -1,0 +1,11 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	median	unit	time	time_unit	method	comments
+Nguyen2014	all	cmax	quercetin	plasma	QRC_LOW, TAL, QRC	5872.5	2317.2	5851.3	ng/ml	NA	NA	HPLC	NA
+Nguyen2014	all	tmax	quercetin	plasma	QRC_LOW, TAL, QRC	3.7	1.5	3.5	hr	NA	NA	HPLC	NA
+Nguyen2014	all	auc_end	quercetin	plasma	QRC_LOW, TAL, QRC	47314.5	14119.2	50413.9	nmol*hr/l	24.0	hr	HPLC	NA
+Nguyen2014	all	auc_inf	quercetin	plasma	QRC_LOW, TAL, QRC	79352.5	38890.2	71224.7	nmol*hr/l	NA	NA	HPLC	NA
+Nguyen2014	all	thalf	quercetin	plasma	QRC_LOW, TAL, QRC	29.7	17.7	31.9	hr	NA	NA	HPLC	NA
+Nguyen2014	all	cmax	quercetin	plasma	QRC_CR, TAL, QRC	8933.3	3772.9	9635.9	ng/ml	NA	NA	HPLC	NA
+Nguyen2014	all	tmax	quercetin	plasma	QRC_CR, TAL, QRC	2.8	1.8	2.0	hr	NA	NA	HPLC	NA
+Nguyen2014	all	auc_end	quercetin	plasma	QRC_CR, TAL, QRC	88494.9	46398.3	87552.6	nmol*hr/l	24.0	hr	HPLC	NA
+Nguyen2014	all	auc_inf	quercetin	plasma	QRC_CR, TAL, QRC	156320.2	103290.1	139311.3	nmol*hr/l	NA	NA	HPLC	NA
+Nguyen2014	all	thalf	quercetin	plasma	QRC_CR, TAL, QRC	26.0	8.6	24.2	hr	NA	NA	HPLC	NA

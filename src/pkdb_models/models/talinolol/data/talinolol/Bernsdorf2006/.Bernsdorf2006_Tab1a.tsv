@@ -1,0 +1,17 @@
+study	group	count	measurement	substance	tissue	intervention	method	geometric_mean	mean	sd	gsd	unit	time	time_unit	label	comments
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_IV	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_IV_urine	Mean is geometric mean, zero timepoint added
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_IV	HPLC	13.0	13.0	NA	1.465	mg	3	day	Tab1a_TAL_IV_urine	Mean is geometric mean; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_IV	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_IV_feces	Mean is geometric mean, zero timepoint added
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_IV	HPLC	6.3	6.3	NA	1.797	mg	7	day	Tab1a_TAL_IV_feces	Mean is geometric mean; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_IV, SIM	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_IV_SIM_urine	MEAN IS GEOMETRIC MEAN
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_IV, SIM	HPLC	14.4	14.4	NA	1.606	mg	3	day	Tab1a_TAL_IV_SIM_urine	MEAN IS GEOMETRIC MEAN; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_IV, SIM	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_IV_SIM_feces	MEAN IS GEOMETRIC MEAN
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_IV, SIM	HPLC	8.5	8.5	NA	1.524	mg	7	day	Tab1a_TAL_IV_SIM_feces	MEAN IS GEOMETRIC MEAN; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_PO	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_PO_urine	MEAN IS GEOMETRIC MEAN
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_PO	HPLC	31.2	31.2	NA	1.313	mg	3	day	Tab1a_TAL_PO_urine	MEAN IS GEOMETRIC MEAN; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_PO	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_PO_feces	MEAN IS GEOMETRIC MEAN
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_PO	HPLC	31.6	31.6	NA	1.838	mg	7	day	Tab1a_TAL_PO_feces	MEAN IS GEOMETRIC MEAN; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_CR, SIM	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_CR_SIM_urine	MEAN IS GEOMETRIC MEAN
+Bernsdorf2006	all	18	cumulative amount	talinolol	urine	TAL_CR, SIM	HPLC	34.5	34.5	NA	1.461	mg	3	day	Tab1a_TAL_CR_SIM_urine	MEAN IS GEOMETRIC MEAN; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_CR, SIM	HPLC	0.0	0.0	NA	NA	mg	0	day	Tab1a_TAL_CR_SIM_feces	MEAN IS GEOMETRIC MEAN
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_CR, SIM	HPLC	39.1	39.1	NA	1.600	mg	7	day	Tab1a_TAL_CR_SIM_feces	MEAN IS GEOMETRIC MEAN; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1

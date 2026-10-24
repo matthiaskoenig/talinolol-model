@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	cv	time	time_unit	method	label	comments	mean_unit	count_unit
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	TAL_IV	0.0	0.0		0.0	hr	HPLC	Tab2a_TAL_IV_urine	zero time point added	mole	dimensionless
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	TAL_IV	5.9232286551396846e-05	1.617620091991127e-05	0.273097694884274	48.0	hr	HPLC	Tab2a_TAL_IV_urine	Ae0-48 = clearance_renal * auc_inf (Table II, CLR = Ae0-48/AUC); SD by the propagated CV of CLR and AUC	mole	dimensionless

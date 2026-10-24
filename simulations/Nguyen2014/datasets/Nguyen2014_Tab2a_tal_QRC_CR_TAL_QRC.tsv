@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	median	time	time_unit	method	label	comments	mean_unit	median_unit	count_unit
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_CR, TAL, QRC	0.0	0.0	0.0	0	hr	HPLC	Tab2a_QRC_CR_TAL_QRC	zero time point added	mole	mg	dimensionless
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_CR, TAL, QRC	0.00010151446374778193	5.529649651301944e-05	28.6	48	hr	HPLC	Tab2a_QRC_CR_TAL_QRC		mole	mg	dimensionless

@@ -1,0 +1,13 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	0	hr			HPLC	Fig2_TAL	Total urine was collected at 2hour intervals between 0 and 16 hours, then at 24, 36 and 48 hours after medication.	mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	2	hr	5.001136466801469e-06		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	4	hr	1.658796957317157e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	6	hr	2.7379977716337223e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	8	hr	3.487887866408066e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	10	hr	4.1469753366621276e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	12	hr	4.681144444902956e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	14	hr	5.192603749707699e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	16	hr	5.6586539017042877e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	24	hr	7.102696048088694e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	36	hr	8.104942296317692e-05		HPLC	Fig2_TAL		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	48	hr	8.664365947261999e-05		HPLC	Fig2_TAL		mole	dimensionless

@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	cv	time	time_unit	method	label	comments	mean_unit	count_unit
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_PO	0.0	0.0		6.0	day	HPLC	Tab1a_TAL_PO_urine	zero time point added	mole	dimensionless
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_PO	7.445219329014154e-05	3.750780615964456e-05	0.503784971624418	7.0	day	HPLC	Tab1a_TAL_PO_urine	cl_renal*AUC0-24,ss (urine of 24 hr); the AUC of Table I is normalized to the IV dose of 30 mg, times 100/30 (was 30 mg AUC)	mole	dimensionless

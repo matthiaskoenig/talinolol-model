@@ -1,0 +1,91 @@
+study	group	count	intervention	measurement_type	substance	tissue	mean	pm	sd	unit	method
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	duodenum	13.71	26.48	12.77	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	jejunum_1	22.0	39.85	17.85	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	jejunum_2	20.05	29.7	9.64	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	ileum_1	13.45	25.89	12.44	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	ileum_2	19.88	40.52	20.64	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	colon_1	9.81	17.01	7.19	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	colon_2	7.87	17.01	9.14	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	colon_3	16.75	41.29	24.53	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLCO2B1	colon_4	9.81	15.4	5.58	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	duodenum	0.45	0.75	0.3	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	jejunum_1	0.48	1.19	0.71	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	jejunum_2	0.43	0.74	0.31	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	ileum_1	0.59	1.57	0.97	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	ileum_2	0.3	0.54	0.24	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	colon_1	0.3	0.64	0.33	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	colon_2	0.21	0.31	0.1	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	colon_3	0.45	1.12	0.67	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A1	colon_4	0.28	0.54	0.27	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	duodenum	1.28	2.55	1.27	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	jejunum_1	1.47	3.57	2.1	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	jejunum_2	2.18	4.69	2.51	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	ileum_1	2.48	4.38	1.9	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	ileum_2	2.75	4.46	1.71	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	colon_1	1.46	2.42	0.96	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	colon_2	3.11	6.83	3.72	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	colon_3	1.2	2.74	1.54	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC22A3	colon_4	1.59	3.09	1.5	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	duodenum	41.53	95.6	54.07	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	jejunum_1	70.76	149.42	78.65	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	jejunum_2	115.61	165.37	49.75	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	ileum_1	60.47	94.85	34.39	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	ileum_2	53.82	95.6	41.78	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	colon_1	1.16	2.91	1.74	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	colon_2	1.41	2.91	1.5	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	colon_3	2.16	5.15	2.99	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC15A1	colon_4	3.41	5.4	1.99	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	duodenum	7.76	21.72	13.97	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	jejunum_1	7.57	19.79	12.22	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	jejunum_2	1.88	3.88	2.01	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	ileum_1	8.49	22.11	13.62	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	ileum_2	29.77	56.57	26.8	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	colon_1	0.32	1.02	0.7	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	colon_2	0.64	1.42	0.79	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	colon_3	NA	NA	NA	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	SLC10A2	colon_4	0.97	3.32	2.36	mRNA/18S*10-8	Qrt-pcr
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	duodenum	0.42711997	0.6093962	0.18227623	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	jejunum_1	0.5541435	0.8750301	0.3208866	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	jejunum_2	0.4856046	0.8102887	0.3246841	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	ileum_1	0.45693672	0.73984605	0.28290933	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	ileum_2	0.47952715	0.7016819	0.22215475	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	colon_1	0.4715585	0.651936	0.1803775	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	colon_2	0.7276987	1.2593452	0.5316465	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	colon_3	0.6363674	0.9667477	0.3303803	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OATP2B1	colon_4	0.5868184	0.9115	0.3246816	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	duodenum	0.6634273	1.019934	0.3565067	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	jejunum_1	0.6495908	0.9586887	0.3090979	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	jejunum_2	0.56368524	1.0036391	0.43995386	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	ileum_1	0.80016726	1.3216492	0.52148194	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	ileum_2	0.8413098	1.3040199	0.4627101	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	colon_1	0.46468496	0.8667118	0.40202684	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	colon_2	0.6897813	1.089927	0.4001457	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	colon_3	0.71767974	1.3245051	0.60682536	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT1	colon_4	0.6298626	1.1001582	0.4702956	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	duodenum	0.066238984	0.11186586	0.045626876	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	jejunum_1	0.056131233	0.097956255	0.041825022	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	jejunum_2	0.06249958	0.09450206	0.03200248	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	ileum_1	0.053025957	0.07869089	0.025664933	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	ileum_2	0.068583556	0.09678334	0.028199784	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	colon_1	0.12631384	0.2273914	0.10107756	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	colon_2	0.107334524	0.18559887	0.078264346	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	colon_3	0.11623772	0.17992751	0.06368979	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	OCT3	colon_4	0.13496388	0.19833471	0.06337083	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	duodenum	2.6065164	4.461153	1.8546366	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	jejunum_1	3.4987469	4.8721805	1.3734336	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	jejunum_2	4.2105265	4.962406	0.751879499999999	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	ileum_1	4.601504	6.6666665	2.0651625	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	ileum_2	4.8922305	6.6867166	1.7944861	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	colon_1	0.28070176	0.60150373	0.32080197	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	colon_2	0.20050125	0.3709273	0.17042605	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	colon_3	0.160401	0.36090225	0.20050125	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	PEPT1	colon_4	0.28070176	0.46115288	0.18045112	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	duodenum	0.030368289	0.069682635	0.039314346	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	jejunum_1	0.016805474	0.0430342	0.026228726	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	jejunum_2	0.068802975	0.10376503	0.034962055	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	ileum_1	0.19947517	0.47038078	0.27090561	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	ileum_2	1.5798064	2.759576	1.1797696	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	colon_1	0.032116104	0.08456206	0.052445956	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	colon_2	0.022951573	0.066623956	0.043672383	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	colon_3	NA	NA	NA	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ASBT	colon_4	0.026429957	0.048283394	0.021853437	pmol/mg	LC MS/MS

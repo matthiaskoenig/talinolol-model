@@ -1,0 +1,8 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	1.0	hr	337.231382575758	197.915727272727	139.31565530303	ng/ml	scintillation counting	plasma_mean	NA
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	2.0	hr	663.710151515152	387.08875	276.621401515152	ng/ml	scintillation counting	plasma_mean	NA
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	3.0	hr	688.417234848485	388.963863636364	299.453371212121	ng/ml	scintillation counting	plasma_mean	NA
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	4.0	hr	494.242234848485	305.162746212121	189.079488636364	ng/ml	scintillation counting	plasma_mean	NA
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	5.0	hr	382.901458333333	237.921439393939	144.980018939394	ng/ml	scintillation counting	plasma_mean	NA
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	6.0038424	hr	308.151041666667	231.647215909091	76.5038257575758	ng/ml	scintillation counting	plasma_mean	NA
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	7.9985557	hr	164.961526515152	114.899393939394	50.0621325757576	ng/ml	scintillation counting	plasma_mean	NA

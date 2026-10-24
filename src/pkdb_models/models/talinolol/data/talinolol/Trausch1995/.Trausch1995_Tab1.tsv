@@ -1,0 +1,29 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Trausch1995	all	cmax	talinolol	serum	TAL_IV	631.0	95.0	ng/ml	NA	NA	HPLC	NA
+Trausch1995	all	tmax	talinolol	serum	TAL_IV	0.5	0.0	h	NA	NA	HPLC	NA
+Trausch1995	all	auc_end	talinolol	serum	TAL_IV	1334.0	114.0	ng*hr/ml	36.0	hr	HPLC	NA
+Trausch1995	all	auc_inf	talinolol	serum	TAL_IV	1433.0	153.0	ng*hr/ml	NA	NA	HPLC	NA
+Trausch1995	all	mrt	talinolol	serum	TAL_IV	11.6	3.1	hr	NA	NA	HPLC	NA
+Trausch1995	all	vd	talinolol	serum	TAL_IV	3.3	0.5	l/kg	NA	NA	HPLC	NA
+Trausch1995	all	thalf	talinolol	serum	TAL_IV	10.6	3.3	hr	NA	NA	HPLC	NA
+Trausch1995	all	clearance	talinolol	serum	TAL_IV	4.9	0.6	ml/min/kg	NA	NA	HPLC	NA
+Trausch1995	all	clearance_renal	talinolol	serum	TAL_IV	2.8	0.7	ml/min/kg	NA	NA	HPLC	NA
+Trausch1995	all	clearance	talinolol4transoh+talinolol3cisoh+talinolol2cisoh	serum	TAL_IV	0.017	0.01	ml/min/kg	NA	NA	HPLC	NA
+Trausch1995	all	clearance_nonrenal	talinolol	serum	TAL_IV	2.1	0.7	ml/min/kg	NA	NA	HPLC	NA
+Trausch1995	all	cumulative amount	talinolol	urine	TAL_IV	43.66	8.76	µmol	36.0	hr	HPLC	NA
+Trausch1995	all	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	0.02	0.03	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	0.13	0.08	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	0.12	0.06	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cumulative amount	talinolol4transoh+talinolol3cisoh+talinolol2cisoh	urine	TAL_IV	0.27	0.15	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cmax	talinolol	serum	TAL_PO	168.0	67.0	ng/ml	NA	NA	HPLC	NA
+Trausch1995	all	tmax	talinolol	serum	TAL_PO	3.2	0.8	h	NA	NA	HPLC	NA
+Trausch1995	all	auc_end	talinolol	serum	TAL_PO	1180.0	337.0	ng*hr/ml	36.0	hr	HPLC	NA
+Trausch1995	all	auc_inf	talinolol	serum	TAL_PO	1321.0	382.0	ng*hr/ml	NA	NA	HPLC	NA
+Trausch1995	all	thalf	talinolol	serum	TAL_PO	11.9	2.4	hr	NA	NA	HPLC	NA
+Trausch1995	all	cumulative amount	talinolol	urine	TAL_PO	38.68	9.3	µmol	36.0	hr	HPLC	NA
+Trausch1995	all	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	0.01	0.02	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	0.16	0.11	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	0.19	0.13	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	cumulative amount	talinolol4transoh+talinolol3cisoh+talinolol2cisoh	urine	TAL_PO	0.36	0.23	µmol	36.0	hr	HPLC	GC/MS, HPLC
+Trausch1995	all	bioavailability	talinolol	serum	TAL_PO	55.0	22.0	percent	NA	NA	HPLC	NA
+Trausch1995	all	bioavailability	talinolol	serum	TAL_PO	54.0	16.0	percent	NA	NA	HPLC	NA

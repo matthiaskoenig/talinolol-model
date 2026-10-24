@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Westphal2000a	TAL_IV	0	2.0	hr	iv	constant infusion	dosing	solution	talinolol	30.0	mg	(1) 30 mg talinolol (Cordanum, Arzneimittelwerk Dresden GmbH, Germany) in 250 mL saline solution infused intravenously for 2 hours,
+Westphal2000a	TAL_PO	0	NA	hr	oral	single dose	dosing	tablet	talinolol	100.0	mg	(2) 100 mg oral talinolol,
+Westphal2000a	DGX	0	NA	hr	oral	single dose	dosing	tablet	digoxin	0.5	mg	(3) 0.5 mg digoxin (2 tablets Lanicor, Boehringer Mannheim, Germany),

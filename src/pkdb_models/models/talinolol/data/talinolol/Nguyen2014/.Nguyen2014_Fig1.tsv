@@ -1,0 +1,46 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	0.5	hr	74.50397	115.66728	41.16331000000001	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	1.0	hr	130.21712	243.63937	113.42225000000002	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	2.0	hr	218.82181	410.54477	191.72296000000003	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	3.0	hr	247.69609	346.5777	98.88161	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	4.0	hr	198.04688	309.4555	111.40861999999998	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	5.0	hr	161.82048	237.4355	75.61501999999999	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	6.0	hr	126.264656	172.12614	45.86148399999999	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	8.0	hr	100.79117	145.75761	44.966440000000006	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	10.0	hr	94.10963	136.83875	42.72912000000001	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	12.0	hr	82.730095	114.94449	32.214394999999996	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	16.0	hr	69.36701	95.31704	25.950030000000012	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	24.0	hr	52.70795	68.590866	15.882916000000009	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	36.0	hr	29.396086	37.897205	8.501119	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL	48.0	hr	25.549	33.602505	8.053505000000001	ng/ml	HPLC	Fig1_QRC_LOW_TAL	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	0.5	hr	57.50173	30.657223	26.844507000000004	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	1.0	hr	89.72589	44.087177	45.63871300000001	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	2.0	hr	182.80467	53.49818	129.30649	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	3.0	hr	162.68547	57.092247	105.59322300000001	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	4.0	hr	126.010704	55.764244	70.24646000000001	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	5.0	hr	127.36801	65.62305	61.74495999999999	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	6.0	hr	89.35247	58.92704	30.42543	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	8.0	hr	80.88065	48.21846	32.66219	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	10.0	hr	67.48751	40.194073	27.293436999999997	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	12.0	hr	63.491096	37.09251	26.398586	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	16.0	hr	49.680958	28.65075	21.030208	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	24.0	hr	37.27133	20.716146	16.555184	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	36.0	hr	29.84389	NA	NA	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	25.996239	NA	NA	ng/ml	HPLC	Fig1_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	0.5	hr	51.238125	22.156103	29.082021999999995	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	1.0	hr	84.80306	38.7173	46.08576	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	2.0	hr	222.17827	79.89564	142.28262999999998	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	3.0	hr	197.137	108.54639	88.59061	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	4.0	hr	177.91264	101.401825	76.51081500000001	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	5.0	hr	145.26624	101.41798	43.84826000000001	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	6.0	hr	117.54039	84.430016	33.11037400000001	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	8.0	hr	101.461555	63.430237	38.031318000000006	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	10.0	hr	78.22652	54.511745	23.714774999999996	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	12.0	hr	60.806908	37.53919	23.267718000000002	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	16.0	hr	49.67908	29.098928	20.580152	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	24.0	hr	33.24411	18.031958	15.212152	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	36.0	hr	19.552685	12.394976	7.1577090000000005	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_CR, TAL, QRC	48.0	hr	16.15284	NA	NA	ng/ml	HPLC	Fig1_QRC_CR_TAL_QRC	NA

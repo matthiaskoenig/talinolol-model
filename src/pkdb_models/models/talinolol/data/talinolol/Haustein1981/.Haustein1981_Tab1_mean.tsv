@@ -1,0 +1,6 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	percent_of_adminitstration_mean	unit	time_start	time_end	time	time_unit	method	comments
+Haustein1981	arm_2_arm_3	5.0	cumulative amount	talinolol	urine	TAL_PO_100	6.23873873873874	2.6463963963964	0.702560668776885	mg	NA	NA	8.0	hr	scintillation counting	NA
+Haustein1981	arm_2_arm_3	5.0	cumulative amount	talinolol	urine	TAL_PO_100	14.2905405405405	6.10681312749509	1.60929510591672	mg	NA	NA	24.0	hr	scintillation counting	sum of the intervals
+Haustein1981	arm_2_arm_3	5.0	cumulative amount	talinolol	urine	TAL_PO_100	20.8220720720721	9.20801793655222	2.34482793604416	mg	NA	NA	48.0	hr	scintillation counting	sum of the intervals
+Haustein1981	arm_2_arm_3	5.0	cumulative amount	talinolol	urine	TAL_PO_100	24.0	3.28828828828829	2.7027027027027	mg	NA	NA	72.0	hr	scintillation counting	sd from text
+Haustein1981	arm_2_arm_3	5.0	thalf	talinolol	urine	TAL_PO_100	2.5	NA	NA	hr	NA	NA	NA	NA	scintillation counting	NA

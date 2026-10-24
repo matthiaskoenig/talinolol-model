@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_IV	0.0		0.0	day	HPLC	Tab3a_TAL_IV_urine	zero point added, clearance_renal*auc	mole	dimensionless
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_IV	3.9709487063095783e-05	9.023536399288132e-06	3.0	day	HPLC	Tab3a_TAL_IV_urine	clearnace_renal*auc	mole	dimensionless

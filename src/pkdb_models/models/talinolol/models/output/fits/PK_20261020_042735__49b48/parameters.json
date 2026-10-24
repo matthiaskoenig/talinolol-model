@@ -1,0 +1,29 @@
+{
+  "sets": [
+    {
+      "sid": "PK_20261020_042735__49b48_0",
+      "values": {
+        "Kp_tal": 3.9165976406748704,
+        "ftissue_tal": 2.7591158514035103,
+        "KI__TALEX_f": 7.664692425995377,
+        "LI__TALIM_Vmax": 0.036920107341910674,
+        "Ka_dis_tal": 1.4067655580938125,
+        "GU__TALABS_k": 0.0035829864510616687,
+        "GU__TALEFL_Vmax": 0.00010342814634381777,
+        "GU__TALEFL_Km": 0.00024040754690915372
+      },
+      "units": {
+        "Kp_tal": "dimensionless",
+        "ftissue_tal": "l/(min)",
+        "KI__TALEX_f": "dimensionless",
+        "LI__TALIM_Vmax": "(mmol)/(min)/l",
+        "Ka_dis_tal": "1/(hr)",
+        "GU__TALABS_k": "1/(min)",
+        "GU__TALEFL_Vmax": "(mmol)/(min)/l",
+        "GU__TALEFL_Km": "mmol/l"
+      },
+      "cost": 132.23989986309888,
+      "provenance": "optimization 'PK_20261020_042735__49b48', run '2'"
+    }
+  ]
+}

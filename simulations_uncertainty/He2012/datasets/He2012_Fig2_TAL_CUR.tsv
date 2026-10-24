@@ -1,0 +1,15 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	0.0	hr	0.0			HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	0.5	hr	0.0003141996451120372	220.29333	0.0002918426113151488	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	1.0	hr	0.000390486801744178	235.85658	0.00025837103674053284	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	1.5	hr	0.0005243538425562937	302.09076	0.00030671882694397444	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	2.0	hr	0.000680559567531878	361.56934	0.0003141428080166165	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	2.5	hr	0.0010616927330499733	507.53864	0.0003345813284914509	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	3.0	hr	0.0010766035296221406	527.1559	0.00037363897715236795	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	4.0	hr	0.0007867508493927015	421.11392	0.0003717628027895844	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	6.0	hr	0.0005341751605936807	286.73807	0.0002546611920384049	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	8.0	hr	0.0003838567243015722	203.72018	0.0001765916450019945	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	12.0	hr	0.00027092532221901263	157.94173	0.00016358335052751757	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	24.0	hr	0.0001440735085764591	102.367325	0.0001375461148021293	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	36.0	hr	7.480157911388053e-05	66.38289	0.00010782236344378879	HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless
+He2012	all	18	concentration	talinolol	plasma	TAL, CUR	48.0	hr	2.415439001911993e-05			HPLC/UV	Fig2_TAL_CUR		mole/meter^3	dimensionless

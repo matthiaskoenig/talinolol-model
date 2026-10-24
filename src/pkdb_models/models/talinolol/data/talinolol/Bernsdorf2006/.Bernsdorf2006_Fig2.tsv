@@ -1,0 +1,83 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	-120.0	hr	47.17	66.04	18.870000000000005	ng/ml	HPLC	Fig2_TAL_CR_SIM	Blood was sampled before and  0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 6, 8, 10, 12, 16, 24 and 36 h after oral administration. 
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	-96.0	hr	51.21	72.78	21.57	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	-72.0	hr	57.95	74.8	16.849999999999994	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	-48.0	hr	57.95	82.21	24.25999999999999	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	-24.0	hr	55.26	83.56	28.300000000000004	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	0.0	hr	52.05	53.23	1.1799999999999997	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	0.5	hr	104.68	177.05	72.37	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	1.0	hr	167.93	309.63	141.7	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	1.5	hr	162.87	292.93	130.06	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	2.0	hr	197.27	331.38	134.10999999999999	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	2.5	hr	243.32	416.4	173.07999999999998	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	3.0	hr	289.87	452.83	162.95999999999998	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	3.5	hr	288.35	400.7	112.34999999999997	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	4.0	hr	283.79	369.82	86.02999999999997	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	4.5	hr	273.15	341.47	68.32000000000005	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	5.0	hr	257.96	332.36	74.40000000000003	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	6.0	hr	236.19	305.52	69.32999999999998	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	8.0	hr	190.62	246.29	55.66999999999999	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	10.0	hr	172.38	238.67	66.28999999999999	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	12.0	hr	137.94	175.39	37.44999999999999	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	16.0	hr	103.99	131.31	27.320000000000007	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	24.0	hr	73.53	94.78	21.25	ng/ml	HPLC	Fig2_TAL_CR_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	0.5	hr	39.9	15.61	24.29	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	1.0	hr	86.45	29.77	56.68000000000001	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	1.5	hr	155.27	65.7	89.57000000000001	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	2.0	hr	205.37	93.53	111.84	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	2.5	hr	224.09	140.08	84.00999999999999	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	3.0	hr	232.68	167.4	65.28	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	3.5	hr	230.65	166.89	63.76000000000002	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	4.0	hr	214.96	160.3	54.66	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	4.5	hr	194.71	143.6	51.110000000000014	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	5.0	hr	175.47	133.47	42.0	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	6.0	hr	160.79	119.29	41.499999999999986	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	8.0	hr	126.35	92.44	33.91	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	10.0	hr	107.6	80.27	27.33	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	12.0	hr	88.85	70.63	18.22	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	16.0	hr	63.5	49.33	14.170000000000002	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	24.0	hr	46.7	35.06	11.64	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	36.0	hr	23.79	17.71	6.079999999999998	ng/ml	HPLC	Fig2_TAL_PO	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	0.0	hr	2.6720152	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	Blood was sampled before and 0.17, 0.33, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 6, 8, 10, 12, 16, 24 and 36 h after intravenous infusion
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	0.17	hr	335.66235	406.05338	70.39103	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	0.33	hr	436.5029	555.62396	119.12106	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	0.5	hr	487.2579	594.87213	107.61422999999996	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	0.75	hr	173.20566	211.10753	37.90187	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	1.0	hr	123.1119	146.12375	23.011849999999995	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	1.5	hr	88.57765	104.144485	15.566834999999998	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	2.0	hr	72.99433	87.20478	14.210449999999994	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	2.5	hr	66.88556	75.68237	8.796810000000008	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	3.0	hr	59.42223	69.572685	10.150455000000008	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	3.5	hr	53.99211	64.14165	10.149540000000002	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	4.0	hr	51.944252	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	4.5	hr	49.89914	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	5.0	hr	47.8522	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	6.0	hr	50.524673	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	8.0	hr	43.687794	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	10.0	hr	36.852745	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	12.0	hr	30.016783	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	16.0	hr	23.789865	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	24.0	hr	16.073763	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV	36.0	hr	9.5785	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	0.0	hr	1.9961122	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	0.17	hr	284.22412	234.13951	50.084610000000026	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	0.33	hr	398.93942	327.5332	71.40621999999996	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	0.5	hr	455.78537	367.4582	88.32717000000002	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	0.75	hr	168.46747	145.45975	23.007719999999978	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	1.0	hr	118.713036	100.777794	17.935242000000002	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	1.5	hr	86.20924	73.01081	13.198429999999988	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	2.0	hr	73.672066	59.45978	14.212285999999999	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	2.5	hr	66.886475	54.705563	12.180912000000006	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	3.0	hr	59.423145	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	3.5	hr	56.023483	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	4.0	hr	51.945168	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	4.5	hr	50.577793	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	5.0	hr	47.17355	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	6.0	hr	51.199657	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	8.0	hr	43.012806	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	10.0	hr	36.852745	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	12.0	hr	30.015867	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	16.0	hr	23.113047	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	24.0	hr	16.073763	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_IV, SIM	36.0	hr	8.900764	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_SIM	NA

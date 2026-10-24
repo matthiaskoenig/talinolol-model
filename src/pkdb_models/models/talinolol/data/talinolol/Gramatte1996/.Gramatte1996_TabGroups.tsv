@@ -1,0 +1,8 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Gramatte1996	all	NA	species	6	homo sapiens	6	NA	NA	NA	NA	NA	NA	NA	NA
+Gramatte1996	all	NA	sex	6	M	6	NA	NA	NA	NA	NA	NA	NA	NA
+Gramatte1996	all	NA	healthy	6	Y	6	NA	NA	NA	NA	NA	NA	NA	NA
+Gramatte1996	all	NA	age	6	NA	6	NA	NA	NA	25.0	29.0	NA	yr	NA
+Gramatte1996	all	NA	weight	6	NA	6	NA	NA	NA	65.0	90.0	NA	kg	NA
+Gramatte1996	all	NA	height	6	NA	6	NA	NA	NA	175.0	193.0	NA	cm	NA
+Gramatte1996	all	NA	overnight fast	6	Y	6	NA	NA	NA	NA	NA	NA	NA	NA

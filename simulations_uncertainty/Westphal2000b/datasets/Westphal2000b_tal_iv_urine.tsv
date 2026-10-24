@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	cv	time	time_unit	method	label	comments	mean_unit	count_unit
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_IV	0.0	0.0		0.0	day	HPLC	Tab1a_TAL_IV_urine	zero time point added	mole	dimensionless
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_IV	3.9505632814756734e-05	1.6708345369262303e-05	0.422936024149953	2.0	day	HPLC	Tab1a_TAL_IV_urine	cl_renal*auc (urine collected over 2 days, was placed at 1 day)	mole	dimensionless

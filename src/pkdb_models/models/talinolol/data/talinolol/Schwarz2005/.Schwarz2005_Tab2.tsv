@@ -1,0 +1,28 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Schwarz2005	exon12_CC	auc_end	talinolol	serum	TAL	390.6	161	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_CC	auc_end	talinolol	serum	TAL, GFJ_AC	224.9	116	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_CC	auc_end	talinolol	serum	TAL, GFJ_CR	245.9	160	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_CT	auc_end	talinolol	serum	TAL	322.4	210	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_CT	auc_end	talinolol	serum	TAL, GFJ_AC	170.2	82	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_CT	auc_end	talinolol	serum	TAL, GFJ_CR	206.0	135	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_TT	auc_end	talinolol	serum	TAL	229.2	71	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_TT	auc_end	talinolol	serum	TAL, GFJ_AC	131.9	41	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon12_TT	auc_end	talinolol	serum	TAL, GFJ_CR	148.7	35	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_GG	auc_end	talinolol	serum	TAL	358.0	184	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_GG	auc_end	talinolol	serum	TAL, GFJ_AC	209.2	121	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_GG	auc_end	talinolol	serum	TAL, GFJ_CR	222.9	168	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_GT	auc_end	talinolol	serum	TAL	351.0	201	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_GT	auc_end	talinolol	serum	TAL, GFJ_AC	181.5	79	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_GT	auc_end	talinolol	serum	TAL, GFJ_CR	227.2	124	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_TT	auc_end	talinolol	serum	TAL	229.2	71	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_TT	auc_end	talinolol	serum	TAL, GFJ_AC	131.9	41	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon21_TT	auc_end	talinolol	serum	TAL, GFJ_CR	148.7	35	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_CC	auc_end	talinolol	serum	TAL	364.9	111	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_CC	auc_end	talinolol	serum	TAL, GFJ_AC	154.9	32	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_CC	auc_end	talinolol	serum	TAL, GFJ_CR	205.3	186	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_CT	auc_end	talinolol	serum	TAL	368.4	209	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_CT	auc_end	talinolol	serum	TAL, GFJ_AC	215.8	116	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_CT	auc_end	talinolol	serum	TAL, GFJ_CR	238.9	137	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_TT	auc_end	talinolol	serum	TAL	211.9	75	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_TT	auc_end	talinolol	serum	TAL, GFJ_AC	134.3	42	ng*hr/ml	24	hr	HPLC	NA
+Schwarz2005	exon26_TT	auc_end	talinolol	serum	TAL, GFJ_CR	147.5	35	ng*hr/ml	24	hr	HPLC	NA

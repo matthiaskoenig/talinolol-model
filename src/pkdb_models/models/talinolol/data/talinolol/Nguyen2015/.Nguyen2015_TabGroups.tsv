@@ -1,0 +1,20 @@
+study	name	group_count	parent	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Nguyen2015	all	10.0	NA	species	homo sapiens	10.0	NA	NA	NA	NA	NA	NA	NA	Exclusion criteria included, among others, history of drug or alcohol abuse and cardiovascular disorders, Q interval of more than 220 ms, heart rate of less than 55 min-1 at rest and systolic blood pressure of less than 120 mmHg in the lying position.
+Nguyen2015	all	10.0	NA	sex	F	2.0	NA	NA	NA	NA	NA	NA	NA	NA
+Nguyen2015	all	10.0	NA	sex	M	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Nguyen2015	all	10.0	NA	healthy	Y	10.0	NA	NA	NA	NA	NA	NA	NA	NA
+Nguyen2015	all	10.0	NA	age	NA	10.0	NA	31.7	NA	NA	NA	9.8	years	NA
+Nguyen2015	all	10.0	NA	weight	NA	10.0	NA	73.7	NA	NA	NA	9.6	kg	NA
+Nguyen2015	all	10.0	NA	overnight fast	Y	10.0	NA	NA	NA	NA	NA	NA	NA	9 hours
+Nguyen2015	all	10.0	NA	abstinence medication	NA	10.0	NA	NA	NA	1.0	NA	NA	month	Participants were not allowed to take any drugs and dietary supplements one month before and during the study period. An alcohol- and caffeine-free, lowflavonoid diet was to be kept one week before the study until its conclusion. A list of flavonoid-rich food and beverages to be avoided, for example citrus fruits and their juices, was handed out to each subject to guide the restricted diet.
+Nguyen2015	all	10.0	NA	abstinence alcohol	NA	10.0	NA	NA	NA	1.0	NA	NA	week	All subjects consumed a standardized flavonoid-free meal 4 and 10 hours after drug intake in both control and test period.
+Nguyen2015	all	10.0	NA	abstinence	NA	10.0	caffeine	NA	NA	1.0	NA	NA	week	NA
+Nguyen2015	ABCB1_exon12_CC	2.0	all	ABCB1 genotype	T1236C C/C	2.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCB1_exon12_CT	6.0	all	ABCB1 genotype	T1236C T/C	6.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCB1_exon12_TT	2.0	all	ABCB1 genotype	T1236C T/T	2.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCB1_exon21_GG	3.0	all	ABCB1 genotype	G2677T/A G/G	3.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCB1_exon21_TG	6.0	all	ABCB1 genotype	G2677T/A G/T	6.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCB1_exon26_CT	3.0	all	ABCB1 genotype	C3435T T/C	3.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCB1_exon26_TT	7.0	all	ABCB1 genotype	C3435T T/T	7.0	NA	NA	NA	NA	NA	NA	NA	MDR1 genotype
+Nguyen2015	ABCC2_1249_GG	9.0	all	ABCC2 genotype	 G1249A G/G	9.0	NA	NA	NA	NA	NA	NA	NA	MRP2 genotype
+Nguyen2015	ABCC2_1249_GA	1.0	all	ABCC2 genotype	G1249A G/A	1.0	NA	NA	NA	NA	NA	NA	NA	MRP2 genotype

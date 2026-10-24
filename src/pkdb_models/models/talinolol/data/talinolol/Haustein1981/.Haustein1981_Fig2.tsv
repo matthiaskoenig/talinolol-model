@@ -1,0 +1,19 @@
+study	individual	count	measurement	substance	tissue	intervention	time	time_unit	value	unit	method	label	comments
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	0.0	hr	877.95668560606	ng/ml	scintillation counting	plasma_S6	(Bq*10^-6)/1.06*10^7 → ng
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	0.3333333	hr	123.852367424242	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	0.6666667	hr	74.0944564393939	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	1.0	hr	59.3169071969697	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	2.0	hr	47.2633712121212	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	3.0	hr	36.262553030303	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	4.0	hr	22.4215681818182	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	6.0	hr	13.4511505681818	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	plasma	TAL_IV_10	8.0	hr	7.77176950757576	ng/ml	scintillation counting	plasma_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	0.0	hr	252.186325757576	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	0.3333333	hr	921.710909090909	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	0.6666667	hr	4144.55909090909	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	1.0	hr	3049.09886363636	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	2.0	hr	1732.52481060606	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	3.0	hr	1392.83700757576	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	4.0	hr	1196.0615530303	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	6.0	hr	890.212424242424	ng/ml	scintillation counting	bile_S6	NA
+Haustein1981	S6	1.0	concentration	talinolol	bile	TAL_IV_10	8.0	hr	668.755435606061	ng/ml	scintillation counting	bile_S6	NA

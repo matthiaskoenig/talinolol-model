@@ -1,0 +1,25 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Westphal2000a	all	auc_end	digoxin	serum	DGX	23.0	3.3	ng*hr/ml	72.0	hr	FPIA	NA
+Westphal2000a	all	auc_end	digoxin	serum	DGX	5.85	1.49	ng*hr/ml	6.0	hr	FPIA	NA
+Westphal2000a	all	cmax	digoxin	serum	DGX	1.93	0.69	ng/ml	NA	NA	FPIA	NA
+Westphal2000a	all	thalf	digoxin	serum	DGX	66.4	18.6	hr	NA	NA	FPIA	NA
+Westphal2000a	all	clearance	digoxin	serum	DGX	214.0	59.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	clearance_renal	digoxin	urine	DGX	125.0	39.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	clearance_nonrenal	digoxin	serum	DGX	89.0	66.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	tmax	digoxin	serum	DGX	1.2	0.56	hr	NA	NA	FPIA	NA
+Westphal2000a	all	auc_end	digoxin	serum	DGX, TAL_PO	27.1	3.7	ng*hr/ml	72.0	hr	FPIA	NA
+Westphal2000a	all	auc_end	digoxin	serum	DGX, TAL_PO	7.22	1.29	ng*hr/ml	6.0	hr	FPIA	NA
+Westphal2000a	all	cmax	digoxin	serum	DGX, TAL_PO	2.79	0.62	ng/ml	NA	NA	FPIA	NA
+Westphal2000a	all	thalf	digoxin	serum	DGX, TAL_PO	59.2	19.3	hr	NA	NA	FPIA	NA
+Westphal2000a	all	clearance	digoxin	serum	DGX, TAL_PO	198.0	59.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	clearance_renal	digoxin	urine	DGX, TAL_PO	130.0	25.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	clearance_nonrenal	digoxin	serum	DGX, TAL_PO	68.0	60.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	tmax	digoxin	serum	DGX, TAL_PO	1.0	0.42	hr	NA	NA	FPIA	NA
+Westphal2000a	all	auc_end	digoxin	serum	DGX, TAL_IV	24.1	5.6	ng*hr/ml	72.0	hr	FPIA	NA
+Westphal2000a	all	auc_end	digoxin	serum	DGX, TAL_IV	5.64	1.06	ng*hr/ml	6.0	hr	FPIA	NA
+Westphal2000a	all	cmax	digoxin	serum	DGX, TAL_IV	2.12	0.61	ng/ml	NA	NA	FPIA	NA
+Westphal2000a	all	thalf	digoxin	serum	DGX, TAL_IV	65.0	28.9	hr	NA	NA	FPIA	NA
+Westphal2000a	all	clearance	digoxin	serum	DGX, TAL_IV	226.0	98.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	clearance_renal	digoxin	urine	DGX, TAL_IV	156.0	108.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	clearance_nonrenal	digoxin	serum	DGX, TAL_IV	71.0	126.0	ml/min	NA	NA	FPIA	NA
+Westphal2000a	all	tmax	digoxin	serum	DGX, TAL_IV	1.1	0.76	hr	NA	NA	FPIA	NA

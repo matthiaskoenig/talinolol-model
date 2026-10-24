@@ -1,0 +1,16 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Han2009	all	NA	species	18	homo sapiens	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	all	NA	sex	18	M	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	all	NA	healthy	18	Y	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	all	NA	age	18	NA	18	NA	22.0	NA	NA	NA	3.0	yr	NA
+Han2009	all	NA	bmi	18	NA	18	NA	26.2	NA	NA	NA	3.5	kg/m^2	NA
+Han2009	all	NA	pregnant	18	N	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	all	NA	medication	18	N	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	all	NA	abstinence medication	18	NA	18	NA	NA	NA	2.0	NA	NA	week	NA
+Han2009	all	NA	abstinence	18	NA	18	coffee	NA	NA	2.0	NA	NA	week	NA
+Han2009	all	NA	overnight fast	18	Y	18	NA	NA	NA	NA	NA	NA	NA	Meals were allowed 4 h after talinolol administration.
+Han2009	all	NA	smoking	18	N	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	all	NA	ethnicity	18	chinese	18	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	MDR1_CC	all	ABCB1 genotype	18	C3435T C/C	6	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	MDR1_CT	all	ABCB1 genotype	18	C3435T T/C	6	NA	NA	NA	NA	NA	NA	NA	NA
+Han2009	MDR1_TT	all	ABCB1 genotype	18	C3435T T/T	6	NA	NA	NA	NA	NA	NA	NA	NA

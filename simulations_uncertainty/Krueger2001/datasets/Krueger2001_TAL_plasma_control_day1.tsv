@@ -1,0 +1,18 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	0.0	hr	0.0		HPLC/UV	TAL_plasma_control	Blood samples were drawn on day 1 and 6 (in the increased_renal_impairment who needed dialysis on days 1 only) before and at 10, 20, 30, 45 min and 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 10, 12, 24 h after ingestion of 100 mg talinolol. Additional samples were drawn 36 h (control volunteers) and 48 h (increased_renal_impairments with renal impairment) after talinolol intake on day 6 or 48 h after talinolol ingestion on day 1 in increased_renal_impairments with terminal renal insufficiency.	mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	0.17	hr	1.499620242369221e-05		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	0.5	hr	4.35737933121501e-05		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	0.75	hr	0.00011582171144032243		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	1.0	hr	0.00023650039202740064		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	1.5	hr	0.0005159712238132575		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	2.0	hr	0.0007962351614190016		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	2.5	hr	0.0008406920040165614		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	3.0	hr	0.0008001949958046189		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	3.5	hr	0.0006890354750409221		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	4.0	hr	0.0006382178571919834		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	5.0	hr	0.0004825932406222919		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	6.0	hr	0.00039921822858636296		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	8.0	hr	0.0003213901154073646		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	10.0	hr	0.00028723482853959477		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	12.0	hr	0.0002514891263978872		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless
+Krueger2001	control	12.0	concentration	talinolol	plasma	TAL	24.0	hr	0.00012514201020646777		HPLC/UV	TAL_plasma_control		mole/meter^3	dimensionless

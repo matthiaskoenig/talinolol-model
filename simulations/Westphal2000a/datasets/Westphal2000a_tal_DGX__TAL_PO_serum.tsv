@@ -1,0 +1,16 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	0.25	hr	4.7474210099176046e-05	0.0	4.7474210099176046e-05	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	0.5	hr	0.00019537462688620202	3.982301	0.00018441904015185903	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	0.75	hr	0.00022458952667849625	35.84071	0.00012598924331834	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.0	hr	0.0002538044264707905	56.415928	9.860028886229522e-05	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.25	hr	0.00029762677340816244	58.407078	0.00013694484380803037	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.5	hr	0.00028301932626308477	49.778763	0.00014607449070826284	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.75	hr	0.0003231897962833051	43.141594	0.00020450427378643446	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	2.0	hr	0.00035788250182258356	39.15929	0.0002501525743132643	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	2.5	hr	0.00033779724617945224	49.778763	0.00020085241062463033	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	3.0	hr	0.00040900854207073003	69.02655	0.00021911170717616474	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	3.5	hr	0.0004930013892900866	118.141594	0.00016798565592374037	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	4.0	hr	0.0005094347652649968	130.75221	0.0001497263511189975	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	6.0	hr	0.000463786517008487	112.168144	0.00015520415961705112	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	8.0	hr	0.0002958008363251214	80.30974	7.486316180415137e-05	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	12.0	hr	0.00020267835871194922	55.088497	5.112607601204968e-05	HPLC	Fig2a_DGX, TAL_PO		mole/meter^3	dimensionless

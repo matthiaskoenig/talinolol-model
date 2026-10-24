@@ -1,0 +1,12 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Nguyen2014	all	NA	10	species	homo sapiens	10	NA	NA	NA	NA	NA	NA	NA	NA
+Nguyen2014	all	NA	10	sex	F	2	NA	NA	NA	NA	NA	NA	NA	NA
+Nguyen2014	all	NA	10	sex	M	8	NA	NA	NA	NA	NA	NA	NA	NA
+Nguyen2014	all	NA	10	healthy	Y	10	NA	NA	NA	NA	NA	NA	NA	Each participant signed informed written consent for the study and underwent a screening procedure including a medical history, physical examination, electrocardiography and routine hematologic, biochemical and serologic tests confirming good health. None of the individuals had a history of drug or alcohol abuse and cardiovascular disorders. Subjects with a Q interval of more than 220 ms, a heart rate of less than 55 min_x0002_1 at rest, a systolic blood pressure of less than 120 mmHg in the lying position were not recruited.
+Nguyen2014	all	NA	10	age	NA	10	NA	NA	NA	22.0	57.0	NA	yr	NA
+Nguyen2014	all	NA	10	weight	NA	10	NA	NA	NA	58.0	93.0	NA	kg	NA
+Nguyen2014	all	NA	10	medication	N	10	NA	NA	NA	NA	NA	NA	NA	Taking additional drugs or dietary supplements was not allowed one month prior to and during the study period.
+Nguyen2014	all	NA	10	abstinence medication	NA	10	NA	NA	NA	1.0	NA	NA	month	NA
+Nguyen2014	all	NA	10	abstinence alcohol	NA	10	NA	NA	NA	1.0	NA	NA	week	All subjects were asked to abstain from alcohol- and caffeine-containing products and to keep a low-flavonoid diet by avoiding a defined list of food and beverages (apples, fruit juices, onions, berries, beans, kale etc.) one week prior to the study until its conclusion.
+Nguyen2014	all	NA	10	abstinence	NA	10	caffeine	NA	NA	1.0	NA	NA	week	NA
+Nguyen2014	all	NA	10	overnight fast	Y	10	NA	NA	NA	NA	NA	NA	NA	after overnight fasting for at least 9 h.

@@ -1,0 +1,51 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Krueger2001	control	12	cmax	talinolol	plasma	TAL	379.9	121.9	ng/ml	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	tmax	talinolol	plasma	TAL	2.3	0.4	hr	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	auc_inf	talinolol	plasma	TAL	3378.0	924.0	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	auc_inf	talinolol	plasma	TAL	NA	NA	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	mrt	talinolol	plasma	TAL	15.8	3.3	hr	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	thalf	talinolol	plasma	TAL	11.5	2.4	hr	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	clearance_renal	talinolol	urine	TAL	146.0	53.5	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	clearance	talinolol	plasma	TAL	527.5	140.0	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	vd	talinolol	plasma	TAL	511.5	137.8	l	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	22.58	9.18	mg	24.0	hr	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	cmax	talinolol	plasma	TAL	295.3	150.9	ng/ml	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	tmax	talinolol	plasma	TAL	3.8	1.6	hr	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	auc_inf	talinolol	plasma	TAL	4555.0	2236.0	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	auc_inf	talinolol	plasma	TAL	NA	NA	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	mrt	talinolol	plasma	TAL	28.7	10.9	hr	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	thalf	talinolol	plasma	TAL	19.6	7.4	hr	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	clearance_renal	talinolol	urine	TAL	32.2	34.3	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	clearance	talinolol	plasma	TAL	491.3	365.2	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	vd	talinolol	plasma	TAL	766.0	490.6	l	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	3.89	2.51	mg	24.0	hr	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	cmax	talinolol	plasma	TAL	494.0	214.3	ng/ml	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	tmax	talinolol	plasma	TAL	2.7	0.7	hr	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	auc_inf	talinolol	plasma	TAL	7882.0	2933.0	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	auc_inf	talinolol	plasma	TAL	NA	NA	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	mrt	talinolol	plasma	TAL	NA	NA	hr	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	thalf	talinolol	plasma	TAL	23.0	6.5	hr	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	clearance_renal	talinolol	urine	TAL	NA	NA	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	clearance	talinolol	plasma	TAL	NA	NA	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	vd	talinolol	plasma	TAL	NA	NA	l	NA	NA	HPLC/UV	NA
+Krueger2001	severe_renal_impairment	8	cumulative amount	talinolol	urine	TAL	NA	NA	mg	144.0	hr	HPLC/UV	NA
+Krueger2001	control	12	cmax	talinolol	plasma	TAL	408.3	148.4	ng/ml	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	tmax	talinolol	plasma	TAL	3.6	0.7	hr	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	auc_inf	talinolol	plasma	TAL	NA	NA	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	auc_inf	talinolol	plasma	TAL	3561.4	886.2	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	mrt	talinolol	plasma	TAL	NA	NA	hr	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	thalf	talinolol	plasma	TAL	NA	NA	hr	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	clearance_renal	talinolol	urine	TAL	NA	NA	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	clearance	talinolol	plasma	TAL	NA	NA	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	vd	talinolol	plasma	TAL	NA	NA	l	NA	NA	HPLC/UV	NA
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	30.65	6.39	mg	144.0	hr	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	cmax	talinolol	plasma	TAL	340.9	153.6	ng/ml	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	tmax	talinolol	plasma	TAL	4.2	2.6	hr	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	auc_inf	talinolol	plasma	TAL	NA	NA	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	auc_inf	talinolol	plasma	TAL	4501.8	1736.2	ng*hr/ml	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	mrt	talinolol	plasma	TAL	NA	NA	hr	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	thalf	talinolol	plasma	TAL	NA	NA	hr	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	clearance_renal	talinolol	urine	TAL	NA	NA	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	clearance	talinolol	plasma	TAL	NA	NA	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	vd	talinolol	plasma	TAL	NA	NA	l	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	7.06	4.58	mg	144.0	hr	HPLC/UV	NA

@@ -1,0 +1,3 @@
+study	group	count	measurement	tissue	substance	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Wetterich1996	patient_po	3.0	cumulative amount	urine	talinolol	TAL_PO	0.0		0.0	hr	HPLC	TAL_PO_urine		mole	dimensionless
+Wetterich1996	patient_po	3.0	cumulative amount	urine	talinolol	TAL_PO	7.194046685649046e-05	1.8691082685003095e-05	240.0	hr	HPLC	TAL_PO_urine	recovery*dose(100)	mole	dimensionless

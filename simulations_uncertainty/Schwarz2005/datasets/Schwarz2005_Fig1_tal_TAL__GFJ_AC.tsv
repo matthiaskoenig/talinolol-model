@@ -1,0 +1,19 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	0.0	hr				HPLC	Fig1_TAL, GFJ_AC	sd between GFJ_AC and GFJ_CR not clearly distinguishable	mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	0.33	hr	2.7235587834770766e-06			HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	0.67	hr	5.0619678399978e-06			HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	1.0	hr	1.9697657464339262e-05	0.593561	1.806472991375397e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	1.33	hr	3.271021609650752e-05	5.1240044	1.8613723985199244e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	1.67	hr	3.306785512868127e-05	4.6653457	2.0233164967881262e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	2.0	hr	3.5406264185201994e-05	6.570011	1.733170745127168e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	2.5	hr	3.829488713737465e-05	6.3087616	2.093904565399799e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	3.0	hr	4.426470790519814e-05	4.8003335	3.105865692788071e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	3.5	hr	5.383842968954181e-05	7.0993023	3.430775581507311e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	4.0	hr	5.403100455301999e-05	7.231926	3.4135473665387414e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	5.0	hr	5.1857659665194846e-05	7.8911324	3.014860617064884e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	6.0	hr	4.6465563487805885e-05	6.7778673	2.7819179631081584e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	8.0	hr	3.689184170346222e-05	5.142189	2.2745322494119588e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	10.0	hr	3.130717066259508e-05	4.2943	1.949325300210457e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	12.0	hr	2.0853106645208325e-05	2.0021236	1.5345125517544945e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	14.0	hr	1.562607463651494e-05	1.0229437	1.2811885445466925e-05	HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	24.0	hr	3.4388368478245916e-06			HPLC	Fig1_TAL, GFJ_AC		mole/meter^3	dimensionless

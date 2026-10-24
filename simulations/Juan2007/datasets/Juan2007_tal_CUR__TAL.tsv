@@ -1,0 +1,15 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	0.0	hr	0.0			HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	0.5	hr	0.00010064141184885623	19.55836	4.6835004608041374e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	1.0	hr	0.00014951913231268655	33.859097	5.6370403994552876e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	1.5	hr	0.0002482446801193964	50.473186	0.00010938943864427296	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	2.0	hr	0.0002367342329330527	51.735016	9.440760945817686e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	3.0	hr	0.00017441092724796765	36.59306	7.374087676584272e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	4.0	hr	0.0001533058391449676	38.485806	4.74287129121446e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	6.0	hr	0.0001235621122711454	33.017876	3.272764137058281e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	8.0	hr	0.00010819041527393775	26.288118	3.586997620324901e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	12.0	hr	8.895362522180498e-05	23.554153	2.415451381724645e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	24.0	hr	5.233934442014333e-05	13.038906	1.6468408093646402e-05	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	36.0	hr	3.0100936739157345e-05	7.360673	9.851213909407282e-06	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	48.0	hr	1.4571185298284708e-05	3.575184	4.735605716722375e-06	HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	60.0	hr	9.585630338794206e-06			HPLC-ESI-MS	Fig2_CUR, TAL		mole/meter^3	dimensionless

@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Schwarz1999	all	9	cumulative amount	talinolol	urine	RVER, TAL	0.0	0.0	0	hr	HPLC	RVER_TAL_urine	zero time point added	mole	dimensionless
+Schwarz1999	all	9	cumulative amount	talinolol	urine	RVER, TAL	2.6135160043466896e-05	8.25320843477902e-06	48	hr	HPLC	RVER_TAL_urine		mole	dimensionless

@@ -1,0 +1,10 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Terhaag1989	all	NA	6	species	homo sapiens	6	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1989	all	NA	4	sex	F	4	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1989	all	NA	2	sex	M	2	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1989	all	NA	6	healthy	N	6	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1989	all	NA	6	medical procedure	cholecystectomy	6	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1989	all	NA	6	age	NA	6	NA	NA	NA	23.0	69.0	NA	yr	NA
+Terhaag1989	all	NA	6	weight	NA	6	NA	NA	NA	48.0	85.0	NA	kg	NA
+Terhaag1989	all	NA	6	overnight fast	Y	6	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1989	arm_2_arm_3	all	5	species	homo sapiens	5	NA	NA	NA	NA	NA	NA	NA	NA

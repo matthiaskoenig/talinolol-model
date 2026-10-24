@@ -1,0 +1,5 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	comments
+Schwarz2007	TTT	5	villin mRNA	MDR1	intestine	TAL_PO	NA	NA	7.705224e-05	8.673657e-05	9.68433000000001e-06	ng	NA	in vitro data not uploaded
+Schwarz2007	TTT	5	villin mRNA	MDR1	intestine	TAL_PO, SJW	NA	NA	0.00010842103	0.0001147369	6.31587e-06	ng	NA	in vitro data not uploaded
+Schwarz2007	CGC	4	villin mRNA	MDR1	intestine	TAL_PO	NA	NA	9.157873e-05	7.999964e-05	1.157909e-05	ng	NA	in vitro data not uploaded
+Schwarz2007	CGC	4	villin mRNA	MDR1	intestine	TAL_PO, SJW	NA	NA	0.0001469478	0.000141053	5.8948e-06	ng	NA	in vitro data not uploaded

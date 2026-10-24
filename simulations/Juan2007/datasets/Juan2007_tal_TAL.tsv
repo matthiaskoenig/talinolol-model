@@ -1,0 +1,15 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Juan2007	all	12	concentration	talinolol	plasma	TAL	0.0	hr	0.0			HPLC-ESI-MS	Fig2_TAL	a double peak during absorption was evident in 4 of the 12 individual concentration-time curves. According to relevant publications [39–41], there is no relation between the double-peak phenomena of talinolol and enterohepatic recycling and fractionated gastric emptying.	mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	0.5	hr	0.00018403639664919734	93.377205	7.285078199149919e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	1.0	hr	0.000262628289247445	172.81616	0.0002128009738785953	HPLC-ESI-MS	Fig2_TAL	Where were the double peaks in M1 or M2?	mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	1.5	hr	0.00027891742664961006	154.69531	0.00014666011912130842	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	2.0	hr	0.0003124606940948294	158.87418	0.0001246132133867041	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	3.0	hr	0.0002884786310678276	141.09756	9.969055970508536e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	4.0	hr	0.00023286529388299703	108.33927	6.518356511093688e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	6.0	hr	0.00018586742596184266	80.10546	3.4508260086108475e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	8.0	hr	0.00015803568962434144	67.20084	2.6838490213070328e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	12.0	hr	0.0001225020426690876	53.24017	2.3965364035268708e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	24.0	hr	7.342387102986285e-05	31.56774	1.3421174981774163e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	36.0	hr	4.7351215284942015e-05	31.49814	3.9302356291008135e-05	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	48.0	hr	2.1273417791166315e-05	9.82571	5.757793092064539e-06	HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless
+Juan2007	all	12	concentration	talinolol	plasma	TAL	60.0	hr	9.585630338794206e-06			HPLC-ESI-MS	Fig2_TAL		mole/meter^3	dimensionless

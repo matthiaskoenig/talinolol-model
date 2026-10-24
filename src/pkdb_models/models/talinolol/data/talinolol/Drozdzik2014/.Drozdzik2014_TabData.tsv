@@ -1,0 +1,5 @@
+study	name_figure	name	dimensions
+Chia2016	Fig2a	PX/CA_bmi_corr	px/caf, bmi_px/caf
+Chia2016	Fig2b	CA_bmi_corr	caf, bmi_caffeine
+Chia2016	Fig2c	PX_bmi_corr	px, bmi_paraxanthine
+Chia2016	Fig2d	CA+PX_bmi_corr	caf+px, bmi_caf+px

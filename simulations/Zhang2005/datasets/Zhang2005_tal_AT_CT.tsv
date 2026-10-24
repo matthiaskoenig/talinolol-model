@@ -1,0 +1,14 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	0.5	hr	7.123822060826146e-05		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	1.0	hr	0.0003005905445742032		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	1.5	hr	0.0005751183097429124		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	2.0	hr	0.0005351554216701743		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	3.0	hr	0.0006515690724769253		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	4.0	hr	0.00048476741083096055		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	6.0	hr	0.00037704130730821604		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	8.0	hr	0.00025889010852969094		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	12.0	hr	0.000217189686240526		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	24.0	hr	0.00010077602167842747		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	36.0	hr	6.241922172244459e-05		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	48.0	hr	3.2943479277569156e-05		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless
+Zhang2005	AT_CT	6	concentration	talinolol	serum	TAL	60.0	hr	2.4274141322439098e-05		HPLC/UV	Fig1_TAL_AT_CT		mole/meter^3	dimensionless

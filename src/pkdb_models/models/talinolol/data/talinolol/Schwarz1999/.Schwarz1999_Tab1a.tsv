@@ -1,0 +1,37 @@
+study	individual	count	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	label	comments
+Schwarz1999	S1	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S1	zero time point addded, The renal elimination of talinolol was almost completed after 48 hours. Accordingly, Ae(0-48) of talinolol corresponds to the amount of unchanged talinolol eliminated by the kidneys up to infinity [Ae(0-infinity)].
+Schwarz1999	S1	1	cumulative amount	talinolol	urine	TAL	18.4	mg	48	hr	HPLC	TAL_urine_S1	The renal elimination of talinolol was almost completed after 48 hours. Accordingly, Ae(0-48) of talinolol corresponds to the amount of unchanged talinolol eliminated by the kidneys up to infinity [Ae(0-infinity)].
+Schwarz1999	S2	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S2	NA
+Schwarz1999	S2	1	cumulative amount	talinolol	urine	TAL	11.4	mg	48	hr	HPLC	TAL_urine_S2	NA
+Schwarz1999	S3	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S3	NA
+Schwarz1999	S3	1	cumulative amount	talinolol	urine	TAL	14.4	mg	48	hr	HPLC	TAL_urine_S3	NA
+Schwarz1999	S4	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S4	NA
+Schwarz1999	S4	1	cumulative amount	talinolol	urine	TAL	10.8	mg	48	hr	HPLC	TAL_urine_S4	NA
+Schwarz1999	S5	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S5	NA
+Schwarz1999	S5	1	cumulative amount	talinolol	urine	TAL	11.1	mg	48	hr	HPLC	TAL_urine_S5	NA
+Schwarz1999	S6	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S6	NA
+Schwarz1999	S6	1	cumulative amount	talinolol	urine	TAL	13.0	mg	48	hr	HPLC	TAL_urine_S6	NA
+Schwarz1999	S7	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S7	NA
+Schwarz1999	S7	1	cumulative amount	talinolol	urine	TAL	15.9	mg	48	hr	HPLC	TAL_urine_S7	NA
+Schwarz1999	S8	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S8	NA
+Schwarz1999	S8	1	cumulative amount	talinolol	urine	TAL	8.3	mg	48	hr	HPLC	TAL_urine_S8	NA
+Schwarz1999	S9	1	cumulative amount	talinolol	urine	TAL	0.0	mg	0	hr	HPLC	TAL_urine_S9	NA
+Schwarz1999	S9	1	cumulative amount	talinolol	urine	TAL	13.2	mg	48	hr	HPLC	TAL_urine_S9	NA
+Schwarz1999	S1	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S1	zero time point addded, The renal elimination of talinolol was almost completed after 48 hours. Accordingly, Ae(0-48) of talinolol corresponds to the amount of unchanged talinolol eliminated by the kidneys up to infinity [Ae(0-infinity)].
+Schwarz1999	S1	1	cumulative amount	talinolol	urine	RVER, TAL	11.6	mg	48	hr	HPLC	RVER_TAL_urine_S1	The renal elimination of talinolol was almost completed after 48 hours. Accordingly, Ae(0-48) of talinolol corresponds to the amount of unchanged talinolol eliminated by the kidneys up to infinity [Ae(0-infinity)].
+Schwarz1999	S2	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S2	NA
+Schwarz1999	S2	1	cumulative amount	talinolol	urine	RVER, TAL	6.8	mg	48	hr	HPLC	RVER_TAL_urine_S2	NA
+Schwarz1999	S3	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S3	NA
+Schwarz1999	S3	1	cumulative amount	talinolol	urine	RVER, TAL	14.5	mg	48	hr	HPLC	RVER_TAL_urine_S3	NA
+Schwarz1999	S4	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S4	NA
+Schwarz1999	S4	1	cumulative amount	talinolol	urine	RVER, TAL	6.5	mg	48	hr	HPLC	RVER_TAL_urine_S4	NA
+Schwarz1999	S5	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S5	NA
+Schwarz1999	S5	1	cumulative amount	talinolol	urine	RVER, TAL	7.5	mg	48	hr	HPLC	RVER_TAL_urine_S5	NA
+Schwarz1999	S6	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S6	NA
+Schwarz1999	S6	1	cumulative amount	talinolol	urine	RVER, TAL	8.3	mg	48	hr	HPLC	RVER_TAL_urine_S6	NA
+Schwarz1999	S7	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S7	NA
+Schwarz1999	S7	1	cumulative amount	talinolol	urine	RVER, TAL	6.7	mg	48	hr	HPLC	RVER_TAL_urine_S7	NA
+Schwarz1999	S8	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S8	NA
+Schwarz1999	S8	1	cumulative amount	talinolol	urine	RVER, TAL	11.2	mg	48	hr	HPLC	RVER_TAL_urine_S8	NA
+Schwarz1999	S9	1	cumulative amount	talinolol	urine	RVER, TAL	0.0	mg	0	hr	HPLC	RVER_TAL_urine_S9	NA
+Schwarz1999	S9	1	cumulative amount	talinolol	urine	RVER, TAL	12.4	mg	48	hr	HPLC	RVER_TAL_urine_S9	NA

@@ -1,0 +1,11 @@
+study	name	group_count	parent	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+DeMey1995	all	12	NA	species	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+DeMey1995	all	12	NA	sex	M	12	NA	NA	NA	NA	NA	NA	NA	NA
+DeMey1995	all	12	NA	healthy	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+DeMey1995	all	12	NA	age	NA	12	NA	NA	NA	24.0	30.0	NA	yr	NA
+DeMey1995	all	12	NA	weight	NA	12	NA	79.0	NA	NA	NA	7.0	kg	NA
+DeMey1995	all	12	NA	abstinence medication	NA	12	NA	NA	NA	1.0	NA	NA	week	NA
+DeMey1995	all	12	NA	overnight fast	Y	12	NA	NA	NA	NA	NA	NA	NA	The subjects fasted for at least 12 h before the drugs were administered up to 0730 h after dosing when a light standard meal was served (100 ml caffeine-free tea and two dry biscuits were served 30 min before each ergometry) 
+DeMey1995	all	12	NA	abstinence alcohol	NA	12	NA	NA	NA	12.0	24.0	NA	hr	The subjects abstained from xanthines, alcohol, and smoking from12 h before to at least 24 hr after dosing
+DeMey1995	all	12	NA	abstinence smoking	NA	12	NA	NA	NA	12.0	24.0	NA	hr	NA
+DeMey1995	all	12	NA	abstinence	NA	12	xanthine	NA	NA	12.0	24.0	NA	hr	NA

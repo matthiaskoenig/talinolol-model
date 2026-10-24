@@ -1,0 +1,41 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Westphal2000b	all	auc_end	talinolol	serum	TAL_IV	1585.0	173.0	ng*hr/ml	24.0	hr	HPLC	unclear if auc_inf or auc_end
+Westphal2000b	all	cmax	talinolol	serum	TAL_IV	621.0	67.0	ng/ml	NA	NA	HPLC	NA
+Westphal2000b	all	tmax	talinolol	serum	TAL_IV	NA	NA	hr	NA	NA	HPLC	NA
+Westphal2000b	all	thalf	talinolol	serum	TAL_IV	12.8	1.12	hr	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol	urine	TAL_IV	319.0	40.6	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance_renal	talinolol	urine	TAL_IV	151.0	61.7	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_IV	4.42	2.36	ml/min	NA	NA	HPLC	Urine was assayed for talinolol, 4-trans-hydroxytalinolol, 3-trans-hydroxytalinolol, and 3-cis-hydroxytalinolol with a specific and sensitive (limit of quantitation: 50 ng/mL) precolumn switching HPLC system.25
+Westphal2000b	all	clearance_nonrenal	talinolol	urine	TAL_IV	164.0	44.0	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	vd	talinolol	serum	TAL_IV	4.76	0.51	l/kg	NA	NA	HPLC	Table I prints mL/kg, l/kg meant
+Westphal2000b	all	bioavailability	talinolol	serum	TAL_IV	NA	NA	percent	NA	NA	HPLC	NA
+Westphal2000b	all	auc_end	talinolol	serum	TAL_IV, RIF	1253.0	195.0	ng*hr/ml	24.0	hr	HPLC	unclear if auc_inf or auc_end
+Westphal2000b	all	cmax	talinolol	serum	TAL_IV, RIF	503.0	105.0	ng/ml	NA	NA	HPLC	NA
+Westphal2000b	all	tmax	talinolol	serum	TAL_IV, RIF	NA	NA	hr	NA	NA	HPLC	NA
+Westphal2000b	all	thalf	talinolol	serum	TAL_IV, RIF	11.4	1.48	hr	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol	urine	TAL_IV, RIF	408.0	62.5	ml/min	NA	NA	HPLC	compared with the respective control
+Westphal2000b	all	clearance_renal	talinolol	urine	TAL_IV, RIF	204.0	70.7	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_IV, RIF	4.77	2.3	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance_nonrenal	talinolol	urine	TAL_IV, RIF	199.0	71.1	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	vd	talinolol	serum	TAL_IV, RIF	5.38	0.88	l/kg	NA	NA	HPLC	Table I prints mL/kg, l/kg meant
+Westphal2000b	all	bioavailability	talinolol	serum	TAL_IV, RIF	NA	NA	percent	NA	NA	HPLC	NA
+Westphal2000b	all	auc_end	talinolol	serum	TAL_PO	2910.0	1000.0	ng*hr/ml	24.0	hr	HPLC	AUC0-24 at steady state, Table I normalizes it to 30 mg (times 100/30)
+Westphal2000b	all	cmax	talinolol	serum	TAL_PO	328.0	126.0	ng/ml	NA	NA	HPLC	NA
+Westphal2000b	all	tmax	talinolol	serum	TAL_PO	3.4	1.4	hr	NA	NA	HPLC	NA
+Westphal2000b	all	thalf	talinolol	serum	TAL_PO	15.0	2.15	hr	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol	urine	TAL_PO	654.0	298.0	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance_renal	talinolol	urine	TAL_PO	155.0	57.1	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_PO	3.49	2.23	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance_nonrenal	talinolol	urine	TAL_PO	496.0	304.0	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	vd	talinolol	serum	TAL_PO	NA	NA	l/kg	NA	NA	HPLC	Table I prints mL/kg, l/kg meant
+Westphal2000b	all	bioavailability	talinolol	serum	TAL_PO	55.1	17.6	percent	NA	NA	HPLC	NA
+Westphal2000b	all	auc_end	talinolol	serum	TAL_PO, RIF	1883.3	650.0	ng*hr/ml	24.0	hr	HPLC	AUC0-24 at steady state, Table I normalizes it to 30 mg (times 100/30)
+Westphal2000b	all	cmax	talinolol	serum	TAL_PO, RIF	204.0	87.0	ng/ml	NA	NA	HPLC	NA
+Westphal2000b	all	tmax	talinolol	serum	TAL_PO, RIF	4.6	1.7	hr	NA	NA	HPLC	NA
+Westphal2000b	all	thalf	talinolol	serum	TAL_PO, RIF	12.7	2.03	hr	NA	NA	HPLC	compared with the respective control
+Westphal2000b	all	clearance	talinolol	urine	TAL_PO, RIF	1004.0	436.0	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance_renal	talinolol	urine	TAL_PO, RIF	170.0	54.1	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_PO, RIF	5.19	2.46	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	clearance_nonrenal	talinolol	urine	TAL_PO, RIF	829.0	445.0	ml/min	NA	NA	HPLC	NA
+Westphal2000b	all	vd	talinolol	serum	TAL_PO, RIF	NA	NA	l/kg	NA	NA	HPLC	Table I prints mL/kg, l/kg meant
+Westphal2000b	all	bioavailability	talinolol	serum	TAL_PO, RIF	35.9	12.1	percent	NA	NA	HPLC	NA

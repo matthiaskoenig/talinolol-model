@@ -1,0 +1,33 @@
+study	individual	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	comments
+Zschiesche2002	S1	auc_inf	talinolol	serum	TAL_IV	1441.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S2	auc_inf	talinolol	serum	TAL_IV	1375.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S3	auc_inf	talinolol	serum	TAL_IV	1562.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S4	auc_inf	talinolol	serum	TAL_IV	1390.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S5	auc_inf	talinolol	serum	TAL_IV	1298.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S6	auc_inf	talinolol	serum	TAL_IV	1582.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S7	auc_inf	talinolol	serum	TAL_IV	1120.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S8	auc_inf	talinolol	serum	TAL_IV	1603.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S1	auc_inf	talinolol	serum	TAL_IV, RIF	1165.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S2	auc_inf	talinolol	serum	TAL_IV, RIF	1060.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S3	auc_inf	talinolol	serum	TAL_IV, RIF	1185.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S4	auc_inf	talinolol	serum	TAL_IV, RIF	952.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S5	auc_inf	talinolol	serum	TAL_IV, RIF	1169.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S6	auc_inf	talinolol	serum	TAL_IV, RIF	850.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S7	auc_inf	talinolol	serum	TAL_IV, RIF	874.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S8	auc_inf	talinolol	serum	TAL_IV, RIF	1541.0	ng*hr/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	S1	auc_end	talinolol	serum	TAL_PO	2640.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S2	auc_end	talinolol	serum	TAL_PO	2690.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S3	auc_end	talinolol	serum	TAL_PO	1275.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S4	auc_end	talinolol	serum	TAL_PO	2128.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S5	auc_end	talinolol	serum	TAL_PO	2650.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S6	auc_end	talinolol	serum	TAL_PO	3758.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S7	auc_end	talinolol	serum	TAL_PO	2070.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S8	auc_end	talinolol	serum	TAL_PO	3772.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S1	auc_end	talinolol	serum	TAL_PO, RIF	1807.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S2	auc_end	talinolol	serum	TAL_PO, RIF	2233.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S3	auc_end	talinolol	serum	TAL_PO, RIF	898.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S4	auc_end	talinolol	serum	TAL_PO, RIF	1781.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S5	auc_end	talinolol	serum	TAL_PO, RIF	1525.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S6	auc_end	talinolol	serum	TAL_PO, RIF	2564.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S7	auc_end	talinolol	serum	TAL_PO, RIF	1364.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	S8	auc_end	talinolol	serum	TAL_PO, RIF	1629.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform

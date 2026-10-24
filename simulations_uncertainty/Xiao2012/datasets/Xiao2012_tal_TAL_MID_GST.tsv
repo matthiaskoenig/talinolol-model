@@ -1,0 +1,16 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_se	mean_unit	count_unit
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.0	hr				HPLC-ESI-MS	Fig2_TAL_MID_GST			mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.25	hr	0.00011347105187141501	50.861794		HPLC-ESI-MS	Fig2_TAL_MID_GST		2.6453277211515975e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.5	hr				HPLC-ESI-MS	Fig2_TAL_MID_GST			mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.75	hr	0.00027982646253731135	114.52741		HPLC-ESI-MS	Fig2_TAL_MID_GST		3.524639953782033e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	1.0	hr	0.00038887880163413527	166.59216		HPLC-ESI-MS	Fig2_TAL_MID_GST		6.942780505921677e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	1.5	hr	0.0004472099478672334	259.48776		HPLC-ESI-MS	Fig2_TAL_MID_GST		0.00026665890865073795	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	2.0	hr	0.00047360037964758796			HPLC-ESI-MS	Fig2_TAL_MID_GST			mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	2.5	hr	0.0005429617463789048	216.58977		HPLC-ESI-MS	Fig2_TAL_MID_GST		5.289175917137787e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	3.0	hr	0.0005539254185064444	217.76721		HPLC-ESI-MS	Fig2_TAL_MID_GST		4.516730629032035e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	4.0	hr	0.00046786547270251307	184.88269		HPLC-ESI-MS	Fig2_TAL_MID_GST		4.0759652815031843e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	6.0	hr	0.00029355281365630887	123.52629		HPLC-ESI-MS	Fig2_TAL_MID_GST		4.627659252534423e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	8.0	hr	0.00025255670641962063	103.81391		HPLC-ESI-MS	Fig2_TAL_MID_GST		3.3042572800176065e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	12.0	hr	0.00016287327198448396	70.414696		HPLC-ESI-MS	Fig2_TAL_MID_GST		3.0842449002049544e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	24.0	hr	9.54396071472785e-05	55.51718		HPLC-ESI-MS	Fig2_TAL_MID_GST		5.729201226976987e-05	mole/meter^3	dimensionless
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	36.0	hr	5.003307610833711e-05	28.595427		HPLC-ESI-MS	Fig2_TAL_MID_GST		2.863493032916546e-05	mole/meter^3	dimensionless

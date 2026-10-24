@@ -1,0 +1,12 @@
+study	count	individual	measurement	substance	tissue	intervention	time	time_unit	value	method	label	comments	value_unit	count_unit
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.0	hr	0.0	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.07	hr	0.0011684892501960136	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.16	hr	0.001667203125214927	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.24	hr	0.0018179342219287746	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.33	hr	0.0017716887439992296	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.42	hr	0.0019420899874826338	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.5	hr	0.0019221447337652514	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	0.67	hr	0.000772582841579664	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	1.01	hr	0.00044974483830589136	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	1.42	hr	0.0003630311283511465	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless
+Trausch1995	1	S8a	concentration 	talinolol	serum	TAL_IV	1.71	hr	0.0002832776241763986	HPLC	Fig1a_TAL_IV_S8a		mole/meter^3	dimensionless

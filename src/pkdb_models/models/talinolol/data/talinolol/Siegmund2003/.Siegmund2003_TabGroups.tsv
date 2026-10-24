@@ -1,0 +1,14 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Siegmund2003	all	NA	species	36	homo sapiens	36	NA	NA	NA	NA	NA	NA	NA	NA
+Siegmund2003	all	NA	sex	36	M	15	NA	NA	NA	NA	NA	NA	NA	NA
+Siegmund2003	all	NA	sex	36	F	21	NA	NA	NA	NA	NA	NA	NA	NA
+Siegmund2003	all	NA	healthy	36	Y	36	NA	NA	NA	NA	NA	NA	NA	Thirty-six healthy volunteers of Caucasian origin (15 males, 21 females, age 20–33 years, body weight 54–88 kg) of good health as evidenced by history, physical examination, routine chemical and hematologic screening, and assessment of 12lead electrocardiogram were included into the study after they had given informed written consent.
+Siegmund2003	all	NA	age	36	NA	36	NA	NA	NA	20.0	33.0	NA	yr	NA
+Siegmund2003	all	NA	weight	36	NA	36	NA	NA	NA	54.0	88.0	NA	kg	NA
+Siegmund2003	all	NA	abstinence alcohol	36	NA	36	NA	NA	NA	1.0	NA	NA	day	NA
+Siegmund2003	all	NA	abstinence	36	NA	36	caffeine	NA	NA	1.0	NA	NA	day	NA
+Siegmund2003	all	NA	smoking	36	Y	6	NA	NA	NA	NA	NA	NA	NA	NA
+Siegmund2003	all	NA	smoking	36	N	30	NA	NA	NA	NA	NA	NA	NA	NA
+Siegmund2003	all	NA	smoking amount (cigarettes)	36	NA	6	NA	NA	NA	NA	10.0	NA	1/day	NA
+Siegmund2003	all	NA	overnight fast	36	Y	36	NA	NA	NA	NA	NA	NA	NA	After overnight fasting, the study medication was given orally with 100-mL noncarbonated water (room temperature). Fasting and bed rest with raised upper body (308) were advised for 5 h after medication.
+Siegmund2003	all	NA	ethnicity	36	caucasian	36	NA	NA	NA	NA	NA	NA	NA	NA

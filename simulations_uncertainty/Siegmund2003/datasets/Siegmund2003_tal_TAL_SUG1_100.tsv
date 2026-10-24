@@ -1,0 +1,19 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	median	method	label	comments	median_unit	count_unit
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	0.0	hr	0.0	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	0.5	hr	3.843667588274942e-05	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	1.0	hr	9.182095214514642e-05	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	1.5	hr	0.000147340590654617	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	2.0	hr	0.00018791263978871787	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	2.5	hr	0.0004099911965776696	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	3.0	hr	0.0006085806682347762	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	3.5	hr	0.0007004016561438259	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	4.0	hr	0.0006342051472509937	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	5.0	hr	0.0004975414242286689	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	6.0	hr	0.0004249388024594561	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	8.0	hr	0.00033525322219012636	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	12.0	hr	0.0002156724576679184	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	16.0	hr	0.00016015282190951733	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	24.0	hr	0.00010676854977372453	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	30.0	hr	7.260261076493486e-05	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	36.0	hr	5.765501588742624e-05	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	49.0	hr	3.843667588274942e-05	HPLC	Fig1_TAL_SUG1_100		mole/meter^3	dimensionless

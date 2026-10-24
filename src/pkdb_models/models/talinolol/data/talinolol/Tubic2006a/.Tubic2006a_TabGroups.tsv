@@ -1,0 +1,12 @@
+study	name	group_count	parent	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Tubic2006a	all	7	NA	species	homo sapiens	7	NA	NA	NA	NA	NA	NA	NA	NA
+Tubic2006a	all	7	NA	sex	F	1	NA	NA	NA	NA	NA	NA	NA	NA
+Tubic2006a	all	7	NA	sex	M	6	NA	NA	NA	NA	NA	NA	NA	NA
+Tubic2006a	all	7	NA	healthy	Y	7	NA	NA	NA	NA	NA	NA	NA	Exclusion criteria were heart rate at rest less than 55 beats per, min, Q wave in ECG during rest higher than 220 ms, systolic blood pressure less than 120 mmHg, orthostatic dysregulation, blackouts, syncope, presence of significant diseases or recent surgery, history of asthma, clinical history of hypersensitivity to the excipients of the study medication
+Tubic2006a	all	7	NA	age	NA	7	NA	NA	NA	22.0	44.0	NA	yr	NA
+Tubic2006a	all	7	NA	weight	NA	7	NA	79.8	NA	NA	NA	11.3	kg	NA
+Tubic2006a	all	7	NA	pregnant	N	7	NA	NA	NA	NA	NA	NA	NA	NA
+Tubic2006a	all	7	NA	medication	N	7	NA	NA	NA	NA	NA	NA	NA	NA
+Tubic2006a	all	7	NA	abstinence medication	NA	7	NA	NA	NA	15.0	NA	NA	day	NA
+Tubic2006a	all	7	NA	overnight fast	Y	7	NA	NA	NA	NA	NA	NA	NA	 Subjects received a standard meal 4 h following drug dosing, an evening meal at 7 p.m. and 5 p.m. snack. 
+Tubic2006a	arm_2_arm_3	6	all	sex	M	5	NA	NA	NA	NA	NA	NA	NA	NA

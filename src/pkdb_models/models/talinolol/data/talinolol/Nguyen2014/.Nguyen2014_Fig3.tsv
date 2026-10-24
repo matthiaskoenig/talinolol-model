@@ -1,0 +1,21 @@
+study	individual	group	substance	measurement	unit	method	tissue	x_intervention	x_label	x	y_intervention	y	y_change	y_label	comments
+Nguyen2014	S1c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	82.172485	QRC_LOW, TAL, QRC	71.71	-10.47	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S2c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	102.57556	QRC_LOW, TAL, QRC	287.65	185.0794	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S3c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	176.23172	QRC_LOW, TAL, QRC	117.04	-59.193306	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S4c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	266.38196	QRC_LOW, TAL, QRC	387.88	121.4999	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S5c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	296.97626	QRC_LOW, TAL, QRC	61.06	-235.9178	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S6c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	357.06702	QRC_LOW, TAL, QRC	226.91	-130.16154	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S7c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	361.9394	QRC_LOW, TAL, QRC	240.59	-121.348236	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S8c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	391.87103	QRC_LOW, TAL, QRC	145.46	-246.41129	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S9c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	480.23645	QRC_LOW, TAL, QRC	160.11	-320.12643	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S10c	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3a_QRC_LOW_TAL	575.2337	QRC_LOW, TAL, QRC	404.91	-170.3258	Fig3_QRC_LOW_TAL_QRC	NA
+Nguyen2014	S1d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	83.04564	QRC_CR, TAL, QRC	169.64	86.5909	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S2d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	101.79921	QRC_CR, TAL, QRC	341.29	239.49287	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S3d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	175.39899	QRC_CR, TAL, QRC	82.38	-93.01513	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S4d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	266.3406	QRC_CR, TAL, QRC	323.13	56.794014	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S5d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	298.0449	QRC_CR, TAL, QRC	465.07	167.02168	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S6d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	357.9383	QRC_CR, TAL, QRC	321.89	-36.0456	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S7d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	362.70822	QRC_CR, TAL, QRC	175.18	-187.52641	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S8d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	391.08344	QRC_CR, TAL, QRC	181.44	-209.64488	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S9d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	480.3793	QRC_CR, TAL, QRC	383.78	-96.59703	Fig3_QRC_CR_TAL_QRC	NA
+Nguyen2014	S10d	all	talinolol	cmax	ng/ml	HPLC	plasma	QRC_LOW, TAL	Fig3b_QRC_LOW_TAL	575.18	QRC_CR, TAL, QRC	323.97	-251.20816	Fig3_QRC_CR_TAL_QRC	NA

@@ -1,0 +1,91 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	0.0	hr	23.07	17.40614	5.66386	ng/ml	HPLC	Fig5_TAL_PO_S	Concentration±time profiles of R(+) and S(-) talinolol (0±48 h) were measured on days 7 and 14 of the talinolol treatment.
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	0.5	hr	44.91	22.652674	22.257326	ng/ml	HPLC	Fig5_TAL_PO_S	Concentration±time profiles of R(+) and S(-) talinolol (0±48 h) were measured on days 7 and 14 of the talinolol treatment.
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	1.0	hr	56.85	35.31995	21.53005	ng/ml	HPLC	Fig5_TAL_PO_S	Concentration±time profiles of R(+) and S(-) talinolol (0±48 h) were measured on days 7 and 14 of the talinolol treatment.
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	1.5	hr	64.68	40.56768	24.11232	ng/ml	HPLC	Fig5_TAL_PO_S	Concentration±time profiles of R(+) and S(-) talinolol (0±48 h) were measured on days 7 and 14 of the talinolol treatment.
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	2.0	hr	66.32	37.163586	29.156414	ng/ml	HPLC	Fig5_TAL_PO_S	Concentration±time profiles of R(+) and S(-) talinolol (0±48 h) were measured on days 7 and 14 of the talinolol treatment.
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	2.5	hr	95.57	24.485954	71.084046	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	3.0	hr	105.04	36.223648	68.816352	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	3.5	hr	127.7	71.76173	55.93827	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	4.0	hr	110.39	62.175137	48.214863	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	6.0	hr	78.64	50.717434	27.922566	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	8.0	hr	59.25	38.6416	20.6084	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	12.0	hr	43.95	29.633318	14.316682	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	16.0	hr	36.49	24.950747	11.539253	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	24.0	hr	26.51	15.280521	11.229479	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO	36.0	hr	18.54	7.108226	11.431774	ng/ml	HPLC	Fig5_TAL_PO_S	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	0.0	hr	24.823	30.386463	5.563463	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	0.5	hr	49.234	73.3405	24.1065	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	1.0	hr	60.973	84.46126	23.48826	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	1.5	hr	68.385	94.65443	26.26943	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	2.0	hr	69.305	100.52228	31.21728	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	2.5	hr	100.207	175.00053	74.79353	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	3.0	hr	108.855	179.0124	70.1574	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	3.5	hr	135.429	196.31485	60.88585	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	4.0	hr	116.57	169.11157	52.54157	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	6.0	hr	83.787	113.14853	29.36153	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	8.0	hr	63.985	84.07374	20.08874	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	12.0	hr	47.25	60.230736	12.980736	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	16.0	hr	39.169	48.749535	9.58053500000001	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	24.0	hr	27.334	35.06107	7.72707	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO	36.0	hr	19.472	28.434097	8.962097	ng/ml	HPLC	Fig5_TAL_PO_R	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	0.0	hr	11.969	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	0.5	hr	34.248	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	1.0	hr	42.891	28.256905	14.634095	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	1.5	hr	40.226	20.602009	19.623991	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	2.0	hr	37.561	22.593103	14.967897	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	2.5	hr	39.55	27.244968	12.305032	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	3.0	hr	47.197	22.917074	24.279926	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	3.5	hr	54.843	23.910034	30.932966	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	4.0	hr	61.156	19.249197	41.906803	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	6.0	hr	66.46	27.212538	39.247462	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	8.0	hr	44.824	28.193077	16.630923	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	12.0	hr	30.818	20.174877	10.643123	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	16.0	hr	23.797	17.477533	6.319467	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	24.0	hr	14.412	11.418688	2.993312	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_PO, RIF	36.0	hr	7.65	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF_S	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	0.0	hr	14.962	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	0.5	hr	35.911	51.21055	15.29955	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	1.0	hr	44.221	62.18175	17.96075	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	1.5	hr	41.556	62.508827	20.952827	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	2.0	hr	36.896	53.857178	16.961178	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	2.5	hr	40.217	54.517883	14.300883	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	3.0	hr	48.194	74.46988	26.27588	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	3.5	hr	56.838	89.76484	32.92684	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	4.0	hr	68.141	115.36994	47.22894	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	6.0	hr	73.444	115.68425	42.24025	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	8.0	hr	50.144	68.10397	17.95997	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	12.0	hr	33.479	43.788887	10.309887	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	16.0	hr	26.458	32.44403	5.98603	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	24.0	hr	17.405	20.397758	2.992758	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_PO, RIF	36.0	hr	9.646	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF_R	NA
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.0	day	47.893	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	measured on the seventh day, sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.02083333333333	day	94.144	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.04166666666667	day	117.823	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.0625	day	133.065	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.08333333333333	day	135.625	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.10416666666667	day	195.777	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.125	day	213.895	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.14583333333333	day	263.129	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.16666666666667	day	226.96	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.25	day	162.427	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.33333333333333	day	123.235	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.5	day	91.2	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.66666666666667	day	75.659	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	7.0	day	53.844	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	7.5	day	38.012	NA	NA	ng/ml	HPLC	Fig5_TAL_PO	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	0.0	hr	26.931	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	0.5	hr	70.159	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	1.0	hr	87.112	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	1.5	hr	81.782	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	2.0	hr	74.457	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	2.5	hr	79.767	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	3.0	hr	95.391	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	3.5	hr	111.681	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	4.0	hr	129.297	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	6.0	hr	139.904	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	8.0	hr	94.968	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	12.0	hr	64.297	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	16.0	hr	50.255	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	24.0	hr	31.817	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO, RIF	36.0	hr	17.296	NA	NA	ng/ml	HPLC	Fig5_TAL_PO_RIF	sum of R and S isoform

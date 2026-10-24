@@ -1,0 +1,186 @@
+study	individual	count	measurement	substance	tissue	intervention	time	time_unit	value	unit	method	label	bile_flow	comments
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	0.12321238	hr	30.309074	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	0.29757965	hr	42.404842	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	0.54400444	hr	30.706347	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	0.8508597	hr	47.46857	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	1.1522348	hr	43.211662	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	1.5462182	hr	41.642452	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	2.0045202	hr	35.02147	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	2.5182166	hr	38.651096	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	serum	TAL_30	3.0020683	hr	30.258406	ng/ml	HPLC	Fig1_serum_S1	NA	S1 = GL
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	0.1079196	hr	312.4599	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	0.29976434	hr	186.53668	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	0.80531466	hr	93.69682	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	1.4867134	hr	75.977646	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	1.9944854	hr	47.302364	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	2.431755	hr	66.12649	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	3.0202494	hr	49.222584	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	5.0019045	hr	35.70868	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	serum	TAL_20	7.0121455	hr	32.336456	ng/ml	HPLC	Fig1_serum_S2	NA	S2 = BÜ
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	0.084443524	hr	410.13684	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	0.31742695	hr	288.6207	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	0.4852772	hr	215.118	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	0.8240881	hr	161.40102	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	1.135646	hr	110.34899	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	1.4755678	hr	92.17563	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	1.9191694	hr	66.7062	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	2.433088	hr	75.217224	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	2.966706	hr	44.857185	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	3.5099514	hr	67.8221	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	5.000423	hr	30.94683	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	serum	TAL_30	6.9978895	hr	29.04636	ng/ml	HPLC	Fig1_serum_S3	NA	S3 = RA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	0.07744514	hr	742.84875	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	0.51364106	hr	262.8224	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	0.799279	hr	186.25113	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	1.178488	hr	153.34808	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	1.4789745	hr	128.1087	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	1.9905974	hr	115.713875	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	2.489816	hr	112.27642	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	3.0135472	hr	91.74186	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	3.972993	hr	90.17239	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	4.996609	hr	76.24768	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	serum	TAL_30	6.9544177	hr	70.0537	ng/ml	HPLC	Fig1_serum_S4	NA	S4 = SA
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	0.071557604	hr	1497.9254	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	0.3504564	hr	553.48975	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	0.51349294	hr	259.0876	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	0.8254952	hr	184.90813	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	1.1508647	hr	134.82535	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	1.466792	hr	140.6043	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	1.9729348	hr	74.78633	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	2.4472702	hr	83.140015	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	3.0232115	hr	65.53596	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	3.9864714	hr	26.144194	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	5.0136423	hr	31.167828	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	serum	TAL_30	6.800268	hr	27.842426	ng/ml	HPLC	Fig1_serum_S5	NA	S5 = TE
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	0.31405735	hr	742.3099	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	0.5458558	hr	465.86258	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	0.84249127	hr	268.25528	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	1.4030659	hr	170.60782	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	1.9787112	hr	130.68837	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	2.4253492	hr	126.82652	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	3.0278032	hr	102.13351	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	4.000246	hr	98.95575	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	4.997794	hr	85.49737	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	6.9525666	hr	58.577938	ng/ml	HPLC	Fig1_serum_S6	NA	S6 = PH
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	0.24256642	hr	3.9574556	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	0.3968909	hr	7.957197	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	0.5915772	hr	6.544841	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	0.929805	hr	4.9342375	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	1.2185698	hr	4.685898	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	1.6512719	hr	4.1982408	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	2.132151	hr	2.7189484	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	2.5493217	hr	2.049183	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	3.103406	hr	2.2779346	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S1	1.0	concentration	talinolol	bile	TAL_30	4.1386657	hr	1.6758115	µg/ml	HPLC	Fig1_bile_S1	NA	S1 = GL
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	0.15946862	hr	7.6278853	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	0.27016675	hr	29.557367	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	0.6248163	hr	28.265118	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	0.8628321	hr	11.805448	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	1.2534907	hr	8.771007	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	1.5948842	hr	8.327758	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	2.5669305	hr	2.8340266	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	3.1349633	hr	3.3371854	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	4.0575466	hr	3.7308848	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	5.130596	hr	2.4278195	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S2	1.0	concentration	talinolol	bile	TAL_20	7.0875497	hr	1.8713821	µg/ml	HPLC	Fig1_bile_S2	NA	S2 = BÜ
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	0.11683154	hr	6.05783	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	0.3683013	hr	45.85921	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	0.642524	hr	39.37349	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	0.91021764	hr	21.009031	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	1.2326173	hr	13.038947	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	2.0678492	hr	7.9026256	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	2.5736575	hr	4.626355	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	3.0989542	hr	4.295348	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	4.055766	hr	3.2769752	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	5.106063	hr	2.764408	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S3	1.0	concentration	talinolol	bile	TAL_30	7.091408	hr	2.4787323	µg/ml	HPLC	Fig1_bile_S3	NA	S3 = RA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	0.15007067	hr	26.161871	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	0.4140051	hr	27.684555	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	0.9125919	hr	3.6721175	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	1.2338045	hr	5.451271	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	1.609624	hr	3.58327	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	2.0867438	hr	4.6023517	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	2.5150933	hr	3.0028765	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	3.1408987	hr	5.1425195	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	4.1270914	hr	4.904914	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	5.084299	hr	3.8514643	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S4	1.0	concentration	talinolol	bile	TAL_30	7.106741	hr	2.904454	µg/ml	HPLC	Fig1_bile_S4	NA	S4 = SA
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	0.1944884	hr	37.505466	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	0.8920153	hr	14.547999	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	1.5513567	hr	6.198287	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	2.5584228	hr	3.9768026	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	3.110034	hr	3.6918697	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	4.040729	hr	2.8577752	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	5.0369134	hr	2.1642244	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S5	1.0	concentration	talinolol	bile	TAL_30	7.2332673	hr	2.0100315	µg/ml	HPLC	Fig1_bile_S5	NA	S5 = TE
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.37492934	hr	28.498884	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.3831402	hr	19.875038	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.5914782	hr	16.946228	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.988567	hr	7.7122555	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	1.6394997	hr	4.6441884	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	2.6340022	hr	3.1115394	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	3.0656161	hr	2.575257	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	4.062295	hr	2.0218294	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	5.0198984	hr	1.6340249	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	7.062521	hr	2.0554106	µg/ml	HPLC	Fig1_bile_S6	NA	S6 = PH
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	0.24256642	hr	102.8938	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	0.3968909	hr	206.8871	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	0.5915772	hr	170.1659	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	0.929805	hr	128.2902	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	1.2185698	hr	121.8333	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	1.6512719	hr	109.1543	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	2.132151	hr	70.6927	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	2.5493217	hr	53.2788	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	3.103406	hr	59.2263	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S1	1.0	excretion rate	talinolol	bile	TAL_30	4.1386657	hr	43.5711	µg/hr	HPLC	Fig1_bilerate_S1	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	0.15946862	hr	381.3943	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	0.27016675	hr	1477.8683	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	0.6248163	hr	1413.2559	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	0.8628321	hr	590.2724	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	1.2534907	hr	438.5504	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	1.5948842	hr	416.3879	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	2.5669305	hr	141.7013	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	3.1349633	hr	166.8593	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	4.0575466	hr	186.5442	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	5.130596	hr	121.3910	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S2	1.0	excretion rate	talinolol	bile	TAL_20	7.0875497	hr	93.5691	µg/hr	HPLC	Fig1_bilerate_S2	50.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	0.11683154	hr	690.5926	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	0.3683013	hr	5227.9499	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	0.642524	hr	4488.5779	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	0.91021764	hr	2395.0295	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	1.2326173	hr	1486.4400	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	2.0678492	hr	900.8993	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	2.5736575	hr	527.4045	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	3.0989542	hr	489.6697	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	4.055766	hr	373.5752	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	5.106063	hr	315.1425	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S3	1.0	excretion rate	talinolol	bile	TAL_30	7.091408	hr	282.5755	µg/hr	HPLC	Fig1_bilerate_S3	114.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	0.15007067	hr	1124.9605	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	0.4140051	hr	1190.4359	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	0.9125919	hr	157.9011	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	1.2338045	hr	234.4047	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	1.609624	hr	154.0806	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	2.0867438	hr	197.9011	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	2.5150933	hr	129.1237	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	3.1408987	hr	221.1283	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	4.1270914	hr	210.9113	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	5.084299	hr	165.6130	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S4	1.0	excretion rate	talinolol	bile	TAL_30	7.106741	hr	124.8915	µg/hr	HPLC	Fig1_bilerate_S4	43.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	0.1944884	hr	2025.2952	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	0.8920153	hr	785.5919	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	1.5513567	hr	334.7075	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	2.5584228	hr	214.7473	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	3.110034	hr	199.3610	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	4.040729	hr	154.3199	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	5.0369134	hr	116.8681	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S5	1.0	excretion rate	talinolol	bile	TAL_30	7.2332673	hr	108.5417	µg/hr	HPLC	Fig1_bilerate_S5	54.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	0.37492934	hr	740.9710	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	0.3831402	hr	516.7510	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	0.5914782	hr	440.6019	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	0.988567	hr	200.5186	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	1.6394997	hr	120.7489	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	2.6340022	hr	80.9000	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	3.0656161	hr	66.9567	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	4.062295	hr	52.5676	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	5.0198984	hr	42.4846	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr
+Terhaag1989	S6	1.0	excretion rate	talinolol	bile	TAL_30	7.062521	hr	53.4407	µg/hr	HPLC	Fig1_bilerate_S6	26.0	bile concentration times the bile flow of the patient (Table 1, µg/ml * ml/hr); was times the median flow 46 ml/hr

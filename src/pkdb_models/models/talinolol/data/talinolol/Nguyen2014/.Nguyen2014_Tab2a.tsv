@@ -1,0 +1,7 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	median	unit	time	time_unit	method	label	comments
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_LOW, TAL	0.0	0.0	0.0	mg	0	hr	HPLC	Tab2a_QRC_LOW_TAL	zero time point added
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_LOW, TAL	31.4	12.7	34.4	mg	48	hr	HPLC	Tab2a_QRC_LOW_TAL	NA
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_LOW, TAL, QRC	0.0	0.0	0.0	mg	0	hr	HPLC	Tab2a_QRC_LOW_TAL_QRC	zero time point added
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_LOW, TAL, QRC	22.9	10.1	23.0	mg	48	hr	HPLC	Tab2a_QRC_LOW_TAL_QRC	NA
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_CR, TAL, QRC	0.0	0.0	0.0	mg	0	hr	HPLC	Tab2a_QRC_CR_TAL_QRC	zero time point added
+Nguyen2014	all	10	cumulative amount	talinolol	urine	QRC_CR, TAL, QRC	36.9	20.1	28.6	mg	48	hr	HPLC	Tab2a_QRC_CR_TAL_QRC	NA

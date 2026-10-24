@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	cv	unit	time	time_unit	method	label	comments
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_IV	0.0	0.0	NA	mg	0.0	day	HPLC	Tab1a_TAL_IV_urine	zero time point added
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_IV, RIF	0.0	0.0	NA	mg	0.0	day	HPLC	Tab1a_TAL_IV_RIF_urine	zero time point added
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_PO	0.0	0.0	NA	mg	6.0	day	HPLC	Tab1a_TAL_PO_urine	zero time point added
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_PO, RIF	0.0	0.0	NA	mg	13.0	day	HPLC	Tab1a_TAL_PO_RIF_urine	zero time point added
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_IV	14.3601	6.0734	0.422936024149953	mg	2.0	day	HPLC	Tab1a_TAL_IV_urine	cl_renal*auc (urine collected over 2 days, was placed at 1 day)
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_IV, RIF	15.3367	5.8265	0.379907120119745	mg	2.0	day	HPLC	Tab1a_TAL_IV_RIF_urine	cl_renal*auc (urine collected over 2 days, was placed at 1 day)
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_PO	27.0630	13.6339	0.503784971624418	mg	7.0	day	HPLC	Tab1a_TAL_PO_urine	cl_renal*AUC0-24,ss (urine of 24 hr); the AUC of Table I is normalized to the IV dose of 30 mg, times 100/30 (was 30 mg AUC)
+Westphal2000b	all	8.0	cumulative amount	talinolol	urine	TAL_PO, RIF	19.2100	9.0183	0.469457466617903	mg	14.0	day	HPLC	Tab1a_TAL_PO_RIF_urine	cl_renal*AUC0-24,ss (urine of 24 hr); the AUC of Table I is normalized to the IV dose of 30 mg, times 100/30 (was 30 mg AUC)

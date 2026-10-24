@@ -1,0 +1,109 @@
+study	individual	group	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	comments
+Fan2009a	S1a	all	cmax	talinolol	plasma	TAL, SCHE	811.53	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S1a	all	cmax	talinolol	plasma	TAL	403.59	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S1a	all	cmax	talinolol	plasma	TAL, GBE	459.3	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S2a	all	cmax	talinolol	plasma	TAL, SCHE	635.66	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S2a	all	cmax	talinolol	plasma	TAL	214.64	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S2a	all	cmax	talinolol	plasma	TAL, GBE	459.3	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S3a	all	cmax	talinolol	plasma	TAL, SCHE	500.49	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S3a	all	cmax	talinolol	plasma	TAL	319.29	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S3a	all	cmax	talinolol	plasma	TAL, GBE	406.98	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S4a	all	cmax	talinolol	plasma	TAL, SCHE	455.42	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S4a	all	cmax	talinolol	plasma	TAL	562.02	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S4a	all	cmax	talinolol	plasma	TAL, GBE	718.02	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S5a	all	cmax	talinolol	plasma	TAL, SCHE	453.97	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S5a	all	cmax	talinolol	plasma	TAL	168.12	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S5a	all	cmax	talinolol	plasma	TAL, GBE	175.87	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S6a	all	cmax	talinolol	plasma	TAL, SCHE	269.38	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S6a	all	cmax	talinolol	plasma	TAL	150.68	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S6a	all	cmax	talinolol	plasma	TAL, GBE	308.14	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S7a	all	cmax	talinolol	plasma	TAL, SCHE	228.68	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S7a	all	cmax	talinolol	plasma	TAL	248.07	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S7a	all	cmax	talinolol	plasma	TAL, GBE	287.79	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S8a	all	cmax	talinolol	plasma	TAL, SCHE	289.73	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S8a	all	cmax	talinolol	plasma	TAL	166.67	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S8a	all	cmax	talinolol	plasma	TAL, GBE	197.67	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S9a	all	cmax	talinolol	plasma	TAL, SCHE	478.68	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S9a	all	cmax	talinolol	plasma	TAL	274.23	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S9a	all	cmax	talinolol	plasma	TAL, GBE	436.05	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S10a	all	cmax	talinolol	plasma	TAL, SCHE	359.49	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S10a	all	cmax	talinolol	plasma	TAL	320.74	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S10a	all	cmax	talinolol	plasma	TAL, GBE	386.63	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S11a	all	cmax	talinolol	plasma	TAL, SCHE	326.07	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S11a	all	cmax	talinolol	plasma	TAL	280.04	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S11a	all	cmax	talinolol	plasma	TAL, GBE	385.18	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S12a	all	cmax	talinolol	plasma	TAL, SCHE	275.2	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S12a	all	cmax	talinolol	plasma	TAL	281.5	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S12a	all	cmax	talinolol	plasma	TAL, GBE	287.8	ng/ml	NA	NA	HPLC	NA
+Fan2009a	S1b	all	auc_inf	talinolol	plasma	TAL, SCHE	11227.94	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S1b	all	auc_inf	talinolol	plasma	TAL	4255.396	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S1b	all	auc_inf	talinolol	plasma	TAL, GBE	4319.331	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S2b	all	auc_inf	talinolol	plasma	TAL, SCHE	8754.745	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S2b	all	auc_inf	talinolol	plasma	TAL	3802.5852	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S2b	all	auc_inf	talinolol	plasma	TAL, GBE	4319.331	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S3b	all	auc_inf	talinolol	plasma	TAL, SCHE	7291.733	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S3b	all	auc_inf	talinolol	plasma	TAL	3262.7927	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S3b	all	auc_inf	talinolol	plasma	TAL, GBE	5608.2183	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S4b	all	auc_inf	talinolol	plasma	TAL, SCHE	6717.0264	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S4b	all	auc_inf	talinolol	plasma	TAL	5300.4307	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S4b	all	auc_inf	talinolol	plasma	TAL, GBE	4284.518	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S5b	all	auc_inf	talinolol	plasma	TAL, SCHE	6664.797	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S5b	all	auc_inf	talinolol	plasma	TAL	1747.4697	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S5b	all	auc_inf	talinolol	plasma	TAL, GBE	3291.753	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S6b	all	auc_inf	talinolol	plasma	TAL, SCHE	3425.2935	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S6b	all	auc_inf	talinolol	plasma	TAL	5300.4307	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S6b	all	auc_inf	talinolol	plasma	TAL, GBE	6775.0884	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S7b	all	auc_inf	talinolol	plasma	TAL, SCHE	3425.3137	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S7b	all	auc_inf	talinolol	plasma	TAL	2339.6536	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S7b	all	auc_inf	talinolol	plasma	TAL, GBE	3814.2705	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S8b	all	auc_inf	talinolol	plasma	TAL, SCHE	3059.5657	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S8b	all	auc_inf	talinolol	plasma	TAL	3053.6724	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S8b	all	auc_inf	talinolol	plasma	TAL, GBE	2943.3606	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S9b	all	auc_inf	talinolol	plasma	TAL, SCHE	2467.3616	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S9b	all	auc_inf	talinolol	plasma	TAL	1747.49	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S9b	all	auc_inf	talinolol	plasma	TAL, GBE	3326.566	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S10b	all	auc_inf	talinolol	plasma	TAL, SCHE	2206.1738	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S10b	all	auc_inf	talinolol	plasma	TAL	1642.9906	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S10b	all	auc_inf	talinolol	plasma	TAL, GBE	1950.6361	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S11b	all	auc_inf	talinolol	plasma	TAL, SCHE	1944.9454	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S11b	all	auc_inf	talinolol	plasma	TAL	2357.0298	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S11b	all	auc_inf	talinolol	plasma	TAL, GBE	2577.6733	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S12b	all	auc_inf	talinolol	plasma	TAL, SCHE	4417.9775	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S12b	all	auc_inf	talinolol	plasma	TAL	2757.6716	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S12b	all	auc_inf	talinolol	plasma	TAL, GBE	3344.1243	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	S1c	all	auc_end	talinolol	plasma	TAL, SCHE	4130.23	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S1c	all	auc_end	talinolol	plasma	TAL	4927.16	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S1c	all	auc_end	talinolol	plasma	TAL, GBE	5183.92	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S2c	all	auc_end	talinolol	plasma	TAL, SCHE	2670.47	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S2c	all	auc_end	talinolol	plasma	TAL	6754.78	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S2c	all	auc_end	talinolol	plasma	TAL, GBE	3195.39	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S3c	all	auc_end	talinolol	plasma	TAL, SCHE	2704.95	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S3c	all	auc_end	talinolol	plasma	TAL	5697.29	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S3c	all	auc_end	talinolol	plasma	TAL, GBE	2942.53	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S4c	all	auc_end	talinolol	plasma	TAL, SCHE	2509.55	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S4c	all	auc_end	talinolol	plasma	TAL	4823.73	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S4c	all	auc_end	talinolol	plasma	TAL, GBE	3459.78	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S5c	all	auc_end	talinolol	plasma	TAL, SCHE	2406.12	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S5c	all	auc_end	talinolol	plasma	TAL	2226.03	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S5c	all	auc_end	talinolol	plasma	TAL, GBE	3298.84	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S6c	all	auc_end	talinolol	plasma	TAL, SCHE	2268.13	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S6c	all	auc_end	talinolol	plasma	TAL	3455.93	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S6c	all	auc_end	talinolol	plasma	TAL, GBE	2793.08	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S7c	all	auc_end	talinolol	plasma	TAL, SCHE	2164.74	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S7c	all	auc_end	talinolol	plasma	TAL	1812.25	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S7c	all	auc_end	talinolol	plasma	TAL, GBE	1770.12	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S8c	all	auc_end	talinolol	plasma	TAL, SCHE	1992.34	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S8c	all	auc_end	talinolol	plasma	TAL	2812.25	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S8c	all	auc_end	talinolol	plasma	TAL, GBE	2310.34	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S9c	all	auc_end	talinolol	plasma	TAL, SCHE	1900.36	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S9c	all	auc_end	talinolol	plasma	TAL	1708.78	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S9c	all	auc_end	talinolol	plasma	TAL, GBE	2287.33	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S10c	all	auc_end	talinolol	plasma	TAL, SCHE	1498.07	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S10c	all	auc_end	talinolol	plasma	TAL	4697.3315	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S10c	all	auc_end	talinolol	plasma	TAL, GBE	2310.386	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S11c	all	auc_end	talinolol	plasma	TAL, SCHE	1452.0798	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S11c	all	auc_end	talinolol	plasma	TAL	2099.603	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S11c	all	auc_end	talinolol	plasma	TAL, GBE	1873.522	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S12c	all	auc_end	talinolol	plasma	TAL, SCHE	1417.597	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S12c	all	auc_end	talinolol	plasma	TAL	1731.787	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	S12c	all	auc_end	talinolol	plasma	TAL, GBE	1586.1931	ng*hr/ml	24.0	hr	HPLC	NA

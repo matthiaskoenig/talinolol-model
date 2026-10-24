@@ -1,0 +1,15 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Xiao2012	all	NA	species	18	homo sapiens	18	NA	NA	NA	NA	NA	NA	NA	Eighteen healthy, non-smoking male volunteers were enrolled in the clinical trial after having given written informed consent (age range 18–30 years; body mass index range 18–29 kg/m2).
+Xiao2012	all	NA	sex	18	M	18	NA	NA	NA	NA	NA	NA	NA	NA
+Xiao2012	all	NA	healthy	18	Y	18	NA	NA	NA	NA	NA	NA	NA	NA
+Xiao2012	all	NA	age	18	NA	18	NA	NA	NA	18.0	30.0	NA	yr	NA
+Xiao2012	all	NA	bmi	18	NA	18	NA	NA	NA	18.0	29.0	NA	kg/m^2	NA
+Xiao2012	all	NA	medication	18	N	18	NA	NA	NA	NA	NA	NA	NA	NA
+Xiao2012	all	NA	abstinence medication	18	NA	18	NA	NA	NA	2.0	NA	NA	week	NA
+Xiao2012	all	NA	abstinence	18	NA	18	coffee	NA	NA	2.0	NA	NA	week	They also abstained from taking grapefruit juice, herbal dietary supplements and caffeine-containing beverages including coffee and green tea for 2 weeks before the study and during the study period.
+Xiao2012	all	NA	abstinence	18	NA	18	caffeine	NA	NA	2.0	NA	NA	week	NA
+Xiao2012	all	NA	abstinence	18	NA	18	grapefruit juice	NA	NA	2.0	NA	NA	week	NA
+Xiao2012	all	NA	abstinence	18	NA	18	green tea	NA	NA	2.0	NA	NA	week	NA
+Xiao2012	all	NA	overnight fast	18	Y	18	NA	NA	NA	NA	NA	NA	NA	Participants were fasted overnight and empty before taking midazolam (7.5 mg) and talinolol (100 mg) at approximately 8:00 am. No food was ingested until 9:30 am.
+Xiao2012	all	NA	smoking	18	N	18	NA	NA	NA	NA	NA	NA	NA	NA
+Xiao2012	all	NA	ethnicity	18	chinese	18	NA	NA	NA	NA	NA	NA	NA	NA

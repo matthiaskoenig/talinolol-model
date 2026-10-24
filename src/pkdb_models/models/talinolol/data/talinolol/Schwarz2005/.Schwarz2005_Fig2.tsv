@@ -1,0 +1,22 @@
+study	individual	group	substance	measurement	time	time_unit	unit	method	tissue	x_intervention	x_label	x	y_intervention	y	y_change	y_label
+Schwarz2005	S1	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	64.73283	TAL, GFJ_AC	66.33283	1.6	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S2	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	123.35878	TAL, GFJ_AC	173.75878	50.4	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S3	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	133.12978	TAL, GFJ_AC	137.92978	4.8	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S4	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	132.51909	TAL, GFJ_AC	106.91909	-25.6	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S5	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	208.85497	TAL, GFJ_AC	173.65497	-35.2	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S6	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	217.40459	TAL, GFJ_AC	136.60459	-80.8	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S7	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	205.19084	TAL, GFJ_AC	109.19084	-96.0	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S8	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	245.49619	TAL, GFJ_AC	192.69619	-52.8	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S9	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	246.71756	TAL, GFJ_AC	128.31756	-118.4	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S10	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	303.51144	TAL, GFJ_AC	220.844776	-82.666664	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S11	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	324.2748	TAL, GFJ_AC	188.80814	-135.46666	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S12	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	326.31042	TAL, GFJ_AC	187.11042	-139.2	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S13	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	313.28244	TAL, GFJ_AC	168.21577	-145.06667	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S14	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	303.10434	TAL, GFJ_AC	142.03767	-161.06667	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S15	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	263.61322	TAL, GFJ_AC	78.54655	-185.06667	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S16	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	321.01782	TAL, GFJ_AC	102.35115	-218.66667	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S17	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	479.79645	TAL, GFJ_AC	312.32979	-167.46666	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S18	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	378.4224	TAL, GFJ_AC	69.6224	-308.8	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S19	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	503.8168	TAL, GFJ_AC	301.68347	-202.13333	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S20	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	557.15015	TAL, GFJ_AC	291.01682	-266.13333	Fig2_AUC_TAL_GFJ_AC
+Schwarz2005	S21	all	talinolol	auc_end	24	hr	ng*hr/ml	HPLC	serum	TAL	Fig2_AUC_TAL	561.6285	TAL, GFJ_AC	171.2285	-390.4	Fig2_AUC_TAL_GFJ_AC

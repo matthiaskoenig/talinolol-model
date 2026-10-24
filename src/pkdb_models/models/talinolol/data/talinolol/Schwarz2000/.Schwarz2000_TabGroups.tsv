@@ -1,0 +1,15 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Schwarz2000	all	NA	species	9	homo sapiens	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	all	NA	sex	9	M	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	all	NA	healthy	9	Y	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	all	NA	age	9	NA	9	NA	NA	NA	21.0	27.0	NA	yr	NA
+Schwarz2000	all	NA	weight	9	NA	9	NA	72.0	10.0	59.0	95.0	NA	kg 	They were within 20% of their ideal weight.
+Schwarz2000	all	NA	kidney function test	9	normal	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	all	NA	liver function test	9	normal	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	all	NA	medication	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	all	NA	abstinence medication	9	NA	9	NA	NA	NA	2.0	NA	NA	week	NA
+Schwarz2000	all	NA	abstinence alcohol	9	NA	9	NA	NA	NA	10.0	NA	NA	hr	NA
+Schwarz2000	all	NA	abstinence	9	NA	9	caffeine	NA	NA	10.0	NA	NA	hr	The subjects were also asked not to consume alcoholic or caffeine-containing foods and beverages 10 hours prior to and throughout the two successive two-day study periods.
+Schwarz2000	all	NA	overnight fast	9	Y	9	NA	NA	NA	NA	NA	NA	NA	All subjects received a standardized meal 4 and 8 hours after drug administration.
+Schwarz2000	all	NA	smoking	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2000	arm_2_arm_3	all	sex	8	M	8	NA	NA	NA	NA	NA	NA	NA	NA

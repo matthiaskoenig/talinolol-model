@@ -1,0 +1,18 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.17	hr				HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.0	hr	2.1815980962599207e-05			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.5	hr	0.0010183358780726007			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.67	hr	0.0013093164967881263			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	1.0	hr				HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	1.5	hr	0.00032715718235464035			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	2.0	hr	0.00023282300994511616			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	2.5	hr	0.00019881979119382658			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	3.5	hr	0.0001691632622181873			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	4.0	hr	0.0001584340912529746			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	4.5	hr	0.0001388739872625483			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	6.5	hr	0.00012327542332081596			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	8.5	hr	0.00010184459208517312			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	12.5	hr	7.507668606170648e-05			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	16.5	hr	6.0083357405191265e-05			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	25.5	hr	4.7703544753022734e-05			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	36.5	hr	2.9133825774769938e-05			HPLC	Fig4_TAL_IV	sum of R and S isoform	mole/meter^3	dimensionless

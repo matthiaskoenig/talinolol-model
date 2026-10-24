@@ -1,0 +1,19 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	0.0	hr	0.0			HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	0.5	hr	0.00010976767218256096	15.61	6.682347762692746e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	1.0	hr	0.00023782995639554878	29.77	0.0001559306180277583	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	1.5	hr	0.0004271585578893795	65.7	0.00024641329316771896	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	2.0	hr	0.0005649871387501892	93.53	0.00030767961044856186	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	2.5	hr	0.0006164871593832102	140.08	0.00023111734686859513	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	3.0	hr	0.0006401188462014607	167.4	0.0001795898155407915	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	3.5	hr	0.0006345341751605937	166.89	0.00017540818993383683	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	4.0	hr	0.0005913698950466993	160.3	0.00015037345768167373	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	4.5	hr	0.000535660738111941	143.6	0.00014060716103385192	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	5.0	hr	0.00048273016135022486	133.47	0.00011554491808690628	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	6.0	hr	0.00044234446140937285	119.29	0.00011416938334777643	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	8.0	hr	0.0003475976285781097	92.44	9.328876600778551e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	10.0	hr	0.0002960150758607408	80.27	7.518672884083687e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	12.0	hr	0.000244432523143372	70.63	5.012448589389124e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	16.0	hr	0.00017469291186948926	49.33	3.898265450693957e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	24.0	hr	0.00012847494463472675	35.06	3.20224487269426e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_PO	36.0	hr	6.544794288779762e-05	17.71	1.672650242781881e-05	HPLC	Fig2_TAL_PO		mole/meter^3	dimensionless

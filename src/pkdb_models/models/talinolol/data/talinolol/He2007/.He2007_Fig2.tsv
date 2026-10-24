@@ -1,0 +1,15 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+He2007	all	12.0	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	0.5	hr	68.09	93.09	25.0	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	1.0	hr	96.9	171.9009	75.0009	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	1.5	hr	101.9	154.7566	52.8566	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	2.0	hr	115.23	157.84941	42.61941	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	3.0	hr	105.7	140.4644	34.7644	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	4.0	hr	84.75	107.84148	23.09148	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	6.0	hr	66.88	80.4522	13.5722	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	8.0	hr	57.35	66.39688	9.04687999999999	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	12.0	hr	44.95	52.809456	7.85945599999999	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	24.0	hr	26.81	31.809717	4.999717	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	36.0	hr	17.0	30.809393	13.809393	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	48.0	hr	6.95	9.332655	2.382655	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+He2007	all	12.0	concentration	talinolol	plasma	TAL	60.0	hr	5.24	11.43	6.19	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA

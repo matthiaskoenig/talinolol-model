@@ -1,0 +1,37 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Han2009	MDR1_CC	cmax	talinolol	plasma	TAL	156.89	29.065	ng/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	auc_end	talinolol	plasma	TAL	1330.46	303.885	ng*hr/ml	36.0	hr	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	auc_inf	talinolol	plasma	TAL	1522.83	321.715	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	tmax	talinolol	plasma	TAL	1.61	0.76	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	thalf	talinolol	plasma	TAL	12.24	2.065	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	clearance	talinolol	plasma	TAL	6.4	1.415	l/hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	cmax	talinolol	plasma	SIL, TAL	223.74	90.475	ng/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	auc_end	talinolol	plasma	SIL, TAL	1631.0	115.65	ng*hr/ml	36.0	hr	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	auc_inf	talinolol	plasma	SIL, TAL	1858.85	146.93	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	tmax	talinolol	plasma	SIL, TAL	1.7	0.53	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	thalf	talinolol	plasma	SIL, TAL	13.03	2.825	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CC	clearance	talinolol	plasma	SIL, TAL	5.09	0.41	l/hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	cmax	talinolol	plasma	TAL	177.92	90.835	ng/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	auc_end	talinolol	plasma	TAL	1256.26	431.695	ng*hr/ml	36.0	hr	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	auc_inf	talinolol	plasma	TAL	1482.39	365.995	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	tmax	talinolol	plasma	TAL	1.94	0.91	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	thalf	talinolol	plasma	TAL	12.41	3.07	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	clearance	talinolol	plasma	TAL	6.8	1.63	l/hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	cmax	talinolol	plasma	SIL, TAL	248.81	38.54	ng/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	auc_end	talinolol	plasma	SIL, TAL	1739.85	185.78	ng*hr/ml	36.0	hr	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	auc_inf	talinolol	plasma	SIL, TAL	2029.04	311.555	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	tmax	talinolol	plasma	SIL, TAL	1.71	0.82	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	thalf	talinolol	plasma	SIL, TAL	13.6	6.32	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_CT	clearance	talinolol	plasma	SIL, TAL	4.72	0.74	l/hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	cmax	talinolol	plasma	TAL	183.48	67.53	ng/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	auc_end	talinolol	plasma	TAL	1335.33	376.35	ng*hr/ml	36.0	hr	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	auc_inf	talinolol	plasma	TAL	1538.11	513.5	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	tmax	talinolol	plasma	TAL	2.26	0.4	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	thalf	talinolol	plasma	TAL	12.79	3.48	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	clearance	talinolol	plasma	TAL	6.79	2.78	l/hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	cmax	talinolol	plasma	SIL, TAL	184.82	68.985	ng/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	auc_end	talinolol	plasma	SIL, TAL	1622.73	488.88	ng*hr/ml	36.0	hr	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	auc_inf	talinolol	plasma	SIL, TAL	1862.59	519.415	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	tmax	talinolol	plasma	SIL, TAL	2.23	0.995	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	thalf	talinolol	plasma	SIL, TAL	13.46	2.75	hr	NA	NA	HPLC-ESI-MS	NA
+Han2009	MDR1_TT	clearance	talinolol	plasma	SIL, TAL	5.34	1.4	l/hr	NA	NA	HPLC-ESI-MS	NA

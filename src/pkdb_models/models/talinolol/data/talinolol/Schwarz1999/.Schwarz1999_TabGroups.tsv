@@ -1,0 +1,13 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Schwarz1999	all	NA	species	9	homo sapiens	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz1999	all	NA	sex	9	M	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz1999	all	NA	healthy	9	Y	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz1999	all	NA	age	9	NA	9	NA	NA	NA	21.0	27.0	NA	yr	NA
+Schwarz1999	all	NA	weight	9	NA	9	NA	NA	NA	59.0	95.0	NA	kg 	They were within 20% of their ideal weight.
+Schwarz1999	all	NA	pregnant	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz1999	all	NA	medication	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz1999	all	NA	abstinence medication	9	NA	9	NA	NA	NA	2.0	NA	NA	week	NA
+Schwarz1999	all	NA	abstinence alcohol	9	NA	9	NA	NA	NA	2.0	NA	NA	week	NA
+Schwarz1999	all	NA	abstinence	9	NA	9	coffee	NA	NA	2.0	NA	NA	week	in addition, the subjects were not allowed to consume alcohol- or caffeinecontaining foods and beverages 10 hours before and throughout the 2 successive 2-day study periods. 
+Schwarz1999	all	NA	overnight fast	9	Y	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz1999	all	NA	smoking	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,15 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	0.0	hr	0.0			HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	0.5	hr	0.00021532620806338461	150.70093	0.00019926252080496292	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	1.0	hr	0.00038116067621287776	215.18692	0.00021083349151982826	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	1.5	hr	0.0004968706584684797	254.43925	0.00020310939627780293	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	2.0	hr	0.0007166921140593405	428.27103	0.00046151124499649234	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	2.5	hr	0.0010098075626899957	548.8318	0.0005000668509883219	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	3.0	hr	0.0009731633172395768	440.18692	0.00023782148310155565	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	4.0	hr	0.0008381683379413747	382.71027	0.00021469420487214394	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	6.0	hr	0.0005238586500502069	229.20561	0.00010670190786668323	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	8.0	hr	0.00034644217939724063	159.81308	9.32147072174308e-05	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	12.0	hr	0.0002172519566981664	112.850464	9.320751041967565e-05	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	24.0	hr	0.00010927247967647422	75.0	9.705773119300128e-05	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	36.0	hr	4.949173991389152e-05	27.336449	2.5712730574010654e-05	HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	48.0	hr	2.2503748332164127e-05			HPLC/UV	Fig1_TAL_ABCB1_CC		mole/meter^3	dimensionless

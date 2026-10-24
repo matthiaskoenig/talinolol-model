@@ -1,0 +1,43 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	se	unit	method	label	comments
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	0.25	hr	56.411995	26.423887	29.988108	9.48307239991166	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	0.5	hr	123.79341	46.642212	77.151198	24.3973509890627	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	0.75	hr	156.69154	65.28716	91.40438	28.9046028915541	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	1.0	hr	180.19022	82.390144	97.800076	30.927099549757	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	1.5	hr	175.4525	72.177345	103.275155	32.6584715506927	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	2.0	hr	235.76407	125.05339	110.71068	35.009791010605	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	2.5	hr	213.00479	146.00345	67.00134	21.1876840683346	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	3.0	hr	205.13477	105.431755	99.703015	31.5288616985933	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	4.0	hr	196.45064	99.03148	97.41916	30.8066433340369	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	6.0	hr	125.00127	79.24026	45.76101	14.4709019629742	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	8.0	hr	91.17002	64.891464	26.278556	8.31000905802837	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	10.0	hr	77.72032	35.757355	41.962965	13.2698546773928	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	12.0	hr	73.6701	33.097378	40.572722	12.8302212392822	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	24.0	hr	42.324192	16.358692	25.9655	8.21101205851021	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	0.25	hr	65.817795	31.878878	33.938917	10.7324279039409	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	0.5	hr	130.84682	84.02005	46.82677	14.8079248668843	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	0.75	hr	144.93842	46.595104	98.343316	31.0988871213679	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	1.0	hr	144.13571	82.383865	61.751845	19.527647991768	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	1.5	hr	185.63948	90.87255	94.76693	29.9679345661741	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	2.0	hr	222.44225	116.49248	105.94977	33.5042590770978	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	2.5	hr	174.60548	107.84363	66.76185	21.1119506806512	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	3.0	hr	169.0866	79.72703	89.35957	28.2579771933252	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	4.0	hr	164.32101	21.9236	142.39741	45.0300148508837	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	6.0	hr	118.73411	41.84986	76.88425	24.3129346193801	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	8.0	hr	101.35953	65.6703	35.68923	11.2859254737611	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	10.0	hr	90.25844	45.097103	45.161337	14.2812687098436	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	12.0	hr	79.93978	57.241287	22.698493	7.17789373333883	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBEAC, TAL	24.0	hr	45.457767	23.365072	22.092695	6.98632358514136	ng/ml	HPLC	Fig1_GBEAC, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	0.25	hr	96.37872	140.1402	43.76148	13.8385950579905	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	0.5	hr	197.45845	291.18723	93.72878	29.6396427108837	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	0.75	hr	247.60455	353.4564	105.85185	33.4732940542494	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	1.0	hr	267.96585	414.17105	146.2052	46.234143776045	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	1.5	hr	267.92914	378.25665	110.32751	34.8886220175003	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	2.0	hr	309.43414	411.67123	102.23709	32.3302065747624	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	2.5	hr	343.1008	450.52823	107.42743	33.9715361978302	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	3.0	hr	283.5071	437.20322	153.69612	48.6029806730558	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	4.0	hr	232.50008	404.3351	171.83502	54.3390044980587	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	6.0	hr	144.59277	198.39272	53.79995	17.0130380003176	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	8.0	hr	129.57185	167.70407	38.13222	12.0584667438626	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	10.0	hr	118.470764	163.48642	45.015656	14.2352003326625	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	12.0	hr	90.12676	117.20536	27.0786	8.56300518486355	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD
+Fan2009b	all	10	concentration	talinolol	plasma	GBECR, TAL	24.0	hr	55.644745	79.44753	23.802785	7.5271015255291	ng/ml	HPLC	Fig1_GBECR, TAL	reported SE incorrect, most likely SD

@@ -1,0 +1,25 @@
+study	individual	count	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	comments
+Terhaag1989	S1	1.0	thalf	talinolol	serum	TAL_30	3.8	hr	NA	NA	HPLC	NA
+Terhaag1989	S1	1.0	clearance	talinolol	bile	TAL_30	65.0	ml/hr/kg	NA	NA	HPLC	biliary clearance of the patient (was assigned to S1); unit incorrect in table
+Terhaag1989	S1	1.0	bile_flow	talinolol	bile	TAL_30	26.0	ml/hr	NA	NA	HPLC	NA
+Terhaag1989	S1	1.0	cumulative amount	talinolol	bile	TAL_30	1.1	mg	120.0	hr	HPLC	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S2	1.0	thalf	talinolol	serum	TAL_20	4.8	hr	NA	NA	HPLC	NA
+Terhaag1989	S2	1.0	clearance	talinolol	bile	TAL_20	4.0	ml/hr/kg	NA	NA	HPLC	biliary clearance of the patient (was assigned to S1); unit incorrect in table
+Terhaag1989	S2	1.0	bile_flow	talinolol	bile	TAL_20	50.0	ml/hr	NA	NA	HPLC	NA
+Terhaag1989	S2	1.0	cumulative amount	talinolol	bile	TAL_20	2.8	mg	120.0	hr	HPLC	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S3	1.0	thalf	talinolol	serum	TAL_30	4.1	hr	NA	NA	HPLC	NA
+Terhaag1989	S3	1.0	clearance	talinolol	bile	TAL_30	212.0	ml/hr/kg	NA	NA	HPLC	biliary clearance of the patient (was assigned to S1); unit incorrect in table
+Terhaag1989	S3	1.0	bile_flow	talinolol	bile	TAL_30	114.0	ml/hr	NA	NA	HPLC	NA
+Terhaag1989	S3	1.0	cumulative amount	talinolol	bile	TAL_30	7.4	mg	120.0	hr	HPLC	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S4	1.0	thalf	talinolol	serum	TAL_30	4.9	hr	NA	NA	HPLC	NA
+Terhaag1989	S4	1.0	clearance	talinolol	bile	TAL_30	29.0	ml/hr/kg	NA	NA	HPLC	biliary clearance of the patient (was assigned to S1); unit incorrect in table
+Terhaag1989	S4	1.0	bile_flow	talinolol	bile	TAL_30	43.0	ml/hr	NA	NA	HPLC	NA
+Terhaag1989	S4	1.0	cumulative amount	talinolol	bile	TAL_30	3.1	mg	120.0	hr	HPLC	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S5	1.0	thalf	talinolol	serum	TAL_30	3.0	hr	NA	NA	HPLC	NA
+Terhaag1989	S5	1.0	clearance	talinolol	bile	TAL_30	57.0	ml/hr/kg	NA	NA	HPLC	biliary clearance of the patient (was assigned to S1); unit incorrect in table
+Terhaag1989	S5	1.0	bile_flow	talinolol	bile	TAL_30	54.0	ml/hr	NA	NA	HPLC	NA
+Terhaag1989	S5	1.0	cumulative amount	talinolol	bile	TAL_30	2.7	mg	120.0	hr	HPLC	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr
+Terhaag1989	S6	1.0	thalf	talinolol	serum	TAL_30	6.2	hr	NA	NA	HPLC	NA
+Terhaag1989	S6	1.0	clearance	talinolol	bile	TAL_30	13.0	ml/hr/kg	NA	NA	HPLC	biliary clearance of the patient (was assigned to S1); unit incorrect in table
+Terhaag1989	S6	1.0	bile_flow	talinolol	bile	TAL_30	26.0	ml/hr	NA	NA	HPLC	NA
+Terhaag1989	S6	1.0	cumulative amount	talinolol	bile	TAL_30	1.2	mg	120.0	hr	HPLC	amount eliminated at infinity (A, extrapolated with the bile flow of the patient), placed at 120 hr

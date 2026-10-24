@@ -1,0 +1,18 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Haustein1981	all	NA	9	species	homo sapiens	9	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	all	NA	9	healthy	Y	3	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	all	NA	9	healthy	N	6	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	all	NA	9	sex	F	2	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	all	NA	9	sex	M	4	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	all	NA	9	sex	NR	3	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	patient	all	6	species	homo sapiens	6	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	patient	all	6	sex	F	2	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	patient	all	6	sex	M	4	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	patient	all	6	healthy	N	6	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	patient	all	6	disease	heart disease	6	NA	NA	NA	NA	NA	NA	NA	suffering from ischemic heart disease, hypertension, or mitral valve disease accompanied by rhythmic disorders
+Haustein1981	patient	all	6	age	NA	6	NA	NA	NA	39.0	45.0	NA	yr	NA
+Haustein1981	patient	all	6	medication	Y	6	talinolol	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	patient	all	6	medication amount	NA	6	talinolol	NA	NA	150.0	300.0	NA	mg/day	 took talinolol in daily doses of 150-300 mg (3 times 1-2 drag@es Cordanum, 50 mg per drag@e).
+Haustein1981	arm_2_arm_3	patient	5	species	homo sapiens	5	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	control	all	3	species	homo sapiens	3	NA	NA	NA	NA	NA	NA	NA	NA
+Haustein1981	control	all	3	healthy	Y	3	NA	NA	NA	NA	NA	NA	NA	NA

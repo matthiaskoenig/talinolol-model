@@ -1,0 +1,13 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Zhang2005	GG_CC	7	auc_inf	talinolol	serum	TAL	2500.9	1291.1	ng*hr/ml	NA	NA	HPLC/UV	NA
+Zhang2005	GG_CC	7	auc_end	talinolol	serum	TAL	436.8	50.1	ng*hr/ml	3.0	hr	HPLC/UV	NA
+Zhang2005	GG_CC	7	cmax	talinolol	serum	TAL	243.0	129.2	ng/ml	NA	NA	HPLC/UV	NA
+Zhang2005	TT_TT	7	auc_inf	talinolol	serum	TAL	2624.5	1291.1	ng*hr/ml	NA	NA	HPLC/UV	NA
+Zhang2005	TT_TT	7	auc_end	talinolol	serum	TAL	510.1	86.3	ng*hr/ml	3.0	hr	HPLC/UV	NA
+Zhang2005	TT_TT	7	cmax	talinolol	serum	TAL	244.0	102.3	ng/ml	NA	NA	HPLC/UV	NA
+Zhang2005	GT_CT	7	auc_inf	talinolol	serum	TAL	2465.0	1070.7	ng*hr/ml	NA	NA	HPLC/UV	NA
+Zhang2005	GT_CT	7	auc_end	talinolol	serum	TAL	466.1	77.8	ng*hr/ml	3.0	hr	HPLC/UV	NA
+Zhang2005	GT_CT	7	cmax	talinolol	serum	TAL	258.4	129.4	ng/ml	NA	NA	HPLC/UV	NA
+Zhang2005	AT_CT	6	auc_inf	talinolol	serum	TAL	2317.2	675.7	ng*hr/ml	NA	NA	HPLC/UV	NA
+Zhang2005	AT_CT	6	auc_end	talinolol	serum	TAL	437.2	73.4	ng*hr/ml	3.0	hr	HPLC/UV	NA
+Zhang2005	AT_CT	6	cmax	talinolol	serum	TAL	236.0	111.2	ng/ml	NA	NA	HPLC/UV	NA

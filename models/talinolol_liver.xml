@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:distrib="http://www.sbml.org/sbml/level3/version1/distrib/version1" level="3" version="2" comp:required="true" distrib:required="true">
   <notes>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
@@ -11,35 +11,33 @@
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <h1>Model for talinolol elimination in the liver</h1>
-        <p>Model for hepatic metabolism of talinolol via CYP3A4 in
-in <a href="http://sbml.org">SBML</a>.</p>
-        <p>Talinolol metabolization is neglegtable and was not modeld explicitly.
-Talinolol is taken up in the liver and subsequently can be excreted in the bile and be
-transported back to the intestine via the enterohepatic circulation (EHC).</p>
+        <p>Model for the hepatic uptake and biliary excretion of talinolol in
+<a href="http://sbml.org">SBML</a>.
+Talinolol is not metabolized (the metabolites in the urine are 0.33 % of
+the dose, Trausch1995), it is taken up into the liver (OATP1B1, <code>TALIM</code>)
+and excreted unchanged into the bile (P-glycoprotein, <code>TALEX</code>). The bile
+reaches the duodenum (<code>TALEHC</code>, the enterohepatic circulation); the bile
+collected by a T-drain after a cholecystectomy is not (<code>f_EHC</code> 0).</p>
         <ul>
-          <li>enterohepatic circulation (see Terhaag1989); “The biliary clearance amounted to 43 ml/hr/kg (range: 13-212 ml/hr/kg).</li>
+          <li>enterohepatic circulation (see Terhaag1989); &quot;The biliary clearance amounted to 43 ml/hr/kg (range: 13-212 ml/hr/kg).&quot;</li>
         </ul>
+        <p>The content of this model has been carefully created in a manual research effort.</p>
         <h2>Terms of use</h2>
-        <p>The content of this model has been carefully created in a manual research effort.
-This file has been created by <a href="https://livermetabolism.com">Matthias König</a>
-using <a href="https://github.com/matthiaskoenig/sbmlutils">sbmlutils</a>.
-For questions contact <a href="mailto:koenigmx@hu-berlin.de">koenigmx@hu-berlin.de</a>. Copyright © 2023 Matthias König.</p>
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+        <p>Copyright © 2026 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"/>
         </a>
-        <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-<p>Redistribution and use of any part of this model, with or without modification,
-are permitted provided that the following conditions are met:</p>
-        <ol>
-          <li>Redistributions of this SBML file must retain the above copyright notice, this
-list of conditions and the following disclaimer.</li>
-          <li>Redistributions in a different form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation and/or
-other materials provided with the distribution.</li>
-        </ol>
-        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.</p></body>
+        <br/>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<p>Redistribution and use of any part of this model, with or without modification, are permitted provided
+that the following conditions are met:</p>
+        <ul>
+          <li>Redistributions of this SBML file must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+          <li>Redistributions in a different form must reproduce the above copyright notice, this list of conditions
+and the following disclaimer in the documentation and/or other materials provided
+with the distribution.</li>
+        </ul>
+        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></body>
       </notes>
     <annotation>
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -65,10 +63,10 @@ FOR A PARTICULAR PURPOSE.</p></body>
             </rdf:Bag>
           </dcterms:creator>
           <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T12:57:13Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T12:57:13Z</dcterms:W3CDTF>
           </dcterms:modified>
         </rdf:Description>
       </rdf:RDF>
@@ -151,91 +149,85 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" spatialDimensions="3" size="4" units="litre" constant="true">
+      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" size="4" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vli" sboTerm="SBO:0000290" id="Vli" name="liver" spatialDimensions="3" size="1.5" units="litre" constant="true">
+      <compartment metaid="meta_Vli" sboTerm="SBO:0000290" id="Vli" name="liver" size="1.5" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vli">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:7197"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000759"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C12392"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12392"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vbaso" sboTerm="SBO:0000290" id="Vbaso" name="basolateral membrane" spatialDimensions="3" size="NaN" units="m2" constant="true">
+      <compartment metaid="meta_Vbaso" sboTerm="SBO:0000290" id="Vbaso" name="basolateral membrane" size="NaN" units="m2" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vbaso">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:84669"/>
-                  <rdf:li rdf:resource="http://identifiers.org/GO:0016323"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:84669"/>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0016323"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vapical" sboTerm="SBO:0000290" id="Vapical" name="apical membrane" spatialDimensions="3" size="NaN" units="m2" constant="true">
+      <compartment metaid="meta_Vapical" sboTerm="SBO:0000290" id="Vapical" name="apical membrane" size="NaN" units="m2" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vapical">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:84666"/>
-                  <rdf:li rdf:resource="http://identifiers.org/GO:0016324"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:84666"/>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0016324"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vbi" sboTerm="SBO:0000290" id="Vbi" name="bile" spatialDimensions="3" size="1" units="litre" constant="true">
+      <compartment metaid="meta_Vbi" sboTerm="SBO:0000290" id="Vbi" name="bile" size="1" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vbi">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:62971"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13192"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:62971"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13192"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vduodenum" sboTerm="SBO:0000290" id="Vduodenum" name="intestinal lumen (duodenum)" spatialDimensions="3" size="0.1" units="litre" constant="false">
+      <compartment metaid="meta_Vduodenum" sboTerm="SBO:0000290" id="Vduodenum" name="intestinal lumen (duodenum)" size="0.1" units="litre" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vduodenum">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:14586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/UBERON:0018543"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:14586"/>
+                  <rdf:li rdf:resource="https://identifiers.org/UBERON:0018543"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -250,9 +242,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_tal_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -265,9 +256,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_tal">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -285,9 +275,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_tal_bi">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -300,9 +289,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_tal_duodenum">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -311,19 +299,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_fup_tal" sboTerm="SBO:0000009" id="fup_tal" name="fraction unbound in plasma tal" value="0.4" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_fup_tal">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
+      <parameter sboTerm="SBO:0000009" id="fup_tal" name="fraction unbound in plasma tal" value="0.4" units="dimensionless" constant="true"/>
       <parameter metaid="meta_Abile_tal" sboTerm="SBO:0000009" id="Abile_tal" name="cumulative talinolol (bile)" value="0" units="mmole" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -335,9 +311,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_Abile_tal">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -354,15 +329,10 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_bile_flow">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
               <bqbiol:hasPart>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C41141"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13192"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C41141"/>
                 </rdf:Bag>
               </bqbiol:hasPart>
             </rdf:Description>
@@ -380,29 +350,56 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
             <rdf:Description rdf:about="#meta_Cbile_tal">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_TALIM_Vmax" sboTerm="SBO:0000186" id="TALIM_Vmax" name="Vmax for talinolol import" value="0.00998467038314402" units="mmole_per_min_l" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALIM_Vmax">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <parameter sboTerm="SBO:0000186" id="TALIM_Vmax" name="Vmax for talinolol import" value="0.0369201073419107" units="mmole_per_min_l" constant="true">
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261020_042735__49b48">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>LI__TALIM_Vmax</code> is the result of the fit <code>PK_20261020_042735__49b48</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261020_042735__49b48</code> |
+| record | <code>PK_20261020_042735__49b48/</code> |
+| cost | 132.24 |
+| data points | 874 |
+| value | 0.0369201 (mmol)/(min)/l |
+| bounds | [0.0001, 1] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [0.0225954, 0.0847379] |
+| Fisher confidence interval | [0.0264858, 0.0514651] |
+| distribution of the draws | <code>lognormal(-3.29899896193268, 0.3372037975926722, 0.0001, 1.0)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="mmole_per_min_l" distrib:type="confidenceInterval" distrib:valueLower="0.0225954429341668" distrib:valueUpper="0.0847378898418234"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.00624794741421012" distrib:units="mmole_per_min_l" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <apply>
+                    <minus/>
+                    <cn> 3.29899896193268 </cn>
+                  </apply>
+                  <cn> 0.337203797592672 </cn>
+                  <cn> 0.0001 </cn>
+                  <cn> 1 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
       </parameter>
-      <parameter metaid="meta_TALIM_Km_tal" sboTerm="SBO:0000027" id="TALIM_Km_tal" name="Km for talinolol import" value="0.301" units="mM" constant="true">
+      <parameter sboTerm="SBO:0000027" id="TALIM_Km_tal" name="Km for talinolol import" value="0.301" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Talinolol is as substrate for</p>
@@ -416,70 +413,11 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
             </ul>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALIM_Km_tal">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000027"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_f_OATP1B1" sboTerm="SBO:0000002" id="f_OATP1B1" name="factor for scanning OATP1B1 activity" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_f_OATP1B1">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_TALEX_k" sboTerm="SBO:0000009" id="TALEX_k" name="rate for talinolol export in bile" value="0.150085430091066" units="per_min" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALEX_k">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_f_PG" sboTerm="SBO:0000002" id="f_PG" name="factor for scanning MDR1 activity" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_f_PG">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_f_EHC" sboTerm="SBO:0000002" id="f_EHC" name="factor for modifying EHC" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_f_EHC">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
+      <parameter sboTerm="SBO:0000002" id="f_oatp1b1" name="activity of OATP1B1" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000009" id="TALEX_k" name="rate for talinolol export in bile" value="0.15" units="per_min" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="f_pgp" name="activity of P-glycoprotein (liver)" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="f_EHC" name="factor for modifying EHC" value="1" units="dimensionless" constant="true"/>
     </listOfParameters>
     <listOfRules>
       <assignmentRule variable="Cbile_tal">
@@ -491,41 +429,19 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
           </apply>
         </math>
       </assignmentRule>
-      <rateRule metaid="meta_fd44c62b3147e01a862aed172bf5461f" sboTerm="SBO:0000001" name="cumulative amount talinol bile" variable="Abile_tal">
+      <rateRule sboTerm="SBO:0000001" name="cumulative amount talinol bile" variable="Abile_tal">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Calculated via integration of the talinol bile excretion rate.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_fd44c62b3147e01a862aed172bf5461f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000001"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> TALEX </ci>
         </math>
       </rateRule>
     </listOfRules>
     <listOfReactions>
-      <reaction metaid="meta_TALIM" sboTerm="SBO:0000655" id="TALIM" name="talinolol import" reversible="true" compartment="Vbaso">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALIM">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000655" id="TALIM" name="talinolol import" reversible="true" compartment="Vbaso">
         <listOfReactants>
           <speciesReference species="tal_ext" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -542,7 +458,7 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
                   <divide/>
                   <apply>
                     <times/>
-                    <ci> f_OATP1B1 </ci>
+                    <ci> f_oatp1b1 </ci>
                     <ci> TALIM_Vmax </ci>
                   </apply>
                   <ci> TALIM_Km_tal </ci>
@@ -552,8 +468,8 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
                   <minus/>
                   <apply>
                     <times/>
-                    <ci> tal_ext </ci>
                     <ci> fup_tal </ci>
+                    <ci> tal_ext </ci>
                   </apply>
                   <ci> tal </ci>
                 </apply>
@@ -563,7 +479,11 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
                 <cn sbml:units="dimensionless" type="integer"> 1 </cn>
                 <apply>
                   <divide/>
-                  <ci> tal_ext </ci>
+                  <apply>
+                    <times/>
+                    <ci> fup_tal </ci>
+                    <ci> tal_ext </ci>
+                  </apply>
                   <ci> TALIM_Km_tal </ci>
                 </apply>
                 <apply>
@@ -576,24 +496,13 @@ Bile flow from Terhaag1989 as mean median bile flow: 46 [ml/hr].</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_TALEX" sboTerm="SBO:0000655" id="TALEX" name="talinolol bile export" reversible="false" compartment="Vapical">
+      <reaction sboTerm="SBO:0000655" id="TALEX" name="talinolol bile export" reversible="false" compartment="Vapical">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>This could be via MDR1 or MRP2.
 Using trick to track total amount of talinolol excreted in bile.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALEX">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
         <listOfReactants>
           <speciesReference species="tal" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -604,7 +513,7 @@ Using trick to track total amount of talinolol excreted in bile.</p>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> f_PG </ci>
+              <ci> f_pgp </ci>
               <ci> TALEX_k </ci>
               <ci> Vli </ci>
               <ci> tal </ci>
@@ -612,7 +521,7 @@ Using trick to track total amount of talinolol excreted in bile.</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_TALEHC" sboTerm="SBO:0000655" id="TALEHC" name="talinolol enterohepatic circulation" reversible="false" compartment="Vduodenum">
+      <reaction sboTerm="SBO:0000655" id="TALEHC" name="talinolol enterohepatic circulation" reversible="false" compartment="Vduodenum">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Transport of talinolol via bile to the intestinal lumen (duodenum). This is the
@@ -621,17 +530,6 @@ enterohepatic circulation of talinolol.</p>
             <p>This is a dummy process which allows to simulate cholocystectomy.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALEHC">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
         <listOfReactants>
           <speciesReference species="tal_bi" stoichiometry="1" constant="true"/>
         </listOfReactants>

@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_IR_100	0.0	0.0	0	hr	HPLC/UV	Tab1a_TAL_IR_100	zero point added	mole	dimensionless
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_IR_100	7.427887591301117e-05	2.9436443417378503e-05	120	hr	HPLC/UV	Tab1a_TAL_IR_100	Ae_inf of Table 1 (Ae0-48 and an extrapolation), placed at 120 hr	mole	dimensionless

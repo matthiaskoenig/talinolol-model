@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	method	geometric_mean	mean	mean_sd	gsd	time	time_unit	label	comments	mean_unit	count_unit
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_IV	HPLC	0.0	0.0			0	day	Tab1a_TAL_IV_feces	Mean is geometric mean, zero timepoint added	mole	dimensionless
+Bernsdorf2006	all	18	cumulative amount	talinolol	feces	TAL_IV	HPLC	6.3	1.7331737713035943e-05	1.1096683483650317e-05	1.797	7	day	Tab1a_TAL_IV_feces	Mean is geometric mean; gsd = sqrt(upper/lower) of the range (mean/gSD, mean*gSD) of Tab1	mole	dimensionless

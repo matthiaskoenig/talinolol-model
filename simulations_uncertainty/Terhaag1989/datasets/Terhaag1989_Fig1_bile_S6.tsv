@@ -1,0 +1,11 @@
+study	individual	count	measurement	substance	tissue	intervention	time	time_unit	value	method	label	bile_flow	comments	value_unit	count_unit
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.37492934	hr	0.07840240993686294	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.3831402	hr	0.054677610421051175	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.5914782	hr	0.046620250622429464	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	0.988567	hr	0.02121695071459029	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	1.6394997	hr	0.012776484958527625	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	2.6340022	hr	0.008560061073742414	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	3.0656161	hr	0.0070847109313745705	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	4.062295	hr	0.005562193152588068	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	5.0198984	hr	0.004495316029106314	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	bile	TAL_30	7.062521	hr	0.005654577366951402	HPLC	Fig1_bile_S6		S6 = PH	mole/meter^3	dimensionless

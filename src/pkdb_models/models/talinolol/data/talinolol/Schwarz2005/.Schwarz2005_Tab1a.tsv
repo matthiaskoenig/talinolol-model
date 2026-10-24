@@ -1,0 +1,7 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL	0.0	0.0	mg	0	hr	HPLC	Tab1a_TAL	zero time point added
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL	4.5	1.9	mg	48	hr	HPLC	Tab1a_TAL	NA
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL, GFJ_AC	0.0	0.0	mg	0	hr	HPLC	Tab1a_TAL_GFJ_AC	zero time point added
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL, GFJ_AC	2.5	2.0	mg	48	hr	HPLC	Tab1a_TAL_GFJ_AC	NA
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL, GFJ_CR	0.0	0.0	mg	0	hr	HPLC	Tab1a_TAL_GFJ_CR	zero time point added
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL, GFJ_CR	2.0	0.9	mg	48	hr	HPLC	Tab1a_TAL_GFJ_CR	NA

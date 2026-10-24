@@ -1,0 +1,16 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	0.0	hr	0.0			HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	0.5	hr	0.0001581912543501286	30.657223	7.385110386662816e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	1.0	hr	0.00024684215738868487	44.087177	0.000125555270361353	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	2.0	hr	0.0005029083481203317	53.49818	0.00035573113797988964	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	3.0	hr	0.0004475590310733297	57.092247	0.0002904942929063673	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	4.0	hr	0.00034666420170841413	55.764244	0.00019325289206178906	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	5.0	hr	0.00035039824481767284	65.62305	0.00016986467489236436	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	6.0	hr	0.0002458148530241131	58.92704	8.370247183592621e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	8.0	hr	0.00022250828759680326	48.21846	8.985595400211832e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	10.0	hr	0.00018566282892474448	40.194073	7.508614148750326e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	12.0	hr	0.0001746684163468548	37.09251	7.262434421381312e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	16.0	hr	0.00013667576720450072	28.65075	5.78555633502524e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	24.0	hr	0.00010253601837714411	20.716146	4.554446140937289e-05	HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	36.0	hr	8.210261489153907e-05			HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless
+Nguyen2014	all	10	concentration	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	7.151745966244377e-05			HPLC	Fig1_QRC_LOW_TAL_QRC		mole/meter^3	dimensionless

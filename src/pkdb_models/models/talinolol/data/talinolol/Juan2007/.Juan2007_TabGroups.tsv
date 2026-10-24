@@ -1,0 +1,13 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	sd	median	min	max	unit	comments
+Juan2007	all	NA	species	12	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+Juan2007	all	NA	sex	12	M	12	NA	NA	NA	NA	NA	NA	NA	NA
+Juan2007	all	NA	healthy	12	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+Juan2007	all	NA	age	12	NA	12	NA	NA	NA	NA	22.0	25.0	yr	NA
+Juan2007	all	NA	weight	12	NA	12	NA	61.0	4.0	NA	55.0	65.0	kg	NA
+Juan2007	all	NA	pregnant	12	N	12	NA	NA	NA	NA	NA	NA	NA	NA
+Juan2007	all	NA	medication	12	N	12	NA	NA	NA	NA	NA	NA	NA	NA
+Juan2007	all	NA	abstinence medication	12	NA	12	NA	NA	NA	NA	2.0	NA	month	NA
+Juan2007	all	NA	abstinence alcohol	12	NA	12	NA	NA	NA	NA	12.0	NA	hr	NA
+Juan2007	all	NA	abstinence	12	NA	12	coffee	NA	NA	NA	12.0	NA	hr	NA
+Juan2007	all	NA	smoking	12	N	12	NA	NA	NA	NA	NA	NA	NA	NA
+Juan2007	all	NA	ethnicity	12	chinese	12	NA	NA	NA	NA	NA	NA	NA	NA

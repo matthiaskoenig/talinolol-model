@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Bogman2005	TAL	0.0	25.0	min	intraduodenal	single dose	dosing	solution	talinolol	50.0	mg	Talinolol was kindly provided by Arzneimittelwerk Dresden (Dresden, Germany). 
+Bogman2005	TPGS	0.0	25.0	min	intraduodenal	single dose	dosing	solution	TPGS	0.04	percent	D-ɑ_x0001_-tocopheryl polyethylene glycol 1000 succinate, TPGS by the Peboc Division of Eastman (Llangefni, England).
+Bogman2005	POL	0.0	25.0	min	intraduodenal	single dose	dosing	solution	Poloxamer 188	0.8	percent	Synperonic F68 (Poloxamer 188) was kindly provided by BASF (Ludwigshafen, Germany)

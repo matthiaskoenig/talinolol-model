@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement	form	substance	value	unit	comments
+Tubic2006a	TAL_IR_100	0	hr	oral	single dose	dosing	tablet	talinolol	100	mg	Talinolol immediate-release (Cordanum®, 100 mg),
+Tubic2006a	TAL_CR_100	0	hr	oral	single dose	dosing	tablet	talinolol	100	mg	one controlled-release (100 mg)
+Tubic2006a	TAL_CR_200	0	hr	oral	single dose	dosing	tablet	talinolol	200	mg	and two controlled-release tablets (200 mg) 

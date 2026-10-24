@@ -1,0 +1,57 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	0.25	hr	52.576054	69.73684	17.160786	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	0.5	hr	111.732735	126.97369	15.240955	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	0.75	hr	142.59827	164.47368	21.875409999999988	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.0	hr	147.14969	177.63158	30.48189000000002	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.25	hr	162.22237	189.47368	27.25130999999999	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.5	hr	181.24748	214.47368	33.226200000000006	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.75	hr	185.79889	227.63158	41.832690000000014	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	2.0	hr	222.58379	318.42105	95.83725999999999	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	2.5	hr	90.89548	115.13158	24.236099999999993	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	3.0	hr	67.761475	78.947365	11.18589	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	3.5	hr	63.70474	72.36842	8.66368	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	4.0	hr	60.96379	74.3421	13.378309999999999	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	6.0	hr	51.314106	61.842106	10.527999999999999	ng/ml	HPLC	Fig2a_TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	0.25	hr	42.43421	29.605263	12.828947	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	0.5	hr	98.68421	83.552635	15.131574999999998	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	0.75	hr	127.63158	108.552635	19.078945000000004	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	1.0	hr	147.36842	123.68421	23.684209999999993	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	1.25	hr	165.78947	140.78947	25.0	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	1.5	hr	175.0	144.73685	30.263149999999996	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	1.75	hr	177.63158	151.3158	26.315780000000018	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	2.0	hr	180.92105	138.1579	42.763149999999996	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	2.5	hr	90.13158	78.289474	11.842106000000001	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	3.0	hr	71.710526	60.526318	11.184207999999998	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	3.5	hr	64.47369	53.289474	11.184216000000006	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	4.0	hr	57.894737	50.0	7.894736999999999	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_IV	6.0	hr	51.973682	44.07895	7.894731999999998	ng/ml	HPLC	Fig2a_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	0.25	hr	13.274336	28.539824	15.265488	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	0.5	hr	59.734512	76.32743	16.592918000000004	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	0.75	hr	117.477875	163.27434	45.796465	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	1.0	hr	134.0708	195.13274	61.06194000000002	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	1.25	hr	138.71681	209.0708	70.35398999999998	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	1.5	hr	122.12389	185.17699	63.053099999999986	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	1.75	hr	118.80531	176.54868	57.743369999999985	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	2.0	hr	108.849556	161.28319	52.433633999999984	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	2.5	hr	140.70796	218.36284	77.65487999999999	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	3.0	hr	194.46902	268.8053	74.33627999999999	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	3.5	hr	214.38052	301.99115	87.61063000000001	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	4.0	hr	225.0	284.0708	59.07080000000002	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	6.0	hr	179.86726	230.30974	50.44248000000002	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	8.0	hr	116.150444	140.70796	24.55751600000002	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_PO	12.0	hr	79.64602	92.92036	13.27434000000001	ng/ml	HPLC	Fig2a_TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	0.25	hr	17.256638	0.0	17.256638	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	0.5	hr	71.0177	3.982301	67.035399	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	0.75	hr	81.63717	35.84071	45.796459999999996	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.0	hr	92.25664	56.415928	35.840712	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.25	hr	108.185844	58.407078	49.778766000000005	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.5	hr	102.87611	49.778763	53.097347	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	1.75	hr	117.477875	43.141594	74.336281	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	2.0	hr	130.0885	39.15929	90.92921000000001	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	2.5	hr	122.78761	49.778763	73.008847	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	3.0	hr	148.67256	69.02655	79.64601	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	3.5	hr	179.20354	118.141594	61.061946000000006	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	4.0	hr	185.17699	130.75221	54.42478	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	6.0	hr	168.58408	112.168144	56.415936	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	8.0	hr	107.522125	80.30974	27.212384999999998	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	talinolol	serum	DGX, TAL_PO	12.0	hr	73.67257	55.088497	18.584072999999997	ng/ml	HPLC	Fig2a_DGX, TAL_PO	NA

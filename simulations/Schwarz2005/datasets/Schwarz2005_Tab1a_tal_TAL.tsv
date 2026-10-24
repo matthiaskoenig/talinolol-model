@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL	0.0	0.0	0	hr	HPLC	Tab1a_TAL	zero time point added	mole	dimensionless
+Schwarz2005	all	24	cumulative amount	talinolol	urine	TAL	1.237981265216853e-05	5.227032008693379e-06	48	hr	HPLC	Tab1a_TAL		mole	dimensionless

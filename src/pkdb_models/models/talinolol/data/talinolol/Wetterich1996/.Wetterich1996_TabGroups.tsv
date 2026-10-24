@@ -1,0 +1,21 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Wetterich1996	all	NA	18	species	homo sapiens	18	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	all	NA	18	healthy	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	all	NA	18	healthy	N	6	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	all	NA	18	sex	M	12	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	all	NA	18	sex	NR	6	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	healthy	all	12	species	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	healthy	all	12	healthy	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	healthy	all	12	sex	M	12	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	healthy	all	12	age	NA	12	NA	NA	NA	24.0	30.0	NA	yr	NA
+Wetterich1996	healthy	all	12	abstinence medication	NA	12	NA	NA	NA	1.0	NA	NA	week	NA
+Wetterich1996	healthy	all	12	overnight fast	Y	12	NA	NA	NA	NA	NA	NA	NA	10 hours before and 7 hours after administration
+Wetterich1996	healthy	all	12	abstinence alcohol	NA	12	NA	NA	NA	10.0	24.0	NA	hr	NA
+Wetterich1996	healthy	all	12	abstinence smoking	NA	12	NA	NA	NA	10.0	24.0	NA	hr	NA
+Wetterich1996	patient	all	6	species	homo sapiens	6	NA	NA	NA	NA	NA	NA	NA	with a T-drain, between days 5 and 8 post surgery
+Wetterich1996	patient	all	6	healthy	N	6	NA	NA	NA	NA	NA	NA	NA	with a T-drain, between days 5 and 8 post surgery
+Wetterich1996	patient	all	6	sex	NR	6	NA	NA	NA	NA	NA	NA	NA	with a T-drain, between days 5 and 8 post surgery
+Wetterich1996	patient	all	6	medical procedure	cholecystectomy	6	NA	NA	NA	NA	NA	NA	NA	with a T-drain, between days 5 and 8 post surgery
+Wetterich1996	patient	all	6	overnight fast	Y	6	NA	NA	NA	NA	NA	NA	NA	12 h
+Wetterich1996	patient_iv	patient	3	species	homo sapiens	3	NA	NA	NA	NA	NA	NA	NA	NA
+Wetterich1996	patient_po	patient	3	species	homo sapiens	3	NA	NA	NA	NA	NA	NA	NA	NA

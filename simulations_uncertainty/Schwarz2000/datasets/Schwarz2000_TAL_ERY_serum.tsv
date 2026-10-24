@@ -1,0 +1,18 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	0.0	hr					HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	0.333333333333333	hr	9.97723600049519e-06	2.1815574	3.975620022283662e-06	1.124475164720285e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	0.666666666666667	hr	0.00016223668826256208	41.6123	4.775835981237707e-05	0.00013508104100469056	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	1.0	hr	0.00037717470666721685	109.25446	7.660809639747454e-05	0.000216680416511919	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	1.33333333333333	hr	0.0004747110689280458	152.66275	5.4725236935858874e-05	0.0001547863436911099	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	1.66666666666667	hr	0.00047075879998349356	151.58932	5.3726048501354944e-05	0.00015196021403320539	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	2.0	hr	0.00044193449703572264	142.55772	4.9748304653434084e-05	0.00014070945405026203	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	2.5	hr	0.00040516320719679775	133.53075	3.781083646267483e-05	0.00010694519594492358	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	3.0	hr	0.00036540488865046284	147.65111	4.079357350169879e-05	0.00011538165036657999	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	3.5	hr	0.0003326155242850658	135.36992	3.979653090138795e-05	0.00011256158681687505	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	4.0	hr	0.000291858017304227	112.60044	1.791361641838265e-05	5.066735993617518e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	5.0	hr	0.00027204568150868645	108.65143	2.6861951333580962e-05	7.597707258696818e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	6.0	hr	0.00023630754205697464	94.57657	2.387917302851486e-05	6.754049986932419e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	8.0	hr	0.00018970961361229174	75.8309	1.89064608866697e-05	5.347554711894249e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	10.0	hr	0.00015107142601686406	61.42368	1.7909385273525076e-05	5.0655390032875275e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	12.0	hr	0.00013332751757245628	54.612965	1.6916543556307513e-05	4.784721110331641e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	24.0	hr	5.5718075902006906e-05	23.146563	7.959727093907756e-06	2.2513509126672993e-05	HPLC	TAL_ERY_serum		mole/meter^3	dimensionless

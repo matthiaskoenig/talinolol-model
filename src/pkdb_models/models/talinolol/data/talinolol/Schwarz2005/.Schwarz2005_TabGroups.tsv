@@ -1,0 +1,22 @@
+study	name	group_count	parent	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Schwarz2005	all	24	NA	species	homo sapiens	24	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	all	24	NA	sex	M	24	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	all	24	NA	healthy	Y	24	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	all	24	NA	age	NA	24	NA	NA	NA	19.0	32.0	NA	yr	NA
+Schwarz2005	all	24	NA	weight	NA	24	NA	NA	NA	67.0	92.0	NA	kg	NA
+Schwarz2005	all	24	NA	medication	N	24	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	all	24	NA	overnight fast	Y	24	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	all	24	NA	smoking	N	24	NA	NA	NA	NA	NA	NA	NA	a 10-hour overnight fast. They consumed a standardized meal 5 and 10 hours after drug administration.
+Schwarz2005	all	24	NA	abstinence alcohol	NA	24	NA	NA	NA	2.0	NA	NA	d	NA
+Schwarz2005	all	24	NA	abstinence	NA	24	caffeine	NA	NA	2.0	NA	NA	d	NA
+Schwarz2005	all	24	NA	abstinence	NA	24	grapefruit juice	NA	NA	1.0	NA	NA	week	NA
+Schwarz2005	all	24	NA	abstinence medication	NA	24	NA	NA	NA	1.0	NA	NA	week	NA
+Schwarz2005	exon26_CC	5	all	ABCB1 genotype	C3435T C/C	5	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon26_CT	13	all	ABCB1 genotype	C3435T C/T	13	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon26_TT	6	all	ABCB1 genotype	C3435T T/T	6	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon21_GG	10	all	ABCB1 genotype	G2677T/A G/G	10	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon21_GT	9	all	ABCB1 genotype	G2677T/A G/T	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon21_TT	5	all	ABCB1 genotype	G2677T/A T/T	5	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon12_CC	9	all	ABCB1 genotype	C1236T C/C	9	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon12_CT	10	all	ABCB1 genotype	C1236T C/T	10	NA	NA	NA	NA	NA	NA	NA	NA
+Schwarz2005	exon12_TT	5	all	ABCB1 genotype	C1236T T/T	5	NA	NA	NA	NA	NA	NA	NA	NA

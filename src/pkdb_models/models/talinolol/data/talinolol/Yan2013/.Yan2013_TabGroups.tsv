@@ -1,0 +1,16 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Yan2013	all	NA	species	14	homo sapiens	14	NA	NA	NA	NA	NA	NA	NA	NA
+Yan2013	all	NA	sex	14	M	14	NA	NA	NA	NA	NA	NA	NA	NA
+Yan2013	all	NA	healthy	14	Y	14	NA	NA	NA	NA	NA	NA	NA	NA
+Yan2013	all	NA	age	14	NA	14	NA	21.4	NA	20.0	23.0	1.2	yr	NA
+Yan2013	all	NA	weight	14	NA	14	NA	63.6	NA	55.0	78.0	6.5	kg	NA
+Yan2013	all	NA	bmi	14	NA	14	NA	21.2	NA	19.3	23.5	1.6	kg/m^2	NA
+Yan2013	all	NA	height	14	NA	14	NA	172.5	NA	167.0	179.0	4.2	cm	NA
+Yan2013	all	NA	abstinence medication	14	NA	14	NA	NA	NA	2.0	NA	NA	week	NA
+Yan2013	all	NA	abstinence	14	NA	14	grapefruit juice	NA	NA	2.0	NA	NA	week	NA
+Yan2013	all	NA	abstinence	14	NA	14	caffeine	NA	NA	2.0	NA	NA	week	NA
+Yan2013	all	NA	abstinence	14	NA	14	coffee	NA	NA	2.0	NA	NA	week	NA
+Yan2013	all	NA	abstinence	14	NA	14	green tea	NA	NA	2.0	NA	NA	week	NA
+Yan2013	all	NA	overnight fast	14	Y	14	NA	NA	NA	NA	NA	NA	NA	Participants were kept on a fast overnight before taking talinolol (100 mg with 200 ml water) at 8:00 AM. No food was ingested until 9:30 AM.
+Yan2013	all	NA	smoking	14	N	14	NA	NA	NA	NA	NA	NA	NA	NA
+Yan2013	all	NA	ethnicity	14	chinese	14	NA	NA	NA	NA	NA	NA	NA	NA

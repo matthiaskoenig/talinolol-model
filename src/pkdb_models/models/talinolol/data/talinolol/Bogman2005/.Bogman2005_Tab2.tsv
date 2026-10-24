@@ -1,0 +1,16 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Bogman2005	all	auc_inf	talinolol	plasma	TAL	942.0	487.0	ng*hr/ml	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	auc_end	talinolol	plasma	TAL	222.0	169.0	ng*hr/ml	6.0	hr	HPLC-ESI-MS/MS	NA
+Bogman2005	all	cmax	talinolol	plasma	TAL	64.5	53.2	ng/ml	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	tmax	talinolol	plasma	TAL	2.7	1.3	hr	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	thalf	talinolol	plasma	TAL	18.5	8.1	hr	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	auc_inf	talinolol	plasma	TAL, TPGS	1130.0	318.0	ng*hr/ml	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	auc_end	talinolol	plasma	TAL, TPGS	327.0	120.0	ng*hr/ml	6.0	hr	HPLC-ESI-MS/MS	NA
+Bogman2005	all	cmax	talinolol	plasma	TAL, TPGS	88.0	36.0	ng/ml	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	tmax	talinolol	plasma	TAL, TPGS	2.6	1.0	hr	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	thalf	talinolol	plasma	TAL, TPGS	15.1	3.6	hr	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	auc_inf	talinolol	plasma	TAL, POL	773.0	239.0	ng*hr/ml	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	auc_end	talinolol	plasma	TAL, POL	183.0	110.0	ng*hr/ml	6.0	hr	HPLC-ESI-MS/MS	NA
+Bogman2005	all	cmax	talinolol	plasma	TAL, POL	58.1	35.9	ng/ml	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	tmax	talinolol	plasma	TAL, POL	3.1	1.3	hr	NA	NA	HPLC-ESI-MS/MS	NA
+Bogman2005	all	thalf	talinolol	plasma	TAL, POL	16.9	4.1	hr	NA	NA	HPLC-ESI-MS/MS	NA

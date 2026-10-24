@@ -1,0 +1,29 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	se	unit	method	label	comments
+Han2009	all	18	concentration	talinolol	plasma	TAL	0.0	hr	NA	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_TAL	A series of venous blood samples ( 5 ml) was collected into ethylenediamine tetra-acetic acid (EDTA)-containing tubes just before and at 0,25, 0,5, 0,75,1, 1,5,2, 2,5,3, 4, 6, 8, 12, 24, and 36 h after talinolol
+Han2009	all	18	concentration	talinolol	plasma	TAL	0.25	hr	35.61445	4.1462126	31.4682374	7.41713468584271	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	0.5	hr	89.92633	42.08671	47.83962	11.2759065704625	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	0.75	hr	108.6299	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	1.0	hr	124.66898	69.94346	54.72552	12.89892876532	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	2.0	hr	174.56052	121.509155	53.051365	12.5043266475676	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	2.5	hr	146.09537	101.34323	44.75214	10.5481805555366	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	3.0	hr	120.3039	88.29111	32.01279	7.54548696456697	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	4.0	hr	94.52471	63.96708	30.55763	7.20250246332983	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	6.0	hr	71.46526	52.66982	18.79544	4.4301276931283	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	8.0	hr	59.091373	43.148827	15.942546	3.75769412865949	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	12.0	hr	43.239536	31.226189	12.013347	2.83157304281569	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	24.0	hr	21.49698	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	TAL	36.0	hr	13.994679	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	0.0	hr	NA	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	0.25	hr	117.76648	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	0.5	hr	131.62419	163.59377	31.96958	7.53530226989528	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	0.75	hr	160.93658	224.34668	63.4101	14.9459039019057	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	1.0	hr	195.57814	257.39075	61.81261	14.5693718979465	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	2.0	hr	222.22731	285.1062	62.87889	14.820696504161	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	2.5	hr	206.24802	263.79663	57.54861	13.56433745962	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	3.0	hr	169.48763	208.38715	38.89952	9.16870479230058	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	4.0	hr	135.92825	165.2368	29.30855	6.908091483915	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	6.0	hr	101.850296	122.099075	20.248779	4.77268298054925	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	8.0	hr	76.83209	91.22158	14.38949	3.39163531893867	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	12.0	hr	57.165565	65.693565	8.52800000000001	2.01006887665296	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	24.0	hr	31.739624	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA
+Han2009	all	18	concentration	talinolol	plasma	SIL, TAL	36.0	hr	17.507637	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig1_SIL_TAL	NA

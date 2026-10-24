@@ -1,0 +1,7 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_IR_100	0.0	0.0	mg	0	hr	HPLC/UV	Tab1a_TAL_IR_100	zero point added
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_IR_100	27.0	10.7	mg	120	hr	HPLC/UV	Tab1a_TAL_IR_100	Ae_inf of Table 1 (Ae0-48 and an extrapolation), placed at 120 hr
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_CR_100	0.0	0.0	mg	0	hr	HPLC/UV	Tab1a_TAL_CR_100	zero point added
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_CR_100	16.1	1.8	mg	120	hr	HPLC/UV	Tab1a_TAL_CR_100	Ae_inf of Table 1 (Ae0-48 and an extrapolation), placed at 120 hr
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_CR_200	0.0	0.0	mg	0	hr	HPLC/UV	Tab1a_TAL_CR_200	zero point added
+Tubic2006a	all	7	cumulative amount	talinolol	urine	TAL_CR_200	17.1	6.4	mg	120	hr	HPLC/UV	Tab1a_TAL_CR_200	Ae_inf of Table 1 (Ae0-48 and an extrapolation), placed at 120 hr

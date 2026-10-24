@@ -1,0 +1,9 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+He2007	all	NA	12	species	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+He2007	all	NA	12	sex	M	12	NA	NA	NA	NA	NA	NA	NA	NA
+He2007	all	NA	12	healthy	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+He2007	all	NA	12	age	NA	12	NA	22.0	NA	NA	NA	1.0	yr	NA
+He2007	all	NA	12	height	NA	12	NA	175.1	NA	NA	NA	5.0	cm	NA
+He2007	all	NA	12	weight	NA	12	NA	68.6	NA	NA	NA	5.2	kg	NA
+He2007	all	NA	12	overnight fast	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+He2007	all	NA	12	ethnicity	chinese	12	NA	NA	NA	NA	NA	NA	NA	NA

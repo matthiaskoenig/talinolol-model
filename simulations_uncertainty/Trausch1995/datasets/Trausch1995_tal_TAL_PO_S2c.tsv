@@ -1,0 +1,15 @@
+study	count	individual	measurement	substance	tissue	intervention	time	time_unit	value	method	label	comments	value_unit	count_unit
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	0.0	hr	0.0	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	0.39	hr	0.00016616459648688425	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	0.8	hr	0.00019994772967991308	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	1.78	hr	0.0008740422839378808	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	3.8	hr	0.00032118736158681687	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	4.71	hr	0.00023755484944772276	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	6.46	hr	0.00016795279164775304	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	8.98	hr	0.0001229177842886422	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	12.19	hr	9.733283814082725e-05	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	16.8	hr	7.694741330692306e-05	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	19.13	hr	6.487021829736309e-05	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	23.77	hr	5.0839763958238764e-05	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	29.77	hr	3.837741922172244e-05	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless
+Trausch1995	1	S2c	concentration 	talinolol	serum	TAL_PO	35.94	hr	3.083948885129094e-05	HPLC	Fig1b_TAL_PO_S2c		mole/meter^3	dimensionless

@@ -1,0 +1,17 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Bogman2005	all	NA	species	9	homo sapiens	9	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	all	NA	sex	9	M	9	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	all	NA	healthy	9	Y	9	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	all	NA	age	9	NA	9	NA	30.0	NA	24.0	38.0	NA	yr	NA
+Bogman2005	all	NA	weight	9	NA	9	NA	73.0	NA	55.0	94.0	NA	kg	NA
+Bogman2005	all	NA	medication	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	all	NA	overnight fast	9	Y	9	NA	NA	NA	NA	NA	NA	NA	an overnight fast of at least 12 hours
+Bogman2005	all	NA	smoking	9	N	9	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	all	NA	ethnicity	9	caucasian	9	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	all	NA	abstinence alcohol	9	NA	9	NA	NA	NA	24.0	NA	NA	hr	Alcohol and caffeine-, xanthine-, or grapefruit-containing beverages or meals were not allowed 24 hours before study drug administration until the last blood sample was drawn.
+Bogman2005	all	NA	abstinence	9	NA	9	caffeine	NA	NA	24.0	NA	NA	hr	NA
+Bogman2005	all	NA	abstinence	9	NA	9	xanthine	NA	NA	24.0	NA	NA	hr	NA
+Bogman2005	all	NA	abstinence	9	NA	9	grapefruit	NA	NA	24.0	NA	NA	hr	NA
+Bogman2005	MDR1_CC	all	ABCB1 genotype	4	C3435T C/C	4	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	MDR1_CT	all	ABCB1 genotype	3	C3435T T/C	3	NA	NA	NA	NA	NA	NA	NA	NA
+Bogman2005	MDR1_TT	all	ABCB1 genotype	2	C3435T T/T	2	NA	NA	NA	NA	NA	NA	NA	NA

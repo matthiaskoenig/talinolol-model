@@ -1,0 +1,11 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	1.31	0.5	mg/hr	1.0	hr	HPLC/UV	TAL_renalrate_control	0-2
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	2.89	1.07	mg/hr	3.0	hr	HPLC/UV	TAL_renalrate_control	2-4
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	2.23	0.74	mg/hr	6.0	hr	HPLC/UV	TAL_renalrate_control	4-8
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	1.16	0.38	mg/hr	10.0	hr	HPLC/UV	TAL_renalrate_control	8-12
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	0.72	0.32	mg/hr	18.0	hr	HPLC/UV	TAL_renalrate_control	12-24
+Krueger2001	increased_renal_impairment	12.0	excretion rate	talinolol	urine	TAL	0.27	0.18	mg/hr	1.0	hr	HPLC/UV	TAL_renalrate_increased_renal_impairment	0-2
+Krueger2001	increased_renal_impairment	12.0	excretion rate	talinolol	urine	TAL	0.5	0.4	mg/hr	3.0	hr	HPLC/UV	TAL_renalrate_increased_renal_impairment	2-4
+Krueger2001	increased_renal_impairment	12.0	excretion rate	talinolol	urine	TAL	0.38	0.31	mg/hr	6.0	hr	HPLC/UV	TAL_renalrate_increased_renal_impairment	4-8
+Krueger2001	increased_renal_impairment	12.0	excretion rate	talinolol	urine	TAL	0.3	0.19	mg/hr	10.0	hr	HPLC/UV	TAL_renalrate_increased_renal_impairment	8-12
+Krueger2001	increased_renal_impairment	12.0	excretion rate	talinolol	urine	TAL	0.24	0.16	mg/hr	18.0	hr	HPLC/UV	TAL_renalrate_increased_renal_impairment	12-24

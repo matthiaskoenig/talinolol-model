@@ -1,0 +1,15 @@
+study	individual	count	measurement	substance	tissue	intervention	time	time_unit	value	method	label	comments	value_unit	count_unit
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	0.0	hr	0.0	HPLC/UV	Fig4_TAL_CR_200	The urinary recovery of unchanged talinolol after administration of two controlled release tablets was lower that expected, we assume that the sampling time of urine was too short to determine urinary excretion completely,	mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	1.8024032	hr	2.809447722802239e-06	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	3.9385848	hr	8.939151845279853e-06	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	5.8744993	hr	1.251481313360569e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	7.9439254	hr	1.7367494188365727e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	9.87984	hr	2.119855843959339e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	11.9492655	hr	2.502962626721138e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	14.419226	hr	3.0393116824165395e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	22.029373	hr	4.29079272067016e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	26.902536	hr	4.6738992283250114e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	30.040054	hr	5.005924978335328e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	36.982643	hr	5.3124100744164294e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	37.91722	hr	5.440112243634713e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_CR_200	44.993324	hr	5.7976780973603484e-05	HPLC/UV	Fig4_TAL_CR_200		mole	dimensionless

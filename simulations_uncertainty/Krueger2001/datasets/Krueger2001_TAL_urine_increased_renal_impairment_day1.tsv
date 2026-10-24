@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	0.0		0	hr	HPLC/UV	TAL_urine_increased_renal_impairment		mole	dimensionless
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	1.070166027043013e-05	6.905184390431779e-06	24	hr	HPLC/UV	TAL_urine_increased_renal_impairment		mole	dimensionless

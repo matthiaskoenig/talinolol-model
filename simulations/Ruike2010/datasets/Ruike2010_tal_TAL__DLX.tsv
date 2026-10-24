@@ -1,0 +1,17 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	0.0	hr	0.0			HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	0.5	hr	8.75115201034402e-05	57.01389	6.93376525124142e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	1.0	hr	0.0001729047167086205	101.80556	0.0001071694521245134	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	1.5	hr	0.00020443197292947633	104.93056	8.423928802321902e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	2.0	hr	0.00024855912736076145	122.84722	8.940211007028982e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	3.0	hr	0.0003465522221763711	164.09723	0.00010489065874358656	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	4.0	hr	0.0002921085572016121	138.05556	8.769188021843491e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	5.0	hr	0.00022619293250251033	103.47222	5.8466333787259794e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	6.0	hr	0.0001895211763573089	83.888885	4.126297473142684e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	7.0	hr	0.00015628825705993205	67.638885	2.9791015007084002e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	9.0	hr	0.00013620544986863643	57.430557	2.1790002613516e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	12.0	hr	9.895596913300046e-05	42.01389	1.6627161308958858e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	24.0	hr	5.8267651549539876e-05	24.722221	9.744896078350457e-06	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	36.0	hr	3.191240594781221e-05	14.097222	6.870031224638577e-06	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	48.0	hr	2.1018170813903902e-05		2.1018170813903902e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	60.0	hr	1.4718221708689251e-05		1.4718221708689251e-05	HPLC-ESI-MS/MS	Fig3_TAL_DLX		mole/meter^3	dimensionless

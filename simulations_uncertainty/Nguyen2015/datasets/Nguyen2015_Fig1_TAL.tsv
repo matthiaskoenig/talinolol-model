@@ -1,0 +1,16 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	0.0	hr	0.0			HPLC	Fig1_TAL	Peripheral venous blood was sampled just before and at 0.5, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 36, 48 hours after drug administration.	mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	0.5	hr	0.0002045488383609128	115.74941	0.00011388583061665221	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	1.0	hr	0.000358481739776338	244.53119	0.000314240553515179	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	2.0	hr	0.0006009706598440143	411.6348	0.0005314652746255107	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	3.0	hr	0.0006831737713035943	346.45633	0.000269951663709267	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	4.0	hr	0.0005460412385314791	310.4083	0.00030791356139699307	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	5.0	hr	0.00044687060344709	239.09622	0.00021089970976217	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	6.0	hr	0.0003477019766434201	172.3838	0.00012653783408299977	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	8.0	hr	0.00028012056837095416	146.28725	0.00012232582016258819	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	10.0	hr	0.00025682609114293184	137.81909	0.00012232380087759116	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	12.0	hr	0.00023142464132931676	114.78681	8.436184816847549e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	16.0	hr	0.00019116664603364557	95.55358	7.170789144279839e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	24.0	hr	0.0001443946684273511	67.81894	4.2179947454572965e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	36.0	hr	7.845269948692555e-05	36.18326	2.1089962723008566e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Nguyen2015	all	10	concentration	talinolol	plasma	TAL	48.0	hr	6.73426649610036e-05	31.378933	1.8982959875651655e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless

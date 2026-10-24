@@ -1,0 +1,25 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	method	comments
+Zschiesche2002	liver_specimen	5	km	4-trans hydroxytalinolol	human liver microsomes	After preincubation for 2 min, the reactions were started by adding 15.6, 31.3, 62.5, 125, 250, or 500 mM (Ænal concentrations) of S(ˇ)orR(á) talinolol.	115.0	23.0	NA	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	vmax	4-trans hydroxytalinolol	human liver microsomes	NA	21.3	1.8	mmol/min*mg	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	4-trans hydroxytalinolol	human liver microsomes	NA	0.19	0.03	ml/min*mg	HPLC	Hydroxylated metabolite of s talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	4-trans hydroxytalinolol	human liver microsomes	NA	336.0	51.0	NA	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	vmax	4-trans hydroxytalinolol	human liver microsomes	NA	33.2	4.4	mmol/min*mg	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	4-trans hydroxytalinolol	human liver microsomes	NA	0.14	0.02	ml/min*mg	HPLC	Hydroxylated metabolite of r talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	4-cis hydroxytalinolol	human liver microsomes	NA	228.0	46.0	NA	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	vmax	4-cis hydroxytalinolol	human liver microsomes	NA	20.0	1.6	mmol/min*mg	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	4-cis hydroxytalinolol	human liver microsomes	NA	0.09	0.02	ml/min*mg	HPLC	Hydroxylated metabolite of s talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	4-cis hydroxytalinolol	human liver microsomes	NA	352.0	91.0	NA	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	vmax	4-cis hydroxytalinolol	human liver microsomes	NA	22.7	3.7	mmol/min*mg	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	4-cis hydroxytalinolol	human liver microsomes	NA	0.06	0.01	ml/min*mg	HPLC	Hydroxylated metabolite of r talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	3-trans hydroxytalinolol	human liver microsomes	NA	253.0	71.0	NA	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	vmax	3-trans hydroxytalinolol	human liver microsomes	NA	11.1	2.7	mmol/min*mg	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	3-trans hydroxytalinolol	human liver microsomes	NA	0.05	0.01	ml/min*mg	HPLC	Hydroxylated metabolite of s talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	3-trans hydroxytalinolol	human liver microsomes	NA	373.0	73.0	NA	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	vmax	3-trans hydroxytalinolol	human liver microsomes	NA	14.4	1.8	mmol/min*mg	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	3-trans hydroxytalinolol	human liver microsomes	NA	0.04	0.01	ml/min*mg	HPLC	Hydroxylated metabolite of r talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	3-cis hydroxytalinolol	human liver microsomes	NA	156.0	53.0	NA	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	vmax	3-cis hydroxytalinolol	human liver microsomes	NA	22.1	3.2	mmol/min*mg	HPLC	Hydroxylated metabolite of s talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	3-cis hydroxytalinolol	human liver microsomes	NA	0.15	0.03	ml/min*mg	HPLC	Hydroxylated metabolite of s talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.
+Zschiesche2002	liver_specimen	5	km	3-cis hydroxytalinolol	human liver microsomes	NA	253.0	68.0	NA	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	vmax	3-cis hydroxytalinolol	human liver microsomes	NA	26.6	3.7	mmol/min*mg	HPLC	Hydroxylated metabolite of r talinolol
+Zschiesche2002	liver_specimen	5	clearance_intrinsic	3-cis hydroxytalinolol	human liver microsomes	NA	0.11	0.02	ml/min*mg	HPLC	Hydroxylated metabolite of r talinolol, Intrinsic clearance (Clint) was calculated as Vmax/km.

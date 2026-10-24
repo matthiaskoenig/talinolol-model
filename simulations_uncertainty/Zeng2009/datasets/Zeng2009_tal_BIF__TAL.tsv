@@ -1,0 +1,14 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	method	label	comments	mean_sd	mean_unit	count_unit
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	0.25	hr	0.00010580348560502894	30.216711		HPLC-ESI-MS/MS	Fig1_BIF, TAL		2.2675214239535616e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	0.5	hr	0.0001603787534904194	50.05475		HPLC-ESI-MS/MS	Fig1_BIF, TAL		2.2674658523501012e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	0.75	hr	0.00022335162794536375	66.534645		HPLC-ESI-MS/MS	Fig1_BIF, TAL		4.031019683902116e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	1.0	hr	0.0002913642003328794	89.12012		HPLC-ESI-MS/MS	Fig1_BIF, TAL		4.618855830203992e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	1.5	hr	0.00038119963135668984	121.77526		HPLC-ESI-MS/MS	Fig1_BIF, TAL		4.618743036355384e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	2.0	hr	0.0004592822734838168	150.46295		HPLC-ESI-MS/MS	Fig1_BIF, TAL		4.53482441299055e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	2.5	hr				HPLC-ESI-MS/MS	Fig1_BIF, TAL	No values on the graph		mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	3.0	hr	0.0005188693929765196	165.71252		HPLC-ESI-MS/MS	Fig1_BIF, TAL		6.298273703902392e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	4.0	hr	0.0004398968348945652	140.6692		HPLC-ESI-MS/MS	Fig1_BIF, TAL		5.290609224335961e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	6.0	hr	0.0003776851951196027	122.93937		HPLC-ESI-MS/MS	Fig1_BIF, TAL		3.9470446636129793e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	8.0	hr	0.0003163127690889833	99.104744		HPLC-ESI-MS/MS	Fig1_BIF, TAL		4.3668732719844836e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	12.0	hr	0.00019020776076699816	55.097702		HPLC-ESI-MS/MS	Fig1_BIF, TAL		3.86301544725512e-05	mole/meter^3	dimensionless
+Zeng2009	all	16	concentration	talinolol	plasma	BIF, TAL	24.0	hr	0.00012596540805238034	37.240417		HPLC-ESI-MS/MS	Fig1_BIF, TAL		2.3514433486017686e-05	mole/meter^3	dimensionless

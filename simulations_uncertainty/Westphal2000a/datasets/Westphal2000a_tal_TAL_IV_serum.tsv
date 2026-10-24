@@ -1,0 +1,14 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	0.25	hr	0.00014464037744673242	69.73684	4.721051458754591e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	0.5	hr	0.0003073845169809764	126.97369	4.192892612002916e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	0.75	hr	0.00039229774824963207	164.47368	6.018077277541641e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.0	hr	0.00040481902089437266	177.63158	8.385779721866881e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.25	hr	0.0004462850107979477	189.47368	7.497024718359259e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.5	hr	0.0004986244102394805	214.47368	9.140758469855158e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	1.75	hr	0.0005111456553735265	227.63158	0.00011508463665249869	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	2.0	hr	0.0006123434710243607	318.42105	0.0002636549608660367	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	2.5	hr	0.0002500597807397626	115.13158	6.667519498204926e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	3.0	hr	0.00018641652567435592	78.947365	3.07731605661701e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	3.5	hr	0.00017525616583446816	72.36842	2.3834385617408765e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	4.0	hr	0.0001677156219480323	74.3421	3.680466031169617e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless
+Westphal2000a	all	10	concentration	talinolol	serum	TAL_IV	6.0	hr	0.00014116867082078157	61.842106	2.8963259467117842e-05	HPLC	Fig2a_TAL_IV		mole/meter^3	dimensionless

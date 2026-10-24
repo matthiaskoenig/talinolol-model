@@ -1,0 +1,85 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	Plasma was assayed for talinolol by an HPLC method with ultraviolet visible detection (Agilent 1100 serials HPLC).
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	0.5	hr	115.59	203.85289	88.26289	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	1.0	hr	113.49	151.31349	37.82349000000001	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	1.5	hr	119.79	203.85289	84.06289	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	2.0	hr	149.21	228.02101	78.81100999999998	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	2.5	hr	250.09	329.94745	79.85745	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	3.0	hr	311.03	420.31525	109.28525000000002	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	4.0	hr	232.22	319.43958	87.21957999999998	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	6.0	hr	152.36	228.02101	75.66100999999998	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	8.0	hr	107.18	159.71979	52.53978999999998	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	12.0	hr	68.3	109.28196	40.98196	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	24.0	hr	33.63	55.69177	22.061769999999996	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	36.0	hr	17.86	26.269703	8.409703	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL	48.0	hr	7.36	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	0.5	hr	121.89	249.03677	127.14676999999999	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	1.0	hr	105.08	182.83713	77.75713	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	1.5	hr	155.52	245.88441	90.36440999999999	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	2.0	hr	221.72	303.67776	81.95775999999998	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	2.5	hr	374.08	525.39404	151.31404000000003	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	3.0	hr	360.42	488.61646	128.19646	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	4.0	hr	287.92	409.80734	121.88734	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	6.0	hr	198.6	306.8301	108.23010000000002	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	8.0	hr	168.13	266.90018	98.77017999999998	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	12.0	hr	127.15	215.41156	88.26156	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	24.0	hr	73.56	145.00876	71.44876	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	36.0	hr	42.03	95.62172	53.591719999999995	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CT	6	concentration	talinolol	plasma	TAL, CUR	48.0	hr	11.56	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CT	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	0.5	hr	78.4	129.0403	50.640299999999996	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	1.0	hr	142.16	215.07385	72.91385	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	1.5	hr	180.84	286.42584	105.58583999999999	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	2.0	hr	263.41	427.00638	163.59637999999995	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	2.5	hr	368.99	485.76736	116.77735999999999	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	3.0	hr	358.54	439.64304	81.10303999999996	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	4.0	hr	306.27	384.091	77.82100000000003	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	6.0	hr	190.24	214.2497	24.00969999999998	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	8.0	hr	127.53	156.63997	29.109970000000004	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	12.0	hr	81.53	114.8631	33.3331	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	24.0	hr	40.77	72.379005	31.609005000000003	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	36.0	hr	19.86	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL	48.0	hr	5.23	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	0.5	hr	109.11	159.46152	50.35152000000001	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	1.0	hr	159.49	251.79057	92.30057	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	1.5	hr	217.2	355.65436	138.45436	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	2.0	hr	290.64	436.44504	145.80504000000002	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	2.5	hr	378.78	548.7077	169.92770000000007	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	3.0	hr	366.22	486.84738	120.62737999999996	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	4.0	hr	329.55	538.28406	208.73405999999994	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	6.0	hr	241.52	355.85358	114.33358000000001	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	8.0	hr	138.81	171.3252	32.51519999999999	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	12.0	hr	93.88	125.35254	31.47254000000001	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	24.0	hr	72.38	79.719795	7.339795000000009	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	36.0	hr	19.41	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_CC	6	concentration	talinolol	plasma	TAL, CUR	48.0	hr	6.3	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_CC	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	0.5	hr	151.55	255.0268	103.4768	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	1.0	hr	161.98	282.18994	120.20993999999999	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	1.5	hr	155.69	250.80557	95.11556999999999	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	2.0	hr	173.44	250.78738	77.34738000000002	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	2.5	hr	263.31	405.4621	142.15210000000002	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	3.0	hr	242.38	356.31134	113.93133999999998	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	4.0	hr	154.53	225.60748	71.07748000000001	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	6.0	hr	112.64	151.30957	38.66957000000001	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	8.0	hr	74.92	112.54628	37.626279999999994	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	12.0	hr	45.47	76.8279	31.3579	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	24.0	hr	15.68	27.17679	11.49679	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	36.0	hr	7.84	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL	48.0	hr	0.01	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	0.0	hr	0.0	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	0.5	hr	109.73	178.72198	68.99198	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	1.0	hr	167.2	281.1392	113.93920000000003	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	1.5	hr	201.67	326.0651	124.39509999999999	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	2.0	hr	233.02	364.72104	131.70104	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	2.5	hr	400.24	526.72375	126.48374999999999	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	3.0	hr	444.11	604.04474	159.93474000000003	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	4.0	hr	247.56	320.7276	73.1676	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	6.0	hr	150.26	185.8007	35.540700000000015	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	8.0	hr	111.5	145.9994	34.49940000000001	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	12.0	hr	69.51	90.416756	20.906756	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	24.0	hr	34.5	50.175125	15.675125000000001	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	36.0	hr	2.61	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA
+He2012	ABCB1_TT	6	concentration	talinolol	plasma	TAL, CUR	48.0	hr	0.01	NA	NA	ng/ml	HPLC/UV	Fig3_TAL_CUR_ABCB1_TT	NA

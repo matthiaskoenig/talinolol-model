@@ -1,0 +1,15 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Wang2013	all	NA	species	18	homo sapiens	18	NA	NA	NA	NA	NA	NA	NA	NA
+Wang2013	all	NA	sex	18	M	18	NA	NA	NA	NA	NA	NA	NA	NA
+Wang2013	all	NA	healthy	18	Y	18	NA	NA	NA	NA	NA	NA	NA	NA
+Wang2013	all	NA	age	18	NA	18	NA	20.5	NA	NA	NA	0.5	yr	NA
+Wang2013	all	NA	weight	18	NA	18	NA	55.7	NA	NA	NA	5.3	kg	NA
+Wang2013	all	NA	bmi	18	NA	18	NA	NA	NA	17.8	23.4	NA	kg/m^2	NA
+Wang2013	all	NA	abstinence medication	18	NA	18	NA	NA	NA	2.0	NA	NA	week	NA
+Wang2013	all	NA	abstinence alcohol	18	NA	18	NA	NA	NA	2.0	NA	NA	week	NA
+Wang2013	all	NA	abstinence	18	NA	18	coffee	NA	NA	1.0	NA	NA	d	NA
+Wang2013	all	NA	overnight fast	18	Y	18	NA	NA	NA	NA	NA	NA	NA	Participants were kept on a fast overnight before taking talinolol (100 mg with 200 ml water) at 8:00 AM. No food was ingested until 9:30 AM.
+Wang2013	all	NA	smoking	18	N	18	NA	NA	NA	NA	NA	NA	NA	NA
+Wang2013	MDR1_CC	all	ABCB1 genotype	6	C3435T C/C	6	NA	NA	NA	NA	NA	NA	NA	NA
+Wang2013	MDR1_CT	all	ABCB1 genotype	6	C3435T T/C	6	NA	NA	NA	NA	NA	NA	NA	NA
+Wang2013	MDR1_TT	all	ABCB1 genotype	6	C3435T T/T	6	NA	NA	NA	NA	NA	NA	NA	NA

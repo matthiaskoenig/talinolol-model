@@ -1,0 +1,35 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	sd	unit	method	label	comments
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	0.0	hr	NA	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	0.3333333333333333	hr	6.864986	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	0.6666666666666666	hr	9.865343	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	1.0	hr	11.1474905	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	1.3333333333333333	hr	19.944998	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	1.6666666666666667	hr	32.393234	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	2.0	hr	40.54698	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	2.5	hr	72.96171	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	3.0	hr	114.609184	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	3.5	hr	120.18252	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	4.0	hr	102.13697	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	5.0	hr	78.92936	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	6.0	hr	60.87348	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	8.0	hr	46.23708	NA	ng/ml	HPLC	TAL_serum	Not reported in  description
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	10.0	hr	37.612137	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	12.0	hr	32.423203	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	TAL	24.0	hr	16.53379	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	0.0	hr	NA	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	0.3333333333333333	hr	10.300579	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	0.6666666666666666	hr	75.14161	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	1.0	hr	83.29536	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	1.3333333333333333	hr	75.559074	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	1.6666666666666667	hr	66.104576	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	2.0	hr	63.951958	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	2.5	hr	58.789062	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	3.0	hr	60.283867	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	3.5	hr	59.20074	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	4.0	hr	56.185917	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	5.0	hr	52.087963	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	6.0	hr	41.548687	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	8.0	hr	33.568745	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	10.0	hr	26.87715	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	12.0	hr	22.331148	NA	ng/ml	HPLC	RVER_TAL_serum	NA
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	24.0	hr	11.6	NA	ng/ml	HPLC	RVER_TAL_serum	NA

@@ -1,0 +1,15 @@
+study	name	group_count	parent	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Westphal2000a	all	10	NA	species	homo sapiens	10	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	sex	F	5	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	sex	M	5	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	healthy	Y	10	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	age	NA	10	NA	NA	NA	23.0	30.0	NA	yr	NA
+Westphal2000a	all	10	NA	weight	NA	10	NA	NA	NA	60.0	90.0	11.3	kg	weight range 60 to 95 kg in abstract
+Westphal2000a	all	10	NA	pregnant	NR	5	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	medication	N	10	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	overnight fast	Y	10	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	smoking	Y	3	NA	NA	NA	NA	NA	NA	NA	Three subjects were smokers (<10 cigarettes/day). Subjects were advised to consume a standard diet on the pharmacokinetic study days, and smoking was not allowed.
+Westphal2000a	all	10	NA	alcohol	N	3	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000a	all	10	NA	abstinence alcohol	NA	10	NA	NA	NA	NA	NA	NA	d	all abstained strictly from alcohol during the whole study.
+Westphal2000a	all	10	NA	abstinence smoking	NA	10	NA	NA	NA	NA	NA	NA	d	Subjects were advised to consume a standard diet on the pharmacokinetic study days, and smoking was not allowed.
+Westphal2000a	all	10	NA	oral contraceptives	NR	5	NA	NA	NA	NA	NA	NA	NA	None of the volunteers took medications (except hormonal contraceptives)

@@ -1,0 +1,29 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Juan2007	all	12	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL	a double peak during absorption was evident in 4 of the 12 individual concentration-time curves. According to relevant publications [39–41], there is no relation between the double-peak phenomena of talinolol and enterohepatic recycling and fractionated gastric emptying.
+Juan2007	all	12	concentration	talinolol	plasma	TAL	0.5	hr	66.89631	93.377205	26.480895	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	1.0	hr	95.46407	172.81616	77.35209	ng/ml	HPLC-ESI-MS	Fig2_TAL	Where were the double peaks in M1 or M2?
+Juan2007	all	12	concentration	talinolol	plasma	TAL	1.5	hr	101.38509	154.69531	53.31022	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	2.0	hr	113.5779	158.87418	45.29628	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	3.0	hr	104.86054	141.09756	36.23702	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	4.0	hr	84.64537	108.33927	23.6939	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	6.0	hr	67.56188	80.10546	12.54358	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	8.0	hr	57.445183	67.20084	9.755657	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	12.0	hr	44.52888	53.24017	8.71129	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	24.0	hr	26.68921	31.56774	4.87853	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	36.0	hr	17.21193	31.49814	14.28621	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	48.0	hr	7.732781	9.82571	2.092929	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	TAL	60.0	hr	3.4843287	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	0.5	hr	36.58265	19.55836	17.02429	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	1.0	hr	54.349457	33.859097	20.49036	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	1.5	hr	90.2357	50.473186	39.762514	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	2.0	hr	86.05171	51.735016	34.316694	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	3.0	hr	63.3975	36.59306	26.80444	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	4.0	hr	55.725906	38.485806	17.2401	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	6.0	hr	44.91421	33.017876	11.896334	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	8.0	hr	39.326675	26.288118	13.038557	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	12.0	hr	32.334198	23.554153	8.780045	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	24.0	hr	19.02509	13.038906	5.986184	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	36.0	hr	10.94154	7.360673	3.580867	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	48.0	hr	5.296553	3.575184	1.721369	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA
+Juan2007	all	12	concentration	talinolol	plasma	CUR, TAL	60.0	hr	3.4843287	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_CUR, TAL	NA

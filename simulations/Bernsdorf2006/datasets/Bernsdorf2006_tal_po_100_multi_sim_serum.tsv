@@ -1,0 +1,23 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	72.0	hr	0.0001297679472895088	66.04	5.1912681054760046e-05	HPLC	Fig2_TAL_CR_SIM	Blood was sampled before and  0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 6, 8, 10, 12, 16, 24 and 36 h after oral administration. 	mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	96.0	hr	0.0001408822679816779	72.78	5.934056864606115e-05	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	120.0	hr	0.00015942447626514808	74.8	4.635552070867548e-05	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	144.0	hr	0.00015942447626514808	82.21	6.674094554257965e-05	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	168.0	hr	0.00015202409936862954	83.56	7.785526623474877e-05	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	192.0	hr	0.00014319316634341597	53.23	3.2462619843464135e-06	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	192.5	hr	0.00028798195298422266	177.05	0.00019909489814165258	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	193.0	hr	0.00046198709748414697	309.63	0.00038982654506939567	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	193.5	hr	0.000448066685924153	292.93	0.00035780409634245314	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	194.0	hr	0.0005427034759762858	331.38	0.0003689459277294048	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	194.5	hr	0.0006693902254501438	416.4	0.0004761551052971842	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	195.0	hr	0.0007974525096631315	452.83	0.0004483142821771963	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	195.5	hr	0.0007932708840561769	400.7	0.0003090826558824742	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	196.0	hr	0.0007807260072353128	369.82	0.00023667450721467963	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	196.5	hr	0.0007514546279866296	341.47	0.00018795306675470103	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	197.0	hr	0.0007096658826118653	332.36	0.00020467956918251978	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	198.0	hr	0.0006497751000701523	305.52	0.00019073164692774312	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	200.0	hr	0.0005244088639458589	246.29	0.00015315203785471598	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	202.0	hr	0.00047422935666240247	238.67	0.00018236839571383374	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	204.0	hr	0.0003794825238311393	175.39	0.00010302755196082473	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	208.0	hr	0.00028608371504422345	131.31	7.51592181460543e-05	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless
+Bernsdorf2006	all	18	concentration	talinolol	serum	TAL_CR, SIM	216.0	hr	0.00020228613873643378	94.78	5.8460226413018053e-05	HPLC	Fig2_TAL_CR_SIM		mole/meter^3	dimensionless

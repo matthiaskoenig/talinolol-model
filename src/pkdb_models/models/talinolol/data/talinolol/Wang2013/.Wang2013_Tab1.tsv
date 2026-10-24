@@ -1,0 +1,11 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Wang2013	all	cmax	talinolol	plasma	TAL, QRC	412.9	132.6	ng/ml	NA	NA	HPLC/UV	The plasma concentrations of talinolol were measured by an highperformance liquid chromatography method with ultraviolet visible detection
+Wang2013	all	thalf	talinolol	plasma	TAL, QRC	18.8	7.0	hr	NA	NA	HPLC/UV	NA
+Wang2013	all	auc_end	talinolol	plasma	TAL, QRC	6496.6	2389.9	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	all	auc_inf	talinolol	plasma	TAL, QRC	8414.7	3448.0	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	all	tmax	talinolol	plasma	TAL, QRC	2.9	1.1	hr	NA	NA	HPLC/UV	NA
+Wang2013	all	cmax	talinolol	plasma	TAL	543.3	97.9	ng/ml	NA	NA	HPLC/UV	NA
+Wang2013	all	thalf	talinolol	plasma	TAL	20.4	9.4	hr	NA	NA	HPLC/UV	NA
+Wang2013	all	auc_end	talinolol	plasma	TAL	7809.5	2386.8	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	all	auc_inf	talinolol	plasma	TAL	10478.2	4195.4	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	all	tmax	talinolol	plasma	TAL	2.8	0.8	hr	NA	NA	HPLC/UV	NA

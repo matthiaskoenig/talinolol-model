@@ -1,0 +1,13 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	0	hr			HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	2	hr	2.7302928513459604e-06		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	4	hr	1.6247416608206438e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	6	hr	3.101329316771895e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	8	hr	3.7036347129946765e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	10	hr	4.328632580915831e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	12	hr	4.8060542786008065e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	14	hr	5.351577600792307e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	16	hr	5.7040724081486673e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	24	hr	6.796137498452524e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	36	hr	7.798383746681522e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	48	hr	8.414572415026341e-05		HPLC	Fig2_TAL_NAR		mole	dimensionless

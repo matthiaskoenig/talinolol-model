@@ -1,0 +1,23 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.0	hr	0.0				HPLC	Fig1_TAL_IV	Peripheral venous blood (7.5 ml) was sampled into plastic tubes (S-Monovetten, Sarstedt AG, Nu ̈mbrecht, Germany) just before and at 5, 10, 15, 20, 25, 30, 40, 60, 80, 100 min, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 10, 12, and 24 h after administration to measure talinolol serum concentrations. Urine was collected between 0 and 48 h to determine the parameters of renal drug elimination.	mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.08	hr	0.000756901745553584				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.17	hr	0.0010942653956725677				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.25	hr	0.0013344062504298546				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.33	hr	0.0015623873780932335				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.42	hr	0.0016231309921732073				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.5	hr	0.0017538067923905415				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	0.67	hr	0.0006867494738579623				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	1.0	hr	0.000382646253731138				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	1.33	hr	0.0002822322177746599				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	1.67	hr	0.00023342824523033326				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	2.0	hr	0.0001998651975955653				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	2.5	hr	0.00019664644630600146				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	3.0	hr	0.00015694851373471437				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	3.5	hr	0.00015067607532428233				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	4.0	hr	0.00014440363691385025				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	5.0	hr	0.0001348849365190718				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	6.0	hr	0.00010412797975212863				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	8.0	hr	8.209191323126865e-05				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	10.0	hr	6.91343759886656e-05				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	12.0	hr	4.71258201625882e-05				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_IV	24.0	hr	1.2159727093907755e-05				HPLC	Fig1_TAL_IV		mole/meter^3	dimensionless

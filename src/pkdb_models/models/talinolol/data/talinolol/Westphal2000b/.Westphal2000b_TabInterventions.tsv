@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Westphal2000b	TAL_IV	0	0.5	hr	iv	constant infusion	dosing	solution	talinolol	30	mg	NA
+Westphal2000b	RIF	S16T1R9	NA	day	oral	multiple dose	dosing	tablet	rifampicin	600	mg	NA
+Westphal2000b	TAL_PO	S8T1R7	NA	day	oral	multiple dose	dosing	tablet	talinolol	100	mg	NA
+Westphal2000b	TAL_PO	S16T1R6	NA	day	oral	multiple dose	dosing	tablet	talinolol	100	mg	NA

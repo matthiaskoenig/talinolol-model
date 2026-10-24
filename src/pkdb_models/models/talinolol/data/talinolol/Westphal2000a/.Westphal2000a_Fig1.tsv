@@ -1,0 +1,40 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	0.25	hr	0.36666667	NA	NA	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	0.5	hr	1.1111112	0.47134936	0.63976184	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	0.75	hr	1.4888889	1.0314233	0.45746560000000014	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	1.0	hr	1.7388889	1.0813309	0.6575580000000001	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	1.25	hr	1.6722223	1.025878	0.6463443	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	1.5	hr	1.4888889	0.8428835	0.6460054000000001	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	1.75	hr	1.4	0.8151571	0.5848428999999999	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	2.0	hr	1.2666667	0.7430684	0.5235983000000001	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	2.5	hr	1.0944444	0.66543436	0.42901004	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	3.0	hr	0.95555556	0.5212569	0.43429865999999995	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	3.5	hr	0.9166667	0.5878004	0.32886629999999994	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	4.0	hr	0.78333336	0.5212569	0.26207645999999996	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX	6.0	hr	0.59444445	0.44362292	0.15082153000000004	ng/ml	FPIA	Fig1_DGX	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	0.25	hr	0.42144176	0.80961186	0.38817009999999996	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	0.5	hr	1.3086876	1.8077635	0.4990759	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	0.75	hr	1.6635859	2.0462108	0.38262489999999993	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	1.0	hr	1.6580406	2.401109	0.7430683999999999	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	1.25	hr	1.6414047	2.207024	0.5656193	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	1.5	hr	1.4251386	1.9852126	0.5600740000000002	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	1.75	hr	1.2643254	1.8743068	0.6099814000000001	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	2.0	hr	1.1146026	1.6358595	0.5212569	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	2.5	hr	0.909427	1.3974122	0.4879852	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	3.0	hr	0.9981516	1.2033272	0.2051755999999999	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	3.5	hr	0.88724583	1.1922365	0.3049906699999999	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	4.0	hr	0.74861366	1.0591497	0.3105360400000001	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_IV	6.0	hr	0.5600739	0.68207026	0.12199636000000003	ng/ml	FPIA	Fig1_DGX, TAL_IV	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	0.25	hr	0.5434381	1.103512	0.5600739	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	0.5	hr	1.6414047	2.728281	1.0868763	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	0.75	hr	2.051756	2.7338262	0.6820702000000001	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	1.0	hr	2.3955638	3.1053605	0.7097967000000001	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	1.25	hr	2.3068392	2.7560074	0.4491681999999999	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	1.5	hr	1.9519409	2.3512015	0.3992606000000001	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	1.75	hr	1.8687615	2.4177449	0.5489834000000002	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	2.0	hr	1.7190388	2.2680223	0.5489835000000001	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	2.5	hr	1.2920518	1.8077635	0.5157117	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	3.0	hr	1.0702403	1.5249538	0.4547135	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	3.5	hr	1.0480591	1.314233	0.2661739000000001	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	4.0	hr	0.89279115	1.1090573	0.21626614999999993	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA
+Westphal2000a	all	10	concentration	digoxin	serum	DGX, TAL_PO	6.0	hr	0.6210721	0.715342	0.09426990000000002	ng/ml	FPIA	Fig1_DGX, TAL_PO	NA

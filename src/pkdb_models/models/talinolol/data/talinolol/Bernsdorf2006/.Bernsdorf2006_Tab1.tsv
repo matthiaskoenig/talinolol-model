@@ -1,0 +1,37 @@
+study	group	count	measurement	substance	tissue	intervention	geometric_mean	mean	sd	unit	time	time_unit	method	comments
+Bernsdorf2006	all	18.0	auc_inf	talinolol	serum	TAL_IV	1406.0	NA	NA	ng/ml*hr	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	cmax	talinolol	serum	TAL_IV	496.0	NA	NA	ng/ml	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	tmax	talinolol	serum	TAL_IV	NA	0.46	0.09	hr	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	bioavailability	talinolol	serum	TAL_IV	NA	NA	NA	percent	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	thalf	talinolol	serum	TAL_IV	13.5	NA	NA	hr	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	clearance	talinolol	urine	TAL_IV	356.0	356.0	NA	ml/min	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	clearance_renal	talinolol	urine	TAL_IV	152.0	152.0	NA	ml/min	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	urine	TAL_IV	13.0	13.0	NA	mg	3.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	feces	TAL_IV	6.3	6.3	NA	mg	7.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	auc_inf	talinolol	serum	TAL_IV, SIM	1405.0	1405.0	NA	ng/ml*hr	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cmax	talinolol	serum	TAL_IV, SIM	464.0	464.0	NA	ng/ml	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	tmax	talinolol	serum	TAL_IV, SIM	NA	0.48	0.05	hr	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	bioavailability	talinolol	serum	TAL_IV, SIM	NA	NA	NA	percent	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	thalf	talinolol	serum	TAL_IV, SIM	13.3	13.3	NA	hr	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	clearance	talinolol	urine	TAL_IV, SIM	356.0	356.0	NA	ml/min	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	clearance_renal	talinolol	urine	TAL_IV, SIM	167.0	167.0	NA	ml/min	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	urine	TAL_IV, SIM	14.4	14.4	NA	mg	3.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	feces	TAL_IV, SIM	8.5	8.5	NA	mg	7.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	auc_inf	talinolol	serum	TAL_PO	3438.0	3438.0	NA	ng/ml*hr	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cmax	talinolol	serum	TAL_PO	337.0	337.0	NA	ng/ml	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	tmax	talinolol	serum	TAL_PO	NA	2.69	0.97	hr	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	bioavailability	talinolol	serum	TAL_PO	73.3	73.3	NA	percent	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	thalf	talinolol	serum	TAL_PO	13.0	13.0	NA	hr	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	clearance	talinolol	urine	TAL_PO	NA	NA	NA	ml/min	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	clearance_renal	talinolol	urine	TAL_PO	148.0	148.0	NA	ml/min	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	urine	TAL_PO	31.2	31.2	NA	mg	3.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	feces	TAL_PO	31.6	31.6	NA	mg	7.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	auc_inf	talinolol	serum	TAL_CR, SIM	3674.0	3674.0	NA	ng/ml*hr	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cmax	talinolol	serum	TAL_CR, SIM	382.0	382.0	NA	ng/ml	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	tmax	talinolol	serum	TAL_CR, SIM	NA	3.53	2.02	hr	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	bioavailability	talinolol	serum	TAL_CR, SIM	78.4	78.4	NA	percent	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	thalf	talinolol	serum	TAL_CR, SIM	13.9	13.9	NA	hr	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	clearance	talinolol	urine	TAL_CR, SIM	NA	NA	NA	ml/min	NA	NA	HPLC	NA
+Bernsdorf2006	all	18.0	clearance_renal	talinolol	urine	TAL_CR, SIM	153.0	153.0	NA	ml/min	NA	NA	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	urine	TAL_CR, SIM	34.5	34.5	NA	mg	3.0	day	HPLC	Mean is geometric mean
+Bernsdorf2006	all	18.0	cumulative amount	talinolol	feces	TAL_CR, SIM	39.1	39.1	NA	mg	7.0	day	HPLC	Mean is geometric mean

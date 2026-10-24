@@ -1,0 +1,15 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	mean_se	method	label	comments	mean_unit	count_unit
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	0.25	hr	0.00015519331765223728	26.423887	8.249936862955473e-05	2.6088591039523677e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	0.5	hr	0.00034056427186068583	46.642212	0.00021224830602896875	6.711880765639885e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	0.75	hr	0.00043106931319550476	65.28716	0.00025145979999724894	7.951857079617078e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	1.0	hr	0.0004957158145228957	82.390144	0.00026905480405507644	8.508259962243497e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	1.5	hr	0.0004826820176343553	72.177345	0.0002841171267830369	8.984572428972255e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	2.0	hr	0.0006486033370472771	125.05339	0.00030457277266537366	9.63143674895253e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	2.5	hr	0.0005859909764921113	146.00345	0.00018432534147649898	5.828879095540406e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	3.0	hr	0.0005643400046768182	105.431755	0.00027428992145696633	8.673808910327047e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	4.0	hr	0.0005404493596885789	99.03148	0.00026800687767369565	8.475121620390073e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	6.0	hr	0.00034388717864069655	79.24026	0.00012589171790533567	3.981045671322631e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	8.0	hr	0.00025081505935432396	64.891464	7.22941333443376e-05	2.2861412283603267e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	10.0	hr	0.00021381400019257485	35.757355	0.00011544303222877893	3.6506292183916695e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	12.0	hr	0.00020267156357033796	33.097378	0.00011161837714411477	3.529683005070826e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless
+Fan2009b	all	10	concentration	talinolol	plasma	TAL	24.0	hr	0.00011643679280320223	16.358692	7.143289453775155e-05	2.258906465978957e-05	HPLC	Fig1_TAL	reported SE incorrect, most likely SD	mole/meter^3	dimensionless

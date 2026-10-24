@@ -1,0 +1,55 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	0.0	hr	NA	NA	NA	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	0.33	hr	4.79	11.16	6.37	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	0.67	hr	13.59	26.59	13.0	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	1.0	hr	17.27	32.23	14.96	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	1.33	hr	18.06	30.99	12.93	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	1.67	hr	18.19	29.74	11.55	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	2.0	hr	19.11	32.63	13.52	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	2.5	hr	24.82	49.9	25.08	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	3.0	hr	28.89	50.1	21.21	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	3.5	hr	29.94	46.03	16.09	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	4.0	hr	32.37	49.44	17.07	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	5.0	hr	30.6	48.39	17.79	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	6.0	hr	27.72	43.87	16.15	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	8.0	hr	22.34	33.96	11.62	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	10.0	hr	16.04	23.46	7.42	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	12.0	hr	12.57	18.81	6.24	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	14.0	hr	9.36	15.53	6.17	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	24.0	hr	4.0	8.01	4.01	ng/ml	HPLC	Fig1_TAL	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	0.0	hr	NA	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_AC	sd between GFJ_AC and GFJ_CR not clearly distinguishable
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	0.33	hr	0.99	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	0.67	hr	1.84	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	1.0	hr	7.16	0.593561	6.566439	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	1.33	hr	11.89	5.1240044	6.7659956	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	1.67	hr	12.02	4.6653457	7.3546543	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	2.0	hr	12.87	6.570011	6.299989	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	2.5	hr	13.92	6.3087616	7.6112384	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	3.0	hr	16.09	4.8003335	11.2896665	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	3.5	hr	19.57	7.0993023	12.4706977	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	4.0	hr	19.64	7.231926	12.408074	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	5.0	hr	18.85	7.8911324	10.9588676	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	6.0	hr	16.89	6.7778673	10.1121327	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	8.0	hr	13.41	5.142189	8.267811	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	10.0	hr	11.38	4.2943	7.0857	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	12.0	hr	7.58	2.0021236	5.5778764	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	14.0	hr	5.68	1.0229437	4.6570563	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_AC	24.0	hr	1.25	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_AC	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	0.0	hr	NA	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	0.33	hr	1.31	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	0.67	hr	5.78	0.2607765	5.5192235	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	1.0	hr	9.85	1.3156617	8.5343383	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	1.33	hr	12.87	5.7804165	7.0895835	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	1.67	hr	15.5	7.4881024	8.0118976	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	2.0	hr	16.29	8.014213	8.275787	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	2.5	hr	16.02	7.227842	8.792158	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	3.0	hr	17.08	8.739021	8.340979	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	3.5	hr	17.54	8.412212	9.127788	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	4.0	hr	19.57	7.5601535	12.0098465	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	5.0	hr	17.61	8.744524	8.865476	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	6.0	hr	16.23	7.2373857	8.9926143	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	8.0	hr	13.87	6.0612264	7.8087736	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	10.0	hr	12.37	5.541565	6.828435	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	12.0	hr	9.16	2.921161	6.238839	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	14.0	hr	7.46	1.7450013	5.7149987	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA
+Schwarz2005	all	24	concentration	talinolol	serum	TAL, GFJ_CR	24.0	hr	2.69	NA	NA	ng/ml	HPLC	Fig1_TAL, GFJ_CR	NA

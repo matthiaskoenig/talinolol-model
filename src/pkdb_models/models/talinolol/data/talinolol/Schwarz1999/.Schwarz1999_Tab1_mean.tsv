@@ -1,0 +1,13 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Schwarz1999	all	cmax	talinolol	serum	TAL	149.0	24.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	all	tmax	talinolol	serum	TAL	3.2	0.8	hr	NA	NA	HPLC	NA
+Schwarz1999	all	thalf	talinolol	serum	TAL	12.0	1.8	hr	NA	NA	HPLC	NA
+Schwarz1999	all	auc_end	talinolol	serum	TAL	945.0	188.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	all	clearance_renal	talinolol	urine	TAL	10.8	2.8	l/hr	NA	NA	HPLC	NA
+Schwarz1999	all	cumulative amount	talinolol	urine	TAL	12.9	2.8	mg	48.0	hr	HPLC	NA
+Schwarz1999	all	cmax	talinolol	serum	RVER, TAL	95.0	29.0	ng/ml	NA	NA	HPLC	NA
+Schwarz1999	all	tmax	talinolol	serum	RVER, TAL	1.5	1.0	hr	NA	NA	HPLC	NA
+Schwarz1999	all	thalf	talinolol	serum	RVER, TAL	11.3	1.6	hr	NA	NA	HPLC	NA
+Schwarz1999	all	auc_end	talinolol	serum	RVER, TAL	721.0	231.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	all	clearance_renal	talinolol	urine	RVER, TAL	10.9	2.8	l/hr	NA	NA	HPLC	NA
+Schwarz1999	all	cumulative amount	talinolol	urine	RVER, TAL	9.5	3.0	mg	48.0	hr	HPLC	NA

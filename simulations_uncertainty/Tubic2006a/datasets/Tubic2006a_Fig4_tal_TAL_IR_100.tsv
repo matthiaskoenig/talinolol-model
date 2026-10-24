@@ -1,0 +1,15 @@
+study	individual	count	measurement	substance	tissue	intervention	time	time_unit	value	method	label	comments	value_unit	count_unit
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	0.0	hr	0.0	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	1.9295863	hr	5.397559251158888e-06	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	3.982194	hr	2.5649332177884152e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	5.9084024	hr	3.59124829777576e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	7.971499	hr	4.10553240072078e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	9.898774	hr	4.978196949063949e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	11.962226	hr	5.44126411642526e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	13.028174	hr	5.544790162175546e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	21.9522	hr	6.885575592511588e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	24.949333	hr	7.298382371146784e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	28.880507	hr	7.609711550365203e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	34.946064	hr	7.769576472853822e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	38.478127	hr	7.952454091528082e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless
+Tubic2006a	Fig4_Ind	1	cumulative amount	talinolol	urine	TAL_IR_100	46.009808	hr	8.241725745883712e-05	HPLC/UV	Fig4_TAL_IR_100		mole	dimensionless

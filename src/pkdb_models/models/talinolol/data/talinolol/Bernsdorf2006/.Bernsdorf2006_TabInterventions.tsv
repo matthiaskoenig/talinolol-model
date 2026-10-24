@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Bernsdorf2006	TAL_IV	0	30.0	min	iv	constant infusion	dosing	solution	talinolol	1	mg/min	On the 1st and 8th study day, the pharmacokinetics of talinolol (Cordanum®; AWD.pharma, Germany) was evaluated in the entire group of 18 subjects after intravenous infusion of 30 mg in 200 ml saline (infusion time 30 min) and after oral administration of 100 mg according to a cross-over design with random allocation.
+Bernsdorf2006	TAL_PO	0	NA	hr	oral	single dose	dosing	tablet	talinolol	100	mg	NA
+Bernsdorf2006	TAL_CR	21	29.0	day	oral	multiple dose	dosing	tablet	talinolol	100	mg/day	NA
+Bernsdorf2006	SIM	15	36.0	day	oral	multiple dose	dosing	tablet	simvastatin	40	mg/day	Between the 15th and 36th study days, the subjects were treated orally with 40 mg simvastatin once daily (Simvacard®; AWD.pharma), and talinolol (100 mg daily) was coadministered between the 21st and 29th study days.

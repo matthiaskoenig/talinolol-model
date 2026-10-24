@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulation experiments | sbmlsim</title>
+<style>
+:root {
+  --bg: #ffffff; --bg-soft: #f6f7f9; --bg-card: #ffffff;
+  --fg: #1b1f24; --fg-soft: #5b6472; --line: #e3e6ea;
+  --accent: #3b5bdb; --training: #2f9e44; --validation: #1c7ed6; --outlier: #e8590c;
+  --excluded: #868e96;
+  --radius: 10px; --shadow: 0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c; --bg-soft: #1a1e24; --bg-card: #1a1e24;
+    --fg: #e6e9ee; --fg-soft: #9aa4b2; --line: #2a3038;
+    --accent: #748ffc; --training: #51cf66; --validation: #4dabf7; --outlier: #ff922b;
+    --excluded: #adb5bd;
+    --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header.top {
+  position: sticky; top: 0; z-index: 20; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding: 14px 24px 0;
+}
+.top .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; }
+.top h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
+.top .sub { color: var(--fg-soft); font-size: 13px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.badge {
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px;
+  padding: 2px 10px; font-size: 12px; color: var(--fg-soft); white-space: nowrap;
+}
+.badge b { color: var(--fg); font-weight: 600; }
+.badge.failed, .badge.failed b { color: var(--outlier); border-color: var(--outlier); }
+nav.sections { display: flex; gap: 4px; margin-top: 12px; }
+nav.sections a {
+  padding: 8px 14px; border-bottom: 2px solid transparent; color: var(--fg-soft);
+  font-size: 14px; font-weight: 550;
+}
+nav.sections a.active { color: var(--fg); border-bottom-color: var(--accent); }
+.search { display: flex; gap: 8px; align-items: center; padding: 10px 0 12px; }
+.search input {
+  flex: 1; max-width: 460px; padding: 8px 12px; font-size: 14px; color: var(--fg);
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+}
+.search input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.chip {
+  border: 1px solid var(--line); background: var(--bg-soft); color: var(--fg-soft);
+  border-radius: 999px; padding: 5px 12px; font-size: 12.5px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { color: #fff; border-color: transparent; }
+.chip[data-kind="training"][aria-pressed="true"] { background: var(--training); }
+.chip[data-kind="validation"][aria-pressed="true"] { background: var(--validation); }
+.chip[data-kind="outlier"][aria-pressed="true"] { background: var(--outlier); }
+.chip[data-kind="excluded"][aria-pressed="true"] { background: var(--excluded); }
+#hits { color: var(--fg-soft); font-size: 12.5px; margin-left: auto; }
+
+main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+section { margin-bottom: 44px; scroll-margin-top: 150px; }
+section > h2 {
+  font-size: 17px; font-weight: 650; margin: 0 0 4px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+h3 { font-size: 14px; font-weight: 600; color: var(--fg-soft); margin: 26px 0 10px;
+     text-transform: uppercase; letter-spacing: .04em; }
+.card {
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px; margin-bottom: 16px;
+}
+/* a heading which opens a card sits at the padding of the card */
+.card > h3:first-child { margin-top: 0; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        margin-bottom: 16px; }
+/* the gap of the grid is the space between its cards */
+.grid > .card { margin-bottom: 0; }
+.card.wide { grid-column: 1 / -1; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+/* two tables in one card, e.g. the networks and their arrays */
+table + table { margin-top: 24px; }
+th, td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--fg-soft); font-weight: 600; white-space: nowrap; }
+th[data-sort] { cursor: pointer; user-select: none; }
+th[data-sort]:hover { color: var(--fg); }
+th[data-sort]::after { content: " ⇅"; opacity: .35; }
+th[data-sort].asc::after { content: " ↑"; opacity: 1; }
+th[data-sort].desc::after { content: " ↓"; opacity: 1; }
+td.num, th.num { text-align: right; padding-right: 18px; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--bg-soft); }
+tr.total td { font-weight: 650; border-top: 2px solid var(--line); }
+
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 20px; font-size: 13.5px;
+      margin: 0; }
+.kv dt { color: var(--fg-soft); }
+.kv dd { margin: 0; word-break: break-word; white-space: pre-line; }
+
+.tag { border-radius: 999px; padding: 1px 9px; font-size: 11.5px; font-weight: 600; color: #fff; }
+.tag.training { background: var(--training); }
+.tag.validation { background: var(--validation); }
+.tag.outlier { background: var(--outlier); }
+.tag.excluded { background: var(--excluded); }
+.warn { color: var(--outlier); }
+
+/* what a value means, on the header of a column or next to a figure */
+.hint {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 14px; height: 14px; margin-left: 4px; border-radius: 50%;
+  border: 1px solid var(--line); color: var(--fg-soft);
+  font-size: 10px; font-weight: 700; line-height: 1; cursor: help;
+  position: relative; vertical-align: middle; user-select: none;
+}
+.hint:hover, .hint:focus { border-color: var(--accent); color: var(--accent); }
+.hint::after {
+  content: attr(data-tip);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  width: max-content; max-width: 320px; padding: 8px 10px;
+  border-radius: 6px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--fg); box-shadow: 0 4px 16px rgb(0 0 0 / 18%);
+  font-size: 12px; font-weight: 400; line-height: 1.45; text-align: left;
+  white-space: normal; opacity: 0; visibility: hidden; transition: opacity .12s;
+  z-index: 20; pointer-events: none;
+}
+.hint:hover::after, .hint:focus::after { opacity: 1; visibility: visible; }
+/* a tooltip of the last columns would leave the page */
+td:last-child .hint::after, th:last-child .hint::after { left: auto; right: 0; transform: none; }
+/* on a phone a wide table scrolls inside its card and not the page; the
+   tooltips of its header open downwards, into the table, not above the card */
+@media (max-width: 700px) {
+  .card { overflow-x: auto; }
+  th .hint::after { bottom: auto; top: calc(100% + 8px); }
+  /* the header of a phone is not sticky, it would cover half of the screen,
+     and its rows wrap; the gutter is 16px */
+  header.top { position: static; padding: 12px 16px 0; }
+  main { padding: 16px; }
+  footer { padding: 8px 16px 24px; }
+  section { scroll-margin-top: 16px; }
+  nav.sections { overflow-x: auto; }
+  nav.sections a { padding: 8px 10px; white-space: nowrap; }
+  .search { flex-wrap: wrap; }
+  .search input { flex-basis: 100%; max-width: none; }
+}
+
+figure { margin: 0; }
+figure img {
+  width: 100%; height: auto; background: #fff; border: 1px solid var(--line);
+  border-radius: 8px; cursor: zoom-in;
+}
+figcaption { color: var(--fg-soft); font-size: 12.5px; margin-top: 6px; }
+
+.mapping { }
+.mapping header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
+.mapping header .name { font-weight: 650; }
+.mapping header .exp { color: var(--fg-soft); font-size: 13px; }
+.mapping .metrics { margin-left: auto; display: flex; gap: 14px; font-size: 12.5px; color: var(--fg-soft); }
+.mapping .metrics b { color: var(--fg); font-weight: 600; }
+.hidden { display: none !important; }
+.failed { color: var(--outlier); }
+.empty { color: var(--fg-soft); font-style: italic; padding: 16px 0; }
+
+pre.code {
+  margin: 0; padding: 14px 16px; overflow-x: auto; max-height: 70vh;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12.5px; line-height: 1.5; tab-size: 4;
+}
+#lightbox {
+  position: fixed; inset: 0; background: rgba(8,10,14,.86); z-index: 50;
+  display: none; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out;
+}
+#lightbox.open { display: flex; }
+#lightbox img { max-width: 100%; max-height: 100%; background: #fff; border-radius: 8px; }
+footer { color: var(--fg-soft); font-size: 12.5px; padding: 8px 24px 32px; max-width: 1400px; margin: 0 auto; }
+</style>
+<style>
+  /* the figures of an experiment are thumbnails of one height, a click opens
+     a figure in full size */
+  #experiments figure img { height: 220px; object-fit: contain; }
+  #experiments figure a.interactive { display: flex; align-items: center; justify-content: center; height: 220px; border: 1px dashed var(--line); border-radius: 8px; }
+  .chip[data-kind="passed"][aria-pressed="true"] { background: var(--training); }
+  .chip[data-kind="failed"][aria-pressed="true"] { background: var(--outlier); }
+</style>
+</head>
+<body data-items="experiments">
+
+<header class="top">
+  <div class="row">
+    <h1>Simulation experiments</h1>
+    <span class="sub">43 experiment(s)</span>
+    <div class="badges">
+<span class="badge">experiments <b>43</b></span>
+    </div>
+  </div>
+  <nav class="sections">
+<a href="#experiments">Experiments</a>
+  </nav>
+  <div class="search">
+    <input id="search" type="search" placeholder="Search experiments and figures …" autocomplete="off">
+    <span id="hits"></span>
+  </div>
+</header>
+
+<main>
+
+<section id="experiments">
+  <h2>Experiments (43)</h2>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Bernsdorf2006/Bernsdorf2006.html">Bernsdorf2006</a></span>
+      <span class="exp">10 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Fig2_po_100_serum.svg" alt="Fig2_po_100_serum">
+        <figcaption>Fig2_po_100_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Tab1_po_100_urine.svg" alt="Tab1_po_100_urine">
+        <figcaption>Tab1_po_100_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Tab1_po_100_feces.svg" alt="Tab1_po_100_feces">
+        <figcaption>Tab1_po_100_feces</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Fig2_iv_30_serum.svg" alt="Fig2_iv_30_serum">
+        <figcaption>Fig2_iv_30_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Tab1_iv_30_urine.svg" alt="Tab1_iv_30_urine">
+        <figcaption>Tab1_iv_30_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Tab1_iv_30_feces.svg" alt="Tab1_iv_30_feces">
+        <figcaption>Tab1_iv_30_feces</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Fig2_iv_30_sim_serum.svg" alt="Fig2_iv_30_sim_serum">
+        <figcaption>Fig2_iv_30_sim_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Tab1_iv_30_sim_urine.svg" alt="Tab1_iv_30_sim_urine">
+        <figcaption>Tab1_iv_30_sim_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Tab1_iv_30_sim_feces.svg" alt="Tab1_iv_30_sim_feces">
+        <figcaption>Tab1_iv_30_sim_feces</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bernsdorf2006/Bernsdorf2006_Fig2_po_100_multi_sim_serum.svg" alt="Fig2_po_100_multi_sim_serum">
+        <figcaption>Fig2_po_100_multi_sim_serum</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Bogman2005/Bogman2005.html">Bogman2005</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Bogman2005/Bogman2005_Fig1_IVDUO_plasma.svg" alt="Fig1_IVDUO_plasma">
+        <figcaption>Fig1_IVDUO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Bogman2005/Bogman2005_Fig1_IVDUO_plasma_pgp_function.svg" alt="Fig1_IVDUO_plasma_pgp_function">
+        <figcaption>Fig1_IVDUO_plasma_pgp_function</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="DeMey1995/DeMey1995.html">DeMey1995</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="DeMey1995/DeMey1995_Fig4_PO_plasma.svg" alt="Fig4_PO_plasma">
+        <figcaption>Fig4_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Fan2009a/Fan2009a.html">Fan2009a</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Fan2009a/Fan2009a_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Fan2009b/Fan2009b.html">Fan2009b</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Fan2009b/Fan2009b_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Giessmann2004/Giessmann2004.html">Giessmann2004</a></span>
+      <span class="exp">3 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Giessmann2004/Giessmann2004_Fig2_PO_MULTI_serum.svg" alt="Fig2_PO_MULTI_serum">
+        <figcaption>Fig2_PO_MULTI_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Giessmann2004/Giessmann2004_Tab3a_PO_urine.svg" alt="Tab3a_PO_urine">
+        <figcaption>Tab3a_PO_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Giessmann2004/Giessmann2004_Tab3a_IV_urine.svg" alt="Tab3a_IV_urine">
+        <figcaption>Tab3a_IV_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Gramatte1996/Gramatte1996.html">Gramatte1996</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Gramatte1996/Gramatte1996_Fig3_IVDUO_serum.svg" alt="Fig3_IVDUO_serum">
+        <figcaption>Fig3_IVDUO_serum</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Han2009/Han2009.html">Han2009</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Han2009/Han2009_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Haustein1981/Haustein1981.html">Haustein1981</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Haustein1981/Haustein1981_Fig1_Tab1a_PO.svg" alt="Fig1_Tab1a_PO">
+        <figcaption>Fig1_Tab1a_PO</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Haustein1981/Haustein1981_Fig2_IV.svg" alt="Fig2_IV">
+        <figcaption>Fig2_IV</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Haustein1981/Haustein1981_Tab2a_IV.svg" alt="Tab2a_IV">
+        <figcaption>Tab2a_IV</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Haustein1981/Haustein1981_Tab3a_PO_urine.svg" alt="Tab3a_PO_urine">
+        <figcaption>Tab3a_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="He2007/He2007.html">He2007</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="He2007/He2007_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="He2012/He2012.html">He2012</a></span>
+      <span class="exp">3 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="He2012/He2012_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="He2012/He2012_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="He2012/He2012_Fig3_PO_plasma.svg" alt="Fig3_PO_plasma">
+        <figcaption>Fig3_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Juan2007/Juan2007.html">Juan2007</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Juan2007/Juan2007_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Krueger2001/Krueger2001.html">Krueger2001</a></span>
+      <span class="exp">5 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Krueger2001/Krueger2001_Fig1_PO_plasma_day1.svg" alt="Fig1_PO_plasma_day1">
+        <figcaption>Fig1_PO_plasma_day1</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Krueger2001/Krueger2001_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Krueger2001/Krueger2001_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Krueger2001/Krueger2001_Tab1a_Tab2b_PO_urine.svg" alt="Tab1a_Tab2b_PO_urine">
+        <figcaption>Tab1a_Tab2b_PO_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Krueger2001/Krueger2001_Tab2a_PO_renalrate.svg" alt="Tab2a_PO_renalrate">
+        <figcaption>Tab2a_PO_renalrate</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Nguyen2014/Nguyen2014.html">Nguyen2014</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Nguyen2014/Nguyen2014_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Nguyen2014/Nguyen2014_Tab2a_PO_urine.svg" alt="Tab2a_PO_urine">
+        <figcaption>Tab2a_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Nguyen2015/Nguyen2015.html">Nguyen2015</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Nguyen2015/Nguyen2015_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Nguyen2015/Nguyen2015_Fig2_PO_urine.svg" alt="Fig2_PO_urine">
+        <figcaption>Fig2_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Ruike2010/Ruike2010.html">Ruike2010</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Ruike2010/Ruike2010_Fig3_PO_plasma.svg" alt="Fig3_PO_plasma">
+        <figcaption>Fig3_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Schwarz1999/Schwarz1999.html">Schwarz1999</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Schwarz1999/Schwarz1999_Fig1_PO_serum.svg" alt="Fig1_PO_serum">
+        <figcaption>Fig1_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz1999/Schwarz1999_Tab1_PO_urine.svg" alt="Tab1_PO_urine">
+        <figcaption>Tab1_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Schwarz2000/Schwarz2000.html">Schwarz2000</a></span>
+      <span class="exp">3 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Schwarz2000/Schwarz2000_Fig1_PO_serum.svg" alt="Fig1_PO_serum">
+        <figcaption>Fig1_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz2000/Schwarz2000_Tab1_PO_urine.svg" alt="Tab1_PO_urine">
+        <figcaption>Tab1_PO_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz2000/Schwarz2000_Fig1_PO_serum_pginhibition.svg" alt="Fig1_PO_serum_pginhibition">
+        <figcaption>Fig1_PO_serum_pginhibition</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Schwarz2005/Schwarz2005.html">Schwarz2005</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Schwarz2005/Schwarz2005_Fig1_PO_serum.svg" alt="Fig1_PO_serum">
+        <figcaption>Fig1_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz2005/Schwarz2005_Tab1a_PO_urine.svg" alt="Tab1a_PO_urine">
+        <figcaption>Tab1a_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Schwarz2007/Schwarz2007.html">Schwarz2007</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Schwarz2007/Schwarz2007_Fig1AB_TAL_PO_serum.svg" alt="Fig1AB_TAL_PO_serum">
+        <figcaption>Fig1AB_TAL_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz2007/Schwarz2007_Tab1a_TAL_PO_urine.svg" alt="Tab1a_TAL_PO_urine">
+        <figcaption>Tab1a_TAL_PO_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz2007/Schwarz2007_Fig1AB_TAL_IV_serum.svg" alt="Fig1AB_TAL_IV_serum">
+        <figcaption>Fig1AB_TAL_IV_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Schwarz2007/Schwarz2007_Tab1a_TAL_IV_urine.svg" alt="Tab1a_TAL_IV_urine">
+        <figcaption>Tab1a_TAL_IV_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Siegmund2003/Siegmund2003.html">Siegmund2003</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Siegmund2003/Siegmund2003_Fig1_PO_serum.svg" alt="Fig1_PO_serum">
+        <figcaption>Fig1_PO_serum</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Terhaag1983/Terhaag1983.html">Terhaag1983</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Terhaag1983/Terhaag1983_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Terhaag1989/Terhaag1989.html">Terhaag1989</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Terhaag1989/Terhaag1989_Fig1_IV_serum.svg" alt="Fig1_IV_serum">
+        <figcaption>Fig1_IV_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Terhaag1989/Terhaag1989_Fig1_IV_bile.svg" alt="Fig1_IV_bile">
+        <figcaption>Fig1_IV_bile</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Terhaag1989/Terhaag1989_Fig1_IV_bilerate.svg" alt="Fig1_IV_bilerate">
+        <figcaption>Fig1_IV_bilerate</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Terhaag1989/Terhaag1989_Tab1a_IV_bile.svg" alt="Tab1a_IV_bile">
+        <figcaption>Tab1a_IV_bile</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Trausch1995/Trausch1995.html">Trausch1995</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Trausch1995/Trausch1995_Fig1_IV_serum.svg" alt="Fig1_IV_serum">
+        <figcaption>Fig1_IV_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Trausch1995/Trausch1995_Fig1_PO_serum.svg" alt="Fig1_PO_serum">
+        <figcaption>Fig1_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Trausch1995/Trausch1995_Fig2_IV_urine.svg" alt="Fig2_IV_urine">
+        <figcaption>Fig2_IV_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Trausch1995/Trausch1995_Fig2_PO_urine.svg" alt="Fig2_PO_urine">
+        <figcaption>Fig2_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Tubic2006a/Tubic2006a.html">Tubic2006a</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Tubic2006a/Tubic2006a_Fig3_PO_plasma_IR.svg" alt="Fig3_PO_plasma_IR">
+        <figcaption>Fig3_PO_plasma_IR</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Tubic2006a/Tubic2006a_Fig4_PO_urine_IR.svg" alt="Fig4_PO_urine_IR">
+        <figcaption>Fig4_PO_urine_IR</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Tubic2006a/Tubic2006a_Fig3_PO_plasma.svg" alt="Fig3_PO_plasma">
+        <figcaption>Fig3_PO_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Tubic2006a/Tubic2006a_Fig4_PO_urine.svg" alt="Fig4_PO_urine">
+        <figcaption>Fig4_PO_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Wang2013/Wang2013.html">Wang2013</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Wang2013/Wang2013_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Westphal2000a/Westphal2000a.html">Westphal2000a</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Westphal2000a/Westphal2000a_Fig2_TAL_PO_serum.svg" alt="Fig2_TAL_PO_serum">
+        <figcaption>Fig2_TAL_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Westphal2000a/Westphal2000a_Fig2_TAL_PO_urine.svg" alt="Fig2_TAL_PO_urine">
+        <figcaption>Fig2_TAL_PO_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Westphal2000a/Westphal2000a_Fig2_TAL_IV_serum.svg" alt="Fig2_TAL_IV_serum">
+        <figcaption>Fig2_TAL_IV_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Westphal2000a/Westphal2000a_Fig2_TAL_IV_urine.svg" alt="Fig2_TAL_IV_urine">
+        <figcaption>Fig2_TAL_IV_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Westphal2000b/Westphal2000b.html">Westphal2000b</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Westphal2000b/Westphal2000b_Fig2_TAL_PO_serum.svg" alt="Fig2_TAL_PO_serum">
+        <figcaption>Fig2_TAL_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Westphal2000b/Westphal2000b_Fig2_TAL_PO_urine.svg" alt="Fig2_TAL_PO_urine">
+        <figcaption>Fig2_TAL_PO_urine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Westphal2000b/Westphal2000b_Fig2_TAL_IV_serum.svg" alt="Fig2_TAL_IV_serum">
+        <figcaption>Fig2_TAL_IV_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Westphal2000b/Westphal2000b_Fig2_TAL_IV_urine.svg" alt="Fig2_TAL_IV_urine">
+        <figcaption>Fig2_TAL_IV_urine</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Wetterich1996/Wetterich1996.html">Wetterich1996</a></span>
+      <span class="exp">5 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Wetterich1996/Wetterich1996_Fig1_IV_plasma.svg" alt="Fig1_IV_plasma">
+        <figcaption>Fig1_IV_plasma</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Wetterich1996/Wetterich1996_Tab1c_TAL_PO_urine_amount.svg" alt="Tab1c_TAL_PO_urine_amount">
+        <figcaption>Tab1c_TAL_PO_urine_amount</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Wetterich1996/Wetterich1996_Tab1c_TAL_PO_bile_amount.svg" alt="Tab1c_TAL_PO_bile_amount">
+        <figcaption>Tab1c_TAL_PO_bile_amount</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Wetterich1996/Wetterich1996_Tab1c_TAL_IV_urine_amount.svg" alt="Tab1c_TAL_IV_urine_amount">
+        <figcaption>Tab1c_TAL_IV_urine_amount</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Wetterich1996/Wetterich1996_Tab1c_TAL_IV_bile_amount.svg" alt="Tab1c_TAL_IV_bile_amount">
+        <figcaption>Tab1c_TAL_IV_bile_amount</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Xiao2012/Xiao2012.html">Xiao2012</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Xiao2012/Xiao2012_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Yan2013/Yan2013.html">Yan2013</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Yan2013/Yan2013_Fig2_PO_plasma.svg" alt="Fig2_PO_plasma">
+        <figcaption>Fig2_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Zeng2009/Zeng2009.html">Zeng2009</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Zeng2009/Zeng2009_Fig1_PO_plasma.svg" alt="Fig1_PO_plasma">
+        <figcaption>Fig1_PO_plasma</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Zhang2005/Zhang2005.html">Zhang2005</a></span>
+      <span class="exp">3 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Zhang2005/Zhang2005_Fig1_wildtype_PO_serum.svg" alt="Fig1_wildtype_PO_serum">
+        <figcaption>Fig1_wildtype_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Zhang2005/Zhang2005_Fig1_pgactivity_PO_serum.svg" alt="Fig1_pgactivity_PO_serum">
+        <figcaption>Fig1_pgactivity_PO_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Zhang2005/Zhang2005_Fig1_PO_serum.svg" alt="Fig1_PO_serum">
+        <figcaption>Fig1_PO_serum</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Zschiesche2002/Zschiesche2002.html">Zschiesche2002</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Zschiesche2002/Zschiesche2002_Fig4_IV_serum.svg" alt="Fig4_IV_serum">
+        <figcaption>Fig4_IV_serum</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Zschiesche2002/Zschiesche2002_Fig5_PO_MULTI_serum.svg" alt="Fig5_PO_MULTI_serum">
+        <figcaption>Fig5_PO_MULTI_serum</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="ApplicationExperiment/ApplicationExperiment.html">ApplicationExperiment</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="ApplicationExperiment/ApplicationExperiment_Fig_application_iv.svg" alt="Fig_application_iv">
+        <figcaption>Fig_application_iv</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="ApplicationExperiment/ApplicationExperiment_Fig_application_po.svg" alt="Fig_application_po">
+        <figcaption>Fig_application_po</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="IntestineInfusionExperiment/IntestineInfusionExperiment.html">IntestineInfusionExperiment</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="IntestineInfusionExperiment/IntestineInfusionExperiment_Fig_application.svg" alt="Fig_application">
+        <figcaption>Fig_application</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Gramatte1996Scan/Gramatte1996Scan.html">Gramatte1996Scan</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Gramatte1996Scan/Gramatte1996Scan_fig_Gramatte1996_Fig1.svg" alt="fig_Gramatte1996_Fig1">
+        <figcaption>fig_Gramatte1996_Fig1</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Krueger2001Scan/Krueger2001Scan.html">Krueger2001Scan</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Krueger2001Scan/Krueger2001Scan_fig_Krueger2001_Fig3.svg" alt="fig_Krueger2001_Fig3">
+        <figcaption>fig_Krueger2001_Fig3</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="OATP1B1FunctionScan/OATP1B1FunctionScan.html">OATP1B1FunctionScan</a></span>
+      <span class="exp">6 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="OATP1B1FunctionScan/OATP1B1FunctionScan_fig_timecourse_po_oatp1b1_all.svg" alt="fig_timecourse_po_oatp1b1_all">
+        <figcaption>fig_timecourse_po_oatp1b1_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP1B1FunctionScan/OATP1B1FunctionScan_fig_timecourse_po_oatp1b1_intestine.svg" alt="fig_timecourse_po_oatp1b1_intestine">
+        <figcaption>fig_timecourse_po_oatp1b1_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP1B1FunctionScan/OATP1B1FunctionScan_fig_timecourse_iv_oatp1b1_all.svg" alt="fig_timecourse_iv_oatp1b1_all">
+        <figcaption>fig_timecourse_iv_oatp1b1_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP1B1FunctionScan/OATP1B1FunctionScan_fig_timecourse_iv_oatp1b1_intestine.svg" alt="fig_timecourse_iv_oatp1b1_intestine">
+        <figcaption>fig_timecourse_iv_oatp1b1_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP1B1FunctionScan/OATP1B1FunctionScan_fig_po_oatp1b1.svg" alt="fig_po_oatp1b1">
+        <figcaption>fig_po_oatp1b1</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP1B1FunctionScan/OATP1B1FunctionScan_fig_iv_oatp1b1.svg" alt="fig_iv_oatp1b1">
+        <figcaption>fig_iv_oatp1b1</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="OATP2B1FunctionScan/OATP2B1FunctionScan.html">OATP2B1FunctionScan</a></span>
+      <span class="exp">6 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="OATP2B1FunctionScan/OATP2B1FunctionScan_fig_timecourse_po_oatp2b1_gut_all.svg" alt="fig_timecourse_po_oatp2b1_gut_all">
+        <figcaption>fig_timecourse_po_oatp2b1_gut_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP2B1FunctionScan/OATP2B1FunctionScan_fig_timecourse_po_oatp2b1_gut_intestine.svg" alt="fig_timecourse_po_oatp2b1_gut_intestine">
+        <figcaption>fig_timecourse_po_oatp2b1_gut_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP2B1FunctionScan/OATP2B1FunctionScan_fig_timecourse_iv_oatp2b1_gut_all.svg" alt="fig_timecourse_iv_oatp2b1_gut_all">
+        <figcaption>fig_timecourse_iv_oatp2b1_gut_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP2B1FunctionScan/OATP2B1FunctionScan_fig_timecourse_iv_oatp2b1_gut_intestine.svg" alt="fig_timecourse_iv_oatp2b1_gut_intestine">
+        <figcaption>fig_timecourse_iv_oatp2b1_gut_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP2B1FunctionScan/OATP2B1FunctionScan_fig_po_oatp2b1_gut.svg" alt="fig_po_oatp2b1_gut">
+        <figcaption>fig_po_oatp2b1_gut</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="OATP2B1FunctionScan/OATP2B1FunctionScan_fig_iv_oatp2b1_gut.svg" alt="fig_iv_oatp2b1_gut">
+        <figcaption>fig_iv_oatp2b1_gut</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="PGFunctionScan/PGFunctionScan.html">PGFunctionScan</a></span>
+      <span class="exp">6 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="PGFunctionScan/PGFunctionScan_fig_timecourse_po_pg_gut_all.svg" alt="fig_timecourse_po_pg_gut_all">
+        <figcaption>fig_timecourse_po_pg_gut_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="PGFunctionScan/PGFunctionScan_fig_timecourse_po_pg_gut_intestine.svg" alt="fig_timecourse_po_pg_gut_intestine">
+        <figcaption>fig_timecourse_po_pg_gut_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="PGFunctionScan/PGFunctionScan_fig_timecourse_iv_pg_gut_all.svg" alt="fig_timecourse_iv_pg_gut_all">
+        <figcaption>fig_timecourse_iv_pg_gut_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="PGFunctionScan/PGFunctionScan_fig_timecourse_iv_pg_gut_intestine.svg" alt="fig_timecourse_iv_pg_gut_intestine">
+        <figcaption>fig_timecourse_iv_pg_gut_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="PGFunctionScan/PGFunctionScan_fig_po_pg_gut.svg" alt="fig_po_pg_gut">
+        <figcaption>fig_po_pg_gut</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="PGFunctionScan/PGFunctionScan_fig_iv_pg_gut.svg" alt="fig_iv_pg_gut">
+        <figcaption>fig_iv_pg_gut</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="RenalFunctionScan/RenalFunctionScan.html">RenalFunctionScan</a></span>
+      <span class="exp">6 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="RenalFunctionScan/RenalFunctionScan_fig_timecourse_po_renal_all.svg" alt="fig_timecourse_po_renal_all">
+        <figcaption>fig_timecourse_po_renal_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="RenalFunctionScan/RenalFunctionScan_fig_timecourse_po_renal_intestine.svg" alt="fig_timecourse_po_renal_intestine">
+        <figcaption>fig_timecourse_po_renal_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="RenalFunctionScan/RenalFunctionScan_fig_timecourse_iv_renal_all.svg" alt="fig_timecourse_iv_renal_all">
+        <figcaption>fig_timecourse_iv_renal_all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="RenalFunctionScan/RenalFunctionScan_fig_timecourse_iv_renal_intestine.svg" alt="fig_timecourse_iv_renal_intestine">
+        <figcaption>fig_timecourse_iv_renal_intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="RenalFunctionScan/RenalFunctionScan_fig_po_renal.svg" alt="fig_po_renal">
+        <figcaption>fig_po_renal</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="RenalFunctionScan/RenalFunctionScan_fig_iv_renal.svg" alt="fig_iv_renal">
+        <figcaption>fig_iv_renal</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="SiteDependencyScan/SiteDependencyScan.html">SiteDependencyScan</a></span>
+      <span class="exp">3 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="SiteDependencyScan/SiteDependencyScan_all.svg" alt="all">
+        <figcaption>all</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="SiteDependencyScan/SiteDependencyScan_intestine.svg" alt="intestine">
+        <figcaption>intestine</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="SiteDependencyScan/SiteDependencyScan_pk.svg" alt="pk">
+        <figcaption>pk</figcaption>
+      </figure>
+    </div>
+  </div>
+  <p class="empty hidden" data-empty>No experiment matches the search.</p>
+</section>
+
+</main>
+
+<footer>
+<br>created by sbmlsim 0.13.0</footer>
+
+<div id="lightbox"><img alt=""></div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- search and the filter chips ------------------------------------
+  const search = document.getElementById("search");
+  const hits = document.getElementById("hits");
+  const chips = Array.from(document.querySelectorAll(".chip"));
+  const cards = Array.from(document.querySelectorAll('[data-filter="card"]'));
+  const rows = Array.from(document.querySelectorAll('table[data-filter="row"] tbody tr'));
+  const empty = document.querySelector("[data-empty]");
+  const itemLabel = document.body.dataset.items || "items";
+
+  const haystack = new Map();
+  for (const node of [...cards, ...rows]) {
+    haystack.set(node, node.textContent.toLowerCase());
+  }
+
+  function activeKinds() {
+    return new Set(chips.filter((c) => c.getAttribute("aria-pressed") === "true")
+                        .map((c) => c.dataset.kind));
+  }
+
+  function matches(node, query, kinds) {
+    const kind = node.dataset.kind;
+    if (kind && !kinds.has(kind)) return false;
+    return !query || haystack.get(node).includes(query);
+  }
+
+  function apply() {
+    const query = search.value.trim().toLowerCase();
+    const kinds = activeKinds();
+    let shownCards = 0;
+    for (const node of cards) {
+      const show = matches(node, query, kinds);
+      node.classList.toggle("hidden", !show);
+      if (show) shownCards += 1;
+    }
+    for (const node of rows) {
+      node.classList.toggle("hidden", !matches(node, query, kinds));
+    }
+    if (empty) empty.classList.toggle("hidden", shownCards > 0 || cards.length === 0);
+    const filtering = Boolean(query) || (chips.length > 0 && kinds.size < chips.length);
+    hits.textContent = filtering
+      ? shownCards + " / " + cards.length + " " + itemLabel
+      : "";
+  }
+
+  search.addEventListener("input", apply);
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      chip.setAttribute("aria-pressed", chip.getAttribute("aria-pressed") === "true" ? "false" : "true");
+      apply();
+    });
+  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && document.activeElement !== search) {
+      event.preventDefault();
+      search.focus();
+    } else if (event.key === "Escape") {
+      if (document.activeElement === search && search.value) { search.value = ""; apply(); }
+      closeLightbox();
+    }
+  });
+
+  // ---- sortable tables -------------------------------------------------
+  function cellValue(row, index, kind) {
+    const text = row.cells[index] ? row.cells[index].textContent.trim() : "";
+    if (kind !== "num") return text.toLowerCase();
+    // the AIC of a perfect fit is -inf, a cell without a value sorts last
+    if (text === "-inf") return Number.NEGATIVE_INFINITY;
+    const value = parseFloat(text);
+    return Number.isNaN(value) ? Number.POSITIVE_INFINITY : value;
+  }
+
+  for (const table of document.querySelectorAll("table")) {
+    const headers = Array.from(table.querySelectorAll("th[data-sort]"));
+    headers.forEach((th, index) => {
+      th.addEventListener("click", () => {
+        const body = table.tBodies[0];
+        if (!body) return;
+        const kind = th.dataset.sort;
+        const descending = th.classList.contains("asc");
+        for (const other of headers) other.classList.remove("asc", "desc");
+        th.classList.add(descending ? "desc" : "asc");
+        const sorted = Array.from(body.rows).sort((a, b) => {
+          const left = cellValue(a, index, kind);
+          const right = cellValue(b, index, kind);
+          if (left < right) return descending ? 1 : -1;
+          if (left > right) return descending ? -1 : 1;
+          return 0;
+        });
+        for (const row of sorted) body.appendChild(row);
+      });
+    });
+  }
+
+  // ---- the section the page is scrolled to -----------------------------
+  // a tab (data-tab) is not a section, its page marks the tab which is shown
+  const links = Array.from(document.querySelectorAll("nav.sections a:not([data-tab])"));
+  const sections = links.map((link) => document.querySelector(link.getAttribute("href")));
+  function scrollspy() {
+    let current = 0;
+    sections.forEach((section, index) => {
+      if (section && section.getBoundingClientRect().top < 200) current = index;
+    });
+    links.forEach((link, index) => link.classList.toggle("active", index === current));
+  }
+  window.addEventListener("scroll", scrollspy, { passive: true });
+  scrollspy();
+
+  // ---- click a figure to enlarge it ------------------------------------
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = lightbox.querySelector("img");
+  function closeLightbox() { lightbox.classList.remove("open"); lightboxImage.src = ""; }
+  for (const image of document.querySelectorAll("figure img")) {
+    image.addEventListener("click", () => {
+      lightboxImage.src = image.getAttribute("src");
+      lightbox.classList.add("open");
+    });
+  }
+  lightbox.addEventListener("click", closeLightbox);
+
+  apply();
+})();
+</script>
+</body>
+</html>

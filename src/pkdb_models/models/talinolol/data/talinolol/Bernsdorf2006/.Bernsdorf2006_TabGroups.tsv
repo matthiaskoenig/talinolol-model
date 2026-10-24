@@ -1,0 +1,30 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Bernsdorf2006	all	NA	species	18.0	homo sapiens	18.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	sex	18.0	F	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	sex	18.0	M	10.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	healthy	18.0	Y	18.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	age	18.0	NA	18.0	NA	NA	NA	21.0	30.0	NA	years	NA
+Bernsdorf2006	all	NA	bmi	18.0	NA	18.0	NA	NA	NA	19.0	27.0	NA	kg/m^2	NA
+Bernsdorf2006	all	NA	pregnant	18.0	NR	18.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	medication	18.0	Y	18.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	overnight fast	18.0	Y	18.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	smoking	18.0	Y	2.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	all	NA	smoking amount (cigarettes)	18.0	NA	2.0	NA	NA	NA	NA	10.0	NA	1/day	NA
+Bernsdorf2006	all	NA	oral contraceptives	18.0	NR	18.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GG/CC	all	ABCB1 genotype	4.0	G2677T/A G/G	4.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GG/CC	all	ABCB1 genotype	4.0	C3435T C/C	4.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GG/CT	all	ABCB1 genotype	3.0	G2677T/A G/G	3.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GG/CT	all	ABCB1 genotype	3.0	C3435T T/C	3.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GT/CT	all	ABCB1 genotype	3.0	G2677T/A G/T	3.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GT/CT	all	ABCB1 genotype	3.0	C3435T T/C	3.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GT/TT	all	ABCB1 genotype	1.0	G2677T/A G/T	1.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_GT/TT	all	ABCB1 genotype	1.0	C3435T T/T	1.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_TT/CT	all	ABCB1 genotype	1.0	G2677T/A T/T	1.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_TT/CT	all	ABCB1 genotype	1.0	C3435T T/C	1.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_TT/TT	all	ABCB1 genotype	6.0	G2677T/A T/T	6.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	MDR1_TT/TT	all	ABCB1 genotype	6.0	C3435T T/T	6.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	OATP1B1_*1a/*1a	all	SLCO1B1 genotype	7.0	*1a/*1a	7.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	OATP1B1_*1a/*1b	all	SLCO1B1 genotype	5.0	*1a/*1b	5.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	OATP1B1_*1b/*5	all	SLCO1B1 genotype	1.0	*1b/*5	1.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	OATP1B1_*1b/*15	all	SLCO1B1 genotype	3.0	*1b/*15	3.0	NA	NA	NA	NA	NA	NA	NA	NA
+Bernsdorf2006	OATP1B1_*1a/*5	all	SLCO1B1 genotype	1.0	*1a/*5	1.0	NA	NA	NA	NA	NA	NA	NA	NA

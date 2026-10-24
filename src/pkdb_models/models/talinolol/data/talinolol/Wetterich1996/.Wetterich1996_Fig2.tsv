@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	mean	pm	sd	unit	method	label	comments
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_25	783.0506	858.8476	75.79700000000003	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_25	1026.7236	1154.9161	128.19249999999988	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_50	733.5676	803.46875	69.90115000000003	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_50	872.3586	984.9974	112.63879999999995	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_100	535.484	573.33704	37.853039999999964	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_100	605.35486	661.6843	56.32943999999998	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	R-talinolol	plasma	TAL_400	512.18365	547.1039	34.92025000000001	ml/min	HPLC	NA	NA
+Wetterich1996	healthy	12	clearance	S-talinolol	plasma	TAL_400	536.44476	575.27875	38.83398999999997	ml/min	HPLC	NA	NA

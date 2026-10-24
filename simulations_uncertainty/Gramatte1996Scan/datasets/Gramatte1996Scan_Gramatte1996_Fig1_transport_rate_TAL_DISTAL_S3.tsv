@@ -1,0 +1,6 @@
+study	individual	count	intervention	tissue	x_measurement	x_substance	x	x_unit	x_label	y_measurement	y_substance	y	y_unit	y_label	y_method	comments	count_unit
+Gramatte1996	S3	1	TAL_DISTAL	intestine	perfusion_rate	talinolol	620.1484	µg/min	perfusion_rate_TAL_DISTAL	transport_rate	talinolol	-0.6721011333333333	microgram/centimeter/minute	transport_rate_TAL_DISTAL_S3	HPLC		dimensionless
+Gramatte1996	S3	1	TAL_DISTAL	intestine	perfusion_rate	talinolol	655.12427	µg/min	perfusion_rate_TAL_DISTAL	transport_rate	talinolol	1.9350397666666665	microgram/centimeter/minute	transport_rate_TAL_DISTAL_S3	HPLC		dimensionless
+Gramatte1996	S3	1	TAL_DISTAL	intestine	perfusion_rate	talinolol	683.94434	µg/min	perfusion_rate_TAL_DISTAL	transport_rate	talinolol	3.1405176666666668	microgram/centimeter/minute	transport_rate_TAL_DISTAL_S3	HPLC		dimensionless
+Gramatte1996	S3	1	TAL_DISTAL	intestine	perfusion_rate	talinolol	708.7226	µg/min	perfusion_rate_TAL_DISTAL	transport_rate	talinolol	3.2779013333333333	microgram/centimeter/minute	transport_rate_TAL_DISTAL_S3	HPLC		dimensionless
+Gramatte1996	S3	1	TAL_DISTAL	intestine	perfusion_rate	talinolol	729.6426	µg/min	perfusion_rate_TAL_DISTAL	transport_rate	talinolol	4.651033333333333	microgram/centimeter/minute	transport_rate_TAL_DISTAL_S3	HPLC		dimensionless

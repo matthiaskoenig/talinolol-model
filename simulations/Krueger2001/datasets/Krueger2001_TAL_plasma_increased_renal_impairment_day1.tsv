@@ -1,0 +1,17 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	0.0	hr	0.0		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	0.17	hr	1.3408280719129561e-05		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	0.5	hr	2.372144596211777e-05		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	0.75	hr	3.9600660256674774e-05		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	1.0	hr	6.18282314749859e-05		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	1.5	hr	0.00028413471987235033		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	2.0	hr	0.0003936954290980619		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	2.5	hr	0.00046117795292920116		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	3.0	hr	0.0006167892268119232		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	3.5	hr	0.0006302832501134815		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	4.0	hr	0.0005548520062174171		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	5.0	hr	0.0005064120826971484		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	6.000646	hr	0.00042939041802500717		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	8.0	hr	0.0003650604547517848		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	12.0	hr	0.0002872131941292177		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless
+Krueger2001	increased_renal_impairment	12.0	concentration	talinolol	plasma	TAL	24.0	hr	0.00019183386291420787		HPLC/UV	TAL_plasma_increased_renal_impairment		mole/meter^3	dimensionless

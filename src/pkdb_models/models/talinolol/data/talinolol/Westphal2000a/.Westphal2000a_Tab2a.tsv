@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	cv	unit	time	time_unit	method	label	comments
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	TAL_PO	0.0	0.0	NA	mg	0.0	hr	HPLC	Tab2a_TAL_PO_urine	zero time point added
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	DGX, TAL_PO	0.0	0.0	NA	mg	0.0	hr	HPLC	Tab2a_DGX_TAL_PO_urine	zero time point added
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	TAL_IV	0.0	0.0	NA	mg	0.0	hr	HPLC	Tab2a_TAL_IV_urine	zero time point added
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	DGX, TAL_IV	0.0	0.0	NA	mg	0.0	hr	HPLC	Tab2a_DGX_TAL_IV_urine	zero time point added
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	TAL_PO	50.4306	11.506714830845509	0.22816930258306484	mg	48.0	hr	HPLC	Tab2a_TAL_PO_urine	Ae0-48 = clearance_renal * auc_inf (Table II, CLR = Ae0-48/AUC); SD by the propagated CV of CLR and AUC
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	DGX, TAL_PO	47.825399999999995	12.777107010587333	0.2671615294506127	mg	48.0	hr	HPLC	Tab2a_DGX_TAL_PO_urine	Ae0-48 = clearance_renal * auc_inf (Table II, CLR = Ae0-48/AUC); SD by the propagated CV of CLR and AUC
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	TAL_IV	21.53064	5.879968153383146	0.27309769488427404	mg	48.0	hr	HPLC	Tab2a_TAL_IV_urine	Ae0-48 = clearance_renal * auc_inf (Table II, CLR = Ae0-48/AUC); SD by the propagated CV of CLR and AUC
+Westphal2000a	all	10.0	cumulative amount	talinolol	urine	DGX, TAL_IV	21.9783	4.445212693448988	0.2022546190309982	mg	48.0	hr	HPLC	Tab2a_DGX_TAL_IV_urine	Ae0-48 = clearance_renal * auc_inf (Table II, CLR = Ae0-48/AUC); SD by the propagated CV of CLR and AUC

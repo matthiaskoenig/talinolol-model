@@ -1,0 +1,97 @@
+study	individual	measurement	substance	tissue	intervention	value	unit	method	label	comments
+Zeng2009	A	auc_inf	talinolol	plasma	TAL	2421.4106	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	A	auc_inf	talinolol	plasma	BIF, TAL	2302.7761	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	B	auc_inf	talinolol	plasma	TAL	3321.2583	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	B	auc_inf	talinolol	plasma	BIF, TAL	2826.6455	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	C	auc_inf	talinolol	plasma	TAL	3037.7424	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	C	auc_inf	talinolol	plasma	BIF, TAL	2687.974	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	D	auc_inf	talinolol	plasma	TAL	3145.6099	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	D	auc_inf	talinolol	plasma	BIF, TAL	2515.4043	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	E	auc_inf	talinolol	plasma	TAL	3851.307	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	E	auc_inf	talinolol	plasma	BIF, TAL	3717.2515	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	F	auc_inf	talinolol	plasma	TAL	3814.327	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	F	auc_inf	talinolol	plasma	BIF, TAL	3236.5159	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	G	auc_inf	talinolol	plasma	TAL	2467.6355	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	G	auc_inf	talinolol	plasma	BIF, TAL	2305.8484	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	H	auc_inf	talinolol	plasma	TAL	3127.1265	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	H	auc_inf	talinolol	plasma	BIF, TAL	2691.0588	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	I	auc_inf	talinolol	plasma	TAL	3728.0374	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	I	auc_inf	talinolol	plasma	BIF, TAL	3587.825	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	J	auc_inf	talinolol	plasma	TAL	3053.1538	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	J	auc_inf	talinolol	plasma	BIF, TAL	2426.0393	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	K	auc_inf	talinolol	plasma	TAL	3117.8623	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	K	auc_inf	talinolol	plasma	BIF, TAL	2956.0815	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	L	auc_inf	talinolol	plasma	TAL	3672.5674	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	L	auc_inf	talinolol	plasma	BIF, TAL	2946.8398	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	M	auc_inf	talinolol	plasma	TAL	3154.8518	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	M	auc_inf	talinolol	plasma	BIF, TAL	2919.0828	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	N	auc_inf	talinolol	plasma	TAL	2800.4578	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	N	auc_inf	talinolol	plasma	BIF, TAL	2647.9158	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	O	auc_inf	talinolol	plasma	TAL	3281.1997	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	O	auc_inf	talinolol	plasma	BIF, TAL	2752.6921	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	P	auc_inf	talinolol	plasma	TAL	3083.9705	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	P	auc_inf	talinolol	plasma	BIF, TAL	2811.2373	ng*hr/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	A	cmax	talinolol	plasma	TAL	195.06172	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	A	cmax	talinolol	plasma	BIF, TAL	187.19136	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	B	cmax	talinolol	plasma	TAL	210.33951	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	B	cmax	talinolol	plasma	BIF, TAL	196.75926	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	C	cmax	talinolol	plasma	TAL	222.53087	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	unit in paper incorrect
+Zeng2009	C	cmax	talinolol	plasma	BIF, TAL	184.41357	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	D	cmax	talinolol	plasma	TAL	186.41975	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	D	cmax	talinolol	plasma	BIF, TAL	166.82098	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	E	cmax	talinolol	plasma	TAL	237.03703	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	E	cmax	talinolol	plasma	BIF, TAL	217.12962	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	F	cmax	talinolol	plasma	TAL	221.14197	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	F	cmax	talinolol	plasma	BIF, TAL	204.93828	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	G	cmax	talinolol	plasma	TAL	208.64197	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	G	cmax	talinolol	plasma	BIF, TAL	172.53087	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	H	cmax	talinolol	plasma	TAL	216.66667	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	H	cmax	talinolol	plasma	BIF, TAL	177.62346	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	I	cmax	talinolol	plasma	TAL	204.62962	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	I	cmax	talinolol	plasma	BIF, TAL	182.56172	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	J	cmax	talinolol	plasma	TAL	193.05556	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	J	cmax	talinolol	plasma	BIF, TAL	177.16049	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	K	cmax	talinolol	plasma	TAL	NA	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	K	cmax	talinolol	plasma	BIF, TAL	NA	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	L	cmax	talinolol	plasma	TAL	210.33951	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	L	cmax	talinolol	plasma	BIF, TAL	194.90741	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	M	cmax	talinolol	plasma	TAL	198.91975	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	M	cmax	talinolol	plasma	BIF, TAL	198.45679	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	N	cmax	talinolol	plasma	TAL	212.19136	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	N	cmax	talinolol	plasma	BIF, TAL	187.03703	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	O	cmax	talinolol	plasma	TAL	188.58025	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	O	cmax	talinolol	plasma	BIF, TAL	176.85185	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	P	cmax	talinolol	plasma	TAL	196.75926	ng/ml	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	P	cmax	talinolol	plasma	BIF, TAL	177.46913	ng/ml	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	A	thalf	talinolol	plasma	TAL	8.714254	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	A	thalf	talinolol	plasma	BIF, TAL	8.494376	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	B	thalf	talinolol	plasma	TAL	10.8409605	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	B	thalf	talinolol	plasma	BIF, TAL	10.907464	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	C	thalf	talinolol	plasma	TAL	9.368609	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	C	thalf	talinolol	plasma	BIF, TAL	9.35323	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	D	thalf	talinolol	plasma	TAL	11.249958	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	D	thalf	talinolol	plasma	BIF, TAL	9.45548	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	E	thalf	talinolol	plasma	TAL	10.329755	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	E	thalf	talinolol	plasma	BIF, TAL	10.621123	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	F	thalf	talinolol	plasma	TAL	12.292903	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	F	thalf	talinolol	plasma	BIF, TAL	11.091556	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	G	thalf	talinolol	plasma	TAL	8.346114	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	G	thalf	talinolol	plasma	BIF, TAL	8.944316	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	H	thalf	talinolol	plasma	TAL	11.045459	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	H	thalf	talinolol	plasma	BIF, TAL	10.70284	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	I	thalf	talinolol	plasma	TAL	12.251961	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	I	thalf	talinolol	plasma	BIF, TAL	11.909551	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	J	thalf	talinolol	plasma	TAL	9.757115	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	J	thalf	talinolol	plasma	BIF, TAL	9.373638	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	K	thalf	talinolol	plasma	TAL	11.4953985	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	K	thalf	talinolol	plasma	BIF, TAL	12.707055	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	L	thalf	talinolol	plasma	TAL	11.69994	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	L	thalf	talinolol	plasma	BIF, TAL	11.275562	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	M	thalf	talinolol	plasma	TAL	10.452454	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	M	thalf	talinolol	plasma	BIF, TAL	9.680512	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	N	thalf	talinolol	plasma	TAL	9.123211	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	N	thalf	talinolol	plasma	BIF, TAL	10.375767	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	O	thalf	talinolol	plasma	TAL	11.577198	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	O	thalf	talinolol	plasma	BIF, TAL	10.682473	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA
+Zeng2009	P	thalf	talinolol	plasma	TAL	NA	hr	HPLC-ESI-MS/MS	Fig2a_TAL	NA
+Zeng2009	P	thalf	talinolol	plasma	BIF, TAL	NA	hr	HPLC-ESI-MS/MS	Fig2a_BIF, TAL	NA

@@ -1,0 +1,43 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	se	unit	method	label	comments
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL	Venous blood samples (10 ml each) for the determination of talinolol concentrations were taken from an indwelling venous catheter into tubes containing ethylenediamine tetraacetic acid just before and at 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12 and 24 h after the administration of talinolol.
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	0.25	hr	66.7334	10.250372	56.483028	16.3052457102226	ng/ml	HPLC	Fig1_TAL	NA
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	0.5	hr	83.587105	13.168557	70.418548	20.3280838218713	ng/ml	HPLC	Fig1_TAL	NA
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	0.75	hr	86.50622	21.223085	65.283135	18.8456177828963	ng/ml	HPLC	Fig1_TAL	NA
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	1.0	hr	110.692116	49.077396	61.61472	17.7866375890217	ng/ml	HPLC	Fig1_TAL	NA
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	1.5	hr	205.28633	109.195366	96.090964	27.7390719660453	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	2.0	hr	251.46692	129.70448	121.76244	35.1497887555928	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	2.5	hr	216.23022	134.8092	81.42102	23.504223907347	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	3.0	hr	194.1909	105.435844	88.755056	25.6213777367702	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	4.0	hr	155.9914	81.17186	74.81954	21.598540779822	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	6.0	hr	134.59818	81.05008	53.5481	15.4580049747965	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	8.0	hr	102.20251	59.657795	42.544715	12.281601328923	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	12.0	hr	73.34975	46.94012	26.40963	7.62380349484921	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL	24.0	hr	49.87969	25.668694	24.210996	6.98911252897448	ng/ml	HPLC	Fig1_TAL	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_SCHE	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	0.25	hr	39.05	71.0	31.95	9.22	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	0.5	hr	81.65	138.46	56.81	16.40	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	0.75	hr	102.95	166.87	63.92	18.45	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	1.0	hr	138.46	213.02	74.56	21.52	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	1.5	hr	234.32	369.24	134.92	38.95	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	2.0	hr	308.88	447.36	138.48	39.98	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	2.5	hr	315.98	497.06	181.08	52.27	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	3.0	hr	284.03	426.05	142.02	41.00	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	4.0	hr	241.42	333.73	92.31	26.65	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	6.0	hr	205.92	298.23	92.31	26.65	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	8.0	hr	142.01	220.12	78.11	22.55	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	12.0	hr	138.46	234.32	95.86	27.67	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, SCHE	24.0	hr	81.65	134.91	53.26	15.37	ng/ml	HPLC	Fig1_TAL_SCHE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	0.0	hr	0.0	NA	NA	NA	ng/ml	HPLC	Fig1_TAL_GBE	reported SE incorrect, most likely SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	0.25	hr	95.85	127.81	31.96	9.23	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	0.5	hr	159.77	259.18	99.41	28.70	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	0.75	hr	170.42	308.88	138.46	39.97	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	1.0	hr	173.96	301.78	127.82	36.90	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	1.5	hr	184.61	266.28	81.67	23.58	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	2.0	hr	205.92	280.47	74.55	21.52	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	2.5	hr	284.03	415.4	131.37	37.92	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	3.0	hr	269.83	436.7	166.87	48.17	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	4.0	hr	202.37	372.79	170.42	49.20	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	6.0	hr	131.36	184.61	53.25	15.37	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	8.0	hr	124.26	166.87	42.61	12.30	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	12.0	hr	92.3	117.16	24.86	7.18	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD
+Fan2009a	all	12.0	concentration	talinolol	plasma	TAL, GBE	24.0	hr	60.35	85.2	24.85	7.17	ng/ml	HPLC	Fig1_TAL_GBE	re-digitized from the vector paths of the PDF; bar is SD

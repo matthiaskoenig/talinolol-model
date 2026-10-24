@@ -1,0 +1,31 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	0.0	hr	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	0.25	hr	63.67	28.83	34.84	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	0.5	hr	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	0.75	hr	103.71688	85.29207	18.42481	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	1.0	hr	140.96033	130.5396	10.42073	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	1.5	hr	163.7602	152.94026	10.81994	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	2.0	hr	188.97134	175.35165	13.61969	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	2.5	hr	240.61945	226.60056	14.01889	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	3.0	hr	261.0268	245.00389	16.02291	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	4.0	hr	181.67972	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	6.0	hr	123.52495	110.3058	13.21915	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	8.0	hr	91.00068	70.97102	20.02966	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	12.0	hr	64.40795	43.178017	21.229933	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	24.0	hr	41.093735	22.670263	18.423472	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID	36.0	hr	19.385706	3.3627853	16.0229207	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.0	hr	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.25	hr	41.24616	50.861794	9.615634	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.5	hr	NA	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	0.75	hr	101.71552	114.52741	12.81189	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	1.0	hr	141.3555	166.59216	25.23666	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	1.5	hr	162.55858	259.48776	96.92918	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	2.0	hr	172.15137	NA	NA	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	2.5	hr	197.36388	216.58977	19.22589	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	3.0	hr	201.34912	217.76721	16.41809	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	4.0	hr	170.06676	184.88269	14.81593	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	6.0	hr	106.70498	123.52629	16.82131	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	8.0	hr	91.8031	103.81391	12.01081	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	12.0	hr	59.20362	70.414696	11.211076	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	24.0	hr	34.69182	55.51718	20.82536	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA
+Xiao2012	all	18	concentration	talinolol	plasma	TAL, MID, GST	36.0	hr	18.186773	28.595427	10.408654	ng/ml	HPLC-ESI-MS	Fig2_TAL_MID_GST	NA

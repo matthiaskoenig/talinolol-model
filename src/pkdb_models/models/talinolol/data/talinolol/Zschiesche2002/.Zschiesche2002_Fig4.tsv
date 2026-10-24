@@ -1,0 +1,103 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	0.17	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	0.0	hr	4.76	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	0.5	hr	185.71	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	0.67	hr	234.28	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	1.0	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	1.5	hr	58.59	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	2.0	hr	40.93	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	2.5	hr	35.55	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	3.5	hr	30.69	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	4.0	hr	28.47	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	4.5	hr	25.18	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	6.5	hr	21.26	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	8.5	hr	17.36	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	12.5	hr	12.73	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	16.5	hr	9.72	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	25.5	hr	8.48	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV	36.5	hr	5.28	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_S	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	0.17	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	0.0	hr	3.17	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	0.5	hr	184.45	208.50877	22.79877	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	0.67	hr	241.65	274.81104	40.53104	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	1.0	hr	105.8	333.07877	61.44877	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	1.5	hr	60.33	67.274414	8.68441399999999	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	2.0	hr	43.7	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	2.5	hr	36.72	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	3.5	hr	30.8	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	4.0	hr	29.12	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	4.5	hr	25.3	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	6.5	hr	23.55	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	8.5	hr	19.66	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	12.5	hr	14.56	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	16.5	hr	12.12	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	25.5	hr	8.86	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV	36.5	hr	5.31	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_R	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	0.17	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	0.0	hr	3.69	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	0.5	hr	160.61	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	0.67	hr	196.37	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	1.0	hr	224.11	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	1.5	hr	52.18	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	2.0	hr	37.72	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	2.5	hr	32.34	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	3.5	hr	29.09	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	4.0	hr	22.59	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	4.5	hr	21.45	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	6.5	hr	19.13	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	8.5	hr	16.29	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	12.5	hr	11.14	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	16.5	hr	7.05	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	25.5	hr	5.28	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	S-talinolol	serum	TAL_IV, RIF	36.5	hr	2.63	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_S	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	0.17	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	0.0	hr	7.96	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	0.5	hr	165.42	193.18	32.57	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	0.67	hr	200.64	248.14	51.77	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	1.0	hr	229.45	284.43	60.32	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	1.5	hr	55.92	65.52	13.34	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	2.0	hr	39.85	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	2.5	hr	36.07	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	3.5	hr	30.69	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	4.0	hr	25.26	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	4.5	hr	23.05	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	6.5	hr	22.33	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	8.5	hr	19.49	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	12.5	hr	12.74	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	16.5	hr	10.25	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	25.5	hr	6.89	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	R-talinolol	serum	TAL_IV, RIF	36.5	hr	2.63	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF_R	NA
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.17	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.0	hr	7.93	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.5	hr	370.16	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	0.67	hr	475.93	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	1.0	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	1.5	hr	118.92	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	2.0	hr	84.63	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	2.5	hr	72.27	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	3.5	hr	61.49	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	4.0	hr	57.59	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	4.5	hr	50.48	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	6.5	hr	44.81	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	8.5	hr	37.02	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	12.5	hr	27.29	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	16.5	hr	21.84	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	25.5	hr	17.34	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV	36.5	hr	10.59	NA	NA	ng/ml	HPLC	Fig4_TAL_IV	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	0.17	hr	NA	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	0.0	hr	11.65	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	0.5	hr	326.03	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	0.67	hr	397.01	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	1.0	hr	453.56	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	1.5	hr	108.1	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	2.0	hr	77.57	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	2.5	hr	68.41	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	3.5	hr	59.78	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	4.0	hr	47.85	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	4.5	hr	44.5	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	6.5	hr	41.46	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	8.5	hr	35.78	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	12.5	hr	23.88	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	16.5	hr	17.3	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	25.5	hr	12.17	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_IV, RIF	36.5	hr	5.26	NA	NA	ng/ml	HPLC	Fig4_TAL_IV_RIF	sum of R and S isoform

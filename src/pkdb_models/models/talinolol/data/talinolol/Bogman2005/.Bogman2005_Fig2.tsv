@@ -1,0 +1,28 @@
+study	individual	measurement	substance	tissue	intervention	value	unit	method	comments
+Bogman2005	S1	auc_inf	talinolol	plasma	TAL, TPGS	1456.4153	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S1	auc_inf	talinolol	plasma	TAL	1516.2122	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S1	auc_inf	talinolol	plasma	TAL, POL	987.9802	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S2	auc_inf	talinolol	plasma	TAL, TPGS	1431.498	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S2	auc_inf	talinolol	plasma	TAL	1680.666	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S2	auc_inf	talinolol	plasma	TAL, POL	868.3592	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S3	auc_inf	talinolol	plasma	TAL, TPGS	763.7159	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S3	auc_inf	talinolol	plasma	TAL	412.37814	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S3	auc_inf	talinolol	plasma	TAL, POL	342.6144	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S4	auc_inf	talinolol	plasma	TAL, TPGS	1655.7533	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S4	auc_inf	talinolol	plasma	TAL	1359.2335	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S4	auc_inf	talinolol	plasma	TAL, POL	853.42706	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S5	auc_inf	talinolol	plasma	TAL, TPGS	1212.2172	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S5	auc_inf	talinolol	plasma	TAL	454.72836	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S5	auc_inf	talinolol	plasma	TAL, POL	664.0469	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S6	auc_inf	talinolol	plasma	TAL, TPGS	943.12006	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S6	auc_inf	talinolol	plasma	TAL	830.97876	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S6	auc_inf	talinolol	plasma	TAL, POL	1159.9001	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S7	auc_inf	talinolol	plasma	TAL, TPGS	875.8435	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S7	auc_inf	talinolol	plasma	TAL	377.494	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S7	auc_inf	talinolol	plasma	TAL, POL	880.8269	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S8	auc_inf	talinolol	plasma	TAL, TPGS	973.02985	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S8	auc_inf	talinolol	plasma	TAL	915.70654	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S8	auc_inf	talinolol	plasma	TAL, POL	609.22894	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S9	auc_inf	talinolol	plasma	TAL, TPGS	865.8857	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S9	auc_inf	talinolol	plasma	TAL	973.0071	ng*hr/ml	HPLC-ESI-MS/MS	NA
+Bogman2005	S9	auc_inf	talinolol	plasma	TAL, POL	654.0891	ng*hr/ml	HPLC-ESI-MS/MS	NA

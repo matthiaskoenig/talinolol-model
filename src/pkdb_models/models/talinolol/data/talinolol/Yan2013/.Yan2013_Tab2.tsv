@@ -1,0 +1,11 @@
+study	group	measurement	substance	tissue	intervention	geometric_mean	cv	sd	unit	time	time_unit	method	comments
+Yan2013	all	auc_end	talinolol	plasma	TAL, GLY	1872.3	0.261	488.6703	ng*hr/ml	24.0	hr	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	auc_inf	talinolol	plasma	TAL, GLY	2218.3	0.312	692.1096	ng*hr/ml	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	cmax	talinolol	plasma	TAL, GLY	219.0	0.302	66.138	ng/ml	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	tmax	talinolol	plasma	TAL, GLY	2.4	0.322	0.7728	hr	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	thalf	talinolol	plasma	TAL, GLY	6.8	0.251	1.7068	hr	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	auc_end	talinolol	plasma	TAL	1767.7	0.278	491.4206	ng*hr/ml	24.0	hr	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	auc_inf	talinolol	plasma	TAL	1988.2	0.312	620.3184	ng*hr/ml	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	cmax	talinolol	plasma	TAL	225.2	0.367	82.6484	ng/ml	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	tmax	talinolol	plasma	TAL	2.1	0.384	0.8064	hr	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded
+Yan2013	all	thalf	talinolol	plasma	TAL	6.2	0.246	1.5252	hr	NA	NA	HPLC/UV	geometric mean, SD calculated from CV, not uploaded

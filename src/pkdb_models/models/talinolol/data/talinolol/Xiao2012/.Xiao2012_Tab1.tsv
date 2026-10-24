@@ -1,0 +1,13 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Xiao2012	all	auc_end	midazolam	plasma	MID, TAL	143.65	55.4	ng*hr/ml	36.0	hr	LC MS/MS	NA
+Xiao2012	all	auc_inf	midazolam	plasma	MID, TAL	209.18	56.61	ng*hr/ml	NA	NA	LC MS/MS	NA
+Xiao2012	all	cmax	midazolam	plasma	MID, TAL	48.86	20.21	ng/ml	NA	NA	LC MS/MS	NA
+Xiao2012	all	tmax	midazolam	plasma	MID, TAL	0.83	0.59	hr	NA	NA	LC MS/MS	NA
+Xiao2012	all	thalf	midazolam	plasma	MID, TAL	2.01	0.96	hr	NA	NA	LC MS/MS	NA
+Xiao2012	all	clearance	midazolam	plasma	MID, TAL	1.68	0.85	l/hr	NA	NA	LC MS/MS	NA
+Xiao2012	all	auc_end	midazolam	plasma	MID, TAL, GST	126.1	40.14	ng*hr/ml	36.0	hr	LC MS/MS	NA
+Xiao2012	all	auc_inf	midazolam	plasma	MID, TAL, GST	180.59	43.03	ng*hr/ml	NA	NA	LC MS/MS	NA
+Xiao2012	all	cmax	midazolam	plasma	MID, TAL, GST	36.25	14.35	ng/ml	NA	NA	LC MS/MS	NA
+Xiao2012	all	tmax	midazolam	plasma	MID, TAL, GST	1.13	0.6	hr	NA	NA	LC MS/MS	NA
+Xiao2012	all	thalf	midazolam	plasma	MID, TAL, GST	1.67	1.08	hr	NA	NA	LC MS/MS	NA
+Xiao2012	all	clearance	midazolam	plasma	MID, TAL, GST	3.98	0.59	l/hr	NA	NA	LC MS/MS	NA

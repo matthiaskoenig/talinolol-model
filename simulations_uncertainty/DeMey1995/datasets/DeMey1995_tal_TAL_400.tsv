@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	median	method	label	comments	median_unit	count_unit
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	60	min	0.0021336406002833604	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	110	min	0.0026516947138199975	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	195	min	0.0026850383911745687	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	240	min	0.002226411615015337	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	290	min	0.0019268555000756542	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	440	min	0.001548302947770946	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	590	min	0.0012210672498933958	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless
+DeMey1995	all	12	concentration	talinolol	plasma	TAL_400	1430	min	0.0005054423582167568	HPLC/UV	Fig4_TAL_400	sum of R and S isoform	mole/meter^3	dimensionless

@@ -1,0 +1,7 @@
+study	count	individual	measurement	substance	tissue	intervention	time	time_unit	value	method	label	comments	value_unit	count_unit
+Trausch1995	1	S9d	cumulative amount	talinolol	urine	TAL_IV	0.0	hr	0.0	HPLC	Fig2a_TAL_IV_S9d		µmole	dimensionless
+Trausch1995	1	S9d	cumulative amount	talinolol	urine	TAL_IV	4.0	hr	17.708092	HPLC	Fig2a_TAL_IV_S9d	end of the urine collection (digitized at 4.06 hr)	µmole	dimensionless
+Trausch1995	1	S9d	cumulative amount	talinolol	urine	TAL_IV	8.0	hr	25.547539	HPLC	Fig2a_TAL_IV_S9d	end of the urine collection (digitized at 8.34 hr)	µmole	dimensionless
+Trausch1995	1	S9d	cumulative amount	talinolol	urine	TAL_IV	12.0	hr	31.532421	HPLC	Fig2a_TAL_IV_S9d	end of the urine collection (digitized at 12.31 hr)	µmole	dimensionless
+Trausch1995	1	S9d	cumulative amount	talinolol	urine	TAL_IV	24.0	hr	41.77558	HPLC	Fig2a_TAL_IV_S9d	end of the urine collection (digitized at 24.27 hr)	µmole	dimensionless
+Trausch1995	1	S9d	cumulative amount	talinolol	urine	TAL_IV	36.0	hr	47.849957	HPLC	Fig2a_TAL_IV_S9d	end of the urine collection (digitized at 35.85 hr)	µmole	dimensionless

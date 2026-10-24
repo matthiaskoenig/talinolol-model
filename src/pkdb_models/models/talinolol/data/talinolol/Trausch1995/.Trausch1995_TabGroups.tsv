@@ -1,0 +1,18 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Trausch1995	all	NA	species	12	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	sex	12	F	5	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	sex	12	M	7	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	healthy	12	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	age	12	NA	12	NA	26.0	NA	23.0	32.0	2.0	yr	NA
+Trausch1995	all	NA	weight	12	NA	12	NA	72.0	NA	55.0	84.0	8.0	kg	NA
+Trausch1995	all	NA	height	12	NA	12	NA	178.0	NA	158.0	193.0	9.0	cm	NA
+Trausch1995	all	NA	pregnant	12	NR	12	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	medication	12	N	12	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	overnight fast	12	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	all	NA	abstinence medication	12	NA	12	NA	NA	NA	4.0	NA	NA	week	NA
+Trausch1995	all	NA	abstinence alcohol	12	NA	12	NA	NA	NA	10.0	37.0	NA	hr	to abstain from alcoholic or caffeine-containing drinks starting 10h prior to dosing and until 37 h after the drug administration.
+Trausch1995	all	NA	abstinence smoking	12	NA	12	NA	NA	NA	4.0	NA	NA	week	NA
+Trausch1995	all	NA	abstinence	12	NA	12	caffeine	NA	NA	10.0	37.0	NA	week	to abstain from alcoholic or caffeine-containing drinks starting 10h prior to dosing and until 37 h after the drug administration.
+Trausch1995	all	NA	ethnicity	12	caucasian	12	NA	NA	NA	NA	NA	NA	NA	NA
+Trausch1995	PM	all	metabolic phenotype	12	pm	3	NA	NA	NA	NA	NA	NA	NA	Three subjects were poor metabolizers (PM) and nine volunteers were extensive metabolizers (EM) of the debrisoquine type.
+Trausch1995	EM	all	metabolic phenotype	12	em	9	NA	NA	NA	NA	NA	NA	NA	NA

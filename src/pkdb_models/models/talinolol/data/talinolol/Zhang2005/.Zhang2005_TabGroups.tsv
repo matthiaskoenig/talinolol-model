@@ -1,0 +1,15 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Zhang2005	all	NA	27	species	homo sapiens	27	NA	NA	NA	NA	NA	NA	NA	Twenty-seven subjects homozygous or heterozygous for the C3435T and G2677T/A simultaneously participated the present study (mean age: 20.1F1.0 y).
+Zhang2005	all	NA	27	sex	M	27	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	all	NA	27	healthy	Y	27	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	all	NA	27	age	NA	27	NA	20.1	NA	NA	NA	1.0	yr	NA
+Zhang2005	all	NA	27	overnight fast	Y	27	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	all	NA	27	ethnicity	chinese	27	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	GG_CC	all	7	ABCB1 genotype	G2677T/A G/G	7	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	GG_CC	all	7	ABCB1 genotype	C3435T C/C	7	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	TT_TT	all	7	ABCB1 genotype	G2677T/A T/T	7	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	TT_TT	all	7	ABCB1 genotype	C3435T T/T	7	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	GT_CT	all	7	ABCB1 genotype	G2677T/A G/T	7	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	GT_CT	all	7	ABCB1 genotype	C3435T T/C	7	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	AT_CT	all	6	ABCB1 genotype	G2677T/A T/A	6	NA	NA	NA	NA	NA	NA	NA	NA
+Zhang2005	AT_CT	all	6	ABCB1 genotype	C3435T T/C	6	NA	NA	NA	NA	NA	NA	NA	NA

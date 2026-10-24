@@ -1,0 +1,33 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	method	comments
+Westphal2000a	all	auc_inf	talinolol	serum	TAL_PO	2970.0	486.0	ng*hr/ml	HPLC	NA
+Westphal2000a	all	cmax	talinolol	serum	TAL_PO	264.0	58.0	ng/ml	HPLC	NA
+Westphal2000a	all	bioavailability	talinolol	serum	TAL_PO	0.71	0.12	dimensionless	HPLC	NA
+Westphal2000a	all	thalf	talinolol	serum	TAL_PO	11.2	0.9	hr	HPLC	NA
+Westphal2000a	all	clearance	talinolol	serum	TAL_PO	575.0	96.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_renal	talinolol	urine	TAL_PO	283.0	45.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_nonrenal	talinolol	feces	TAL_PO	292.0	50.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	serum	TAL_PO	5.12	2.51	ml/min	HPLC	NA
+Westphal2000a	all	tmax	talinolol	serum	TAL_PO	3.6	1.61	hr	HPLC	NA
+Westphal2000a	all	auc_inf	talinolol	serum	DGX, TAL_PO	2702.0	558.0	ng*hr/ml	HPLC	NA
+Westphal2000a	all	cmax	talinolol	serum	DGX, TAL_PO	227.0	5.9	ng/ml	HPLC	NA
+Westphal2000a	all	bioavailability	talinolol	serum	DGX, TAL_PO	0.64	0.12	dimensionless	HPLC	NA
+Westphal2000a	all	thalf	talinolol	serum	DGX, TAL_PO	11.3	1.6	hr	HPLC	NA
+Westphal2000a	all	clearance	talinolol	serum	DGX, TAL_PO	657.0	222.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_renal	talinolol	urine	DGX, TAL_PO	295.0	50.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_nonrenal	talinolol	feces	DGX, TAL_PO	362.0	211.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	serum	DGX, TAL_PO	5.02	1.5	ml/min	HPLC	NA
+Westphal2000a	all	tmax	talinolol	serum	DGX, TAL_PO	3.65	1.88	hr	HPLC	NA
+Westphal2000a	all	auc_inf	talinolol	serum	TAL_IV	1268.0	156.0	ng*hr/ml	HPLC	NA
+Westphal2000a	all	cmax	talinolol	serum	TAL_IV	237.0	87.0	ng/ml	HPLC	NA
+Westphal2000a	all	thalf	talinolol	serum	TAL_IV	10.2	1.2	hr	HPLC	NA
+Westphal2000a	all	clearance	talinolol	serum	TAL_IV	400.0	51.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_renal	talinolol	urine	TAL_IV	283.0	69.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_nonrenal	talinolol	feces	TAL_IV	117.0	59.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	serum	TAL_IV	6.37	1.67	ml/min	HPLC	NA
+Westphal2000a	all	auc_inf	talinolol	serum	DGX, TAL_IV	1201.0	110.0	ng*hr/ml	HPLC	NA
+Westphal2000a	all	cmax	talinolol	serum	DGX, TAL_IV	199.0	31.0	ng/ml	HPLC	NA
+Westphal2000a	all	thalf	talinolol	serum	DGX, TAL_IV	10.4	1.0	hr	HPLC	NA
+Westphal2000a	all	clearance	talinolol	serum	DGX, TAL_IV	419.0	39.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_renal	talinolol	urine	DGX, TAL_IV	305.0	55.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance_nonrenal	talinolol	feces	DGX, TAL_IV	114.0	54.0	ml/min	HPLC	NA
+Westphal2000a	all	clearance	talinolol4transoh+talinolol3transoh+talinolol3cisoh	serum	DGX, TAL_IV	7.87	2.94	ml/min	HPLC	NA

@@ -1,0 +1,11 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Ruike2010	all	NA	species	12	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+Ruike2010	all	NA	sex	12	M	6	NA	NA	NA	NA	NA	NA	NA	NA
+Ruike2010	all	NA	sex	12	F	6	NA	NA	NA	NA	NA	NA	NA	NA
+Ruike2010	all	NA	healthy	12	Y	12	NA	NA	NA	NA	NA	NA	NA	NA
+Ruike2010	all	NA	age	12	NA	12	NA	NA	NA	21.0	25.0	NA	yr	NA
+Ruike2010	all	NA	weight	12	NA	12	NA	NA	NA	47.0	70.0	NA	kg	NA
+Ruike2010	all	NA	abstinence medication	12	NA	12	NA	NA	NA	2.0	NA	NA	month	NA
+Ruike2010	all	NA	abstinence alcohol	12	NA	12	NA	NA	NA	12.0	NA	NA	hr	The subjects were asked not to consume alcoholic or caffeine-containing food and beverages 12 h prior to and through out the study period.
+Ruike2010	all	NA	abstinence	12	NA	12	caffeine	NA	NA	12.0	NA	NA	hr	NA
+Ruike2010	all	NA	overnight fast	12	Y	12	NA	NA	NA	NA	NA	NA	NA	NA

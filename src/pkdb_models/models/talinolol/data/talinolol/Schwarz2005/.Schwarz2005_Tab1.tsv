@@ -1,0 +1,25 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Schwarz2005	all	auc_end	talinolol	serum	TAL	329.0	175.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz2005	all	auc_inf	talinolol	serum	TAL	427.0	192.0	ng*hr/ml	NA	NA	HPLC	NA
+Schwarz2005	all	cmax	talinolol	serum	TAL	45.0	24.0	ng/ml	NA	NA	HPLC	NA
+Schwarz2005	all	tmax	talinolol	serum	TAL	3.3	1.5	hr	NA	NA	HPLC	NA
+Schwarz2005	all	thalf	talinolol	serum	TAL	9.1	4.1	hr	NA	NA	HPLC	NA
+Schwarz2005	all	clearance	talinolol	serum	TAL	3501.0	2518.0	ml/min	NA	NA	HPLC	NA
+Schwarz2005	all	cumulative amount	talinolol	urine	TAL	4.5	1.9	mg	48.0	hr	HPLC	NA
+Schwarz2005	all	clearance_renal	talinolol	urine	TAL	220.0	102.0	ml/min	NA	NA	HPLC	NA
+Schwarz2005	all	auc_end	talinolol	serum	TAL, GFJ_AC	183.0	95.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz2005	all	auc_inf	talinolol	serum	TAL, GFJ_AC	301.0	149.0	ng*hr/ml	NA	NA	HPLC	NA
+Schwarz2005	all	cmax	talinolol	serum	TAL, GFJ_AC	26.0	12.0	ng/ml	NA	NA	HPLC	NA
+Schwarz2005	all	tmax	talinolol	serum	TAL, GFJ_AC	3.9	1.1	hr	NA	NA	HPLC	NA
+Schwarz2005	all	thalf	talinolol	serum	TAL, GFJ_AC	11.0	10.4	hr	NA	NA	HPLC	NA
+Schwarz2005	all	clearance	talinolol	serum	TAL, GFJ_AC	5687.0	2751.0	ml/min	NA	NA	HPLC	NA
+Schwarz2005	all	cumulative amount	talinolol	urine	TAL, GFJ_AC	2.5	2.0	mg	48.0	hr	HPLC	NA
+Schwarz2005	all	clearance_renal	talinolol	urine	TAL, GFJ_AC	190.0	104.0	ml/min	NA	NA	HPLC	NA
+Schwarz2005	all	auc_end	talinolol	serum	TAL, GFJ_CR	209.0	133.0	ng*hr/ml	24.0	hr	HPLC	NA
+Schwarz2005	all	auc_inf	talinolol	serum	TAL, GFJ_CR	310.0	185.0	ng*hr/ml	NA	NA	HPLC	NA
+Schwarz2005	all	cmax	talinolol	serum	TAL, GFJ_CR	26.0	13.0	ng/ml	NA	NA	HPLC	NA
+Schwarz2005	all	tmax	talinolol	serum	TAL, GFJ_CR	4.1	2.2	hr	NA	NA	HPLC	NA
+Schwarz2005	all	thalf	talinolol	serum	TAL, GFJ_CR	9.0	4.4	hr	NA	NA	HPLC	NA
+Schwarz2005	all	clearance	talinolol	serum	TAL, GFJ_CR	7823.0	11230.0	ml/min	NA	NA	HPLC	NA
+Schwarz2005	all	cumulative amount	talinolol	urine	TAL, GFJ_CR	2.0	0.9	mg	48.0	hr	HPLC	NA
+Schwarz2005	all	clearance_renal	talinolol	urine	TAL, GFJ_CR	252.0	374.0	ml/min	NA	NA	HPLC	NA

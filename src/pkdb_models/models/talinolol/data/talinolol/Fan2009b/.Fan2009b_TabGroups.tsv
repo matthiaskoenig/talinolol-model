@@ -1,0 +1,17 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	unit	comments
+Fan2009b	all	NA	species	10	homo sapiens	10	NA	NA	NA	NA	NA	NA	NA
+Fan2009b	all	NA	sex	10	M	10	NA	NA	NA	NA	NA	NA	"Since transport proteins such as P-glycoprotein, the multidrug resistance-associated protein (MRP), and organic anion-transporting polypeptide (OATP) family are indicated to be expressed and regulated in a sex-specific manner, resulting in differences in drug disposition between men and women.
+"
+Fan2009b	all	NA	healthy	10	Y	10	NA	NA	NA	NA	NA	NA	NA
+Fan2009b	all	NA	age	10	NA	10	NA	NA	NA	21.0	27.0	yr	NA
+Fan2009b	all	NA	weight	10	NA	10	NA	NA	NA	48.0	77.0	kg 	NA
+Fan2009b	all	NA	bmi	10	NA	10	NA	NA	NA	18.0	23.0	kg/m^2	NA
+Fan2009b	all	NA	pregnant	10	N	10	NA	NA	NA	NA	NA	NA	NA
+Fan2009b	all	NA	medication	10	N	10	NA	NA	NA	NA	NA	NA	NA
+Fan2009b	all	NA	abstinence medication	10	NA	10	NA	NA	NA	2.0	NA	week	NA
+Fan2009b	all	NA	abstinence alcohol	10	NA	10	NA	NA	NA	2.0	NA	week	NA
+Fan2009b	all	NA	abstinence	10	NA	10	coffee 	NA	NA	2.0	NA	week	The subjects were not taking any regular medication and were asked to refrain from consuming alcohol, fruit and fruitjuice, coffee,greentea, and any vitamins and nutritional supplementsfor 2 weeks before the study began and throughout the study. 
+Fan2009b	all	NA	abstinence	10	NA	10	green tea	NA	NA	2.0	NA	week	NA
+Fan2009b	all	NA	overnight fast	10	Y	10	NA	NA	NA	NA	NA	NA	10 hours overnight fast
+Fan2009b	all	NA	smoking	10	N	10	NA	NA	NA	NA	NA	NA	NA
+Fan2009b	all	NA	ethnicity	10	chinese	10	NA	NA	NA	NA	NA	NA	NA

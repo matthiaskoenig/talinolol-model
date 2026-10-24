@@ -1,0 +1,7 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	0.0	NA	mg	0	hr	HPLC/UV	TAL_urine_control	NA
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	22.58	9.18	mg	24	hr	HPLC/UV	TAL_urine_control	NA
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	30.65	6.39	mg	144	hr	HPLC/UV	TAL_urine_control	NA
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	0.0	NA	mg	0	hr	HPLC/UV	TAL_urine_increased_renal_impairment	NA
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	3.89	2.51	mg	24	hr	HPLC/UV	TAL_urine_increased_renal_impairment	NA
+Krueger2001	increased_renal_impairment	12	cumulative amount	talinolol	urine	TAL	7.06	4.58	mg	144	hr	HPLC/UV	TAL_urine_increased_renal_impairment	NA

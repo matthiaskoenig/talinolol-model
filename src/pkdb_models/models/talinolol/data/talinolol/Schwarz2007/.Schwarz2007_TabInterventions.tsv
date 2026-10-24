@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Schwarz2007	TAL_PO	0	0.0	day	oral	single dose	dosing	tablet	talinolol	50	mg	"Cordanum; AWD.Pharma GmbH & CoKG, Dresden, Germany, On the morning of the study day, after an overnight fast, one tablet of talinolol (50 mg) was administered with 100 ml still mineral water
+"
+Schwarz2007	TAL_IV	0	30.0	min	iv	single dose	dosing	solution	talinolol	1	mg/min	Cordanum; AWD.Pharma GmbH & CoKG, Dresden, Germany, On the morning of the study day, talinolol (30 mg) was administered intravenously over 30 min while the subject was in supine position.
+Schwarz2007	SJW	S0T3R12	NA	day	oral	multiple dose	dosing	solution	st john's wort extract	300	mg	a 12-day outpatient treatment with SJW (300 mg three times daily, Jarsin 300s; Lichtwer Pharma)

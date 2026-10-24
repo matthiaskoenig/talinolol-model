@@ -1,0 +1,3 @@
+study	count	individual	measurement	substance	tissue	intervention	value	time	time_unit	method	label	comments	value_unit	count_unit
+Nguyen2015	1.0	S1b	cumulative amount	talinolol	urine	TAL, NAR	0.0	0.0	hr	HPLC	Fig3c_TAL_NAR_S1b		mole	dimensionless
+Nguyen2015	1.0	S1b	cumulative amount	talinolol	urine	TAL, NAR	2.8869701096301187e-05	48.0	hr	HPLC	Fig3c_TAL_NAR_S1b		mole	dimensionless

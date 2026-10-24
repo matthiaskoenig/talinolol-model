@@ -1,0 +1,4 @@
+study	group	count	measurement	substance	tissue	intervention	min	max	unit	method	comments
+Terhaag1983	all	3	tmax	talinolol	plasma	TAL_200	40.0	90.0	min	HPLC/UV	info from text; tmax 40-90 min (unit was hr)
+Terhaag1983	all	3	cmax	talinolol	plasma	TAL_200	272.0	754.0	nmol/l	HPLC/UV	info from text
+Terhaag1983	all	3	thalf	talinolol	plasma	TAL_200	9.2	16.5	hr	HPLC/UV	info from text

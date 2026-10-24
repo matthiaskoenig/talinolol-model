@@ -1,0 +1,66 @@
+study	count	group	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	0.17	hr	410.73	469.13907	58.40907	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	0.33	hr	525.7	611.92053	86.2205299999999	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	0.5	hr	618.41	688.87415	70.46415	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	0.67	hr	233.64	264.2384	30.5984	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	1.0	hr	133.51	145.56291	12.05291	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	1.5	hr	97.35	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	2.0	hr	80.83	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	2.5	hr	65.44	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	3.5	hr	57.39	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	4.0	hr	74.09	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	4.5	hr	58.7	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	6.5	hr	53.29	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	8.5	hr	43.21	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	12.5	hr	35.08	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	16.5	hr	24.27	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	25.5	hr	19.37	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV	36.5	hr	NA	NA	NA	ng/ml	HPLC	Fig2_TAL_IV	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	0.0	hr	0.0	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	0.17	hr	342.12	292.98013	49.13987	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	0.33	hr	430.2	353.24503	76.95497	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	0.5	hr	496.03	432.98013	63.04987	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	0.67	hr	189.14	160.39735	28.74265	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	1.0	hr	116.82	101.986755	14.833245	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	1.5	hr	83.44	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	2.0	hr	72.14	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	2.5	hr	66.11	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	3.5	hr	57.39	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	4.0	hr	50.69	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	4.5	hr	48.0	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	6.5	hr	40.59	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	8.5	hr	35.86	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	12.5	hr	26.39	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	16.5	hr	21.6	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_IV,  RIF	24.5	hr	14.02	NA	NA	ng/ml	HPLC	Fig2_TAL_IV_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.0	day	54.02187	NA	NA	ng/ml	HPLC	Fig2_TAL_PO	was measured on day 14 or 21, with prior medication
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.02083333333333	day	96.48	140.01271	43.53271	ng/ml	HPLC	Fig2_TAL_PO	0.5
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.04166666666667	day	123.21	163.59184	40.38184	ng/ml	HPLC	Fig2_TAL_PO	1
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.0625	day	138.4	184.02501	45.62501	ng/ml	HPLC	Fig2_TAL_PO	1.5
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.08333333333333	day	137.85	186.62424	48.77424	ng/ml	HPLC	Fig2_TAL_PO	2
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.10416666666667	day	176.11	258.98227	82.87227	ng/ml	HPLC	Fig2_TAL_PO	2.5
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.125	day	200.74	288.85245	88.11245	ng/ml	HPLC	Fig2_TAL_PO	3
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.14583333333333	day	245.82	361.2087	115.3887	ng/ml	HPLC	Fig2_TAL_PO	3.5
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.16666666666667	day	209.61	298.77383	89.16383	ng/ml	HPLC	Fig2_TAL_PO	4
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.25	day	171.24	236.80025	65.56025	ng/ml	HPLC	Fig2_TAL_PO	6
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.33333333333333	day	132.87	177.44637	44.57637	ng/ml	HPLC	Fig2_TAL_PO	8
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.5	day	99.13	129.54546	30.41546	ng/ml	HPLC	Fig2_TAL_PO	12
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	6.66666666666667	day	80.07	104.19699	24.12699	ng/ml	HPLC	Fig2_TAL_PO	16
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	7.0	day	57.17	72.9021	15.7321	ng/ml	HPLC	Fig2_TAL_PO	24
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO	7.5	day	NA	NA	NA	ng/ml	HPLC	Fig2_TAL_PO	36
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	0.0	hr	28.32	NA	NA	ng/ml	HPLC	Fig2_TAL_PO_RIF	was measured on day 14 or 21, with prior medication
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	0.5	hr	71.83	43.510986	28.319014	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	1.0	hr	89.12	64.46686	24.65314	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	1.5	hr	84.9	58.15178	26.74822	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	2.0	hr	80.68	57.08146	23.59854	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	2.5	hr	82.23	59.156208	23.073792	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	3.0	hr	95.85	57.56052	38.28948	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	3.5	hr	105.27	55.966614	49.303386	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	4.0	hr	115.73	58.042255	57.687745	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	6.0	hr	148.16	79.45849	68.70151	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	8.0	hr	92.48	58.915787	33.564213	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	12.0	hr	62.94	41.959824	20.980176	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	16.0	hr	50.18	34.967113	15.212887	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	24.0	hr	35.14	25.175716	9.964284	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA
+Westphal2000b	8	all	concentration	talinolol	serum	TAL_PO,  RIF	36.0	hr	NA	NA	NA	ng/ml	HPLC	Fig2_TAL_PO_RIF	NA

@@ -1,0 +1,9 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Zschiesche2002	all	NA	8.0	species	homo sapiens	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Zschiesche2002	all	NA	8.0	sex	M	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Zschiesche2002	all	NA	8.0	healthy	Y	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Zschiesche2002	all	NA	8.0	age	NA	8.0	NA	22.0	NA	NA	NA	26.0	yr	NA
+Zschiesche2002	all	NA	8.0	weight	NA	8.0	NA	67.0	NA	NA	NA	84.0	kg	NA
+Zschiesche2002	all	NA	8.0	medication	N	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Zschiesche2002	all	NA	8.0	alcohol	N	8.0	NA	NA	NA	NA	NA	NA	NA	NA
+Zschiesche2002	all	NA	8.0	overnight fast	Y	8.0	NA	NA	NA	NA	NA	NA	NA	The subjects fasted 10 h before until 5 h after administration.

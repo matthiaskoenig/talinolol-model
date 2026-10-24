@@ -1,0 +1,7 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Schwarz1999	all	cmax	verapamil	serum	RVER, TAL	303.0	106.0	pmol/ml	NA	NA	HPLC	NA
+Schwarz1999	all	tmax	verapamil	serum	RVER, TAL	0.78	0.3	hr	NA	NA	HPLC	NA
+Schwarz1999	all	auc_end	verapamil	serum	RVER, TAL	1032.0	300.0	pmol*hr/ml	24.0	hr	HPLC	NA
+Schwarz1999	all	cmax	norverapamil	serum	RVER, TAL	318.0	89.0	pmol/ml	NA	NA	HPLC	NA
+Schwarz1999	all	tmax	norverapamil	serum	RVER, TAL	1.35	1.1	hr	NA	NA	HPLC	NA
+Schwarz1999	all	auc_end	norverapamil	serum	RVER, TAL	2304.0	532.0	pmol*hr/ml	24.0	hr	HPLC	NA

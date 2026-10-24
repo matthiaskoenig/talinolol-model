@@ -1,0 +1,29 @@
+study	individual	measurement	substance	tissue	intervention	time	time_unit	value	unit	method	comments
+Yan2013	S1	auc_end	talinolol	plasma	TAL	24	hr	1475.4098	ng*hr/ml	HPLC/UV	NA
+Yan2013	S1	auc_end	talinolol	plasma	TAL, GLY	24	hr	1690.5737	ng*hr/ml	HPLC/UV	NA
+Yan2013	S2	auc_end	talinolol	plasma	TAL	24	hr	1502.7323	ng*hr/ml	HPLC/UV	NA
+Yan2013	S2	auc_end	talinolol	plasma	TAL, GLY	24	hr	1748.6339	ng*hr/ml	HPLC/UV	NA
+Yan2013	S3	auc_end	talinolol	plasma	TAL	24	hr	1232.9235	ng*hr/ml	HPLC/UV	NA
+Yan2013	S3	auc_end	talinolol	plasma	TAL, GLY	24	hr	1499.3169	ng*hr/ml	HPLC/UV	NA
+Yan2013	S4	auc_end	talinolol	plasma	TAL	24	hr	2496.5847	ng*hr/ml	HPLC/UV	NA
+Yan2013	S4	auc_end	talinolol	plasma	TAL, GLY	24	hr	2049.1804	ng*hr/ml	HPLC/UV	NA
+Yan2013	S5	auc_end	talinolol	plasma	TAL	24	hr	1168.0328	ng*hr/ml	HPLC/UV	NA
+Yan2013	S5	auc_end	talinolol	plasma	TAL, GLY	24	hr	1673.4973	ng*hr/ml	HPLC/UV	NA
+Yan2013	S6	auc_end	talinolol	plasma	TAL	24	hr	2062.8416	ng*hr/ml	HPLC/UV	NA
+Yan2013	S6	auc_end	talinolol	plasma	TAL, GLY	24	hr	1509.5629	ng*hr/ml	HPLC/UV	NA
+Yan2013	S7	auc_end	talinolol	plasma	TAL	24	hr	1909.153	ng*hr/ml	HPLC/UV	NA
+Yan2013	S7	auc_end	talinolol	plasma	TAL, GLY	24	hr	2937.1584	ng*hr/ml	HPLC/UV	NA
+Yan2013	S8	auc_end	talinolol	plasma	TAL	24	hr	2786.8853	ng*hr/ml	HPLC/UV	NA
+Yan2013	S8	auc_end	talinolol	plasma	TAL, GLY	24	hr	2681.011	ng*hr/ml	HPLC/UV	NA
+Yan2013	S9	auc_end	talinolol	plasma	TAL	24	hr	1359.2897	ng*hr/ml	HPLC/UV	NA
+Yan2013	S9	auc_end	talinolol	plasma	TAL, GLY	24	hr	1164.6174	ng*hr/ml	HPLC/UV	NA
+Yan2013	S10	auc_end	talinolol	plasma	TAL	24	hr	2349.7268	ng*hr/ml	HPLC/UV	NA
+Yan2013	S10	auc_end	talinolol	plasma	TAL, GLY	24	hr	2476.093	ng*hr/ml	HPLC/UV	NA
+Yan2013	S11	auc_end	talinolol	plasma	TAL	24	hr	1799.8634	ng*hr/ml	HPLC/UV	NA
+Yan2013	S11	auc_end	talinolol	plasma	TAL, GLY	24	hr	1564.2076	ng*hr/ml	HPLC/UV	NA
+Yan2013	S12	auc_end	talinolol	plasma	TAL	24	hr	1755.4645	ng*hr/ml	HPLC/UV	NA
+Yan2013	S12	auc_end	talinolol	plasma	TAL, GLY	24	hr	1864.7542	ng*hr/ml	HPLC/UV	NA
+Yan2013	S13	auc_end	talinolol	plasma	TAL	24	hr	2339.481	ng*hr/ml	HPLC/UV	NA
+Yan2013	S13	auc_end	talinolol	plasma	TAL, GLY	24	hr	2346.3115	ng*hr/ml	HPLC/UV	NA
+Yan2013	S14	auc_end	talinolol	plasma	TAL	24	hr	1413.9344	ng*hr/ml	HPLC/UV	NA
+Yan2013	S14	auc_end	talinolol	plasma	TAL, GLY	24	hr	1844.2623	ng*hr/ml	HPLC/UV	NA

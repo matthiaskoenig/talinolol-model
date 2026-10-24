@@ -1,0 +1,33 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	0.0	hr	0.0	NA	NA	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	Serial blood samples were collected from an in-dwelling venous catheter (anti-coagulated with sodium heparin) at 0, 0.5, 1, 1.5, 2, 3, 4, 5, 6, 7, 9, 12, 24, 36, 48, 60 h after drug administration.
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	0.5	hr	34.93	2.0138888	32.9161112	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	1.0	hr	55.14	11.597222	43.542778	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	1.5	hr	81.6	26.805555	54.794445	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	2.0	hr	91.6	29.930555	61.669445	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	3.0	hr	89.72	51.805557	37.914443	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	4.0	hr	83.68	45.555557	38.124443	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	5.0	hr	72.43	51.805557	20.624443	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	6.0	hr	55.97	43.055557	12.914443	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	7.0	hr	52.43	34.305557	18.124443	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	9.0	hr	43.06	30.555555	12.504445	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	12.0	hr	33.47	24.722221	8.747779	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	24.0	hr	20.35	13.888889	6.461111	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	36.0	hr	10.97	7.8472223	3.1227777	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	48.0	hr	7.22	4.7222223	NA	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL	60.0	hr	5.35	2.6388888	NA	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	0.0	hr	0.0	NA	NA	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	0.5	hr	31.81	57.01389	25.20389	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	1.0	hr	62.85	101.80556	38.95556	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	1.5	hr	74.31	104.93056	30.62056	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	2.0	hr	90.35	122.84722	32.49722	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	3.0	hr	125.97	164.09723	38.12723	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	4.0	hr	106.18	138.05556	31.87556	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	5.0	hr	82.22	103.47222	21.25222	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	6.0	hr	68.89	83.888885	14.998885	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	7.0	hr	56.81	67.638885	10.828885	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	9.0	hr	49.51	57.430557	7.920557	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	12.0	hr	35.97	42.01389	6.04389	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	24.0	hr	21.18	24.722221	3.542221	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	36.0	hr	11.6	14.097222	2.497222	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	48.0	hr	7.64	NA	7.64	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA
+Ruike2010	all	12	concentration	talinolol	plasma	TAL, DLX	60.0	hr	5.35	NA	5.35	ng/ml	HPLC-ESI-MS/MS	Fig3_TAL_DLX	NA

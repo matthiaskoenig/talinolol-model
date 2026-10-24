@@ -1,0 +1,73 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	median	unit	method	label	comments
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	0.0	hr	0.0	ng/ml	HPLC	Fig1_TAL_FLM_100	Blood samples were collected before and 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 9, 12, 16, 24, 30, 36, and 49 h after administration of the study medication.
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	0.5	hr	65.976715	ng/ml	HPLC	Fig1_TAL_FLM_100	Talinolol was assayed with an HPLC-method with fluorimetric detection as described elsewhere.
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	1.0	hr	92.3674	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	1.5	hr	114.10091	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	2.0	hr	178.52522	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	2.5	hr	185.511	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	3.0	hr	228.20181	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	3.5	hr	259.24966	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	4.0	hr	242.94955	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	5.0	hr	185.511	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	6.0	hr	163.7775	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	8.0	hr	126.52005	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	12.0	hr	85.38163	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	16.0	hr	63.648125	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	24.0	hr	42.690815	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	30.0	hr	30.27167	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	36.0	hr	22.509703	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	49.0	hr	13.195343	ng/ml	HPLC	Fig1_TAL_FLM_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	0.0	hr	0.0	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	0.5	hr	100.129364	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	1.0	hr	203.36353	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	1.5	hr	256.1449	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	2.0	hr	395.8603	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	2.5	hr	494.43726	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	3.0	hr	546.44244	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	3.5	hr	485.1229	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	4.0	hr	442.43207	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	5.0	hr	412.1604	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	6.0	hr	353.94568	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	8.0	hr	263.90686	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	12.0	hr	176.97284	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	16.0	hr	135.83441	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	24.0	hr	83.82924	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	30.0	hr	62.09573	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	36.0	hr	41.13842	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_200	49.0	hr	26.39	ng/ml	HPLC	Fig1_TAL_FLM_200	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	0.0	hr	0.0	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	0.5	hr	55.109962	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	1.0	hr	79.94825	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	1.5	hr	106.338936	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	2.0	hr	149.02975	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	2.5	hr	176.19664	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	3.0	hr	223.54463	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	3.5	hr	256.92108	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	4.0	hr	244.50194	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	5.0	hr	182.4062	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	6.0	hr	169.21086	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	8.0	hr	123.41527	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	12.0	hr	79.94825	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	16.0	hr	58.990944	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	24.0	hr	40.362225	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	30.0	hr	31.824062	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	36.0	hr	20.181112	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG2_100	49.0	hr	13.9715395	ng/ml	HPLC	Fig1_TAL_SUG2_100	two 50 mg tablets
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	0.0	hr	0.0	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	0.5	hr	13.9715395	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	1.0	hr	33.376457	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	1.5	hr	53.557568	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	2.0	hr	68.305305	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	2.5	hr	149.02975	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	3.0	hr	221.21603	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	3.5	hr	254.5925	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	4.0	hr	230.5304	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	5.0	hr	180.85382	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	6.0	hr	154.46313	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	8.0	hr	121.86287	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	12.0	hr	78.39586	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	16.0	hr	58.21475	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	24.0	hr	38.809834	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	30.0	hr	26.390686	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	36.0	hr	20.95731	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_SUG1_100	49.0	hr	13.9715395	ng/ml	HPLC	Fig1_TAL_SUG1_100	NA

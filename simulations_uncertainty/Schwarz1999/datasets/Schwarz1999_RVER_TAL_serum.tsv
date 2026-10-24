@@ -1,0 +1,18 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	0.0	hr			HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	0.3333333333333333	hr	2.833760849530255e-05		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	0.6666666666666666	hr	0.00020671978981829183		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	1.0	hr	0.00022915132257665167		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	1.3333333333333333	hr	0.00020786826228696404		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	1.6666666666666667	hr	0.0001818582814068969		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	2.0	hr	0.00017593627972874455		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	2.5	hr	0.0001617327941237156		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	3.0	hr	0.00016584510653516556		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	3.5	hr	0.00016286534890438658		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	4.0	hr	0.00015457136136673132		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	5.0	hr	0.0001432976051940192		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	6.0	hr	0.00011430332466746447		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	8.0	hr	9.234994979298202e-05		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	10.0	hr	7.394090702760698e-05		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	12.0	hr	6.143453967729955e-05		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless
+Schwarz1999	all	9	concentration	talinolol	serum	RVER, TAL	24.0	hr	3.191240594781221e-05		HPLC	RVER_TAL_serum		mole/meter^3	dimensionless

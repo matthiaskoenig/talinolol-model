@@ -1,0 +1,25 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	sd	unit	method	label	comments
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	0	hr	NA	NA	mg	HPLC	Fig2_TAL	Total urine was collected at 2hour intervals between 0 and 16 hours, then at 24, 36 and 48 hours after medication.
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	2	hr	1.8178881	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	4	hr	6.029644	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	6	hr	9.952485	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	8	hr	12.678298	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	10	hr	15.074048	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	12	hr	17.015726	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	14	hr	18.874855	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	16	hr	20.568924	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	24	hr	25.817945	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	36	hr	29.46106	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL	48	hr	31.494537	NA	mg	HPLC	Fig2_TAL	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	0	hr	NA	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	2	hr	0.9924478	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	4	hr	5.9058547	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	6	hr	11.273177	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	8	hr	13.462527	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	10	hr	15.734363	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	12	hr	17.469767	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	14	hr	19.452717	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	16	hr	20.734018	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	24	hr	24.70362	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	36	hr	28.346735	NA	mg	HPLC	Fig2_TAL_NAR	NA
+Nguyen2015	all	10	cumulative amount	talinolol	urine	TAL, NAR	48	hr	30.58655	NA	mg	HPLC	Fig2_TAL_NAR	NA

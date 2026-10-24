@@ -1,0 +1,28 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Tubic2006a	all	cmax	talinolol	plasma	TAL_IR_100	204.5	121.8	ng/ml	NA	NA	HPLC/UV	NA
+Tubic2006a	all	tmax	talinolol	plasma	TAL_IR_100	1.8	0.8	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	auc_inf	talinolol	plasma	TAL_IR_100	2933.9	738.4	ng*hr/ml	NA	NA	HPLC/UV	NA
+Tubic2006a	all	thalf	talinolol	plasma	TAL_IR_100	19.8	10.5	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	mrt	talinolol	plasma	TAL_IR_100	27.7	15.2	hr	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	clearance	talinolol	plasma	TAL_IR_100	612.3	209.1	ml/min	NA	NA	HPLC/UV	NA
+Tubic2006a	all	cumulative amount	talinolol	urine	TAL_IR_100	27.0	10.7	mg	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	mrt	talinolol	urine	TAL_IR_100	18.1	3.2	hr	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	thalf	talinolol	urine	TAL_IR_100	12.2	2.9	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	cmax	talinolol	plasma	TAL_CR_100	43.9	11.6	ng/ml	NA	NA	HPLC/UV	NA
+Tubic2006a	all	tmax	talinolol	plasma	TAL_CR_100	6.1	1.5	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	auc_inf	talinolol	plasma	TAL_CR_100	1580.9	605.1	ng*hr/ml	NA	NA	HPLC/UV	NA
+Tubic2006a	all	thalf	talinolol	plasma	TAL_CR_100	33.6	22.4	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	mrt	talinolol	plasma	TAL_CR_100	48.8	31.7	hr	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	clearance	talinolol	plasma	TAL_CR_100	1262.3	679.5	ml/min	NA	NA	HPLC/UV	NA
+Tubic2006a	all	cumulative amount	talinolol	urine	TAL_CR_100	16.1	1.8	mg	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	mrt	talinolol	urine	TAL_CR_100	29.4	9.6	hr	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	thalf	talinolol	urine	TAL_CR_100	21.5	7.9	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	cmax	talinolol	plasma	TAL_CR_200	54.5	12.4	ng/ml	NA	NA	HPLC/UV	NA
+Tubic2006a	all	tmax	talinolol	plasma	TAL_CR_200	6.5	4.0	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	auc_inf	talinolol	plasma	TAL_CR_200	2230.1	1092.9	ng*hr/ml	NA	NA	HPLC/UV	NA
+Tubic2006a	all	thalf	talinolol	plasma	TAL_CR_200	32.2	19.4	hr	NA	NA	HPLC/UV	NA
+Tubic2006a	all	mrt	talinolol	plasma	TAL_CR_200	47.6	27.6	hr	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	clearance	talinolol	plasma	TAL_CR_200	913.0	420.7	ml/min	NA	NA	HPLC/UV	NA
+Tubic2006a	all	cumulative amount	talinolol	urine	TAL_CR_200	17.1	6.4	mg	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	mrt	talinolol	urine	TAL_CR_200	30.9	12.9	hr	48.0	hr	HPLC/UV	NA
+Tubic2006a	all	thalf	talinolol	urine	TAL_CR_200	20.3	11.1	hr	NA	NA	HPLC/UV	NA

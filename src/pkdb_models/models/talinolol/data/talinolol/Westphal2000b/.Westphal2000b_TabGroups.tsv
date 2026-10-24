@@ -1,0 +1,8 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Westphal2000b	all	NA	8	species	homo sapiens	8	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000b	all	NA	8	sex	M	8	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000b	all	NA	8	healthy	Y	8	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000b	all	NA	8	age	NA	8	NA	NA	NA	22.0	26.0	NA	yr	NA
+Westphal2000b	all	NA	8	weight	NA	8	NA	NA	NA	67.0	84.0	NA	kg	NA
+Westphal2000b	all	NA	8	medication	N	8	NA	NA	NA	NA	NA	NA	NA	NA
+Westphal2000b	all	NA	8	alcohol	N	8	NA	NA	NA	NA	NA	NA	NA	NA

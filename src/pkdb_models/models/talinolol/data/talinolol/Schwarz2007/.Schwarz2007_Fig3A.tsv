@@ -1,0 +1,5 @@
+study	group	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	comments
+Schwarz2007	TTT	auc_end	talinolol	serum	TAL_PO	24	hr	688.5246	510.65573	177.86887	ng*hr/ml	HPLC	NA
+Schwarz2007	TTT	auc_end	talinolol	serum	TAL_PO, SJW	24	hr	611.06555	476.22952	134.83603	ng*hr/ml	HPLC	NA
+Schwarz2007	CGC	auc_end	talinolol	serum	TAL_PO	24	hr	1012.7049	751.63934	261.06556	ng*hr/ml	HPLC	NA
+Schwarz2007	CGC	auc_end	talinolol	serum	TAL_PO, SJW	24	hr	499.18033	261.06558	238.11475	ng*hr/ml	HPLC	NA

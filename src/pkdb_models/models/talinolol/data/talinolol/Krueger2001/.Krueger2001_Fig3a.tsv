@@ -1,0 +1,5 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Krueger2001	control	12.0	clearance	creatinine	urine	TAL	114.444057083333	14.3702215485701	ml/min	NA	NA	NA	NA
+Krueger2001	control	12.0	clearance_renal	talinolol	urine	TAL	146.536614333333	53.3758789230255	ml/min	NA	NA	HPLC/UV	NA
+Krueger2001	increased_renal_impairment	12.0	clearance	creatinine	urine	TAL	26.9977621666667	13.5888795135024	ml/min	NA	NA	NA	NA
+Krueger2001	increased_renal_impairment	12.0	clearance_renal	talinolol	urine	TAL	32.92300225	34.3002960104056	ml/min	NA	NA	HPLC/UV	NA

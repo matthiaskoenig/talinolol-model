@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement	form	substance	value	unit	comments
+Siegmund2003	TAL_SUG2_100	0	day	oral	single dose	dosing	tablet	talinolol	100	mg	the sugar-coated tablets contained 50 and 100 mg talinolol, two 50 mg tablets
+Siegmund2003	TAL_SUG1_100	0	day	oral	single dose	dosing	tablet	talinolol	100	mg	the sugar-coated tablets contained 50 and 100 mg talinolol.
+Siegmund2003	TAL_FLM_100	0	day	oral	single dose	dosing	tablet	talinolol	100	mg	The film-coated tablets contained 100 and 200 mg talinolol
+Siegmund2003	TAL_FLM_200	0	day	oral	single dose	dosing	tablet	talinolol	200	mg	The film-coated tablets contained 100 and 200 mg talinolol

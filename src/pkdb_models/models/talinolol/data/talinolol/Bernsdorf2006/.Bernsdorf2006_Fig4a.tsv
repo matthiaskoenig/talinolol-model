@@ -1,0 +1,12 @@
+study	individual	group	substance	intervention	method	tissue	x_measurement	x_label	x	y_measurement	y	y_unit	y_label	comments
+Bernsdorf2006	S1a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	5.677992	auc_inf	2241.567	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S2a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	4.822359	auc_inf	2821.8464	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S3a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	4.9062686	auc_inf	3186.5508	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S4a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	6.046167	auc_inf	3502.6272	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S5a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	5.037891	auc_inf	3735.3066	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S6a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	5.579874	auc_inf	3970.074	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S7a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	7.3849716	auc_inf	4200.3555	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S8a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	9.948595	auc_inf	3308.3906	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S9a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	10.101403	auc_inf	3673.0361	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S10a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	11.01632	auc_inf	4473.3994	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded
+Bernsdorf2006	S11a	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4a_MDR1mRNA	15.511385	auc_inf	4210.475	ng*hr/ml	Fig4a_AUC_TAL_CR	not uploaded

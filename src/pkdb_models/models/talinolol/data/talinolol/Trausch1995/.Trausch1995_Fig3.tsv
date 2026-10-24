@@ -1,0 +1,37 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	0	hr	0.0	0.0	0.0	µmol	HPLC	Fig3a_TAL_IV_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	4	hr	0.0044410545	0.011394633	0.0069535785	µmol	HPLC	Fig3a_TAL_IV_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	8	hr	0.009789301	0.019163618	0.009374317	µmol	HPLC	Fig3a_TAL_IV_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	12	hr	0.015139108	0.03418702	0.019047912	µmol	HPLC	Fig3a_TAL_IV_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	24	hr	0.01727513	0.04237099	0.02509586	µmol	HPLC	Fig3a_TAL_IV_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_IV	36	hr	0.020014387	0.046319835	0.026305448	µmol	HPLC	Fig3a_TAL_IV_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	0	hr	0.0	0.0	0.0	µmol	HPLC	Fig3a_TAL_IV_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	4	hr	0.04465834	0.07852996	0.03387162	µmol	HPLC	Fig3a_TAL_IV_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	8	hr	0.07480629	0.11744276	0.04263647	µmol	HPLC	Fig3a_TAL_IV_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	12	hr	0.09073688	0.13730451	0.04656763	µmol	HPLC	Fig3a_TAL_IV_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	24	hr	0.109205484	0.16666253	0.057457046	µmol	HPLC	Fig3a_TAL_IV_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_IV	36	hr	0.12736544	0.20176142	0.07439598	µmol	HPLC	Fig3a_TAL_IV_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	0	hr	0.0	0.0	0.0	µmol	HPLC	Fig3a_TAL_IV_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	4	hr	0.037725043	0.060100887	0.022375844	µmol	HPLC	Fig3a_TAL_IV_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	8	hr	0.06847311	0.11111269	0.04263958	µmol	HPLC	Fig3a_TAL_IV_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	12	hr	0.08712839	0.13520801	0.04807962	µmol	HPLC	Fig3a_TAL_IV_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	24	hr	0.10528991	0.159723	0.05443309	µmol	HPLC	Fig3a_TAL_IV_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_IV	36	hr	0.124056235	0.18544914	0.061392905	µmol	HPLC	Fig3a_TAL_IV_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	0	hr	0.0	0.0	0.0	µmol	HPLC	Fig3b_TAL_PO_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	4	hr	0.005857869	0.019366475	0.013508606	µmol	HPLC	Fig3b_TAL_PO_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	8	hr	0.009195186	0.023712514	0.014517328	µmol	HPLC	Fig3b_TAL_PO_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	12	hr	0.011546363	0.026058672	0.014512309	µmol	HPLC	Fig3b_TAL_PO_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	24	hr	0.014079462	0.031595357	0.017515895	µmol	HPLC	Fig3b_TAL_PO_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	2-hydroxytalinolol	urine	TAL_PO	36	hr	0.0135989385	0.032118537	0.0185195985	µmol	HPLC	Fig3b_TAL_PO_2-hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	0	hr	0.0	0.0	0.0	µmol	HPLC	Fig3b_TAL_PO_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	4	hr	0.026880456	0.049402326	0.02252187	µmol	HPLC	Fig3b_TAL_PO_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	8	hr	0.07878075	0.13635197	0.05757122	µmol	HPLC	Fig3b_TAL_PO_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	12	hr	0.106657386	0.18225011	0.075592724	µmol	HPLC	Fig3b_TAL_PO_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	24	hr	0.13973446	0.23134129	0.09160683	µmol	HPLC	Fig3b_TAL_PO_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	3-cis hydroxytalinolol	urine	TAL_PO	36	hr	0.16128524	0.26340714	0.1021219	µmol	HPLC	Fig3b_TAL_PO_3-cis hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	0	hr	0.0	0.0	0.0	µmol	HPLC	Fig3b_TAL_PO_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	4	hr	0.03891236	0.06595466	0.0270423	µmol	HPLC	Fig3b_TAL_PO_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	8	hr	0.099835955	0.15991017	0.060074215	µmol	HPLC	Fig3b_TAL_PO_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	12	hr	0.13422036	0.22032563	0.08610527	µmol	HPLC	Fig3b_TAL_PO_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	24	hr	0.17079408	0.27843258	0.1076385	µmol	HPLC	Fig3b_TAL_PO_4-trans hydroxytalinolol	GC/MS, HPLC
+Trausch1995	all	12	cumulative amount	4-trans hydroxytalinolol	urine	TAL_PO	36	hr	0.18983686	0.30749235	0.11765549	µmol	HPLC	Fig3b_TAL_PO_4-trans hydroxytalinolol	GC/MS, HPLC

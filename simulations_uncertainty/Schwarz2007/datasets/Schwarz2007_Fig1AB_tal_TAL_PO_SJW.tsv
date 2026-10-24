@@ -1,0 +1,20 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	0.0	hr	0.0				HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	0.33	hr	2.7593226866944523e-05	6.9438357	8.49025241062463e-06	2.547075723187389e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	0.67	hr	6.211914881910342e-05	16.59107	1.6475962530433704e-05	4.9427887591301116e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	1.0	hr	6.687849901649264e-05	18.7107	1.540406332961939e-05	4.6212189988858166e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	1.33	hr	6.31370445260595e-05	17.742313	1.4326708758029683e-05	4.298012627408905e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	1.67	hr	6.525536802431945e-05	16.96647	1.857943025351105e-05	5.573829076053316e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	2.0	hr	7.268325561562057e-05	18.893555	2.0705773119300125e-05	6.211731935790038e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	2.5	hr	0.00012258765595125106	24.09907	5.62894400198077e-05	0.0001688683200594231	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	3.0	hr	0.0001708964359894909	38.763054	6.425658124595937e-05	0.00019276974373787808	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	3.5	hr	0.00018894345176687438	48.794434	5.4706573680518306e-05	0.0001641197210415549	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	4.0	hr	0.00018148805348079065	48.59598	4.779713613667314e-05	0.00014339140841001938	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	4.5	hr	0.00017295973809818566	48.204517	4.034576266523611e-05	0.00012103728799570832	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	5.0	hr	0.0001591493693173221	46.076385	3.2390032875280264e-05	9.717009862584078e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	6.0	hr	0.0001288600943616831	37.379818	2.602561795898155e-05	7.807685387694466e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	8.0	hr	0.00010863973369647451	31.96475	2.0702485591273608e-05	6.210745677382081e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	10.0	hr	8.577834633213661e-05	24.23326	1.91109643874056e-05	5.7332893162216807e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	12.0	hr	6.024842157388684e-05	17.263199	1.2756161707863931e-05	3.82684851235918e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	14.0	hr	4.4787411106067486e-05	12.610272	1.0095676694314914e-05	3.028703008294474e-05	HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO, SJW	24.0	hr	1.8404654809557216e-05				HPLC	Fig1_TAL_PO_SJW		mole/meter^3	dimensionless

@@ -1,0 +1,13 @@
+study	individual	count	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	label	comments
+Haustein1981	A	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	chromatography	urine_A	zero point added
+Haustein1981	A	1	cumulative amount	talinolol	urine	TAL_PO_100	3.14	mg	5	hr	chromatography	urine_A	NA
+Haustein1981	A	1	cumulative amount	talinolol	urine	TAL_PO_100	8.66	mg	24	hr	chromatography	urine_A	sum of intervals
+Haustein1981	A	1	cumulative amount	talinolol	urine	TAL_PO_100	13.77	mg	53	hr	chromatography	urine_A	NA
+Haustein1981	B	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	chromatography	urine_B	zero point added
+Haustein1981	B	1	cumulative amount	talinolol	urine	TAL_PO_100	2.56	mg	5	hr	chromatography	urine_B	NA
+Haustein1981	B	1	cumulative amount	talinolol	urine	TAL_PO_100	5.61	mg	24	hr	chromatography	urine_B	sum of intervals
+Haustein1981	B	1	cumulative amount	talinolol	urine	TAL_PO_100	7.68	mg	48	hr	chromatography	urine_B	NA
+Haustein1981	C	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	chromatography	urine_C	zero point added
+Haustein1981	C	1	cumulative amount	talinolol	urine	TAL_PO_100	3.87	mg	5	hr	chromatography	urine_C	NA
+Haustein1981	C	1	cumulative amount	talinolol	urine	TAL_PO_100	7.27	mg	24	hr	chromatography	urine_C	sum of intervals
+Haustein1981	C	1	cumulative amount	talinolol	urine	TAL_PO_100	11.42	mg	48	hr	chromatography	urine_C	NA

@@ -1,0 +1,3 @@
+study	name_figure	name	dimensions
+Krueger2001	Fig3a	control	creatinine_clearance_control, clearance_renal_control
+Krueger2001	Fig3b	increased_renal_impairment	creatinine_clearance_increased_renal_impairment, clearance_renal_increased_renal_impairment

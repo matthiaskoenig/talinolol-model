@@ -1,0 +1,16 @@
+study	group	measurement	substance	tissue	intervention	geometric_mean	se	median	unit	time	time_unit	method	comments
+Fan2009b	all	cmax	talinolol	plasma	TAL	300.0	2.47712125471966	NA	ng/ml	NA	NA	HPLC	No support for geometric_mean and confidence intervals at the moment in PK-DB.
+Fan2009b	all	auc_end	talinolol	plasma	TAL	2181.0	3.3386556655787	NA	ng*hr/ml	24.0	hr	HPLC	geometric mean could not be uploaded
+Fan2009b	all	auc_inf	talinolol	plasma	TAL	2739.0	3.43759203225396	NA	ng*hr/ml	NA	NA	HPLC	geometirc mean is missing in the JSON file
+Fan2009b	all	tmax	talinolol	plasma	TAL	NA	NA	2.5	hr	NA	NA	HPLC	NA
+Fan2009b	all	thalf	talinolol	plasma	TAL	8.8	0.944482672150169	NA	hr	NA	NA	HPLC	NA
+Fan2009b	all	cmax	talinolol	plasma	GBEAC, TAL	263.0	2.41995574848976	NA	ng/ml	NA	NA	HPLC	NA
+Fan2009b	all	auc_end	talinolol	plasma	GBEAC, TAL	1944.0	3.28869626059026	NA	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009b	all	auc_inf	talinolol	plasma	GBEAC, TAL	2499.0	3.39776625612645	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009b	all	tmax	talinolol	plasma	GBEAC, TAL	NA	NA	2.0	hr	NA	NA	HPLC	NA
+Fan2009b	all	thalf	talinolol	plasma	GBEAC, TAL	9.4	0.973127853599699	NA	hr	NA	NA	HPLC	NA
+Fan2009b	all	cmax	talinolol	plasma	GBECR, TAL	409.0	2.61172330800734	NA	ng/ml	NA	NA	HPLC	NA
+Fan2009b	all	auc_end	talinolol	plasma	GBECR, TAL	2752.0	3.43964842956347	NA	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009b	all	auc_inf	talinolol	plasma	GBECR, TAL	3330.0	3.52244423350632	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009b	all	tmax	talinolol	plasma	GBECR, TAL	NA	NA	2.0	hr	NA	NA	HPLC	NA
+Fan2009b	all	thalf	talinolol	plasma	GBECR, TAL	7.9	0.897627091290442	NA	hr	NA	NA	HPLC	NA

@@ -1,0 +1,61 @@
+study	group	count	measurement	tissue	substance	intervention	mean	sd	unit	time	time_unit	method	comments
+Wetterich1996	patient_iv	3.0	c0	plasma	S-talinolol	TAL_IV	1428.0	697.0	ng/ml	NA	NA	HPLC	not uploaded
+Wetterich1996	patient_iv	3.0	cmax	plasma	S-talinolol	TAL_IV	NA	NA	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	tmax	plasma	S-talinolol	TAL_IV	NA	NA	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	thalf	plasma	S-talinolol	TAL_IV	36.1	12.0	hr	NA	NA	HPLC	includes one very high value
+Wetterich1996	patient_iv	3.0	auc_inf	plasma	S-talinolol	TAL_IV	803.0	181.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	mrt	plasma	S-talinolol	TAL_IV	19.4	6.8	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	vd0	plasma	S-talinolol	TAL_IV	12.2	5.4	l	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	vd_ss	plasma	S-talinolol	TAL_IV	646.0	148.0	l	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	recovery	urine	S-talinolol	TAL_IV	49.7	16.5	percent	72.0	hr	HPLC	NA
+Wetterich1996	patient_iv	3.0	recovery	bile	S-talinolol	TAL_IV	9.1	4.8	percent	24.0	hr	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance	plasma	S-talinolol	TAL_IV	321.0	65.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance_renal	urine	S-talinolol	TAL_IV	153.0	15.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance	bile	S-talinolol	TAL_IV	28.0	12.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance_other	NA	S-talinolol	TAL_IV	140.0	84.0	ml/min	NA	NA	HPLC	residual clearance not by urine or bile
+Wetterich1996	patient_iv	3.0	c0	plasma	R-talinolol	TAL_IV	1484.0	673.0	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	cmax	plasma	R-talinolol	TAL_IV	NA	NA	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	tmax	plasma	R-talinolol	TAL_IV	NA	NA	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	thalf	plasma	R-talinolol	TAL_IV	47.2	18.7	hr	NA	NA	HPLC	includes one very high value
+Wetterich1996	patient_iv	3.0	auc_inf	plasma	R-talinolol	TAL_IV	936.0	107.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	mrt	plasma	R-talinolol	TAL_IV	33.4	22.0	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	vd0	plasma	R-talinolol	TAL_IV	11.6	5.1	l	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	vd_ss	plasma	R-talinolol	TAL_IV	779.0	372.0	l	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	recovery	urine	R-talinolol	TAL_IV	64.3	6.5	percent	72.0	hr	HPLC	NA
+Wetterich1996	patient_iv	3.0	recovery	bile	R-talinolol	TAL_IV	8.9	5.1	percent	24.0	hr	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance	plasma	R-talinolol	TAL_IV	269.0	31.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance_renal	urine	R-talinolol	TAL_IV	163.0	5.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance	bile	R-talinolol	TAL_IV	23.0	10.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_iv	3.0	clearance_other	plasma	R-talinolol	TAL_IV	84.0	43.0	ml/min	NA	NA	HPLC	residual clearance not by urine or bile
+Wetterich1996	patient_iv	3.0	recovery	urine	talinolol	TAL_IV	114.0	17.7341478509682	percent	72.0	hr	HPLC	sum of s and r talinolol
+Wetterich1996	patient_iv	3.0	recovery	bile	talinolol	TAL_IV	18.0	7.003570517957251	percent	24.0	hr	HPLC	sum of s and r talinolol
+Wetterich1996	patient_po	3.0	c0	plasma	S-talinolol	TAL_PO	NA	NA	ng/ml	NA	NA	HPLC	not uploaded
+Wetterich1996	patient_po	3.0	cmax	plasma	S-talinolol	TAL_PO	208.0	38.5	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	tmax	plasma	S-talinolol	TAL_PO	1.44	0.51	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	thalf	plasma	S-talinolol	TAL_PO	20.7	2.0	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	auc_inf	plasma	S-talinolol	TAL_PO	1043.0	460.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	mrt	plasma	S-talinolol	TAL_PO	16.5	3.0	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	vd0	plasma	S-talinolol	TAL_PO	NA	NA	l	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	vd_ss	plasma	S-talinolol	TAL_PO	NA	NA	l	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	recovery	urine	S-talinolol	TAL_PO	25.3	9.2	percent	72.0	hr	HPLC	NA
+Wetterich1996	patient_po	3.0	recovery	bile	S-talinolol	TAL_PO	7.7	3.3	percent	24.0	hr	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance	plasma	S-talinolol	TAL_PO	685.0	221.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance_renal	urine	S-talinolol	TAL_PO	160.0	11.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance	bile	S-talinolol	TAL_PO	55.0	30.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance_other	plasma	S-talinolol	TAL_PO	471.0	207.0	ml/min	NA	NA	HPLC	residual clearance not by urine or bile
+Wetterich1996	patient_po	3.0	c0	plasma	R-talinolol	TAL_PO	NA	NA	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	cmax	plasma	R-talinolol	TAL_PO	217.0	39.4	ng/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	tmax	plasma	R-talinolol	TAL_PO	1.44	0.51	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	thalf	plasma	R-talinolol	TAL_PO	23.0	11.1	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	auc_inf	plasma	R-talinolol	TAL_PO	1433.0	415.0	ng*hr/ml	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	mrt	plasma	R-talinolol	TAL_PO	15.5	2.5	hr	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	vd0	plasma	R-talinolol	TAL_PO	NA	NA	l	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	vd_ss	plasma	R-talinolol	TAL_PO	NA	NA	l	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	recovery	urine	R-talinolol	TAL_PO	27.0	10.0	percent	72.0	hr	HPLC	NA
+Wetterich1996	patient_po	3.0	recovery	bile	R-talinolol	TAL_PO	5.6	1.9	percent	24.0	hr	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance	plasma	R-talinolol	TAL_PO	616.0	181.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance_renal	urine	R-talinolol	TAL_PO	154.0	14.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance	bile	R-talinolol	TAL_PO	36.0	16.0	ml/min	NA	NA	HPLC	NA
+Wetterich1996	patient_po	3.0	clearance_other	plasma	R-talinolol	TAL_PO	426.0	182.0	ml/min	NA	NA	HPLC	residual clearance not by urine or bile
+Wetterich1996	patient_po	3.0	recovery	urine	talinolol	TAL_PO	52.3	13.588230201170422	percent	72.0	hr	HPLC	sum of s and r talinolol
+Wetterich1996	patient_po	3.0	recovery	bile	talinolol	TAL_PO	13.3	3.807886552931954	percent	24.0	hr	HPLC	sum of s and r talinolol

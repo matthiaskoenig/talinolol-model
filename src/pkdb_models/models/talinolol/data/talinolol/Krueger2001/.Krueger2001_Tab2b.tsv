@@ -1,0 +1,11 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Krueger2001	control	12.0	cumulative amount	talinolol	urine	TAL	2.62	1.0	mg	2.0	hr	HPLC/UV	TAL_firstday_control	0-2, calculated from renal rate
+Krueger2001	control	12.0	cumulative amount	talinolol	urine	TAL	8.4	NA	mg	4.0	hr	HPLC/UV	TAL_firstday_control	0-4, calculated from renal rate
+Krueger2001	control	12.0	cumulative amount	talinolol	urine	TAL	17.32	NA	mg	8.0	hr	HPLC/UV	TAL_firstday_control	0-8, calculated from renal rate
+Krueger2001	control	12.0	cumulative amount	talinolol	urine	TAL	21.96	NA	mg	12.0	hr	HPLC/UV	TAL_firstday_control	0-12, calculated from renal rate
+Krueger2001	control	12.0	cumulative amount	talinolol	urine	TAL	30.6	NA	mg	24.0	hr	HPLC/UV	TAL_firstday_control	0-24, calculated from renal rate
+Krueger2001	increased_renal_impairment	12.0	cumulative amount	talinolol	urine	TAL	0.54	0.36	mg	2.0	hr	HPLC/UV	TAL_firstday_increased_renal_impairment	0-2, calculated from renal rate
+Krueger2001	increased_renal_impairment	12.0	cumulative amount	talinolol	urine	TAL	1.54	NA	mg	4.0	hr	HPLC/UV	TAL_firstday_increased_renal_impairment	0-4, calculated from renal rate
+Krueger2001	increased_renal_impairment	12.0	cumulative amount	talinolol	urine	TAL	3.06	NA	mg	8.0	hr	HPLC/UV	TAL_firstday_increased_renal_impairment	0-8, calculated from renal rate
+Krueger2001	increased_renal_impairment	12.0	cumulative amount	talinolol	urine	TAL	4.26	NA	mg	12.0	hr	HPLC/UV	TAL_firstday_increased_renal_impairment	0-12, calculated from renal rate
+Krueger2001	increased_renal_impairment	12.0	cumulative amount	talinolol	urine	TAL	7.14	NA	mg	24.0	hr	HPLC/UV	TAL_firstday_increased_renal_impairment	0-24, calculated from renal rate

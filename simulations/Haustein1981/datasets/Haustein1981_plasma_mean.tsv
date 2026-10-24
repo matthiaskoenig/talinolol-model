@@ -1,0 +1,8 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	1.0	hr	0.0009277469637154789	197.915727272727	0.0003832670471479113	scintillation counting	plasma_mean		mole/meter^3	dimensionless
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	2.0	hr	0.001825912740244438	387.08875	0.0007610046947417489	scintillation counting	plasma_mean		mole/meter^3	dimensionless
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	3.0	hr	0.0018938836430995886	388.963863636364	0.0008238170297036301	scintillation counting	plasma_mean		mole/meter^3	dimensionless
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	4.0	hr	0.0013596947271585164	305.162746212121	0.0005201708101524478	scintillation counting	plasma_mean		mole/meter^3	dimensionless
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	5.0	hr	0.0010533885152019505	237.921439393939	0.0003988501050616762	scintillation counting	plasma_mean		mole/meter^3	dimensionless
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	6.0038424	hr	0.0008477449254230925	231.647215909091	0.000210467340011763	scintillation counting	plasma_mean		mole/meter^3	dimensionless
+Haustein1981	arm_2_arm_3	5.0	concentration	talinolol	plasma	TAL_PO_100	7.9985557	hr	0.0004538206206829585	114.899393939394	0.00013772440494575606	scintillation counting	plasma_mean		mole/meter^3	dimensionless

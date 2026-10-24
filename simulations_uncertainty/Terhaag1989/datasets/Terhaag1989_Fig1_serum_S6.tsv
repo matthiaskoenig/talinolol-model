@@ -1,0 +1,11 @@
+study	individual	count	measurement	substance	tissue	intervention	time	time_unit	value	method	label	bile_flow	comments	value_unit	count_unit
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	0.31405735	hr	0.0020421461092999904	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	0.5458558	hr	0.001281620324901305	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	0.84249127	hr	0.0007379889131900026	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	1.4030659	hr	0.0004693539663544203	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	1.9787112	hr	0.00035953278587050715	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	2.4253492	hr	0.00034890856820589	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	3.0278032	hr	0.00028097638206852916	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	4.000246	hr	0.0002722341435232947	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	4.997794	hr	0.00023520920507847425	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless
+Terhaag1989	S6	1.0	concentration	talinolol	serum	TAL_30	6.9525666	hr	0.0001611519773311875	HPLC	Fig1_serum_S6		S6 = PH	mole/meter^3	dimensionless

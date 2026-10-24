@@ -1,0 +1,35 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	se	sd	unit	method	label	comments
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	0.0	hr	NA	NA	NA	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	0.333333333333333	hr	9.051651	13.029966	3.9783150000000003	11.252374	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	0.666666666666667	hr	11.594873	14.849088	3.2542150000000003	9.20431	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	1.0	hr	11.965021	16.665895	4.700873999999999	13.29608	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	1.33333333333333	hr	23.187433	31.866623	8.679190000000002	24.548456	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	1.66666666666667	hr	36.2174	53.938988	17.721588000000004	50.12422	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	2.0	hr	45.63149	62.628975	16.997484999999998	48.076148	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	2.5	hr	80.00432	98.450005	18.445684999999997	52.172276	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	3.0	hr	119.44123	139.33359	19.892359999999982	56.264091	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	3.5	hr	120.179985	135.00826	14.828275000000005	41.940695	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	4.0	hr	103.558044	91.26143	12.296613999999991	34.780077	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	5.0	hr	82.61154	74.654915	7.9566250000000025	22.504734	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	6.0	hr	64.1967	57.325066	6.871634000000007	19.435916	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	8.0	hr	48.34359	44.72771	3.615879999999997	10.227253	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	10.0	hr	39.36134	35.74546	3.615879999999997	10.227253	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	12.0	hr	32.549854	36.167274	3.6174199999999956	10.231609	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL	24.0	hr	16.275698	NA	NA	NA	ng/ml	HPLC	TAL_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	0.0	hr	NA	NA	NA	NA	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	0.333333333333333	hr	3.6266754	2.1815574	1.445118	4.087411	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	0.666666666666667	hr	58.972225	41.6123	17.359925000000004	49.101283	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	1.0	hr	137.10112	109.25446	27.846660000000014	78.762248	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	1.33333333333333	hr	172.5551	152.66275	19.89235000000002	56.264062	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	1.66666666666667	hr	171.11847	151.58932	19.529150000000016	55.236778	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	2.0	hr	160.64098	142.55772	18.083260000000024	51.147183	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	2.5	hr	147.2748	133.53075	13.744049999999987	38.874044	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	3.0	hr	132.82285	147.65111	14.82826	41.940653	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	3.5	hr	120.90408	135.36992	14.465840000000014	40.915574	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	4.0	hr	106.08893	112.60044	6.511510000000001	18.417332	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	5.0	hr	98.887245	108.65143	9.764185000000012	27.617286	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	6.0	hr	85.89661	94.57657	8.679960000000008	24.550634	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	8.0	hr	68.958496	75.8309	6.872404000000003	19.438094	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	10.0	hr	54.913708	61.42368	6.509971999999998	18.412981	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	12.0	hr	48.463886	54.612965	6.149079	17.392222	ng/ml	HPLC	TAL_ERY_serum	NA
+Schwarz2000	arm_2_arm_3	8.0	concentration	talinolol	serum	TAL, ERY	24.0	hr	20.253242	23.146563	2.8933210000000003	8.183548	ng/ml	HPLC	TAL_ERY_serum	NA

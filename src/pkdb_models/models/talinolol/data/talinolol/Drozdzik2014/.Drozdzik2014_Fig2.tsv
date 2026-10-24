@@ -1,0 +1,73 @@
+study	group	count	intervention	measurement_type	substance	tissue	mean	pm	sd	unit	method
+Drozdzik2014	all	6	NA	gene expression	ABCB1	duodenum	4.04	9.68	5.64	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	jejunum_1	10.68	21.87	11.19	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	jejunum_2	13.78	19.52	5.74	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	ileum_1	13.33	23.04	9.71	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	ileum_2	10.28	15.33	5.05	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	colon_1	1.37	2.44	1.07	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	colon_2	1.24	2.71	1.47	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	colon_3	0.88	1.6	0.72	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCB1	colon_4	4.22	8.73	4.51	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	duodenum	6.65	15.79	9.14	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	jejunum_1	14.12	27.54	13.42	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	jejunum_2	17.08	28.49	11.41	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	ileum_1	7.61	14.94	7.33	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	ileum_2	4.52	8.43	3.91	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	colon_1	0.41	0.93	0.52	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	colon_2	0.46	1.23	0.77	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	colon_3	0.89	1.75	0.86	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC2	colon_4	0.17	0.38	0.21	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	duodenum	17.16	33.16	16.0	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	jejunum_1	23.78	43.78	20.0	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	jejunum_2	39.76	65.9	26.14	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	ileum_1	18.66	32.42	13.76	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	ileum_2	15.91	28.5	12.59	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	colon_1	25.24	49.04	23.8	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	colon_2	8.05	18.49	10.44	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	colon_3	11.25	20.52	9.27	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCC3	colon_4	25.28	44.69	19.41	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	duodenum	5.73	13.2	7.47	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	jejunum_1	14.21	33.82	19.61	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	jejunum_2	12.81	22.93	10.12	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	ileum_1	10.92	23.31	12.39	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	ileum_2	6.05	10.05	4.0	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	colon_1	1.41	2.96	1.55	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	colon_2	0.69	1.6	0.91	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	colon_3	1.36	3.57	2.21	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	gene expression	ABCG2	colon_4	2.46	5.06	2.6	mRNA/18S*10^-8	Qrt-pcr
+Drozdzik2014	all	6	NA	protein expression	ABCB1	duodenum	0.2885687	0.3884484	0.0998797	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	jejunum_1	0.4075569	0.55084604	0.14328914	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	jejunum_2	0.47225717	0.67418236	0.20192519	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	ileum_1	0.70849544	1.0189909	0.31049546	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	ileum_2	1.0554699	1.5483433	0.4928734	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	colon_1	0.14265314	0.22082533	0.07817219	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	colon_2	0.29855886	0.46357197	0.16501311	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	colon_3	0.22864968	0.34155715	0.11290747	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCB1	colon_4	0.36500275	0.6385643	0.27356155	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	duodenum	0.7552741	1.1095424	0.3542683	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	jejunum_1	1.0237547	1.6725297	0.648775	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	jejunum_2	0.937956	1.4757663	0.5378103	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	ileum_1	0.762534	1.2491139	0.4865799	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	ileum_2	0.8005213	1.2956377	0.4951164	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	colon_1	1.4014794	2.3191733	0.9176939	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	colon_2	1.7553422	3.1041226	1.3487804	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	colon_3	1.1232021	1.4177142	0.2945121	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC2	colon_4	0.94350636	1.7587394	0.81523304	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	duodenum	0.8521881	1.4490414	0.5968533	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	jejunum_1	0.629652	1.0090772	0.3794252	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	jejunum_2	0.5094518	0.7694997	0.2600479	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	ileum_1	0.54696363	0.91357756	0.36661393	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	ileum_2	0.6995677	0.7592288	0.0596611	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	colon_1	1.5121261	2.4713082	0.9591821	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	colon_2	2.0910382	2.4661894	0.3751512	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	colon_3	2.1029825	3.2113724	1.1083899	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCC3	colon_4	1.7141753	2.490056	0.7758807	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	duodenum	0.19066285	0.45636845	0.2657056	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	jejunum_1	0.2764407	0.46609116	0.18965046	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	jejunum_2	0.35547608	0.54416263	0.18868655	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	ileum_1	0.40562946	0.6982892	0.29265974	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	ileum_2	0.3585557	0.53954315	0.18098745	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	colon_1	0.15080568	0.3577846	0.20697892	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	colon_2	0.045002848	0.14127211	0.096269262	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	colon_3	0.1519563	0.31658038	0.16462408	pmol/mg	LC MS/MS
+Drozdzik2014	all	6	NA	protein expression	ABCG2	colon_4	0.16071753	0.4658935	0.30517597	pmol/mg	LC MS/MS

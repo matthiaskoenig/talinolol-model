@@ -1,0 +1,10 @@
+study	group	measurement	substance	tissue	intervention	median	min	max	unit	method	comments
+Giessmann2004	arm_2_arm_3	content	MDR1	duodenum	NA	6.2	0.47	9.0	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MDR1 mRNA/18s mRNA x10-7	duodenum	NA	11.0	3.7	36.3	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MRP2	duodenum	NA	13.1	0.59	46.4	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MRP2 mRNA/18s mRNA x10-7	duodenum	NA	103.0	33.0	357.0	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MDR1	duodenum	CBZ	6.53	0.47	1.0	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MDR1 mRNA/18s mRNA x10-7	duodenum	CBZ	38.8	15.1	89.2	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MRP2	duodenum	CBZ	46.4	30.3	93.8	NA	NA	NA
+Giessmann2004	arm_2_arm_3	content	MRP2 mRNA/18s mRNA x10-7	duodenum	CBZ	260.0	123.0	361.0	NA	NA	NA
+NA	NA	NA	NA	small intestine	NA	NA	NA	NA	NA	NA	NA

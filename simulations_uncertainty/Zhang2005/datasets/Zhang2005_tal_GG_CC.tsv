@@ -1,0 +1,14 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	mean_sd	method	label	comments	mean_unit	count_unit
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	0.5	hr	8.687587724727987e-05		HPLC/UV	Fig1_TAL_GG_CC	After an overnight fast, each subject received a single oral dose of 100 mg talinolol with 100 ml water.	mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	1.0	hr	0.0003336033783133193		HPLC/UV	Fig1_TAL_GG_CC	Serial of venous blood samples (5 ml) was collected into EDTA before and at 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 36, 48, 60 h after talinolol intake.	mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	1.5	hr	0.0005455805444366498		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	2.0	hr	0.0005090926422646803		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	3.0	hr	0.0006706817700381023		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	4.0	hr	0.0005751183097429124		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	6.0	hr	0.0004065791001251736		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	8.0	hr	0.000298853024113124		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	12.0	hr	0.0002067646047400927		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	24.0	hr	7.818829144830053e-05		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	36.0	hr	7.45562937591989e-05		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	48.0	hr	5.721762060000825e-05		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless
+Zhang2005	GG_CC	7	concentration	talinolol	serum	TAL	60.0	hr	4.5080551314323447e-05		HPLC/UV	Fig1_TAL_GG_CC		mole/meter^3	dimensionless

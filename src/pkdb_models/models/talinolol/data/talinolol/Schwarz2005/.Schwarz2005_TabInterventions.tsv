@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement	form	substance	value	unit	comments
+Schwarz2005	TAL	0	day	oral	single dose	dosing	tablet	talinolol	50	mg	administration of a 50-mg tablet of talinolol (Cordanum 50; AWD.pharma GmbH & Co KG, Dresden, Germany), on days 1,8, 15
+Schwarz2005	GFJ_AC	0	day	oral	single dose	dosing	solution	grapefruit juice	300	ml	Grapefruit juice (Paradiso–Succo di pompelmo; Penny GmbH Deutschland, Cologne, Germany; 100% pure at a normal strength)
+Schwarz2005	GFJ_CR	S-160T8R20	day	oral	multiple dose	qualitative dosing	solution	grapefruit juice	300	ml	NA

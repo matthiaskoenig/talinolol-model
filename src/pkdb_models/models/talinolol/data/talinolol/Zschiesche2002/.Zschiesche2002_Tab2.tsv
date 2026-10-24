@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Zschiesche2002	all	8	auc_end	talinolol	serum	TAL_PO	2588.0	797.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	cmax	talinolol	serum	TAL_PO	312.0	111.7	ng/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	bioavailability	talinolol	serum	TAL_PO	1.09	0.29	dimensionless	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	clearance	talinolol	serum	TAL_PO	9.62	1.03	ml/min	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	auc_end	talinolol	serum	TAL_PO, RIF	1725.0	513.0	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	cmax	talinolol	serum	TAL_PO, RIF	186.2	78.4	ng/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	bioavailability	talinolol	serum	TAL_PO, RIF	0.74	0.21	dimensionless	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	clearance	talinolol	serum	TAL_PO, RIF	12.78	2.74	ml/min	NA	NA	HPLC	sum of R and S isoform

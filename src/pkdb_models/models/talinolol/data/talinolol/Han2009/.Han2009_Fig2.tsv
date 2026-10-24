@@ -1,0 +1,37 @@
+study	individual	measurement	substance	tissue	intervention	time	time_unit	value	unit	method	comments
+Han2009	S1	auc_end	talinolol	plasma	TAL	36	hr	778.13544	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S2	auc_end	talinolol	plasma	TAL	36	hr	781.7171	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S3	auc_end	talinolol	plasma	TAL	36	hr	967.9635	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S4	auc_end	talinolol	plasma	TAL	36	hr	1000.1984	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S5	auc_end	talinolol	plasma	TAL	36	hr	1036.015	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S6	auc_end	talinolol	plasma	TAL	36	hr	1161.3733	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S7	auc_end	talinolol	plasma	TAL	36	hr	NA	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S8	auc_end	talinolol	plasma	TAL	36	hr	1250.9148	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S9	auc_end	talinolol	plasma	TAL	36	hr	1272.3937	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S10	auc_end	talinolol	plasma	TAL	36	hr	1275.9865	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S11	auc_end	talinolol	plasma	TAL	36	hr	1318.9553	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S12	auc_end	talinolol	plasma	TAL	36	hr	1397.763	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S13	auc_end	talinolol	plasma	TAL	36	hr	1537.4587	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S14	auc_end	talinolol	plasma	TAL	36	hr	1605.4993	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S15	auc_end	talinolol	plasma	TAL	36	hr	1619.8259	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S16	auc_end	talinolol	plasma	TAL	36	hr	1695.0298	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S17	auc_end	talinolol	plasma	TAL	36	hr	1770.2336	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S18	auc_end	talinolol	plasma	TAL	36	hr	1820.399	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S1	auc_end	talinolol	plasma	SIL, TAL	36	hr	1095.0737	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S2	auc_end	talinolol	plasma	SIL, TAL	36	hr	1657.3947	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S3	auc_end	talinolol	plasma	SIL, TAL	36	hr	1757.6923	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S4	auc_end	talinolol	plasma	SIL, TAL	36	hr	1793.4978	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S5	auc_end	talinolol	plasma	SIL, TAL	36	hr	1793.4978	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S6	auc_end	talinolol	plasma	SIL, TAL	36	hr	1417.4344	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S7	auc_end	talinolol	plasma	SIL, TAL	36	hr	NA	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S8	auc_end	talinolol	plasma	SIL, TAL	36	hr	1431.761	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S9	auc_end	talinolol	plasma	SIL, TAL	36	hr	1410.26	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S10	auc_end	talinolol	plasma	SIL, TAL	36	hr	1746.9473	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S11	auc_end	talinolol	plasma	SIL, TAL	36	hr	1528.466	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S12	auc_end	talinolol	plasma	SIL, TAL	36	hr	1485.486	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S13	auc_end	talinolol	plasma	SIL, TAL	36	hr	1700.3746	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S14	auc_end	talinolol	plasma	SIL, TAL	36	hr	1729.039	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S15	auc_end	talinolol	plasma	SIL, TAL	36	hr	2370.1565	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S16	auc_end	talinolol	plasma	SIL, TAL	36	hr	1900.9476	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S17	auc_end	talinolol	plasma	SIL, TAL	36	hr	1868.7128	ng/ml*hr	HPLC-ESI-MS	NA
+Han2009	S18	auc_end	talinolol	plasma	SIL, TAL	36	hr	1908.111	ng/ml*hr	HPLC-ESI-MS	NA

@@ -1,0 +1,31 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Wang2013	MDR1_CC	cmax	talinolol	plasma	TAL, QRC	472.9	141.7	ng/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	thalf	talinolol	plasma	TAL, QRC	18.4	7.4	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	auc_end	talinolol	plasma	TAL, QRC	6745.3	2205.5	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	MDR1_CC	auc_inf	talinolol	plasma	TAL, QRC	8541.3	3643.3	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	tmax	talinolol	plasma	TAL, QRC	3.0	0.9	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	cmax	talinolol	plasma	TAL	500.3	96.2	ng/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	thalf	talinolol	plasma	TAL	16.1	4.3	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	auc_end	talinolol	plasma	TAL	7372.7	2485.7	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	MDR1_CC	auc_inf	talinolol	plasma	TAL	9000.8	3153.2	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CC	tmax	talinolol	plasma	TAL	3.0	0.6	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	cmax	talinolol	plasma	TAL, QRC	383.5	104.9	ng/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	thalf	talinolol	plasma	TAL, QRC	23.2	7.0	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	auc_end	talinolol	plasma	TAL, QRC	7309.7	2749.6	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	MDR1_CT	auc_inf	talinolol	plasma	TAL, QRC	9592.8	3255.7	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	tmax	talinolol	plasma	TAL, QRC	2.8	1.0	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	cmax	talinolol	plasma	TAL	554.6	80.6	ng/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	thalf	talinolol	plasma	TAL	18.9	6.7	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	auc_end	talinolol	plasma	TAL	7826.3	3244.0	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	MDR1_CT	auc_inf	talinolol	plasma	TAL	9752.6	4185.1	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_CT	tmax	talinolol	plasma	TAL	2.8	1.0	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	cmax	talinolol	plasma	TAL, QRC	382.4	149.1	ng/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	thalf	talinolol	plasma	TAL, QRC	14.7	4.6	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	auc_end	talinolol	plasma	TAL, QRC	5598.6	2202.1	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	MDR1_TT	auc_inf	talinolol	plasma	TAL, QRC	7110.0	3437.0	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	tmax	talinolol	plasma	TAL, QRC	3.0	1.5	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	cmax	talinolol	plasma	TAL	584.9	115.2	ng/ml	NA	NA	HPLC/UV	Cmax 584.9 in Tables 2 and 3 and the abstract (was 548.9)
+Wang2013	MDR1_TT	thalf	talinolol	plasma	TAL	26.1	8.1	hr	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	auc_end	talinolol	plasma	TAL	8229.4	1491.7	ng*hr/ml	48.0	hr	HPLC/UV	NA
+Wang2013	MDR1_TT	auc_inf	talinolol	plasma	TAL	12681.2	4828.2	ng*hr/ml	NA	NA	HPLC/UV	NA
+Wang2013	MDR1_TT	tmax	talinolol	plasma	TAL	2.5	0.8	hr	NA	NA	HPLC/UV	NA

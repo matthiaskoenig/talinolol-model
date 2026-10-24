@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement	form	substance	value	unit	comments
+Schwarz2000	TAL	0.0	hr	oral	single dose	dosing	tablet	talinolol	50	mg	Talinolol (Cordanum, Arzneimittelwerk Dresden GmbH, Dresden, Germany) was obtained from commercial sources.
+Schwarz2000	ERY	-0.25	hr	oral	single dose	dosing	NR	erythromycin	1	g	Erythromycin was divided into two doses, which were administered 15 minutes before and after talinolol administration.
+Schwarz2000	ERY	0.25	hr	oral	single dose	dosing	NR	erythromycin	1	g	NA

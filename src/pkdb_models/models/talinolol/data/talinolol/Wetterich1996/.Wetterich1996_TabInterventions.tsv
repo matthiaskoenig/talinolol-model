@@ -1,0 +1,7 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Wetterich1996	TAL_IV	0	30.0	min	iv	single dose	dosing	solution	talinolol	1	mg/min	Arztneimittelwerk Dresden GmbH
+Wetterich1996	TAL_PO	0	NA	day	oral	single dose	dosing	tablet	talinolol	100	mg	NA
+Wetterich1996	TAL_25	0	NA	day	oral	single dose	dosing	capsule	talinolol	25	mg	NA
+Wetterich1996	TAL_50	0	NA	day	oral	single dose	dosing	capsule	talinolol	50	mg	NA
+Wetterich1996	TAL_100	0	NA	day	oral	single dose	dosing	capsule	talinolol	100	mg	NA
+Wetterich1996	TAL_400	0	NA	day	oral	single dose	dosing	capsule	talinolol	400	mg	NA

@@ -1,0 +1,23 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	cv	method	label	comments	mean_unit	count_unit
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.67	hr	0.00033144096892667025	56.510933	0.0001759754659623929	0.5309405971514843	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	0.84413967	hr	0.00024940114719597243	41.302185	0.00013577596665703792	0.544407947531809	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.01	hr	0.0002059199988995722	40.85487	9.352541300430545e-05	0.4541832435125355	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.1733167	hr	0.00014439012916271198	33.996025	5.086470240305919e-05	0.3522727121169078	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.3304239500000001	hr	0.0001288025529924758	32.50497	3.937912213372948e-05	0.3057324658466192	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.5024937	hr	0.0001132149823243786	29.671968	3.158533679968089e-05	0.2789854854120275	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	1.84	hr	0.00010911300017881952	26.838966	3.52771399881704e-05	0.323308312761601	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	2.17	hr	8.532143770890934e-05	22.962227	2.215075585633915e-05	0.2596153610527609	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	2.5049875	hr	7.6297057731193e-05	19.681908	2.2150761358478114e-05	0.290322615539368	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	3.0	hr	7.137466540117471e-05	19.98012	1.6407967097209044e-05	0.2298850300030828	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	3.5	hr	6.809307418258847e-05	16.252485	2.3381358753215308e-05	0.3433735226951167	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	4.0	hr	6.123545303236633e-05	17.035833	1.4368692829337402e-05	0.2346466322661604	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	4.5	hr	5.314645318367515e-05	13.359127	1.6394566637780438e-05	0.3084790358656767	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	5.0	hr	5.2111998789529425e-05	11.083578	2.1620305643819034e-05	0.4148815272110245	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	5.5	hr	4.9247621012668675e-05	12.298044	1.541484752197417e-05	0.3130069474423705	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	6.5	hr	4.926655937495701e-05	12.732379	1.4238900122422594e-05	0.289017546649715	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	7.5	hr	4.014310238105064e-05	9.321031	1.4500298491038395e-05	0.3612151934197092	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	8.5	hr	3.545993479965336e-05	7.7612233	1.4108270265065544e-05	0.397865093232023	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	10.5	hr	2.6093043920824218e-05	5.567227	1.0777215642581052e-05	0.4130302189075005	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	12.5	hr	2.508755828828457e-05	5.937626	8.752736626363499e-06	0.348887545204065	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	24.5	hr	1.539311874991403e-05	3.3164325	6.269382522455605e-06	0.407284750043952	HPLC	S-talinolol		mole/meter^3	dimensionless
+Wetterich1996	patient_iv	3.0	concentration	S-talinolol	plasma	TAL_IV	36.5	hr	9.881053109396278e-06				HPLC	S-talinolol		mole/meter^3	dimensionless

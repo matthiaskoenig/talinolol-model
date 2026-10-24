@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	time	time_unit	unit	method	label	comments
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_IV	0.0	NA	0.0	day	mg	HPLC	Tab3a_TAL_IV_urine	zero point added, clearance_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_IV, CBZ	0.0	NA	0.0	day	mg	HPLC	Tab3a_TAL_IV, CBZ_urine	zero point added, clearance_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_PO	0.0	NA	0.0	day	mg	HPLC	Tab3a_TAL_PO_urine	zero point added, clearance_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_PO, CBZ	0.0	NA	0.0	day	mg	HPLC	Tab3a_TAL_PO_CBZ_urine	zero point added, clearance_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_IV	14.4342	3.28001036345924	3.0	day	mg	HPLC	Tab3a_TAL_IV_urine	clearnace_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_IV, CBZ	17.32368	6.06934151364182	3.0	day	mg	HPLC	Tab3a_TAL_IV, CBZ_urine	clearnace_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_PO	25.37514	9.26704421648758	1.0	day	mg	HPLC	Tab3a_TAL_PO_urine	clearnace_renal*auc
+Giessmann2004	arm_2_arm_3	7.0	cumulative amount	talinolol	urine	TAL_PO, CBZ	33.09306	9.63099700693879	1.0	day	mg	HPLC	Tab3a_TAL_PO_CBZ_urine	clearnace_renal*auc

@@ -1,0 +1,16 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.0	day	0.00013175697052229056			HPLC	Fig5_TAL_PO	measured on the seventh day, sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.02083333333333	day	0.0002589966849612787			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.04166666666667	day	0.0003241392591369895			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.0625	day	0.0003660710601246234			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.08333333333333	day	0.0003731137979889682			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.10416666666667	day	0.0005385961292452441			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.125	day	0.0005884400060523528			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.14583333333333	day	0.0007238861607449896			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.16666666666667	day	0.0006243827287858155			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.25	day	0.00044684796214528396			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.33333333333333	day	0.00033902804715333083			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.5	day	0.0002508975364172822			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	6.66666666666667	day	0.00020814316565564864			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	7.0	day	0.00014812858498741384			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless
+Zschiesche2002	all	8	concentration	talinolol	serum	TAL_PO	7.5	day	0.0001045736530076067			HPLC	Fig5_TAL_PO	sum of R and S isoform	mole/meter^3	dimensionless

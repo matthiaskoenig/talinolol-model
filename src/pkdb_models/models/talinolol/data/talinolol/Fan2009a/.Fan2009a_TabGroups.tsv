@@ -1,0 +1,12 @@
+study	name	parent	measurement_type	group_count	choice	count	substance	mean	median	min	max	sd	unit	comments
+Fan2009a	all	NA	species	12	homo sapiens	12	NA	NA	NA	NA	NA	NA	NA	NA
+Fan2009a	all	NA	sex	12	M	12	NA	NA	NA	NA	NA	NA	NA	NA
+Fan2009a	all	NA	healthy	12	Y	12	NA	NA	NA	NA	NA	NA	NA	Before entering the study, the subjects were ascertained to be in good health by medical history, a full clinical examination, and standard haematological and blood chemical laboratory tests.
+Fan2009a	all	NA	age	12	NA	12	NA	24.0	NA	NA	NA	3.0	yr	NA
+Fan2009a	all	NA	weight	12	NA	12	NA	62.0	NA	NA	NA	15.0	kg	NA
+Fan2009a	all	NA	bmi	12	NA	12	NA	20.0	NA	NA	NA	2.0	kg/m^2	NA
+Fan2009a	all	NA	smoking	12	N	12	NA	NA	NA	NA	NA	NA	NA	NA
+Fan2009a	all	NA	medication	12	N	12	NA	NA	NA	NA	NA	NA	NA	NA
+Fan2009a	all	NA	abstinence alcohol	12	NA	12	NA	NA	NA	2.0	NA	NA	week	Consumption of beverages that contained caffeine or alcohol was not allowed for two weeks before and during the study period.
+Fan2009a	all	NA	abstinence	12	NA	12	caffeine	NA	NA	2.0	NA	NA	week	NA
+Fan2009a	all	NA	abstinence medication	12	NA	12	NA	NA	NA	1.0	NA	NA	week	Medications including herbal and over-the-counter drugs were not permitted for one week before or during the study.

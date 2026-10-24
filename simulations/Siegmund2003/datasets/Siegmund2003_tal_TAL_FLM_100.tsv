@@ -1,0 +1,19 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	median	method	label	comments	median_unit	count_unit
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	0.0	hr	0.0	HPLC	Fig1_TAL_FLM_100	Blood samples were collected before and 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 9, 12, 16, 24, 30, 36, and 49 h after administration of the study medication.	mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	0.5	hr	0.00018150652691233715	HPLC	Fig1_TAL_FLM_100	Talinolol was assayed with an HPLC-method with fluorimetric detection as described elsewhere.	mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	1.0	hr	0.00025410913492620256	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	1.5	hr	0.00031389953094265396	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	2.0	hr	0.0004911352838415934	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	2.5	hr	0.0005103536499814303	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	3.0	hr	0.000627799034374613	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	3.5	hr	0.0007132138268751977	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	4.0	hr	0.0006683710917619223	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	5.0	hr	0.0005103536499814303	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	6.0	hr	0.0004505632814756737	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	8.0	hr	0.0003480654479428878	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	12.0	hr	0.00023489079629706049	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	16.0	hr	0.00017510041403595648	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	24.0	hr	0.00011744539814853024	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	30.0	hr	8.327946739294901e-05	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	36.0	hr	6.19257568879902e-05	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless
+Siegmund2003	all	36	concentration	talinolol	serum	TAL_FLM_100	49.0	hr	3.630130538246743e-05	HPLC	Fig1_TAL_FLM_100		mole/meter^3	dimensionless

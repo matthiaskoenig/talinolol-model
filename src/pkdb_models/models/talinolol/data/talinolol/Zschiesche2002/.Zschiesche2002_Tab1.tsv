@@ -1,0 +1,9 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+Zschiesche2002	all	8	auc_end	talinolol	serum	TAL_IV	1421.0	180.5	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	cmax	talinolol	serum	TAL_IV	532.0	71.5	ng/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	clearance	talinolol	serum	TAL_IV	9.62	1.03	ml/min	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	vd	talinolol	serum	TAL_IV	1.544	0.182	l/kg	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	auc_end	talinolol	serum	TAL_IV, RIF	1099.0	229.8	ng*hr/ml	24.0	hr	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	cmax	talinolol	serum	TAL_IV, RIF	456.0	108.7	ng/ml	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	clearance	talinolol	serum	TAL_IV, RIF	12.79	2.74	ml/min	NA	NA	HPLC	sum of R and S isoform
+Zschiesche2002	all	8	vd	talinolol	serum	TAL_IV, RIF	1.854	0.388	l/kg	NA	NA	HPLC	sum of R and S isoform

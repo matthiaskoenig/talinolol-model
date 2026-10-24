@@ -1,0 +1,20 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	0.0	hr	0.0				HPLC	Fig1_TAL_PO	Peripheral venous blood was sampled just before, at 20, 40, 60, 80, 100min,2,2.5,3,3.5,4,5,6,8,10,12,14,and24hafterdrug administration, urine between 0 and 48 h.	mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	0.33	hr	4.814371586954428e-05	25.28126	2.1406786888402865e-05	6.422036066520859e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	0.67	hr	9.980880067126096e-05	45.350864	2.4954577091844454e-05	7.486373127553336e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	1.0	hr	0.00012316538054168557	55.962704	3.079190635359496e-05	9.237571906078487e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	1.33	hr	0.00014297308078515522	67.54033	4.283505962943094e-05	0.00012850517888829283	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	1.67	hr	0.0001472097277816751	73.13424	5.398764769804261e-05	0.00016196294309412784	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	2.0	hr	0.0001677327060894923	83.1675	6.10668647436691e-05	0.0001832005942310073	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	2.5	hr	0.00016399125159905913	79.30223	5.4174692911869484e-05	0.00016252407873560846	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	3.0	hr	0.00021018170813903906	94.159	4.8856242864413545e-05	0.00014656872859324061	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	3.5	hr	0.0002510626005859778	110.75243	5.36250292301132e-05	0.00016087508769033963	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	4.0	hr	0.00022767851002077058	97.04313	3.929388299701508e-05	0.00011788164899104526	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	4.5	hr	0.00021917770533294817	89.89588	2.813210635634603e-05	8.439631906903807e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	5.0	hr	0.00021384063054512441	86.60966	2.4428561603323288e-05	7.328568480996988e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	6.0	hr	0.00017026369000949117	70.96452	2.4964635001856944e-05	7.489390500557091e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	8.0	hr	0.00013414214775994167	56.091698	2.017001059161749e-05	6.051003177485247e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	10.0	hr	0.00011923135118777425	50.48385	1.9653227692265338e-05	5.8959683076796104e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	12.0	hr	8.572332494257142e-05	36.56452	1.4868210016643969e-05	4.460463004993191e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	14.0	hr	7.133523157127334e-05	30.560247	1.2738131198503417e-05	3.821439359551025e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless
+Schwarz2007	all	9	concentration	talinolol	serum	TAL_PO	24.0	hr	3.381064388781138e-05	15.37675	8.491863712018046e-06	2.5475591136054134e-05	HPLC	Fig1_TAL_PO		mole/meter^3	dimensionless

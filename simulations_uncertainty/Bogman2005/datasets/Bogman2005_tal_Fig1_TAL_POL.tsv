@@ -1,0 +1,17 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_se	mean_sd	method	label	comments	mean_unit	count_unit
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	0.17	hr					HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	0.33	hr					HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	0.5	hr	2.242121624781634e-05	5.942735	6.0723393719308385e-06	1.8217018115792512e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	0.75	hr	3.1967427337377406e-05	8.912179	7.449403705690587e-06	2.2348211117071758e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	1.0	hr	4.2036341627807805e-05	11.439404	1.0565746433926189e-05	3.169723930177857e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	1.5	hr	8.888705484257005e-05	19.525774	3.517029395177375e-05	0.00010551088185532125	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	2.0	hr	0.00010140442096865156	24.580336	3.378220883368409e-05	0.00010134662650105226	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	3.0	hr	0.00011634272823560159	31.405472	2.9944092766062803e-05	8.983227829818843e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	4.0	hr	9.67276028556101e-05	28.377851	1.865816311090937e-05	5.59744893327281e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	5.0	hr	9.865335149039188e-05	29.897604	1.6402965652897566e-05	4.9208896958692684e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	6.0	hr	7.9065736805183e-05	23.8384	1.3484642154637616e-05	4.045392646391285e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	8.0	hr	6.31370445260595e-05	19.677896	9.00178544409139e-06	2.7005356332274173e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	12.0	hr	5.5544092766062805e-05	17.988478	6.056539979917193e-06	1.8169619939751577e-05	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	24.0	hr	3.072944607216055e-05	10.203861	2.6579155146563224e-06	7.973746543968967e-06	HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	36.0	hr	1.7359248407818537e-05				HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless
+Bogman2005	all	9	concentration	talinolol	plasma	TAL, POL	48.0	hr	1.1306895555647259e-05				HPLC-ESI-MS/MS	Fig1_TAL_POL		mole/meter^3	dimensionless

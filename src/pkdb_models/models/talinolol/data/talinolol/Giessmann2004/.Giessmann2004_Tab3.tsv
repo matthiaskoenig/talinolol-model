@@ -1,0 +1,29 @@
+study	group	measurement	substance	tissue	intervention	mean	sd	time	time_unit	unit	method	comments
+Giessmann2004	arm_2_arm_3	auc_inf	talinolol	serum	TAL_IV	1485.0	170.0	NA	NA	ng*hr/ml	HPLC	Talinolol was assayed by an HPLC method with fluorometric detection
+Giessmann2004	arm_2_arm_3	bioavailability	talinolol	serum	TAL_IV	NA	NA	NA	NA	percent	HPLC	The area under the serum concentration–time curve (AUC) after repeated-dose (AUC0-24) and single-dose (AUC0-_x0005_)
+Giessmann2004	arm_2_arm_3	thalf	talinolol	serum	TAL_IV	17.8	3.23	NA	NA	hr	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance	talinolol	serum	TAL_IV	340.0	38.9	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol	urine	TAL_IV	162.0	31.8	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_IV	4.74	2.42	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	vd_ss	talinolol	serum	TAL_IV	519.0	74.3	NA	NA	l	HPLC	NA
+Giessmann2004	arm_2_arm_3	auc_inf	talinolol	serum	TAL_IV, CBZ	1544.0	360.0	NA	NA	ng*hr/ml	HPLC	NA
+Giessmann2004	arm_2_arm_3	bioavailability	talinolol	serum	TAL_IV, CBZ	NA	NA	NA	NA	percent	HPLC	NA
+Giessmann2004	arm_2_arm_3	thalf	talinolol	serum	TAL_IV, CBZ	17.9	4.3	NA	NA	hr	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance	talinolol	serum	TAL_IV, CBZ	337.0	69.2	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol	urine	TAL_IV, CBZ	187.0	48.9	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_IV, CBZ	9.04	7.4	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	vd_ss	talinolol	serum	TAL_IV, CBZ	505.0	81.4	NA	NA	l	HPLC	NA
+Giessmann2004	arm_2_arm_3	auc_end	talinolol	serum	TAL_PO	3087.0	810.0	24.0	hr	ng*hr/ml	HPLC	NA
+Giessmann2004	arm_2_arm_3	bioavailability	talinolol	serum	TAL_PO	62.1	13.0	NA	NA	percent	HPLC	NA
+Giessmann2004	arm_2_arm_3	thalf	talinolol	serum	TAL_PO	15.0	2.07	NA	NA	hr	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance	talinolol	serum	TAL_PO	576.0	168.0	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol	urine	TAL_PO	137.0	34.8	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_PO	2.95	1.49	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	vd_ss	talinolol	serum	TAL_PO	NA	NA	NA	NA	l	HPLC	NA
+Giessmann2004	arm_2_arm_3	auc_end	talinolol	serum	TAL_PO, CBZ	2639.0	565.0	24.0	hr	ng*hr/ml	HPLC	NA
+Giessmann2004	arm_2_arm_3	bioavailability	talinolol	serum	TAL_PO, CBZ	53.2	15.5	NA	NA	percent	HPLC	NA
+Giessmann2004	arm_2_arm_3	thalf	talinolol	serum	TAL_PO, CBZ	15.5	2.48	NA	NA	hr	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance	talinolol	serum	TAL_PO, CBZ	661.0	164.0	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol	urine	TAL_PO, CBZ	209.0	41.2	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	clearance_renal	talinolol4transoh+talinolol3transoh+talinolol3cisoh	urine	TAL_PO, CBZ	5.57	3.33	NA	NA	ml/min	HPLC	NA
+Giessmann2004	arm_2_arm_3	vd_ss	talinolol	serum	TAL_PO, CBZ	NA	NA	NA	NA	l	HPLC	NA

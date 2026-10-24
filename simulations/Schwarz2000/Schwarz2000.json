@@ -1,0 +1,1920 @@
+{
+  "experiment_id": "Schwarz2000",
+  "base_path": "/home/mkoenig/git/talinolol-model/src/pkdb_models/models/talinolol",
+  "data_path": [
+    "/home/mkoenig/git/talinolol-model/src/pkdb_models/models/talinolol/data/talinolol"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/talinolol-model/src/pkdb_models/models/talinolol/models/output/models/talinolol_body_flat.xml",
+        "path": "/home/mkoenig/git/talinolol-model/src/pkdb_models/models/talinolol/models/output/models/talinolol_body_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Afeces_tal",
+        "Aurine_tal",
+        "GU__TALUPTAKE_colon",
+        "GU__TALUPTAKE_duodenum",
+        "GU__TALUPTAKE_ileum_1",
+        "GU__TALUPTAKE_ileum_2",
+        "GU__TALUPTAKE_jejunum_1",
+        "GU__TALUPTAKE_jejunum_2",
+        "GU__f_oatp2b1",
+        "GU__f_pgp",
+        "IVDOSE_tal",
+        "KI__TALEX",
+        "KI__f_renal_function",
+        "LI__Abile_tal",
+        "LI__Cbile_tal",
+        "LI__TALEX",
+        "LI__f_EHC",
+        "LI__f_oatp1b1",
+        "LI__f_pgp",
+        "PODOSE_tal",
+        "[Cduodenum_tal]",
+        "[Cve_tal]",
+        "[GU__tal_colon]",
+        "[GU__tal_ileum_1]",
+        "[GU__tal_ileum_2]",
+        "[GU__tal_jejunum_1]",
+        "[GU__tal_jejunum_2]",
+        "[LI__tal]",
+        "cum_dose_tal",
+        "f_cirrhosis",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_tal_po_50": {
+      "sid": "model__tal_po_50",
+      "name": null,
+      "model": "model",
+      "simulation": "tal_po_50",
+      "observables": []
+    },
+    "task_tal_po_50_inhibition": {
+      "sid": "model__tal_po_50_inhibition",
+      "name": null,
+      "model": "model",
+      "simulation": "tal_po_50_inhibition",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "tal_po_50": {
+      "type": "Simulation",
+      "time_unit": "min",
+      "start": 0.0,
+      "end": 3000,
+      "preinit_changes": {
+        "PODOSE_tal": {
+          "value": 50,
+          "unit": "milligram"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "tal_po_50_inhibition": {
+      "type": "Simulation",
+      "time_unit": "min",
+      "start": 0.0,
+      "end": 3000,
+      "preinit_changes": {
+        "PODOSE_tal": {
+          "value": 50,
+          "unit": "milligram"
+        },
+        "GU__f_pgp": {
+          "value": 0.5,
+          "unit": "dimensionless"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    }
+  },
+  "data": {
+    "task_tal_po_50__time": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__IVDOSE_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__IVDOSE_tal",
+      "index": "IVDOSE_tal",
+      "selection": "IVDOSE_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__PODOSE_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__PODOSE_tal",
+      "index": "PODOSE_tal",
+      "selection": "PODOSE_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__cum_dose_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__cum_dose_tal",
+      "index": "cum_dose_tal",
+      "selection": "cum_dose_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__Cve_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__Cve_tal",
+      "index": "Cve_tal",
+      "selection": "[Cve_tal]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__Aurine_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__Aurine_tal",
+      "index": "Aurine_tal",
+      "selection": "Aurine_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__Afeces_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__Afeces_tal",
+      "index": "Afeces_tal",
+      "selection": "Afeces_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__LI__Abile_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__LI__Abile_tal",
+      "index": "LI__Abile_tal",
+      "selection": "LI__Abile_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__LI__Cbile_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__LI__Cbile_tal",
+      "index": "LI__Cbile_tal",
+      "selection": "LI__Cbile_tal",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__LI__TALEX": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__LI__TALEX",
+      "index": "LI__TALEX",
+      "selection": "LI__TALEX",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__KI__TALEX": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__KI__TALEX",
+      "index": "KI__TALEX",
+      "selection": "KI__TALEX",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__LI__tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__LI__tal",
+      "index": "LI__tal",
+      "selection": "[LI__tal]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__Cduodenum_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__Cduodenum_tal",
+      "index": "Cduodenum_tal",
+      "selection": "[Cduodenum_tal]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__GU__tal_jejunum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__GU__tal_jejunum_1",
+      "index": "GU__tal_jejunum_1",
+      "selection": "[GU__tal_jejunum_1]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__GU__tal_jejunum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__GU__tal_jejunum_2",
+      "index": "GU__tal_jejunum_2",
+      "selection": "[GU__tal_jejunum_2]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__GU__tal_ileum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__GU__tal_ileum_1",
+      "index": "GU__tal_ileum_1",
+      "selection": "[GU__tal_ileum_1]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__GU__tal_ileum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__GU__tal_ileum_2",
+      "index": "GU__tal_ileum_2",
+      "selection": "[GU__tal_ileum_2]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__conc__GU__tal_colon": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__conc__GU__tal_colon",
+      "index": "GU__tal_colon",
+      "selection": "[GU__tal_colon]",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__TALUPTAKE_duodenum": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__TALUPTAKE_duodenum",
+      "index": "GU__TALUPTAKE_duodenum",
+      "selection": "GU__TALUPTAKE_duodenum",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__TALUPTAKE_jejunum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__TALUPTAKE_jejunum_1",
+      "index": "GU__TALUPTAKE_jejunum_1",
+      "selection": "GU__TALUPTAKE_jejunum_1",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__TALUPTAKE_jejunum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__TALUPTAKE_jejunum_2",
+      "index": "GU__TALUPTAKE_jejunum_2",
+      "selection": "GU__TALUPTAKE_jejunum_2",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__TALUPTAKE_ileum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__TALUPTAKE_ileum_1",
+      "index": "GU__TALUPTAKE_ileum_1",
+      "selection": "GU__TALUPTAKE_ileum_1",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__TALUPTAKE_ileum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__TALUPTAKE_ileum_2",
+      "index": "GU__TALUPTAKE_ileum_2",
+      "selection": "GU__TALUPTAKE_ileum_2",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__TALUPTAKE_colon": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__TALUPTAKE_colon",
+      "index": "GU__TALUPTAKE_colon",
+      "selection": "GU__TALUPTAKE_colon",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__f_pgp": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__f_pgp",
+      "index": "GU__f_pgp",
+      "selection": "GU__f_pgp",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__LI__f_pgp": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__LI__f_pgp",
+      "index": "LI__f_pgp",
+      "selection": "LI__f_pgp",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__GU__f_oatp2b1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__GU__f_oatp2b1",
+      "index": "GU__f_oatp2b1",
+      "selection": "GU__f_oatp2b1",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__LI__f_oatp1b1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__LI__f_oatp1b1",
+      "index": "LI__f_oatp1b1",
+      "selection": "LI__f_oatp1b1",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__LI__f_EHC": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__LI__f_EHC",
+      "index": "LI__f_EHC",
+      "selection": "LI__f_EHC",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_tal_po_50__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_tal_po_50",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__time": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__IVDOSE_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__IVDOSE_tal",
+      "index": "IVDOSE_tal",
+      "selection": "IVDOSE_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__PODOSE_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__PODOSE_tal",
+      "index": "PODOSE_tal",
+      "selection": "PODOSE_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__cum_dose_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__cum_dose_tal",
+      "index": "cum_dose_tal",
+      "selection": "cum_dose_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__Cve_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__Cve_tal",
+      "index": "Cve_tal",
+      "selection": "[Cve_tal]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__Aurine_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__Aurine_tal",
+      "index": "Aurine_tal",
+      "selection": "Aurine_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__Afeces_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__Afeces_tal",
+      "index": "Afeces_tal",
+      "selection": "Afeces_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__LI__Abile_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__LI__Abile_tal",
+      "index": "LI__Abile_tal",
+      "selection": "LI__Abile_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__LI__Cbile_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__LI__Cbile_tal",
+      "index": "LI__Cbile_tal",
+      "selection": "LI__Cbile_tal",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__LI__TALEX": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__LI__TALEX",
+      "index": "LI__TALEX",
+      "selection": "LI__TALEX",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__KI__TALEX": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__KI__TALEX",
+      "index": "KI__TALEX",
+      "selection": "KI__TALEX",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__LI__tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__LI__tal",
+      "index": "LI__tal",
+      "selection": "[LI__tal]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__Cduodenum_tal": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__Cduodenum_tal",
+      "index": "Cduodenum_tal",
+      "selection": "[Cduodenum_tal]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__GU__tal_jejunum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__GU__tal_jejunum_1",
+      "index": "GU__tal_jejunum_1",
+      "selection": "[GU__tal_jejunum_1]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__GU__tal_jejunum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__GU__tal_jejunum_2",
+      "index": "GU__tal_jejunum_2",
+      "selection": "[GU__tal_jejunum_2]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__GU__tal_ileum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__GU__tal_ileum_1",
+      "index": "GU__tal_ileum_1",
+      "selection": "[GU__tal_ileum_1]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__GU__tal_ileum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__GU__tal_ileum_2",
+      "index": "GU__tal_ileum_2",
+      "selection": "[GU__tal_ileum_2]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__conc__GU__tal_colon": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__conc__GU__tal_colon",
+      "index": "GU__tal_colon",
+      "selection": "[GU__tal_colon]",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__TALUPTAKE_duodenum": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__TALUPTAKE_duodenum",
+      "index": "GU__TALUPTAKE_duodenum",
+      "selection": "GU__TALUPTAKE_duodenum",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__TALUPTAKE_jejunum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__TALUPTAKE_jejunum_1",
+      "index": "GU__TALUPTAKE_jejunum_1",
+      "selection": "GU__TALUPTAKE_jejunum_1",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__TALUPTAKE_jejunum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__TALUPTAKE_jejunum_2",
+      "index": "GU__TALUPTAKE_jejunum_2",
+      "selection": "GU__TALUPTAKE_jejunum_2",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__TALUPTAKE_ileum_1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__TALUPTAKE_ileum_1",
+      "index": "GU__TALUPTAKE_ileum_1",
+      "selection": "GU__TALUPTAKE_ileum_1",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__TALUPTAKE_ileum_2": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__TALUPTAKE_ileum_2",
+      "index": "GU__TALUPTAKE_ileum_2",
+      "selection": "GU__TALUPTAKE_ileum_2",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__TALUPTAKE_colon": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__TALUPTAKE_colon",
+      "index": "GU__TALUPTAKE_colon",
+      "selection": "GU__TALUPTAKE_colon",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__f_pgp": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__f_pgp",
+      "index": "GU__f_pgp",
+      "selection": "GU__f_pgp",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__LI__f_pgp": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__LI__f_pgp",
+      "index": "LI__f_pgp",
+      "selection": "LI__f_pgp",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__GU__f_oatp2b1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__GU__f_oatp2b1",
+      "index": "GU__f_oatp2b1",
+      "selection": "GU__f_oatp2b1",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__LI__f_oatp1b1": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__LI__f_oatp1b1",
+      "index": "LI__f_oatp1b1",
+      "selection": "LI__f_oatp1b1",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__LI__f_EHC": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__LI__f_EHC",
+      "index": "LI__f_EHC",
+      "selection": "LI__f_EHC",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_tal_po_50_inhibition__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_tal_po_50_inhibition__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_tal_po_50_inhibition",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig1_PO_serum": {
+      "sid": "Fig1_PO_serum",
+      "name": "Schwarz2000",
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_PO_serum__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_PO_serum__plot0_xaxis",
+              "name": "time [hour]",
+              "label": "time",
+              "unit": "hour",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 25,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_PO_serum__plot0_yaxis",
+              "name": "talinolol [\u00b5M]",
+              "label": "talinolol",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_PO_serum__plot0_curve0",
+                "name": "Sim 50 [mg]",
+                "x": "task_tal_po_50__time",
+                "y": "task_tal_po_50__conc__Cve_tal",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_PO_serum__plot0_curve1",
+                "name": "50 [mg]\u00b1SD (n=8)",
+                "x": "TAL_serum__time",
+                "y": "TAL_serum__mean",
+                "xerr": null,
+                "yerr": "TAL_serum__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Tab1_PO_urine": {
+      "sid": "Tab1_PO_urine",
+      "name": "Schwarz2000",
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Tab1_PO_urine__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Tab1_PO_urine__plot0_xaxis",
+              "name": "time [hour]",
+              "label": "time",
+              "unit": "hour",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Tab1_PO_urine__plot0_yaxis",
+              "name": "talinolol urine [\u00b5mole]",
+              "label": "talinolol urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Tab1_PO_urine__plot0_curve0",
+                "name": "Sim 50 [mg]",
+                "x": "task_tal_po_50__time",
+                "y": "task_tal_po_50__Aurine_tal",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve1",
+                "name": "50 [mg] individual (n=1)",
+                "x": "TAL_urine_S1__time",
+                "y": "TAL_urine_S1__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve2",
+                "name": null,
+                "x": "TAL_urine_S2__time",
+                "y": "TAL_urine_S2__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve3",
+                "name": null,
+                "x": "TAL_urine_S3__time",
+                "y": "TAL_urine_S3__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve4",
+                "name": null,
+                "x": "TAL_urine_S5__time",
+                "y": "TAL_urine_S5__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve5",
+                "name": null,
+                "x": "TAL_urine_S6__time",
+                "y": "TAL_urine_S6__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve6",
+                "name": null,
+                "x": "TAL_urine_S7__time",
+                "y": "TAL_urine_S7__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve7",
+                "name": null,
+                "x": "TAL_urine_S8__time",
+                "y": "TAL_urine_S8__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve8",
+                "name": null,
+                "x": "TAL_urine_S9__time",
+                "y": "TAL_urine_S9__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#00000066",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#00000066",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#00000066",
+                    "second_color": null
+                  }
+                },
+                "order": 8
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve9",
+                "name": "50 [mg]\u00b1SD (n=8)",
+                "x": "TAL_urine_mean__time",
+                "y": "TAL_urine_mean__mean",
+                "xerr": null,
+                "yerr": "TAL_urine_mean__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 9
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve10",
+                "name": "Sim 50 [mg] P-gp inhibition",
+                "x": "task_tal_po_50_inhibition__time",
+                "y": "task_tal_po_50_inhibition__Aurine_tal",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e34a33ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e34a33ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a33ff",
+                    "second_color": null
+                  }
+                },
+                "order": 10
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve11",
+                "name": "50 [mg] P-gp inhibition individual (n=1)",
+                "x": "TAL_ERY_urine_S1__time",
+                "y": "TAL_ERY_urine_S1__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 11
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve12",
+                "name": null,
+                "x": "TAL_ERY_urine_S2__time",
+                "y": "TAL_ERY_urine_S2__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 12
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve13",
+                "name": null,
+                "x": "TAL_ERY_urine_S3__time",
+                "y": "TAL_ERY_urine_S3__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 13
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve14",
+                "name": null,
+                "x": "TAL_ERY_urine_S5__time",
+                "y": "TAL_ERY_urine_S5__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 14
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve15",
+                "name": null,
+                "x": "TAL_ERY_urine_S6__time",
+                "y": "TAL_ERY_urine_S6__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 15
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve16",
+                "name": null,
+                "x": "TAL_ERY_urine_S7__time",
+                "y": "TAL_ERY_urine_S7__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 16
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve17",
+                "name": null,
+                "x": "TAL_ERY_urine_S8__time",
+                "y": "TAL_ERY_urine_S8__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 17
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve18",
+                "name": null,
+                "x": "TAL_ERY_urine_S9__time",
+                "y": "TAL_ERY_urine_S9__value",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a3366",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#e34a3366",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a3366",
+                    "second_color": null
+                  }
+                },
+                "order": 18
+              },
+              {
+                "sid": "Tab1_PO_urine__plot0_curve19",
+                "name": "50 [mg] P-gp inhibition\u00b1SD (n=8)",
+                "x": "TAL_ERY_urine_mean__time",
+                "y": "TAL_ERY_urine_mean__mean",
+                "xerr": null,
+                "yerr": "TAL_ERY_urine_mean__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#e34a33ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#e34a33ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a33ff",
+                    "second_color": null
+                  }
+                },
+                "order": 19
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig1_PO_serum_pginhibition": {
+      "sid": "Fig1_PO_serum_pginhibition",
+      "name": "Schwarz2000",
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_PO_serum_pginhibition__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_PO_serum_pginhibition__plot0_xaxis",
+              "name": "time [hour]",
+              "label": "time",
+              "unit": "hour",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 25,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_PO_serum_pginhibition__plot0_yaxis",
+              "name": "talinolol [\u00b5M]",
+              "label": "talinolol",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_PO_serum_pginhibition__plot0_curve0",
+                "name": "Sim 50 [mg]",
+                "x": "task_tal_po_50__time",
+                "y": "task_tal_po_50__conc__Cve_tal",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_PO_serum_pginhibition__plot0_curve1",
+                "name": "Sim 50 [mg] P-gp inhibition",
+                "x": "task_tal_po_50_inhibition__time",
+                "y": "task_tal_po_50_inhibition__conc__Cve_tal",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e34a33ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e34a33ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a33ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_PO_serum_pginhibition__plot0_curve2",
+                "name": "50 [mg]\u00b1SD (n=8)",
+                "x": "TAL_serum__time",
+                "y": "TAL_serum__mean",
+                "xerr": null,
+                "yerr": "TAL_serum__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_PO_serum_pginhibition__plot0_curve3",
+                "name": "50 [mg] P-gp inhibition\u00b1SD (n=8)",
+                "x": "TAL_ERY_serum__time",
+                "y": "TAL_ERY_serum__mean",
+                "xerr": null,
+                "yerr": "TAL_ERY_serum__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#e34a33ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#e34a33ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e34a33ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

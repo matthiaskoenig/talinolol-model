@@ -1,0 +1,3 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	0.0		0	hr	HPLC/UV	TAL_urine_control		mole	dimensionless
+Krueger2001	control	12	cumulative amount	talinolol	urine	TAL	6.211914881910342e-05	2.52548178104238e-05	24	hr	HPLC/UV	TAL_urine_control		mole	dimensionless

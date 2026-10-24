@@ -1,0 +1,8 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+He2007	all	12	auc_end	talinolol	plasma	TAL	1763.0	377.5	ng*hr/ml	60.0	hr	HPLC-ESI-MS	NA
+He2007	all	12	auc_inf	talinolol	plasma	TAL	1860.0	377.9	ng*hr/ml	NA	NA	HPLC-ESI-MS	NA
+He2007	all	12	cmax	talinolol	plasma	TAL	147.8	63.8	ng/ml	NA	NA	HPLC-ESI-MS	NA
+He2007	all	12	tmax	talinolol	plasma	TAL	2.0	0.7	hr	NA	NA	HPLC-ESI-MS	NA
+He2007	all	12	thalf	talinolol	plasma	TAL	12.0	2.6	hr	NA	NA	HPLC-ESI-MS	NA
+He2007	all	12	clearance	talinolol	plasma	TAL	27.9	5.5	l/h	NA	NA	HPLC-ESI-MS	NA
+He2007	all	12	vd	talinolol	plasma	TAL	481.5	117.9	l	NA	NA	HPLC-ESI-MS	NA

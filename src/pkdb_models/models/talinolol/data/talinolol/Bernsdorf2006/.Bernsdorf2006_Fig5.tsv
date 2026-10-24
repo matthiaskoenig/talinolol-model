@@ -1,0 +1,18 @@
+study	group	count	measurement	substance	tissue	intervention	min	q1	median	q2	max	value	unit	method	label	comments
+Bernsdorf2006	OATP1B1_*1a/*1a	7	thalf	talinolol	serum	TAL_PO	12.48	NA	NA	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1a	7	thalf	talinolol	serum	TAL_PO	NA	13.658831	NA	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1a	7	thalf	talinolol	serum	TAL_PO	NA	NA	14.309825	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1a	7	thalf	talinolol	serum	TAL_PO	NA	NA	NA	15.852923	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1a	7	thalf	talinolol	serum	TAL_PO	NA	NA	NA	NA	15.973478	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*5	1	thalf	talinolol	serum	TAL_PO	NA	NA	NA	NA	NA	13.942318	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1b	5	thalf	talinolol	serum	TAL_PO	10.721242	NA	NA	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1b	5	thalf	talinolol	serum	TAL_PO	NA	11.162006	NA	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1b	5	thalf	talinolol	serum	TAL_PO	NA	NA	12.943464	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1b	5	thalf	talinolol	serum	TAL_PO	NA	NA	NA	13.087998	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1a/*1b	5	thalf	talinolol	serum	TAL_PO	NA	NA	NA	NA	14.822416	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1b/*15	3	thalf	talinolol	serum	TAL_PO	10.354617	NA	NA	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1b/*15	3	thalf	talinolol	serum	TAL_PO	NA	10.499042	NA	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1b/*15	3	thalf	talinolol	serum	TAL_PO	NA	NA	10.715844	NA	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1b/*15	3	thalf	talinolol	serum	TAL_PO	NA	NA	NA	12.070968	NA	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1b/*15	3	thalf	talinolol	serum	TAL_PO	NA	NA	NA	NA	13.462114	NA	hr	HPLC	Fig5_TAL_PO	not uploaded
+Bernsdorf2006	OATP1B1_*1b/*5	1	thalf	talinolol	serum	TAL_PO	NA	NA	NA	NA	NA	11.162006	hr	HPLC	Fig5_TAL_PO	not uploaded

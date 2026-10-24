@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:distrib="http://www.sbml.org/sbml/level3/version1/distrib/version1" level="3" version="2" comp:required="true" distrib:required="true">
   <notes>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
@@ -11,38 +11,37 @@
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <h1>Model for talinolol elimination in the kidneys</h1>
-        <p>Model for renal excretion of talinolol (tal)
+        <p>Model for the renal excretion of talinolol (tal)
 encoded in <a href="http://sbml.org">SBML</a> format.</p>
-        <p>Import and secretion are not modeled explicitly but a lumped excretion reaction is used
-to describe urinary elimination of tal. Due to the minor contribution of talinolol metabolites
-these are not modeled.</p>
+        <p>Talinolol is excreted unchanged in the urine by glomerular filtration and
+a net tubular secretion: the renal clearance (151-311 ml/min) is several
+times the filtration of the unbound talinolol. The renal excretion is the
+filtration of the unbound talinolol <code>GFR * fup_tal</code> times <code>TALEX_f</code> (1 is
+filtration alone, above 1 a net secretion), so that it follows the renal
+function as the glomerular filtration rate does.</p>
         <ul>
           <li>On average, about 60% of talinolol and talinolol metabolites was excreted by kidney and about 40% extrarenally.
 {Trausch1995}</li>
           <li>Other metabolites then talinolol are almost not detectable in urine. I.e. sum of metabolites is 0.33% of dose
 vs. talinolol 52.83 % dose {Trausch1995}</li>
         </ul>
+        <p>The content of this model has been carefully created in a manual research effort.</p>
         <h2>Terms of use</h2>
-        <p>The content of this model has been carefully created in a manual research effort.
-This file has been created by <a href="https://livermetabolism.com">Matthias König</a>
-using <a href="https://github.com/matthiaskoenig/sbmlutils">sbmlutils</a>.
-For questions contact <a href="mailto:koenigmx@hu-berlin.de">koenigmx@hu-berlin.de</a>. Copyright © 2023 Matthias König.</p>
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+        <p>Copyright © 2026 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"/>
         </a>
-        <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-<p>Redistribution and use of any part of this model, with or without modification,
-are permitted provided that the following conditions are met:</p>
-        <ol>
-          <li>Redistributions of this SBML file must retain the above copyright notice, this
-list of conditions and the following disclaimer.</li>
-          <li>Redistributions in a different form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation and/or
-other materials provided with the distribution.</li>
-        </ol>
-        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.</p></body>
+        <br/>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<p>Redistribution and use of any part of this model, with or without modification, are permitted provided
+that the following conditions are met:</p>
+        <ul>
+          <li>Redistributions of this SBML file must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+          <li>Redistributions in a different form must reproduce the above copyright notice, this list of conditions
+and the following disclaimer in the documentation and/or other materials provided
+with the distribution.</li>
+        </ul>
+        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></body>
       </notes>
     <annotation>
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -68,10 +67,10 @@ FOR A PARTICULAR PURPOSE.</p></body>
             </rdf:Bag>
           </dcterms:creator>
           <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T12:57:12Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T12:57:12Z</dcterms:W3CDTF>
           </dcterms:modified>
         </rdf:Description>
       </rdf:RDF>
@@ -96,6 +95,12 @@ FOR A PARTICULAR PURPOSE.</p></body>
           <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="m2" name="meter^2">
         <listOfUnits>
           <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
@@ -115,6 +120,12 @@ FOR A PARTICULAR PURPOSE.</p></body>
       <unitDefinition id="min" name="min">
         <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="mmole" name="mmole">
@@ -148,47 +159,44 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" spatialDimensions="3" size="4" units="litre" constant="true">
+      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" size="4" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vki" sboTerm="SBO:0000290" id="Vki" name="kidney" spatialDimensions="3" size="1.5" units="litre" constant="true">
+      <compartment metaid="meta_Vki" sboTerm="SBO:0000290" id="Vki" name="kidney" size="1.5" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vki">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:7203"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000671"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C12415"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7203"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000671"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12415"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vurine" sboTerm="SBO:0000290" id="Vurine" name="urine" spatialDimensions="3" size="1" units="litre" constant="true">
+      <compartment metaid="meta_Vurine" sboTerm="SBO:0000290" id="Vurine" name="urine" size="1" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vurine">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:12274"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13283"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0001419"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:12274"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13283"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001419"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -203,9 +211,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_tal_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -223,9 +230,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_tal_urine">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/68770"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:135533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:68770"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:135533"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -234,57 +240,82 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_f_renal_function" sboTerm="SBO:0000002" id="f_renal_function" name="parameter for kidney function" value="1" units="dimensionless" constant="true">
+      <parameter sboTerm="SBO:0000002" id="f_renal_function" name="renal function" value="1" units="dimensionless" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>Parameter controls the health state/renal function
-(1.0 reference function, &lt; 1.0 reduced function, &gt; 1.0 increased function)</p>
+            <blockquote>
+              <p>1.0: increased kidney function
+1.0: normal kidney function (healthy control)
+&lt;1.0: decreased kidney function</p>
+            </blockquote>
+            <p>Renal function relative to the healthy glomerular filtration rate
+GFR_base, which is 101 ml/min at 75 kg; a measured creatinine
+clearance of X ml/min is the renal function X/101.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_f_renal_function">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_fup_tal" sboTerm="SBO:0000009" id="fup_tal" name="fraction unbound in plasma tal" value="0.4" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_fup_tal">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_TALEX_k" sboTerm="SBO:0000009" id="TALEX_k" name="rate urinary excretion talinolol" value="0.959200672225413" units="per_min" constant="true">
+      <parameter sboTerm="SBO:0000002" id="GFR_base" name="glomerular filtration rate (healthy)" value="101" units="ml_per_min" constant="true"/>
+      <parameter sboTerm="SBO:0000009" id="fup_tal" name="fraction unbound in plasma tal" value="0.4" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000009" id="TALEX_f" name="renal clearance of unbound talinolol relative to the GFR" value="7.66469242599538" units="dimensionless" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>determined via parameter fitting</p>
+            <p>The renal clearance of talinolol is TALEX_f times the filtration of
+its unbound fraction, fup_tal * GFR: 1 is filtration alone, above 1 a
+net tubular secretion. A renal clearance of 151-311 ml/min
+(Westphal2000a/b, Trausch1995, Schwarz2007) is TALEX_f 3.7-7.7 at
+fup_tal 0.4 and GFR 101 ml/min.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_TALEX_k">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261020_042735__49b48">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>KI__TALEX_f</code> is the result of the fit <code>PK_20261020_042735__49b48</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261020_042735__49b48</code> |
+| record | <code>PK_20261020_042735__49b48/</code> |
+| cost | 132.24 |
+| data points | 874 |
+| value | 7.66469 dimensionless |
+| bounds | [1, 20] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [6.64262, 9.71059] |
+| Fisher confidence interval | [6.99535, 8.39808] |
+| distribution of the draws | <code>lognormal(2.0366243844469594, 0.09686667393945764, 1.0, 20.0)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="dimensionless" distrib:type="confidenceInterval" distrib:valueLower="6.64262175497652" distrib:valueUpper="9.71059068036551"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.356848222071281" distrib:units="dimensionless" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <cn> 2.03662438444696 </cn>
+                  <cn> 0.0968666739394576 </cn>
+                  <cn> 1 </cn>
+                  <cn> 20 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
       </parameter>
+      <parameter id="GFR" name="glomerular filtration rate" units="ml_per_min" constant="false"/>
     </listOfParameters>
+    <listOfRules>
+      <assignmentRule name="glomerular filtration rate" variable="GFR">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> f_renal_function </ci>
+            <ci> GFR_base </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
     <listOfReactions>
       <reaction metaid="meta_TALEX" sboTerm="SBO:0000655" id="TALEX" name="excretion talinolol" reversible="false" compartment="Vki">
         <annotation>
@@ -292,8 +323,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_TALEX">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C75913"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C75913"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -306,14 +336,14 @@ FOR A PARTICULAR PURPOSE.</p></body>
           <speciesReference species="tal_urine" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
               <times/>
-              <ci> f_renal_function </ci>
-              <ci> TALEX_k </ci>
-              <ci> Vki </ci>
-              <ci> tal_ext </ci>
+              <ci> GFR </ci>
+              <cn sbml:units="l_per_ml"> 0.001 </cn>
               <ci> fup_tal </ci>
+              <ci> TALEX_f </ci>
+              <ci> tal_ext </ci>
             </apply>
           </math>
         </kineticLaw>

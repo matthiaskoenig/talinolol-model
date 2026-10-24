@@ -1,0 +1,13 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	comments
+He2012	all	18	cmax	talinolol	plasma	TAL	353.0	124	ng/ml	NA	NA	HPLC/UV	NA
+He2012	all	18	tmax	talinolol	plasma	TAL	2.6	1	hr	NA	NA	HPLC/UV	NA
+He2012	all	18	thalf	talinolol	plasma	TAL	7.6	4	hr	NA	NA	HPLC/UV	NA
+He2012	all	18	clearance	talinolol	plasma	TAL	804.0	427	ml/min	NA	NA	HPLC/UV	NA
+He2012	all	18	auc_end	talinolol	plasma	TAL	2434.0	1114	ng*hr/ml	48.0	hr	HPLC/UV	NA
+He2012	all	18	auc_inf	talinolol	plasma	TAL	2619.0	1243	ng*hr/ml	NA	NA	HPLC/UV	NA
+He2012	all	18	cmax	talinolol	plasma	TAL, CUR	425.0	147	ng/ml	NA	NA	HPLC/UV	NA
+He2012	all	18	tmax	talinolol	plasma	TAL, CUR	2.9	1	hr	NA	NA	HPLC/UV	NA
+He2012	all	18	thalf	talinolol	plasma	TAL, CUR	8.6	5	hr	NA	NA	HPLC/UV	NA
+He2012	all	18	clearance	talinolol	plasma	TAL, CUR	532.0	233	ml/min	NA	NA	HPLC/UV	NA
+He2012	all	18	auc_end	talinolol	plasma	TAL, CUR	3549.0	1803	ng*hr/ml	48.0	hr	HPLC/UV	NA
+He2012	all	18	auc_inf	talinolol	plasma	TAL, CUR	4044.0	2950	ng*hr/ml	NA	NA	HPLC/UV	NA

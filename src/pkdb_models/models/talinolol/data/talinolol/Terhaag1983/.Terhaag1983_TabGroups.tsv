@@ -1,0 +1,8 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	median	min	max	sd	unit	comments
+Terhaag1983	all	NA	3	species	homo sapiens	3	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1983	all	NA	3	sex	M	3	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1983	all	NA	3	healthy	Y	3	NA	NA	NA	NA	NA	NA	NA	NA
+Terhaag1983	all	NA	3	age	NA	3	NA	NA	NA	22.0	24.0	NA	yr	NA
+Terhaag1983	all	NA	3	weight	NA	3	NA	NA	NA	67.0	82.0	NA	kg	NA
+Terhaag1983	all	NA	3	overnight fast	Y	3	NA	NA	NA	NA	NA	NA	NA	12 hr
+Terhaag1983	all	NA	3	fasting (duration)	NA	3	NA	NA	NA	12.0	NA	NA	hr	12 hr before and 2 h after application

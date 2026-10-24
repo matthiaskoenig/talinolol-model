@@ -1,0 +1,6 @@
+study	group	count	measurement	substance	tissue	intervention	mean	mean_sd	time	time_unit	method	label	comments	mean_unit	count_unit
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	1.0010836157000478e-09	3.8209298309162126e-10	121.0	hr	HPLC/UV	TAL_renalrate_control	0-2	mole/second	dimensionless
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	2.208497442269571e-09	8.176789838160696e-10	123.0	hr	HPLC/UV	TAL_renalrate_control	2-4	mole/second	dimensionless
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	1.7041347045886308e-09	5.654976149755995e-10	126.0	hr	HPLC/UV	TAL_renalrate_control	4-8	mole/second	dimensionless
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	8.864557207725613e-10	2.9039066714963213e-10	130.0	hr	HPLC/UV	TAL_renalrate_control	8-12	mole/second	dimensionless
+Krueger2001	control	12.0	excretion rate	talinolol	urine	TAL	5.502138956519346e-10	2.445395091786376e-10	138.0	hr	HPLC/UV	TAL_renalrate_control	12-24	mole/second	dimensionless

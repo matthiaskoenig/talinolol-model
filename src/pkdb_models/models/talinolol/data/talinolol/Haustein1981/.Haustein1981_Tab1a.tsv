@@ -1,0 +1,26 @@
+study	individual	count	measurement	substance	tissue	intervention	value	unit	time	time_unit	method	label	comments
+Haustein1981	S1	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	scintillation counting	urine_S1	S1=GS, zero point added
+Haustein1981	S1	1	cumulative amount	talinolol	urine	TAL_PO_100	4.86486486486487	mg	8	hr	scintillation counting	urine_S1	S1=GS
+Haustein1981	S1	1	cumulative amount	talinolol	urine	TAL_PO_100	12.2747747747748	mg	24	hr	scintillation counting	urine_S1	S1=GS, sum of the intervals
+Haustein1981	S1	1	cumulative amount	talinolol	urine	TAL_PO_100	19.3918918918919	mg	48	hr	scintillation counting	urine_S1	S1=GS, sum of the intervals
+Haustein1981	S1	1	cumulative amount	talinolol	urine	TAL_PO_100	22.6914414414414	mg	72	hr	scintillation counting	urine_S1	S1=GS
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	scintillation counting	urine_S2	S2=JE, zero point added
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	6.46	mg	8	hr	scintillation counting	urine_S2	S2=JE
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	14.5495495495496	mg	24	hr	scintillation counting	urine_S2	S2=JE, sum of the intervals
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	20.9346846846847	mg	48	hr	scintillation counting	urine_S2	S2=JE, sum of the intervals
+Haustein1981	S2	1	cumulative amount	talinolol	urine	TAL_PO_100	25.1013513513514	mg	72	hr	scintillation counting	urine_S2	S2=JE
+Haustein1981	S3	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	scintillation counting	urine_S3	S3=GV, zero point added
+Haustein1981	S3	1	cumulative amount	talinolol	urine	TAL_PO_100	10.59	mg	8	hr	scintillation counting	urine_S3	S3=GV
+Haustein1981	S3	1	cumulative amount	talinolol	urine	TAL_PO_100	18.5247747747748	mg	24	hr	scintillation counting	urine_S3	S3=GV, sum of the intervals
+Haustein1981	S3	1	cumulative amount	talinolol	urine	TAL_PO_100	24.6846846846847	mg	48	hr	scintillation counting	urine_S3	S3=GV, sum of the intervals
+Haustein1981	S3	1	cumulative amount	talinolol	urine	TAL_PO_100	28.795045045045	mg	72	hr	scintillation counting	urine_S3	S3=GV
+Haustein1981	S4	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	scintillation counting	urine_S4	S4=EM, zero point added
+Haustein1981	S4	1	cumulative amount	talinolol	urine	TAL_PO_100	3.66	mg	8	hr	scintillation counting	urine_S4	S4=EM
+Haustein1981	S4	1	cumulative amount	talinolol	urine	TAL_PO_100	11.9594594594595	mg	24	hr	scintillation counting	urine_S4	S4=EM, sum of the intervals
+Haustein1981	S4	1	cumulative amount	talinolol	urine	TAL_PO_100	17.5337837837838	mg	48	hr	scintillation counting	urine_S4	S4=EM, sum of the intervals
+Haustein1981	S4	1	cumulative amount	talinolol	urine	TAL_PO_100	19.8310810810811	mg	72	hr	scintillation counting	urine_S4	S4=EM
+Haustein1981	S5	1	cumulative amount	talinolol	urine	TAL_PO_100	0.0	mg	0	hr	scintillation counting	urine_S5	S5=LB, zero point added
+Haustein1981	S5	1	cumulative amount	talinolol	urine	TAL_PO_100	5.63	mg	8	hr	scintillation counting	urine_S5	S5=LB
+Haustein1981	S5	1	cumulative amount	talinolol	urine	TAL_PO_100	14.1554054054054	mg	24	hr	scintillation counting	urine_S5	S5=LB, sum of the intervals
+Haustein1981	S5	1	cumulative amount	talinolol	urine	TAL_PO_100	21.5653153153153	mg	48	hr	scintillation counting	urine_S5	S5=LB, sum of the intervals
+Haustein1981	S5	1	cumulative amount	talinolol	urine	TAL_PO_100	24.2905405405405	mg	72	hr	scintillation counting	urine_S5	S5=LB

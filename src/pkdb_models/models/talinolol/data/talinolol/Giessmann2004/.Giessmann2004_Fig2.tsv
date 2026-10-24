@@ -1,0 +1,28 @@
+study	group	count	measurement	substance	tissue	intervention	time_digitize	time_unit_digitize	time	time_unit	mean	sd	unit	method	label	comments
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	12.0	days	1.0	days	34.9	10.41	ng/ml	HPLC	Fig2_TAL_PO	Talinolol was assayed by an HPLC method with fluorometric detection that was validated between 5 and 1000 ng/mL as previously described.
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	13.0	days	2.0	days	40.68	12.94	ng/ml	HPLC	Fig2_TAL_PO	days to hours
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	14.0	days	3.0	days	47.04	8.72	ng/ml	HPLC	Fig2_TAL_PO	NA
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	0.0	hr	4.0	days	49.9	13.45	ng/ml	HPLC	Fig2_TAL_PO	Panel D, The pharmacokinetics of oral talinolol at steady state was measured on the 15th study day (before carbamazepine comedication) and 29th study day (after 13 days of treatment with carbamazepine). On these days, blood was collected before talinolol administration (trough level) and after 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24, 36, and 48 hours. A standard lunch was given 5 hours after administration. The regular talinolol morning dose on the 16th study day was skipped to assess talinolol half-lives.
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	0.5	hr	4.02083333333333	days	138.27	87.42	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 15
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	1.0	hr	4.04166666666667	days	167.04	79.81	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 16
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	1.5	hr	4.0625	days	158.43	58.18	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 17
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	2.0	hr	4.08333333333333	days	166.62	120.92	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 18
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	3.0	hr	4.125	days	170.52	134.44	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 19
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	4.0	hr	4.16666666666667	days	223.73	106.23	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 20
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	6.0	hr	4.25	days	197.41	76.51	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 21
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	8.0	hr	4.33333333333333	days	144.54	57.12	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 22
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	12.0	hr	4.5	days	115.73	45.8	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 23
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	16.0	hr	4.66666666666667	days	85.3	23.13	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 24
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO	24.0	hr	5.0	days	63.45	22.62	ng/ml	HPLC	Fig2_TAL_PO	Panel D, steady state on study day 25
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	0.0	hr	0.0	days	39.547695	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	0.5	hr	0.0208333333333333	days	120.749176	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	1.0	hr	0.0416666666666667	days	125.67251	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	1.5	hr	0.0625	days	130.05487	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	2.0	hr	0.0833333333333333	days	140.39082	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	3.0	hr	0.125	days	172.96077	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	4.0	hr	0.166666666666667	days	209.31741	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	6.0	hr	0.25	days	179.2456	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	8.0	hr	0.333333333333333	days	130.24634	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	12.0	hr	0.5	days	98.23863	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	16.0	hr	0.666666666666667	days	68.93571	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D
+Giessmann2004	arm_2_arm_3	7.0	concentration	talinolol	serum	TAL_PO, CBZ	24.0	hr	1.0	days	47.66	NA	ng/ml	HPLC	Fig2_TAL_PO_CBZ	Panel D

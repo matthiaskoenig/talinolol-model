@@ -1,0 +1,5 @@
+study	group	count	measurement	substance	tissue	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Trausch1995	all	12	cumulative amount	talinolol	urine	TAL_IV	0.0	0.0	µmole	0	hr	HPLC	Tab1a_TAL_IV_urine	zero time point added
+Trausch1995	all	12	cumulative amount	talinolol	urine	TAL_IV	43.66	8.76	µmole	36	hr	HPLC	Tab1a_TAL_IV_urine	Ae0-36 of Table 1 (the means of IV and PO were swapped)
+Trausch1995	all	12	cumulative amount	talinolol	urine	TAL_PO	0.0	0.0	µmole	0	hr	HPLC	Tab1a_TAL_PO_urine	zero time point added
+Trausch1995	all	12	cumulative amount	talinolol	urine	TAL_PO	38.68	9.3	µmole	36	hr	HPLC	Tab1a_TAL_PO_urine	Ae0-36 of Table 1 (the means of IV and PO were swapped)

@@ -1,0 +1,9 @@
+study	group	count	measurement	tissue	substance	intervention	mean	sd	unit	time	time_unit	method	label	comments
+Wetterich1996	patient_iv	3.0	cumulative amount	urine	talinolol	TAL_IV	0.0	NA	mg	0.0	hr	HPLC	TAL_IV_urine	NA
+Wetterich1996	patient_iv	3.0	cumulative amount	bile	talinolol	TAL_IV	0.0	NA	mg	0.0	hr	HPLC	TAL_IV_bile	NA
+Wetterich1996	patient_po	3.0	cumulative amount	urine	talinolol	TAL_PO	0.0	NA	mg	0.0	hr	HPLC	TAL_PO_urine	NA
+Wetterich1996	patient_po	3.0	cumulative amount	bile	talinolol	TAL_PO	0.0	NA	mg	0.0	hr	HPLC	TAL_PO_bile	NA
+Wetterich1996	patient_iv	3.0	cumulative amount	urine	talinolol	TAL_IV	17.099999999999998	2.66012217764523	mg	72.0	hr	HPLC	TAL_IV_urine	recovery*dose(30)
+Wetterich1996	patient_iv	3.0	cumulative amount	bile	talinolol	TAL_IV	2.6999999999999997	1.0505355776935874	mg	24.0	hr	HPLC	TAL_IV_bile	recovery*dose(30)
+Wetterich1996	patient_po	3.0	cumulative amount	urine	talinolol	TAL_PO	26.150000000000002	6.7941151005852	mg	72.0	hr	HPLC	TAL_PO_urine	recovery*dose(100)
+Wetterich1996	patient_po	3.0	cumulative amount	bile	talinolol	TAL_PO	6.65	1.9039432764659752	mg	24.0	hr	HPLC	TAL_PO_bile	recovery*dose(100)

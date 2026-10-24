@@ -1,0 +1,17 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.0	hr	0.00029150332191639494			HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.25	hr	0.0003875981787920053	-23.675873	0.0004527321503734577	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.5	hr	0.0004372274721798099	33.803303	0.0003442322370321462	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.75	hr				HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	1.0	hr	0.0004340637422798113	59.717854	0.0002697757768332439	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	1.5	hr	0.00044336235711632896	27.242418	0.00036841657244253705	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	2.0	hr	0.0009580874564987138	167.90707	0.0004961634410377033	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	2.5	hr				HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	3.0	hr	0.0009363264969256799	231.01007	0.00030080174417804916	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	4.0	hr	0.0008494202121074566	197.61887	0.00030575697052229054	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	6.0	hr	0.0007035585083701289	140.75945	0.00031631948169851025	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	8.0	hr	0.0005948912639788718	110.956665	0.0002896417694878884	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	12.0	hr	0.0004736791427667506	98.23737	0.00020342131253524808	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	24.0	hr	0.0003612704438850603	57.37418	0.0002034300884468837	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	36.0	hr	0.0002643777768607546	45.367672	0.00013956815912185864	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	48.0	hr	0.00014575166095819747	0.9008964	0.0001432732323690835	HPLC/UV	Fig2_QRC_TAL		mole/meter^3	dimensionless

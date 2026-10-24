@@ -1,0 +1,26 @@
+study	group	measurement	substance	tissue	intervention	geometric_mean	sd	median	unit	time	time_unit	method	comments
+Fan2009a	all	auc_end	talinolol	plasma	TAL	2142.0	NA	NA	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	all	auc_inf	talinolol	plasma	TAL	2873.0	NA	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	all	cmax	talinolol	plasma	TAL	260.0	NA	NA	ng/ml	NA	NA	HPLC	NA
+Fan2009a	all	tmax	talinolol	plasma	TAL	NA	NA	2.0	hr	NA	NA	HPLC	NA
+Fan2009a	all	thalf	talinolol	plasma	TAL	9.9	NA	NA	hr	NA	NA	HPLC	NA
+Fan2009a	all	auc_end	talinolol	plasma	SCHE	3151.0	NA	NA	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	all	auc_inf	talinolol	plasma	SCHE	4368.0	NA	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	all	cmax	talinolol	plasma	SCHE	394.0	NA	NA	ng/ml	NA	NA	HPLC	NA
+Fan2009a	all	tmax	talinolol	plasma	SCHE	NA	NA	2.0	hr	NA	NA	HPLC	NA
+Fan2009a	all	thalf	talinolol	plasma	SCHE	10.6	NA	NA	hr	NA	NA	HPLC	NA
+Fan2009a	all	auc_end	talinolol	plasma	TAL, SCHE	1.47	NA	NA	ng*hr/ml	24.0	hr	HPLC	The 90% CI of the ratio of logarithmically transformed parameters was calculated as talinolol administered with and without SchE or GBE treatment.
+Fan2009a	all	auc_inf	talinolol	plasma	TAL, SCHE	1.52	NA	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	all	cmax	talinolol	plasma	TAL, SCHE	1.51	NA	NA	ng/ml	NA	NA	HPLC	NA
+Fan2009a	all	tmax	talinolol	plasma	TAL, SCHE	NA	NA	NA	hr	NA	NA	HPLC	n.a
+Fan2009a	all	thalf	talinolol	plasma	TAL, SCHE	1.07	NA	NA	hr	NA	NA	HPLC	NA
+Fan2009a	all	auc_end	talinolol	plasma	GBE	1.47	NA	NA	ng*hr/ml	24.0	hr	HPLC	NA
+Fan2009a	all	auc_inf	talinolol	plasma	GBE	1.52	NA	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	all	cmax	talinolol	plasma	GBE	1.51	NA	NA	ng/ml	NA	NA	HPLC	n.a
+Fan2009a	all	tmax	talinolol	plasma	GBE	NA	NA	NA	hr	NA	NA	HPLC	NA
+Fan2009a	all	thalf	talinolol	plasma	GBE	1.07	NA	NA	hr	NA	NA	HPLC	NA
+Fan2009a	all	auc_end	talinolol	plasma	TAL, GBE	2596.0	NA	NA	ng*hr/ml	24.0	hr	HPLC	The 90% CI of the ratio of logarithmically transformed parameters was calculated as talinolol administered with and without SchE or GBE treatment.
+Fan2009a	all	auc_inf	talinolol	plasma	TAL, GBE	3584.0	NA	NA	ng*hr/ml	NA	NA	HPLC	NA
+Fan2009a	all	cmax	talinolol	plasma	TAL, GBE	347.0	NA	NA	ng/ml	NA	NA	HPLC	NA
+Fan2009a	all	tmax	talinolol	plasma	TAL, GBE	NA	NA	3.0	hr	NA	NA	HPLC	NA
+Fan2009a	all	thalf	talinolol	plasma	TAL, GBE	11.0	NA	NA	hr	NA	NA	HPLC	NA

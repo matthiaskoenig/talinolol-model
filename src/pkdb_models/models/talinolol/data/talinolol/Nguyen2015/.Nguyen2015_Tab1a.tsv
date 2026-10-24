@@ -1,0 +1,5 @@
+study	group	count	measurement	substance	tissue	intervention	geometric_mean	mean	sd	unit	time	time_unit	method	label	comments
+Nguyen2015	all	10.0	cumulative amount	talinolol	urine	TAL	0.0	0.0	NA	mg	0.0	hr	HPLC	Tab1a_TAL	mean is geometric mean
+Nguyen2015	all	10.0	cumulative amount	talinolol	urine	TAL	NA	31.3538053	12.6932828099907	mg	48.0	hr	HPLC	Tab1a_TAL	calculated from Fig3c
+Nguyen2015	all	10.0	cumulative amount	talinolol	urine	TAL, NAR	0.0	0.0	NA	mg	0.0	hr	HPLC	Tab1a_TAL_NAR	mean is geometric mean
+Nguyen2015	all	10.0	cumulative amount	talinolol	urine	TAL, NAR	NA	30.5126831	11.764551283395	mg	48.0	hr	HPLC	Tab1a_TAL_NAR	calculated from Fig3c

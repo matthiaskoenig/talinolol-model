@@ -1,0 +1,33 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	sd	unit	method	label	comments
+Wang2013	all	18	concentration	talinolol	plasma	TAL	0.0	hr	NA	NA	NA	ng/ml	HPLC/UV	Fig2_TAL	A meaure of 5 ml venous blood samples were collected in sodium EDTA bottles at 0, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12 and 24 h after talinolol administration.
+Wang2013	all	18	concentration	talinolol	plasma	TAL	0.25	hr	145.4	233.32896	87.92896	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	0.5	hr	171.32	266.01233	94.69233	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	0.75	hr	NA	NA	NA	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	1.0	hr	175.82	269.38232	93.56232	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	1.5	hr	220.9	311.07758	90.17758	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	2.0	hr	428.29	561.30457	133.01457	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	2.5	hr	NA	NA	NA	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	3.0	hr	476.74	636.806	160.066	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	4.0	hr	419.23	507.15015	87.92015	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	6.0	hr	315.48	391.00333	75.52333	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	8.0	hr	253.44	336.84894	83.40894	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	12.0	hr	159.78	234.17764	74.39764	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	24.0	hr	141.46	209.0975	67.6375	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	36.0	hr	100.60204	163.7275	63.12546	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	TAL	48.0	hr	76.64911	110.46407	33.81496	ng/ml	HPLC/UV	Fig2_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.0	hr	105.96	NA	NA	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.25	hr	140.89	-23.675873	164.565873	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.5	hr	158.93	33.803303	125.126697	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	0.75	hr	NA	NA	NA	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	1.0	hr	157.78	59.717854	98.062146	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	1.5	hr	161.16	27.242418	133.917582	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	2.0	hr	348.26	167.90707	180.35293	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	2.5	hr	NA	NA	NA	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	3.0	hr	340.35	231.01007	109.33993	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	4.0	hr	308.76	197.61887	111.14113	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	6.0	hr	255.74	140.75945	114.98055	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	8.0	hr	216.24	110.956665	105.283335	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	12.0	hr	172.18	98.23737	73.94263	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	24.0	hr	131.32	57.37418	73.94582	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	36.0	hr	96.1	45.367672	50.732328	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA
+Wang2013	all	18	concentration	talinolol	plasma	QRC, TAL	48.0	hr	52.98	0.9008964	52.0791036	ng/ml	HPLC/UV	Fig2_QRC_TAL	NA

@@ -1,0 +1,12 @@
+study	individual	group	substance	intervention	method	tissue	x_measurement	x_label	x	y_measurement	y	y_unit	y_label	comments
+Bernsdorf2006	S1b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	4.8336864	cmax	289.11798	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S2b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	4.8901515	cmax	311.01395	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S3b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	5.0269613	cmax	313.80536	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S4b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	5.679637	cmax	218.11249	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S5b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	6.042993	cmax	282.14264	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S6b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	5.560451	cmax	415.13745	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S7b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	7.3611536	cmax	475.91696	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S8b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	9.931246	cmax	339.15512	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S9b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	10.087457	cmax	473.3026	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S10b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	10.976958	cmax	482.26303	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded
+Bernsdorf2006	S11b	all	talinolol	TAL_CR	HPLC	serum	MDR1mRNA	Fig4b_MDR1mRNA	15.492283	cmax	551.0027	ng/ml	Fig4b_CMAX_TAL_CR	not uploaded

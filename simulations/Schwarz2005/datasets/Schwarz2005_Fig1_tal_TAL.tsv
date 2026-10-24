@@ -1,0 +1,19 @@
+study	group	count	measurement	substance	tissue	intervention	time	time_unit	mean	pm	mean_sd	method	label	comments	mean_unit	count_unit
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	0.0	hr				HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	0.33	hr	1.3177622800863835e-05	11.16	1.7524312576514118e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	0.67	hr	3.7387034209548964e-05	26.59	3.576390321737576e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	1.0	hr	4.751096988954456e-05	32.23	4.1155999394764714e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	1.33	hr	4.96843147773697e-05	30.99	3.5571328353897575e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	1.67	hr	5.004195380954346e-05	29.74	3.1774852473899235e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	2.0	hr	5.2572937729542356e-05	32.63	3.719445934607078e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	2.5	hr	6.82815444504051e-05	49.9	6.89968225147526e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	3.0	hr	7.947839722692196e-05	50.1	5.835018363388767e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	3.5	hr	8.236702017909463e-05	46.03	4.426470790519814e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	4.0	hr	8.905211901126562e-05	49.44	4.696075599389262e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	5.0	hr	8.418272603474601e-05	48.39	4.8941526018239584e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	6.0	hr	7.625964593735814e-05	43.87	4.442977207389372e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	8.0	hr	6.14588921443211e-05	33.96	3.1967427337377406e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	10.0	hr	4.4127154431285156e-05	23.46	2.0412935528686776e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	12.0	hr	3.4580943341724096e-05	18.81	1.7166673544340362e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	14.0	hr	2.575001031651054e-05	15.53	1.697409868086218e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless
+Schwarz2005	all	24	concentration	talinolol	serum	TAL	24.0	hr	1.1004277913038694e-05	8.01	1.1031788607821289e-05	HPLC	Fig1_TAL		mole/meter^3	dimensionless

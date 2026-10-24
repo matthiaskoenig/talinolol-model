@@ -1,0 +1,41 @@
+study	individual	measurement	substance	tissue	intervention	time	time_unit	value	unit	method	comments
+Nguyen2014	S1a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	1423.218	ng*hr/ml	HPLC	NA
+Nguyen2014	S1a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	1241.628	ng*hr/ml	HPLC	NA
+Nguyen2014	S2a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	1790.331	ng*hr/ml	HPLC	NA
+Nguyen2014	S2a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	1379.514	ng*hr/ml	HPLC	NA
+Nguyen2014	S3a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	1836.22	ng*hr/ml	HPLC	NA
+Nguyen2014	S3a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	3019.612	ng*hr/ml	HPLC	NA
+Nguyen2014	S4a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	3293.417	ng*hr/ml	HPLC	NA
+Nguyen2014	S4a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	1321.934	ng*hr/ml	HPLC	NA
+Nguyen2014	S5a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	3407.921	ng*hr/ml	HPLC	NA
+Nguyen2014	S5a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	3719.749	ng*hr/ml	HPLC	NA
+Nguyen2014	S6a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	3522.426	ng*hr/ml	HPLC	NA
+Nguyen2014	S6a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	3421.142	ng*hr/ml	HPLC	NA
+Nguyen2014	S7a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	3740.727	ng*hr/ml	HPLC	NA
+Nguyen2014	S7a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	1964.272	ng*hr/ml	HPLC	NA
+Nguyen2014	S8a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	4004.589	ng*hr/ml	HPLC	NA
+Nguyen2014	S8a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	2320.131	ng*hr/ml	HPLC	NA
+Nguyen2014	S9a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	4096.477	ng*hr/ml	HPLC	NA
+Nguyen2014	S9a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	3719.749	ng*hr/ml	HPLC	NA
+Nguyen2014	S10a	auc_end	talinolol	plasma	QRC_LOW, TAL	48.0	hr	5014.258	ng*hr/ml	HPLC	NA
+Nguyen2014	S10a	auc_end	talinolol	plasma	QRC_LOW, TAL, QRC	48.0	hr	3042.666	ng*hr/ml	HPLC	NA
+Nguyen2014	S1b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	78.93916	ng/ml	HPLC	NA
+Nguyen2014	S1b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	75.057465	ng/ml	HPLC	NA
+Nguyen2014	S2b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	98.37017	ng/ml	HPLC	NA
+Nguyen2014	S2b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	287.25708	ng/ml	HPLC	NA
+Nguyen2014	S3b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	174.68777	ng/ml	HPLC	NA
+Nguyen2014	S3b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	117.74492	ng/ml	HPLC	NA
+Nguyen2014	S4b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	292.4552	ng/ml	HPLC	NA
+Nguyen2014	S4b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	59.53066	ng/ml	HPLC	NA
+Nguyen2014	S5b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	262.718	ng/ml	HPLC	NA
+Nguyen2014	S5b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	386.92117	ng/ml	HPLC	NA
+Nguyen2014	S6b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	354.55115	ng/ml	HPLC	NA
+Nguyen2014	S6b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	229.00908	ng/ml	HPLC	NA
+Nguyen2014	S7b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	359.7155	ng/ml	HPLC	NA
+Nguyen2014	S7b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	247.13493	ng/ml	HPLC	NA
+Nguyen2014	S8b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	389.48645	ng/ml	HPLC	NA
+Nguyen2014	S8b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	148.82103	ng/ml	HPLC	NA
+Nguyen2014	S9b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	478.75433	ng/ml	HPLC	NA
+Nguyen2014	S9b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	163.04268	ng/ml	HPLC	NA
+Nguyen2014	S10b	cmax	talinolol	plasma	QRC_LOW, TAL	NA	NA	575.83057	ng/ml	HPLC	NA
+Nguyen2014	S10b	cmax	talinolol	plasma	QRC_LOW, TAL, QRC	NA	NA	410.15512	ng/ml	HPLC	NA

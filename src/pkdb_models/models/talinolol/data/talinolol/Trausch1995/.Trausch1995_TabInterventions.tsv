@@ -1,0 +1,3 @@
+study	name	time	time_end	time_unit	route	application	measurement	form	substance	value	unit	comments
+Trausch1995	TAL_IV	0	30	min	iv	constant infusion	dosing	solution	talinolol	1	mg/min	The volunteers received a constant-rate intravenous (IV) infusion of 30 mg racemic talinolol (=82.64 pmol talinolol, in a physiological NaCl solution) over 30min via a cannula inserted into a forearm vein.
+Trausch1995	TAL_PO	0	0	hr	oral	single dose	dosing	tablet	talinolol	50	mg	The oral dose of 50 mg racemic talinolol (=137.74pmol talinolol) was administered as a dragee (Cordanum'@50in a new formulation) together with 150mL water (room temperature).
